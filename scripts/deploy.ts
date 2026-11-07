@@ -57,16 +57,30 @@ if (pages.build_type !== 'legacy' || pages.source?.branch !== 'gh-pages' || page
 }
 
 console.log(`等待 Pages 更新：${url}`);
+async function isLive() {
+  try {
+    const response = await fetch(`${url}build-info.json?revision=${sourceCommit}`, { signal: AbortSignal.timeout(10_000), cache: 'no-store' });
+    return response.ok && (await response.json()).sourceCommit === sourceCommit;
+  } catch {
+    return false;
+  }
+}
+// A Pages source change does not always trigger publication immediately.
+if (!(await isLive())) {
+  try {
+    gh(['api', '--method', 'POST', `repos/${repository}/pages/builds`]);
+    console.log('已通知 Pages 发布静态产物');
+  } catch (error) {
+    console.warn(`主动发布请求未成功，继续核对分支推送是否已触发发布：${(error as Error).message}`);
+  }
+}
 const deadline = Date.now() + 180_000;
 let nextNotice = Date.now() + 30_000;
 while (Date.now() < deadline) {
-  try {
-    const response = await fetch(`${url}build-info.json?revision=${sourceCommit}`, { signal: AbortSignal.timeout(10_000), cache: 'no-store' });
-    if (response.ok && (await response.json()).sourceCommit === sourceCommit) {
-      console.log(`发布成功：${url}\n线上版本：${sourceCommit}`);
-      process.exit(0);
-    }
-  } catch { /* CDN propagation can temporarily return errors. */ }
+  if (await isLive()) {
+    console.log(`发布成功：${url}\n线上版本：${sourceCommit}`);
+    process.exit(0);
+  }
   if (Date.now() >= nextNotice) {
     console.log('仍在等待 Pages 服务同步…');
     nextNotice = Date.now() + 30_000;

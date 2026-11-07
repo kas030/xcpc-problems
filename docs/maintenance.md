@@ -75,16 +75,17 @@ sourceHash: 可选，原始题面内容的 SHA-256
 - 本仓库的 Actions 已停用，旧工作流保留在 Git 历史中。推送 `main` 不会自动发布，也不会在云端运行检查。
 - `npm run deploy` 要求本地为已推送的、干净的 `main`，避免发布无法追溯的临时改动。
 - 发布脚本在 `.cache/` 下创建独立临时仓库，将完整构建输出组成新提交，以当前远端 `gh-pages` 为父提交。旧产物会从新版本中移除，源码工作区不切换分支，不强制推送。并发发布冲突时重新运行即可。
-- `dist/build-info.json` 记录源码提交，脚本核对线上内容后才报告成功。超过三分钟仍未确认时返回非零退出码；检查 Pages 状态，或稍后重新执行发布。
+- `dist/build-info.json` 记录源码提交，脚本通知 Pages 更新并核对线上内容后才报告成功。超过三分钟仍未确认时返回非零退出码；检查线上版本，或稍后重新执行发布。
 - 发布需要已有 Git 推送权限及 GitHub CLI 登录；无需仓库密钥或模型 API key。不要将登录 Cookie、QOJ 凭据或浏览器保存的整页 HTML 提交到仓库。
 
 首次配置或恢复设置时，可在仓库 Settings → Pages 中选择发布源；当前脚本也会纠正已有 Pages 站点的发布源。若新建了其他仓库，先启用其 Pages 站点再使用该脚本。
 
-线上版本与服务状态可用以下命令查看：
+Pages 配置可用以下命令查看：
 
 ```sh
 gh api repos/kas030/xcpc-problems/pages
-gh api repos/kas030/xcpc-problems/pages/builds/latest
 ```
+
+线上版本以 <https://kas030.github.io/xcpc-problems/build-info.json> 为准。直接发布时，Pages API 的 `status` 可能为空，`builds/latest` 也可能没有构建记录，不应只依靠这两个字段判断失败。
 
 `.nojekyll` 方式见 [GitHub 官方说明](https://github.blog/changelog/2024-07-08-pages-legacy-worker-sunset/)。如果 GitHub Pages 服务本身被限制，本地构建和 Git 推送仍可完成，但不能据此宣称网站已上线。
