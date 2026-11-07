@@ -201,12 +201,11 @@ a.contest-tag:hover { background: #bfdbfe; color: #1e3a8a; }
 .breadcrumb { display: flex; align-items: center; gap: 9px; font-size: 12px; color: var(--muted); margin-bottom: 18px; flex-wrap: wrap; }
 .breadcrumb a:hover { color: var(--primary); }
 .contest-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 14px; }
-.contest-card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 20px; transition: border-color .15s; }
-.contest-card:hover, .contest-card:focus-visible { border-color: #8baff7; }
+.contest-card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 20px; transition: border-color .18s, box-shadow .18s, transform .18s; }
+.contest-card:hover, .contest-card:focus-visible { border-color: #6b9af0; box-shadow: 0 8px 22px #1720331a; transform: translateY(-3px); }
 .contest-card-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; gap: 8px; }
 .contest-type { font-size: 10px; font-weight: 650; letter-spacing: .6px; color: var(--primary-hover); background: var(--primary-soft); padding: 5px 10px; border-radius: 999px; }
 .contest-card h2 { font-size: 19px; font-weight: 650; margin-bottom: 6px; }
-.contest-card:hover h2, .contest-card:focus-visible h2 { color: var(--primary); }
 .contest-card .contest-name { font-size: 12px; color: var(--muted); }
 .contest-card-stats { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line); font-size: 11px; color: var(--muted); }
 .contest-card-stats strong { font-size: 18px; font-weight: 650; color: var(--ink); margin-right: 5px; }
