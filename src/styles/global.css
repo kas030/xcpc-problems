@@ -124,8 +124,8 @@ input[type=search]::-webkit-search-cancel-button { cursor: pointer; }
 .icon-button { display: inline-flex; justify-content: center; align-items: center; min-width: 28px; height: 28px; padding: 5px; border-radius: 5px; color: var(--muted); }
 .icon-button:hover:not(:disabled) { background: var(--primary-soft); color: var(--primary); }
 .active-filters { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 0 0 10px; font-size: 11px; }
-.filter-chip { background: var(--primary-soft); color: var(--primary-hover); border: 0; border-radius: 999px; padding: 5px 10px; display: flex; gap: 6px; align-items: center; }
-.filter-chip:hover { background: #dce7ff; }
+.filter-chip { background: #dbeafe; color: #1e40af; border: 1px solid #93b4ed; border-radius: 999px; padding: 5px 10px; display: flex; gap: 6px; align-items: center; font-weight: 500; }
+.filter-chip:hover { background: #bfdbfe; border-color: #6091f5; }
 .difficulty-badge { display: inline-flex; align-items: center; gap: 6px; font-size: 11px; font-weight: 600; white-space: nowrap; padding: 5px 10px; border-radius: 999px; line-height: 1.3; border: 0; }
 .badge-dot { width: 5px; height: 5px; border-radius: 50%; background: currentColor; }
 .difficulty-badge.bronze { color: var(--bronze); background: #ffecd9; }
