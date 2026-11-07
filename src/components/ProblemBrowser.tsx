@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { ArrowDownWideNarrow, ArrowRight, ArrowUpNarrowWide, ArrowUpRight, Check, CheckCircle2, ChevronLeft, ChevronRight, Circle, FileText, Filter, RotateCcw, Search, Share2, SlidersHorizontal, Trophy, X } from 'lucide-react';
 import type { Catalog, Difficulty } from '../lib/schema';
 import { difficultyLabels, difficultyNames } from '../lib/schema';
@@ -14,7 +14,6 @@ export default function ProblemBrowser({ catalog, base }: { catalog: Catalog; ba
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [page, setPage] = useState(1);
   const [toast, setToast] = useState('');
-  const search = useRef<HTMLInputElement>(null);
   const known = useMemo(() => new Set(catalog.problems.map(p => p.id)), [catalog]);
   useEffect(() => {
     const restore = () => { setFilters(parseFilters(location.search)); setPage(1); };
@@ -24,12 +23,8 @@ export default function ProblemBrowser({ catalog, base }: { catalog: Catalog; ba
       if (Array.isArray(saved)) setSolved(new Set(saved.filter(id => typeof id === 'string' && known.has(id))));
     } catch { /* Progress remains usable when storage is unavailable. */ }
     setReady(true);
-    const shortcut = (event: KeyboardEvent) => {
-      if (event.key === '/' && !(event.target instanceof HTMLInputElement) && !(event.target instanceof HTMLTextAreaElement) && !(event.target as HTMLElement)?.isContentEditable) { event.preventDefault(); search.current?.focus(); }
-    };
     window.addEventListener('popstate', restore);
-    window.addEventListener('keydown', shortcut);
-    return () => { window.removeEventListener('popstate', restore); window.removeEventListener('keydown', shortcut); };
+    return () => { window.removeEventListener('popstate', restore); };
   }, [known]);
   useEffect(() => {
     if (!ready) return;
@@ -71,7 +66,7 @@ export default function ProblemBrowser({ catalog, base }: { catalog: Catalog; ba
         <div className="sidebar-note"><Trophy size={18}/><p>难度来自真实榜单<br/><span>以各奖牌组 50% 通过率划分</span></p><a href={`${base}/methodology/`}>了解分级规则 <ArrowRight size={13}/></a></div>
       </aside>
       <section className="results-panel" aria-label="题目列表">
-        <div className="search-toolbar"><div className="search-box"><Search size={18}/><input ref={search} type="search" aria-label="搜索题目" placeholder="搜索题目、比赛或 QOJ 编号…" value={filters.query} onChange={e => update({ query: e.target.value })} onKeyDown={e => { if (e.key === 'Escape') update({ query: '' }); }}/><kbd>/</kbd></div><button className="button mobile-filter" aria-controls="problem-filters" aria-expanded={sidebarOpen} onClick={() => setSidebarOpen(!sidebarOpen)}><Filter size={16}/>筛选{activeCount ? ` ${activeCount}` : ''}</button></div>
+        <div className="search-toolbar"><div className="search-box"><Search size={18}/><input type="search" aria-label="搜索题目" placeholder="搜索题目、比赛或 QOJ 编号…" value={filters.query} onChange={e => update({ query: e.target.value })} onKeyDown={e => { if (e.key === 'Escape') update({ query: '' }); }}/></div><button className="button mobile-filter" aria-controls="problem-filters" aria-expanded={sidebarOpen} onClick={() => setSidebarOpen(!sidebarOpen)}><Filter size={16}/>筛选{activeCount ? ` ${activeCount}` : ''}</button></div>
         {(activeCount > 0 || filters.query) && <div className="active-filters"><span className="muted">已筛选</span>{filters.difficulties.map(d => <button key={d} className="filter-chip" onClick={() => toggleLevel(d)}>{difficultyLabels[d]}<X size={12}/></button>)}{filters.contests.map(id => <button key={id} className="filter-chip" onClick={() => toggleContest(id)}>{contestById.get(id)?.shortName ?? id}<X size={12}/></button>)}{filters.year && <button className="filter-chip" onClick={() => update({year:''})}>{filters.year}<X size={12}/></button>}<button className="text-button" onClick={clear}>清除全部</button></div>}
         <div className="table-card"><div className="table-toolbar"><div className="table-title">{activeCount || filters.query ? '筛选结果' : '全部题目'}<span className="result-count" aria-live="polite">{filtered.length}</span></div><div className="table-actions">
           <button className="icon-button" aria-label="复制筛选链接" title="分享筛选" onClick={share}><Share2 size={16}/></button><span className="toolbar-divider"/>
