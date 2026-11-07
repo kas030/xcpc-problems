@@ -227,6 +227,7 @@ a.contest-tag:hover { background: #bfdbfe; color: #1e3a8a; }
 .detail-head h1 { font-size: 28px; font-weight: 650; line-height: 1.4; letter-spacing: -.5px; overflow-wrap: anywhere; }
 .detail-label { color: var(--primary); margin-right: 10px; font-weight: 650; }
 .detail-meta { display: flex; align-items: center; gap: 9px; flex-wrap: wrap; margin-top: 10px; font-size: 12px; color: var(--muted); }
+.detail-meta .contest-tag, .detail-meta .difficulty-badge, .detail-card .difficulty-badge { font-size: 12px; line-height: 1.4; }
 .qoj-link { color: var(--primary-hover); text-underline-offset: 3px; }
 .qoj-link:hover { text-decoration: underline; }
 .detail-grid { display: grid; grid-template-columns: minmax(0,1fr) 250px; gap: 18px; align-items: start; }
@@ -234,33 +235,36 @@ a.contest-tag:hover { background: #bfdbfe; color: #1e3a8a; }
 .reading-card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
 .reading-toolbar { display: flex; align-items: center; justify-content: space-between; padding: 12px 16px; border-bottom: 1px solid var(--line); gap: 10px; }
 .reading-toolbar h2 { font-size: 14px; font-weight: 650; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-.source-label { font-size: 10px; color: var(--primary-hover); background: var(--primary-soft); border-radius: 999px; padding: 4px 8px; font-weight: 500; }
+.booklet-link { display: inline-flex; align-items: center; gap: 4px; min-height: 32px; padding: 4px 0 4px 8px; color: var(--muted); font-size: 13px; font-weight: 500; white-space: nowrap; }
+.booklet-link:hover { color: var(--primary-hover); }
+.booklet-link:hover span { text-decoration: underline; text-underline-offset: 3px; }
+.source-label { font-size: 12px; color: var(--primary-hover); background: var(--primary-soft); border-radius: 999px; padding: 4px 8px; font-weight: 500; }
 .pdf-frame { width: 100%; height: 960px; border: 0; display: block; background: var(--surface-soft); }
 .detail-sidebar { display: flex; flex-direction: column; gap: 12px; }
 .detail-card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px; }
-.detail-card h2 { font-size: 13px; font-weight: 650; margin-bottom: 12px; }
+.detail-card h2 { font-size: 14px; font-weight: 650; margin-bottom: 12px; }
 .detail-card .classification { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
-.detail-card p { color: #536078; font-size: 12px; line-height: 1.8; }
+.detail-card p { color: #536078; font-size: 13px; line-height: 1.8; }
 .cohort-row { margin-top: 14px; }
-.cohort-label { display: flex; align-items: center; justify-content: space-between; font-size: 11px; color: #536078; margin-bottom: 6px; }
-.cohort-label strong { color: var(--ink); font-size: 12px; font-weight: 600; }
+.cohort-label { display: flex; align-items: center; justify-content: space-between; font-size: 13px; color: #536078; margin-bottom: 6px; }
+.cohort-label strong { color: var(--ink); font-size: inherit; font-weight: 600; }
 .cohort-track { height: 5px; background: #edf0f6; border-radius: 4px; position: relative; overflow: hidden; }
 .cohort-track:after { content: ''; position: absolute; left: 50%; top: 0; bottom: 0; border-left: 1px dashed #738198; }
 .cohort-track span { display: block; height: 100%; border-radius: 4px; }
 .cohort-track.bronze span { background: #df8a49; }
 .cohort-track.silver span { background: #52a4c1; }
 .cohort-track.gold span { background: #e3b52b; }
-.cohort-count { display: block; margin-top: 5px; font-size: 10px; color: var(--muted); }
-.detail-note { margin-top: 14px; font-size: 11px; line-height: 1.8; color: var(--muted); }
+.cohort-count { display: block; margin-top: 5px; font-size: 12px; color: var(--muted); }
+.detail-note, .detail-card p.detail-note { margin-top: 14px; font-size: 12px; line-height: 1.8; color: var(--muted); }
 .detail-note a { color: var(--primary-hover); }
-.detail-dl { font-size: 12px; line-height: 1.8; margin: 0; }
+.detail-dl { font-size: 13px; line-height: 1.8; margin: 0; }
 .detail-dl > div { display: flex; gap: 10px; justify-content: space-between; margin-top: 8px; }
 .detail-dl dt { color: var(--muted); }
 .detail-dl dd { margin: 0; color: var(--ink); text-align: right; font-variant-numeric: tabular-nums; }
-.progress-button { width: 100%; margin-top: 14px; }
+.progress-button { width: 100%; margin-top: 14px; font-size: 13px; }
 .progress-button[aria-pressed=true] { background: var(--success-soft); color: var(--success); border-color: transparent; }
 .progress-button[aria-pressed=true]:hover { color: var(--success-hover); }
-.detail-external { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #466395; padding: 9px 0; border-bottom: 1px solid var(--line); }
+.detail-external { display: flex; justify-content: space-between; align-items: center; font-size: 13px; color: #466395; padding: 9px 0; border-bottom: 1px solid var(--line); }
 .detail-external:last-child { border: 0; padding-bottom: 0; }
 .detail-external:hover { color: var(--primary); }
 
@@ -316,7 +320,7 @@ a.contest-tag:hover { background: #bfdbfe; color: #1e3a8a; }
   .main-nav a { padding: 0 11px; }
   .detail-grid { grid-template-columns: 1fr; }
   .detail-sidebar { display: grid; grid-template-columns: 1fr 1fr; }
-  .detail-head h1 { font-size: 25px; }
+  .detail-head h1 { font-size: 24px; }
   .detail-card:last-child { grid-column: 1/-1; }
   .pdf-frame { height: 860px; }
 }
@@ -374,14 +378,11 @@ a.contest-tag:hover { background: #bfdbfe; color: #1e3a8a; }
   .section-heading p { font-size: 12px; }
   .contest-card h2 { font-size: 18px; }
   .detail-head { display: block; margin-bottom: 16px; }
-  .detail-head h1 { font-size: 24px; }
-  .detail-meta { font-size: 11px; gap: 8px; }
+  .detail-meta { gap: 8px; }
   .detail-sidebar { grid-template-columns: 1fr; }
   .detail-card:last-child { grid-column: auto; }
   .pdf-frame { height: 760px; }
   .reading-toolbar { padding: 10px 12px; }
-  .reading-toolbar h2 { font-size: 13px; }
-  .reading-toolbar .button { padding: 6px 8px; font-size: 11px; }
   .guide-paper { padding: 22px 18px; }
   .prose { font-size: 13px; }
   .prose h1 { font-size: 23px; }

@@ -27,7 +27,10 @@ const readerUrl = singlePdf ? `${base}/${singlePdf}#view=FitH` : bookletUrl;
   <div class="detail-grid">
     <section>
       <div class="reading-card">
-        <div class="reading-toolbar"><h2>{Content ? entry!.data.language === 'zh' ? '中文题面' : '英文题面' : '官方题面'}<span class="source-label">{Content ? entry!.data.status === 'official' ? '官方原文' : entry!.data.status === 'reviewed' ? '译文已校对' : '译文待校对' : statement?.language === 'zh' ? '中文 PDF' : '原文'}</span></h2>{statement && <a class="button button-small" href={bookletUrl} target="_blank" rel="noopener noreferrer">打开完整题册 ↗</a>}</div>
+        <div class="reading-toolbar">
+          <h2>{Content ? entry!.data.language === 'zh' ? '中文题面' : '英文题面' : '官方题面'}{Content && <span class="source-label">{entry!.data.status === 'official' ? '官方原文' : entry!.data.status === 'reviewed' ? '译文已校对' : '译文待校对'}</span>}</h2>
+          {statement && <a class="booklet-link" href={bookletUrl} target="_blank" rel="noopener noreferrer" title="在新标签页打开完整题册"><span>完整题册</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>}
+        </div>
         {entry?.data.status === 'draft' && <div class="status-banner">这份译文尚未校对，训练时请同时核对原文中的约束和样例。</div>}
         {Content ? <article class="prose statement-prose"><Content /></article> : statement?.format === 'pdf' ? <>
           <iframe class="pdf-frame" src={readerUrl} title={`${problem.label}. ${problem.title} ${statement.language === 'zh' ? '中文' : ''}题面`} referrerpolicy="no-referrer" />
