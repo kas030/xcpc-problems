@@ -12,7 +12,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
-    <meta name="theme-color" content="#f7f8f5" />
+    <meta name="theme-color" content="#f3f5f9" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
@@ -25,7 +25,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <header class="site-header">
       <div class="header-inner">
         <a class="brand" href={href()} aria-label="XCPC 题单首页">
-          <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="m12 9-7 7 7 7m8-14 7 7-7 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="m18 7-4 18" stroke="#c2e8a2" stroke-width="2.5" stroke-linecap="round"/></svg></span>
+          <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="m12 9-7 7 7 7m8-14 7 7-7 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="m18 7-4 18" stroke="#bfdbfe" stroke-width="2.5" stroke-linecap="round"/></svg></span>
           <span>XCPC<span class="brand-zh">题单</span></span>
         </a>
         <nav class="main-nav" aria-label="主导航">
@@ -40,6 +40,6 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
       </div>
     </header>
     <main id="main" class:list={['page-shell', { 'page-wide': wide }]}><slot /></main>
-    <footer class="site-footer"><span>一题一步，积累向前。</span><div><span>榜单数据来自 <a href="https://board.xcpcio.com/" target="_blank" rel="noopener noreferrer">XCPCIO ↗</a></span><span class="footer-divider">/</span><a href={href('methodology')}>了解难度口径</a></div></footer>
+    <footer class="site-footer"><div><span>榜单数据来自 <a href="https://board.xcpcio.com/" target="_blank" rel="noopener noreferrer">XCPCIO ↗</a></span><span class="footer-divider">/</span><a href={href('methodology')}>了解难度口径</a></div></footer>
   </body>
 </html>
