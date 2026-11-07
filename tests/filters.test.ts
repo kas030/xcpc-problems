@@ -21,3 +21,10 @@ test('OR within a facet, AND across facets, plus local progress and language', (
   assert.equal(filterProblems(problems, { ...f, progress: 'todo' }, new Set(['a/A']))[0].id, 'a/B');
   assert.equal(filterProblems(problems, { ...emptyFilters(), query: 'tree 13' })[0].id, 'b/A');
 });
+
+test('old pending difficulty links still show results and preserve valid filters', () => {
+  const filters = parseFilters('?level=pending&contest=a');
+  assert.deepEqual(filterProblems(problems, filters).map(p => p.id), ['a/A', 'a/B']);
+  assert.equal(serializeFilters(filters), 'contest=a');
+  assert.deepEqual(parseFilters('?level=pending&level=gold').difficulties, ['gold']);
+});

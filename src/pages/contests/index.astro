@@ -8,7 +8,7 @@ import { href } from '../../lib/urls';
   <div class="contest-grid">{catalog.contests.map(c => <article class="contest-card">
     <div class="contest-card-top"><span class="contest-type">{c.series} / {c.year}</span><span class="contest-card-date">{new Date(c.date).toLocaleDateString('zh-CN', { timeZone: 'Asia/Shanghai', year:'numeric', month:'2-digit', day:'2-digit' })}</span></div>
     <h2><a href={href(`contests/${c.id}`)}>{c.shortName}</a></h2><p class="contest-name">{c.name}</p>
-    <div class="contest-card-stats"><span><strong>{c.problemCount}</strong>道题</span><span><strong>{c.participants}</strong>支正式队伍</span><span>{c.classificationReady ? '难度已分级' : '奖牌边界待核对'}</span></div>
+    <div class="contest-card-stats"><span><strong>{c.problemCount}</strong>道题</span><span><strong>{c.participants}</strong>支正式队伍</span><span>{c.medalBasis === 'preset' ? '按预设比例分组' : '难度已分级'}</span></div>
     <div class="contest-card-bottom"><a href={href(`contests/${c.id}`)}>查看比赛题单 <span aria-hidden="true">→</span></a><a href={c.boardUrl} target="_blank" rel="noopener noreferrer">XCPCIO 榜单 ↗</a></div>
   </article>)}</div>
 </Layout>

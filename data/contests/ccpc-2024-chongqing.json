@@ -12,8 +12,7 @@
   "finalEvidence": "https://board.xcpcio.com/ccpc/10th/chongqing/",
   "eligibleGroup": "official",
   "medalPolicy": {
-    "kind": "unverified",
-    "note": "榜单使用 CCPC 通用比例，实际奖牌边界尚待核对。"
+    "kind": "source-counts"
   },
   "statement": {
     "url": "https://codeforces.com/gym/106030/attachments/download/32796/day1.pdf",

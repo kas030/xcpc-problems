@@ -2,10 +2,11 @@ import { z } from 'zod';
 
 export const medalNames = ['bronze', 'silver', 'gold'] as const;
 export type Medal = typeof medalNames[number];
-export const difficultyNames = [...medalNames, 'challenge', 'pending'] as const;
+export type MedalBasis = 'verified-counts' | 'source-counts' | 'preset';
+export const difficultyNames = [...medalNames, 'challenge'] as const;
 export type Difficulty = typeof difficultyNames[number];
 export const difficultyLabels: Record<Difficulty, string> = {
-  bronze: '铜牌题', silver: '银牌题', gold: '金牌题', challenge: '挑战题', pending: '待定',
+  bronze: '铜牌题', silver: '银牌题', gold: '金牌题', challenge: '挑战题',
 };
 
 const publicUrl = z.url({ protocol: /^https$/ });
@@ -36,8 +37,7 @@ export const contestDefinitionSchema = z.object({
   medalPolicy: z.discriminatedUnion('kind', [
     z.object({ kind: z.literal('source-counts') }),
     z.object({ kind: z.literal('verified-counts'), counts: medalCountsSchema, source: publicUrl }),
-    z.object({ kind: z.literal('unverified'), note: z.string() }),
-  ]),
+  ]).default({ kind: 'source-counts' }),
   statement: statementSchema.optional(),
   problems: z.array(z.object({
     label: z.string().regex(/^[A-Z][0-9]?$/),
@@ -108,17 +108,16 @@ export interface Contest {
   syncedAt: string;
   participants: number;
   problemCount: number;
-  classificationReady: boolean;
   classificationNote: string;
+  medalBasis: MedalBasis;
   medalCounts: Record<Medal, number>;
-  medalSource: string;
+  medalSource?: string;
   statement?: Statement;
 }
 export interface Catalog {
-  schemaVersion: 1;
+  schemaVersion: 2;
   algorithmVersion: string;
   threshold: number;
-  minimumCohort: number;
   updatedAt: string;
   contests: Contest[];
   problems: Problem[];

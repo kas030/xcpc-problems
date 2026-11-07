@@ -1,8 +1,7 @@
 {
-  "schemaVersion": 1,
-  "algorithmVersion": "medal-cohort-v1",
+  "schemaVersion": 2,
+  "algorithmVersion": "medal-cohort-v2",
   "threshold": 0.5,
-  "minimumCohort": 5,
   "updatedAt": "2026-11-07T11:23:37.380Z",
   "contests": [
     {
@@ -20,8 +19,8 @@
       "syncedAt": "2026-11-07T11:23:35.915Z",
       "participants": 449,
       "problemCount": 13,
-      "classificationReady": true,
-      "classificationNote": "已使用最终榜与明确奖牌数量",
+      "classificationNote": "按上游榜单配置的奖牌人数分组",
+      "medalBasis": "source-counts",
       "medalCounts": {
         "gold": 45,
         "silver": 90,
@@ -50,8 +49,8 @@
       "syncedAt": "2026-11-07T11:23:37.380Z",
       "participants": 300,
       "problemCount": 13,
-      "classificationReady": true,
-      "classificationNote": "已使用最终榜与明确奖牌数量",
+      "classificationNote": "按上游榜单配置的奖牌人数分组",
+      "medalBasis": "source-counts",
       "medalCounts": {
         "gold": 30,
         "silver": 60,
@@ -80,14 +79,13 @@
       "syncedAt": "2026-11-07T11:23:35.042Z",
       "participants": 278,
       "problemCount": 13,
-      "classificationReady": false,
-      "classificationNote": "榜单使用 CCPC 通用比例，实际奖牌边界尚待核对。",
+      "classificationNote": "按有赛内通过记录的正式队伍数，以累计 10%、30%、60% 向上取整估算奖牌组",
+      "medalBasis": "preset",
       "medalCounts": {
-        "gold": 0,
-        "silver": 0,
-        "bronze": 0
+        "gold": 28,
+        "silver": 56,
+        "bronze": 83
       },
-      "medalSource": "https://github.com/xcpcio/board-data/blob/ae327835007ac328643444284e9254ef7d40a872/data/ccpc/10th/chongqing/config.json",
       "statement": {
         "url": "https://codeforces.com/gym/106030/attachments/download/32796/day1.pdf",
         "language": "zh",
@@ -110,8 +108,8 @@
       "syncedAt": "2026-11-07T11:23:36.874Z",
       "participants": 336,
       "problemCount": 13,
-      "classificationReady": true,
-      "classificationNote": "已使用最终榜与明确奖牌数量",
+      "classificationNote": "按上游榜单配置的奖牌人数分组",
+      "medalBasis": "source-counts",
       "medalCounts": {
         "gold": 33,
         "silver": 66,
@@ -138,7 +136,7 @@
       "qojId": 9862,
       "interactive": false,
       "difficulty": "challenge",
-      "reason": "金牌组赛内通过率也未达到 50%",
+      "reason": "各奖牌组赛内通过率均未达到 50%",
       "solved": 2,
       "participants": 449,
       "cohorts": {
@@ -177,7 +175,7 @@
       "qojId": 9863,
       "interactive": false,
       "difficulty": "challenge",
-      "reason": "金牌组赛内通过率也未达到 50%",
+      "reason": "各奖牌组赛内通过率均未达到 50%",
       "solved": 12,
       "participants": 449,
       "cohorts": {
@@ -255,7 +253,7 @@
       "qojId": 9865,
       "interactive": false,
       "difficulty": "challenge",
-      "reason": "金牌组赛内通过率也未达到 50%",
+      "reason": "各奖牌组赛内通过率均未达到 50%",
       "solved": 5,
       "participants": 449,
       "cohorts": {
@@ -333,7 +331,7 @@
       "qojId": 9867,
       "interactive": false,
       "difficulty": "challenge",
-      "reason": "金牌组赛内通过率也未达到 50%",
+      "reason": "各奖牌组赛内通过率均未达到 50%",
       "solved": 13,
       "participants": 449,
       "cohorts": {
@@ -450,7 +448,7 @@
       "qojId": 9870,
       "interactive": false,
       "difficulty": "challenge",
-      "reason": "金牌组赛内通过率也未达到 50%",
+      "reason": "各奖牌组赛内通过率均未达到 50%",
       "solved": 4,
       "participants": 449,
       "cohorts": {
@@ -528,7 +526,7 @@
       "qojId": 9872,
       "interactive": true,
       "difficulty": "challenge",
-      "reason": "金牌组赛内通过率也未达到 50%",
+      "reason": "各奖牌组赛内通过率均未达到 50%",
       "solved": 0,
       "participants": 449,
       "cohorts": {
@@ -645,7 +643,7 @@
       "qojId": 9798,
       "interactive": false,
       "difficulty": "challenge",
-      "reason": "金牌组赛内通过率也未达到 50%",
+      "reason": "各奖牌组赛内通过率均未达到 50%",
       "solved": 2,
       "participants": 300,
       "cohorts": {
@@ -723,7 +721,7 @@
       "qojId": 9800,
       "interactive": false,
       "difficulty": "challenge",
-      "reason": "金牌组赛内通过率也未达到 50%",
+      "reason": "各奖牌组赛内通过率均未达到 50%",
       "solved": 1,
       "participants": 300,
       "cohorts": {
@@ -840,7 +838,7 @@
       "qojId": 9803,
       "interactive": false,
       "difficulty": "challenge",
-      "reason": "金牌组赛内通过率也未达到 50%",
+      "reason": "各奖牌组赛内通过率均未达到 50%",
       "solved": 2,
       "participants": 300,
       "cohorts": {
@@ -918,7 +916,7 @@
       "qojId": 9805,
       "interactive": false,
       "difficulty": "challenge",
-      "reason": "金牌组赛内通过率也未达到 50%",
+      "reason": "各奖牌组赛内通过率均未达到 50%",
       "solved": 15,
       "participants": 300,
       "cohorts": {
@@ -1035,7 +1033,7 @@
       "qojId": 9808,
       "interactive": false,
       "difficulty": "challenge",
-      "reason": "金牌组赛内通过率也未达到 50%",
+      "reason": "各奖牌组赛内通过率均未达到 50%",
       "solved": 0,
       "participants": 300,
       "cohorts": {
@@ -1074,7 +1072,7 @@
       "qojId": 9809,
       "interactive": false,
       "difficulty": "challenge",
-      "reason": "金牌组赛内通过率也未达到 50%",
+      "reason": "各奖牌组赛内通过率均未达到 50%",
       "solved": 1,
       "participants": 300,
       "cohorts": {
@@ -1151,25 +1149,25 @@
       "title": "乘积，欧拉函数，求和",
       "qojId": 9619,
       "interactive": false,
-      "difficulty": "pending",
-      "reason": "榜单使用 CCPC 通用比例，实际奖牌边界尚待核对。",
+      "difficulty": "gold",
+      "reason": "该奖牌组至少 50% 的队伍在赛内通过",
       "solved": 42,
       "participants": 278,
       "cohorts": {
         "bronze": {
           "solved": 0,
-          "total": 0,
-          "rate": null
+          "total": 83,
+          "rate": 0
         },
         "silver": {
-          "solved": 0,
-          "total": 0,
-          "rate": null
+          "solved": 16,
+          "total": 56,
+          "rate": 0.2857142857142857
         },
         "gold": {
-          "solved": 0,
-          "total": 0,
-          "rate": null
+          "solved": 25,
+          "total": 28,
+          "rate": 0.8928571428571429
         }
       },
       "statement": {
@@ -1190,25 +1188,25 @@
       "title": "osu!mania",
       "qojId": 9620,
       "interactive": false,
-      "difficulty": "pending",
-      "reason": "榜单使用 CCPC 通用比例，实际奖牌边界尚待核对。",
+      "difficulty": "bronze",
+      "reason": "该奖牌组至少 50% 的队伍在赛内通过",
       "solved": 276,
       "participants": 278,
       "cohorts": {
         "bronze": {
-          "solved": 0,
-          "total": 0,
-          "rate": null
+          "solved": 83,
+          "total": 83,
+          "rate": 1
         },
         "silver": {
-          "solved": 0,
-          "total": 0,
-          "rate": null
+          "solved": 56,
+          "total": 56,
+          "rate": 1
         },
         "gold": {
-          "solved": 0,
-          "total": 0,
-          "rate": null
+          "solved": 28,
+          "total": 28,
+          "rate": 1
         }
       },
       "statement": {
@@ -1229,25 +1227,25 @@
       "title": "连方",
       "qojId": 9621,
       "interactive": false,
-      "difficulty": "pending",
-      "reason": "榜单使用 CCPC 通用比例，实际奖牌边界尚待核对。",
+      "difficulty": "bronze",
+      "reason": "该奖牌组至少 50% 的队伍在赛内通过",
       "solved": 187,
       "participants": 278,
       "cohorts": {
         "bronze": {
-          "solved": 0,
-          "total": 0,
-          "rate": null
+          "solved": 83,
+          "total": 83,
+          "rate": 1
         },
         "silver": {
-          "solved": 0,
-          "total": 0,
-          "rate": null
+          "solved": 56,
+          "total": 56,
+          "rate": 1
         },
         "gold": {
-          "solved": 0,
-          "total": 0,
-          "rate": null
+          "solved": 28,
+          "total": 28,
+          "rate": 1
         }
       },
       "statement": {
@@ -1268,25 +1266,25 @@
       "title": "有限小数",
       "qojId": 9622,
       "interactive": false,
-      "difficulty": "pending",
-      "reason": "榜单使用 CCPC 通用比例，实际奖牌边界尚待核对。",
+      "difficulty": "silver",
+      "reason": "该奖牌组至少 50% 的队伍在赛内通过",
       "solved": 61,
       "participants": 278,
       "cohorts": {
         "bronze": {
           "solved": 0,
-          "total": 0,
-          "rate": null
+          "total": 83,
+          "rate": 0
         },
         "silver": {
-          "solved": 0,
-          "total": 0,
-          "rate": null
+          "solved": 37,
+          "total": 56,
+          "rate": 0.6607142857142857
         },
         "gold": {
-          "solved": 0,
-          "total": 0,
-          "rate": null
+          "solved": 24,
+          "total": 28,
+          "rate": 0.8571428571428571
         }
       },
       "statement": {
@@ -1307,25 +1305,25 @@
       "title": "合成大西瓜",
       "qojId": 9623,
       "interactive": false,
-      "difficulty": "pending",
-      "reason": "榜单使用 CCPC 通用比例，实际奖牌边界尚待核对。",
+      "difficulty": "bronze",
+      "reason": "该奖牌组至少 50% 的队伍在赛内通过",
       "solved": 253,
       "participants": 278,
       "cohorts": {
         "bronze": {
-          "solved": 0,
-          "total": 0,
-          "rate": null
+          "solved": 83,
+          "total": 83,
+          "rate": 1
         },
         "silver": {
-          "solved": 0,
-          "total": 0,
-          "rate": null
+          "solved": 56,
+          "total": 56,
+          "rate": 1
         },
         "gold": {
-          "solved": 0,
-          "total": 0,
-          "rate": null
+          "solved": 28,
+          "total": 28,
+          "rate": 1
         }
       },
       "statement": {
@@ -1346,25 +1344,25 @@
       "title": "Pico Park",
       "qojId": 9624,
       "interactive": false,
-      "difficulty": "pending",
-      "reason": "榜单使用 CCPC 通用比例，实际奖牌边界尚待核对。",
+      "difficulty": "challenge",
+      "reason": "各奖牌组赛内通过率均未达到 50%",
       "solved": 1,
       "participants": 278,
       "cohorts": {
         "bronze": {
           "solved": 0,
-          "total": 0,
-          "rate": null
+          "total": 83,
+          "rate": 0
         },
         "silver": {
           "solved": 0,
-          "total": 0,
-          "rate": null
+          "total": 56,
+          "rate": 0
         },
         "gold": {
-          "solved": 0,
-          "total": 0,
-          "rate": null
+          "solved": 1,
+          "total": 28,
+          "rate": 0.03571428571428571
         }
       },
       "statement": {
@@ -1385,25 +1383,25 @@
       "title": "魔弹",
       "qojId": 9625,
       "interactive": false,
-      "difficulty": "pending",
-      "reason": "榜单使用 CCPC 通用比例，实际奖牌边界尚待核对。",
+      "difficulty": "challenge",
+      "reason": "各奖牌组赛内通过率均未达到 50%",
       "solved": 0,
       "participants": 278,
       "cohorts": {
         "bronze": {
           "solved": 0,
-          "total": 0,
-          "rate": null
+          "total": 83,
+          "rate": 0
         },
         "silver": {
           "solved": 0,
-          "total": 0,
-          "rate": null
+          "total": 56,
+          "rate": 0
         },
         "gold": {
           "solved": 0,
-          "total": 0,
-          "rate": null
+          "total": 28,
+          "rate": 0
         }
       },
       "statement": {
@@ -1424,25 +1422,25 @@
       "title": "str(list(s))",
       "qojId": 9626,
       "interactive": false,
-      "difficulty": "pending",
-      "reason": "榜单使用 CCPC 通用比例，实际奖牌边界尚待核对。",
+      "difficulty": "gold",
+      "reason": "该奖牌组至少 50% 的队伍在赛内通过",
       "solved": 25,
       "participants": 278,
       "cohorts": {
         "bronze": {
           "solved": 0,
-          "total": 0,
-          "rate": null
+          "total": 83,
+          "rate": 0
         },
         "silver": {
-          "solved": 0,
-          "total": 0,
-          "rate": null
+          "solved": 8,
+          "total": 56,
+          "rate": 0.14285714285714285
         },
         "gold": {
-          "solved": 0,
-          "total": 0,
-          "rate": null
+          "solved": 17,
+          "total": 28,
+          "rate": 0.6071428571428571
         }
       },
       "statement": {
@@ -1463,25 +1461,25 @@
       "title": "算术",
       "qojId": 9627,
       "interactive": false,
-      "difficulty": "pending",
-      "reason": "榜单使用 CCPC 通用比例，实际奖牌边界尚待核对。",
+      "difficulty": "bronze",
+      "reason": "该奖牌组至少 50% 的队伍在赛内通过",
       "solved": 256,
       "participants": 278,
       "cohorts": {
         "bronze": {
-          "solved": 0,
-          "total": 0,
-          "rate": null
+          "solved": 83,
+          "total": 83,
+          "rate": 1
         },
         "silver": {
-          "solved": 0,
-          "total": 0,
-          "rate": null
+          "solved": 56,
+          "total": 56,
+          "rate": 1
         },
         "gold": {
-          "solved": 0,
-          "total": 0,
-          "rate": null
+          "solved": 28,
+          "total": 28,
+          "rate": 1
         }
       },
       "statement": {
@@ -1502,25 +1500,25 @@
       "title": "骰子",
       "qojId": 9628,
       "interactive": false,
-      "difficulty": "pending",
-      "reason": "榜单使用 CCPC 通用比例，实际奖牌边界尚待核对。",
+      "difficulty": "bronze",
+      "reason": "该奖牌组至少 50% 的队伍在赛内通过",
       "solved": 278,
       "participants": 278,
       "cohorts": {
         "bronze": {
-          "solved": 0,
-          "total": 0,
-          "rate": null
+          "solved": 83,
+          "total": 83,
+          "rate": 1
         },
         "silver": {
-          "solved": 0,
-          "total": 0,
-          "rate": null
+          "solved": 56,
+          "total": 56,
+          "rate": 1
         },
         "gold": {
-          "solved": 0,
-          "total": 0,
-          "rate": null
+          "solved": 28,
+          "total": 28,
+          "rate": 1
         }
       },
       "statement": {
@@ -1541,25 +1539,25 @@
       "title": "小 C 的神秘图形",
       "qojId": 9629,
       "interactive": false,
-      "difficulty": "pending",
-      "reason": "榜单使用 CCPC 通用比例，实际奖牌边界尚待核对。",
+      "difficulty": "bronze",
+      "reason": "该奖牌组至少 50% 的队伍在赛内通过",
       "solved": 273,
       "participants": 278,
       "cohorts": {
         "bronze": {
-          "solved": 0,
-          "total": 0,
-          "rate": null
+          "solved": 83,
+          "total": 83,
+          "rate": 1
         },
         "silver": {
-          "solved": 0,
-          "total": 0,
-          "rate": null
+          "solved": 56,
+          "total": 56,
+          "rate": 1
         },
         "gold": {
-          "solved": 0,
-          "total": 0,
-          "rate": null
+          "solved": 28,
+          "total": 28,
+          "rate": 1
         }
       },
       "statement": {
@@ -1580,25 +1578,25 @@
       "title": "沙堆",
       "qojId": 9630,
       "interactive": false,
-      "difficulty": "pending",
-      "reason": "榜单使用 CCPC 通用比例，实际奖牌边界尚待核对。",
+      "difficulty": "challenge",
+      "reason": "各奖牌组赛内通过率均未达到 50%",
       "solved": 0,
       "participants": 278,
       "cohorts": {
         "bronze": {
           "solved": 0,
-          "total": 0,
-          "rate": null
+          "total": 83,
+          "rate": 0
         },
         "silver": {
           "solved": 0,
-          "total": 0,
-          "rate": null
+          "total": 56,
+          "rate": 0
         },
         "gold": {
           "solved": 0,
-          "total": 0,
-          "rate": null
+          "total": 28,
+          "rate": 0
         }
       },
       "statement": {
@@ -1619,25 +1617,25 @@
       "title": "Median Replacement",
       "qojId": 9631,
       "interactive": false,
-      "difficulty": "pending",
-      "reason": "榜单使用 CCPC 通用比例，实际奖牌边界尚待核对。",
+      "difficulty": "gold",
+      "reason": "该奖牌组至少 50% 的队伍在赛内通过",
       "solved": 15,
       "participants": 278,
       "cohorts": {
         "bronze": {
           "solved": 0,
-          "total": 0,
-          "rate": null
+          "total": 83,
+          "rate": 0
         },
         "silver": {
-          "solved": 0,
-          "total": 0,
-          "rate": null
+          "solved": 1,
+          "total": 56,
+          "rate": 0.017857142857142856
         },
         "gold": {
-          "solved": 0,
-          "total": 0,
-          "rate": null
+          "solved": 14,
+          "total": 28,
+          "rate": 0.5
         }
       },
       "statement": {
@@ -1659,7 +1657,7 @@
       "qojId": 9564,
       "interactive": false,
       "difficulty": "challenge",
-      "reason": "金牌组赛内通过率也未达到 50%",
+      "reason": "各奖牌组赛内通过率均未达到 50%",
       "solved": 0,
       "participants": 336,
       "cohorts": {
@@ -1776,7 +1774,7 @@
       "qojId": 9567,
       "interactive": false,
       "difficulty": "challenge",
-      "reason": "金牌组赛内通过率也未达到 50%",
+      "reason": "各奖牌组赛内通过率均未达到 50%",
       "solved": 0,
       "participants": 336,
       "cohorts": {
@@ -1854,7 +1852,7 @@
       "qojId": 9569,
       "interactive": false,
       "difficulty": "challenge",
-      "reason": "金牌组赛内通过率也未达到 50%",
+      "reason": "各奖牌组赛内通过率均未达到 50%",
       "solved": 4,
       "participants": 336,
       "cohorts": {
@@ -1932,7 +1930,7 @@
       "qojId": 9571,
       "interactive": false,
       "difficulty": "challenge",
-      "reason": "金牌组赛内通过率也未达到 50%",
+      "reason": "各奖牌组赛内通过率均未达到 50%",
       "solved": 0,
       "participants": 336,
       "cohorts": {
@@ -1971,7 +1969,7 @@
       "qojId": 9572,
       "interactive": false,
       "difficulty": "challenge",
-      "reason": "金牌组赛内通过率也未达到 50%",
+      "reason": "各奖牌组赛内通过率均未达到 50%",
       "solved": 16,
       "participants": 336,
       "cohorts": {
@@ -2088,7 +2086,7 @@
       "qojId": 9575,
       "interactive": false,
       "difficulty": "challenge",
-      "reason": "金牌组赛内通过率也未达到 50%",
+      "reason": "各奖牌组赛内通过率均未达到 50%",
       "solved": 0,
       "participants": 336,
       "cohorts": {
@@ -2127,7 +2125,7 @@
       "qojId": 9576,
       "interactive": false,
       "difficulty": "challenge",
-      "reason": "金牌组赛内通过率也未达到 50%",
+      "reason": "各奖牌组赛内通过率均未达到 50%",
       "solved": 9,
       "participants": 336,
       "cohorts": {

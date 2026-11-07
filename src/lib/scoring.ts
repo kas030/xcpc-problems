@@ -1,8 +1,7 @@
-import { medalNames, type BoardConfig, type BoardRun, type BoardTeam, type CohortStat, type ContestDefinition, type Difficulty, type Medal } from './schema';
+import { medalNames, type BoardConfig, type BoardRun, type BoardTeam, type CohortStat, type ContestDefinition, type Difficulty, type Medal, type MedalBasis } from './schema';
 
-export const ALGORITHM_VERSION = 'medal-cohort-v1';
+export const ALGORITHM_VERSION = 'medal-cohort-v2';
 export const THRESHOLD = 0.5;
-export const MINIMUM_COHORT = 5;
 const accepted = new Set(['ACCEPTED', 'AC']);
 const failures = new Set(['WRONG_ANSWER', 'WA', 'TIME_LIMIT_EXCEEDED', 'TLE', 'MEMORY_LIMIT_EXCEEDED', 'MLE', 'RUNTIME_ERROR', 'RE', 'OUTPUT_LIMIT_EXCEEDED', 'OLE', 'PRESENTATION_ERROR', 'PE']);
 const ignored = new Set(['COMPILATION_ERROR', 'CE', 'IGNORED']);
@@ -59,56 +58,54 @@ export function rankTeams(config: BoardConfig, teams: BoardTeam[], runs: BoardRu
   return { teams: result, unresolved };
 }
 
-export function classify(cohorts: Record<Medal, CohortStat>, ready = true): { difficulty: Difficulty; reason: string } {
-  if (!ready) return { difficulty: 'pending', reason: '最终榜或奖牌边界尚未确认' };
-  if (medalNames.some(m => cohorts[m].total < MINIMUM_COHORT)) return { difficulty: 'pending', reason: '奖牌组样本不足 5 队' };
+export function classify(cohorts: Record<Medal, CohortStat>): { difficulty: Difficulty; reason: string } {
   // Start with bronze, using disjoint medal cohorts rather than cumulative ranks.
   for (const medal of medalNames) {
     const c = cohorts[medal];
-    if (c.solved / c.total >= THRESHOLD) return { difficulty: medal, reason: '该奖牌组至少 50% 的队伍在赛内通过' };
+    if (c.total > 0 && c.solved / c.total >= THRESHOLD) return { difficulty: medal, reason: '该奖牌组至少 50% 的队伍在赛内通过' };
   }
-  return { difficulty: 'challenge', reason: '金牌组赛内通过率也未达到 50%' };
+  return { difficulty: 'challenge', reason: medalNames.some(m => cohorts[m].total > 0) ? '各奖牌组赛内通过率均未达到 50%' : '暂无正式队伍的赛内通过记录，按挑战题收录' };
 }
 
 export function analyzeBoard(config: BoardConfig, teams: BoardTeam[], runs: BoardRun[], definition: ContestDefinition) {
   const ranking = rankTeams(config, teams, runs, definition.eligibleGroup);
-  let counts: Record<Medal, number> = { gold: 0, silver: 0, bronze: 0 };
-  let ready = definition.finalVerified && !ranking.unresolved;
-  let note = ready ? '已使用最终榜与明确奖牌数量' : '榜单未确认完结，或存在未裁定提交';
-  if (definition.medalPolicy.kind === 'verified-counts') counts = definition.medalPolicy.counts;
+  const effective = ranking.teams.filter(t => t.solved.size > 0);
+  let limits: Record<Medal, number> | undefined;
+  let medalBasis: MedalBasis = definition.medalPolicy.kind;
+  if (definition.medalPolicy.kind === 'verified-counts') limits = definition.medalPolicy.counts;
   else if (definition.medalPolicy.kind === 'source-counts' && typeof config.medal === 'object' && config.medal?.[definition.eligibleGroup]) {
     const source = config.medal[definition.eligibleGroup];
-    counts = { gold: source.gold ?? 0, silver: source.silver ?? 0, bronze: source.bronze ?? 0 };
-  } else {
-    ready = false;
-    note = definition.medalPolicy.kind === 'unverified' ? definition.medalPolicy.note : '上游仅有奖牌预设，尚未核对实际奖牌数量';
+    if (Object.values(source).some(n => n !== undefined && (!Number.isInteger(n) || n < 0))) throw new Error('奖牌数量非法');
+    if (medalNames.every(m => source[m] !== undefined)) limits = { gold: source.gold!, silver: source.silver!, bronze: source.bronze! };
   }
-  if (Object.values(counts).some(n => !Number.isInteger(n) || n < 0)) throw new Error('奖牌数量非法');
-  if (Object.values(counts).reduce((a, b) => a + b, 0) > ranking.teams.filter(t => t.solved.size > 0).length) {
-    ready = false; note = '奖牌数量超过有通过记录的正式队伍数';
+  if (limits && Object.values(limits).some(n => !Number.isInteger(n) || n < 0)) throw new Error('奖牌数量非法');
+  const configuredTotal = limits ? limits.gold + limits.silver + limits.bronze : 0;
+  if (!limits || configuredTotal === 0 || configuredTotal > effective.length) {
+    // XCPCIO's CCPC preset uses rounded cumulative boundaries, not rounded group sizes.
+    const gold = Math.ceil(effective.length * 0.1);
+    const goldSilver = Math.ceil(effective.length * 0.3);
+    const allMedals = Math.ceil(effective.length * 0.6);
+    limits = { gold, silver: goldSilver - gold, bronze: allMedals - goldSilver };
+    medalBasis = 'preset';
   }
+  const notes = [medalBasis === 'preset' ? '按有赛内通过记录的正式队伍数，以累计 10%、30%、60% 向上取整估算奖牌组' : medalBasis === 'verified-counts' ? '按已核对的奖牌人数分组' : '按上游榜单配置的奖牌人数分组'];
+  if (!definition.finalVerified || ranking.unresolved) notes.push('按当前已裁定提交统计');
   const cohorts: Record<Medal, RankedTeam[]> = { gold: [], silver: [], bronze: [] };
-  for (const t of ranking.teams) {
-    if (!t.solved.size) continue;
-    if (t.rank <= counts.gold) cohorts.gold.push(t);
-    else if (t.rank <= counts.gold + counts.silver) cohorts.silver.push(t);
-    else if (t.rank <= counts.gold + counts.silver + counts.bronze) cohorts.bronze.push(t);
+  for (const t of effective) {
+    if (t.rank <= limits.gold) cohorts.gold.push(t);
+    else if (t.rank <= limits.gold + limits.silver) cohorts.silver.push(t);
+    else if (t.rank <= limits.gold + limits.silver + limits.bronze) cohorts.bronze.push(t);
   }
-  // Do not arbitrarily break a tie across a medal boundary.
-  if (Object.keys(counts).some(key => cohorts[key as Medal].length !== counts[key as Medal])) {
-    ready = false; note = '奖牌边界存在同分或数量不一致，需要核对获奖名单';
-  }
-  if (ready && medalNames.some(m => cohorts[m].length < MINIMUM_COHORT)) {
-    ready = false; note = '奖牌组样本不足 5 队';
-  }
+  // Keep tied teams together in the higher cohort and report actual cohort sizes.
+  const counts = { gold: cohorts.gold.length, silver: cohorts.silver.length, bronze: cohorts.bronze.length };
+  if (medalNames.some(m => counts[m] !== limits[m])) notes.push('奖牌分界并列队伍归入同一较高奖牌组');
   const problems = config.problems.map(problem => {
     const stats = Object.fromEntries(medalNames.map(m => {
       const total = cohorts[m].length;
       const solved = cohorts[m].filter(t => t.solved.has(problem.id)).length;
       return [m, { solved, total, rate: total ? solved / total : null }];
     })) as Record<Medal, CohortStat>;
-    const label = classify(stats, ready);
-    return { label: problem.label, solved: ranking.teams.filter(t => t.solved.has(problem.id)).length, cohorts: stats, ...label, reason: ready ? label.reason : note };
+    return { label: problem.label, solved: effective.filter(t => t.solved.has(problem.id)).length, cohorts: stats, ...classify(stats) };
   });
-  return { ready, note, counts, participants: ranking.teams.length, problems };
+  return { note: notes.join('；'), medalBasis, counts, participants: ranking.teams.length, problems };
 }

@@ -2,7 +2,7 @@ import { pathToFileURL } from 'node:url';
 import { readFile, readdir } from 'node:fs/promises';
 import { parse as parseYaml } from 'yaml';
 import { at, definitions, readJson, snapshotSchema, writeJson } from './io';
-import { analyzeBoard, ALGORITHM_VERSION, THRESHOLD, MINIMUM_COHORT } from '../src/lib/scoring';
+import { analyzeBoard, ALGORITHM_VERSION, THRESHOLD } from '../src/lib/scoring';
 import type { Catalog, Contest, Problem } from '../src/lib/schema';
 
 export async function buildCatalog(write = true): Promise<Catalog> {
@@ -24,9 +24,9 @@ export async function buildCatalog(write = true): Promise<Catalog> {
       qojUrl: `https://qoj.ac/contest/${definition.qojContestId}`,
       sourceUrl, sourceRevision: snapshot.revision, syncedAt: snapshot.syncedAt,
       participants: analysis.participants, problemCount: definition.problems.length,
-      classificationReady: analysis.ready, classificationNote: analysis.note,
+      classificationNote: analysis.note, medalBasis: analysis.medalBasis,
       medalCounts: analysis.counts,
-      medalSource: definition.medalPolicy.kind === 'verified-counts' ? definition.medalPolicy.source : `${sourceUrl.replace('/tree/', '/blob/')}/config.json`,
+      ...(analysis.medalBasis === 'preset' ? {} : { medalSource: definition.medalPolicy.kind === 'verified-counts' ? definition.medalPolicy.source : `${sourceUrl.replace('/tree/', '/blob/')}/config.json` }),
       statement: definition.statement,
     };
     contests.push(contest);
@@ -61,8 +61,7 @@ export async function buildCatalog(write = true): Promise<Catalog> {
   const order = new Map(contests.map((c, i) => [c.id, i]));
   problems.sort((a, b) => order.get(a.contestId)! - order.get(b.contestId)! || a.label.localeCompare(b.label));
   const catalog: Catalog = {
-    schemaVersion: 1, algorithmVersion: ALGORITHM_VERSION, threshold: THRESHOLD,
-    minimumCohort: MINIMUM_COHORT,
+    schemaVersion: 2, algorithmVersion: ALGORITHM_VERSION, threshold: THRESHOLD,
     updatedAt: contests.map(c => c.syncedAt).sort().at(-1) ?? '1970-01-01T00:00:00.000Z',
     contests, problems,
   };

@@ -14,7 +14,6 @@
   --silver: #176783;
   --gold: #8d6100;
   --challenge: #7540c8;
-  --pending: #58647a;
   font-family: 'DM Sans', 'Noto Sans SC', system-ui, sans-serif;
   color: var(--ink);
   background: var(--bg);
@@ -91,7 +90,6 @@ input[type=search]::-webkit-search-cancel-button { cursor: pointer; }
 .level-dot.silver { background: #3296b4; }
 .level-dot.gold { background: #e7b10f; }
 .level-dot.challenge { background: #945de4; }
-.level-dot.pending { background: #8b96aa; }
 .filter-count { font-size: 11px; color: var(--muted); font-variant-numeric: tabular-nums; }
 .selected .filter-count { color: var(--primary-hover); }
 .contest-options { display: flex; flex-direction: column; gap: 4px; }
@@ -135,7 +133,6 @@ input[type=search]::-webkit-search-cancel-button { cursor: pointer; }
 .difficulty-badge.silver { color: var(--silver); background: #def1fa; }
 .difficulty-badge.gold { color: var(--gold); background: #fff0b8; }
 .difficulty-badge.challenge { color: var(--challenge); background: #eee2ff; }
-.difficulty-badge.pending { color: var(--pending); background: #e9edf4; }
 a.difficulty-badge:hover { filter: brightness(.96); }
 .contest-tag { display: inline-flex; align-items: center; border: 0; padding: 5px 10px; border-radius: 999px; font-size: 11px; font-weight: 500; color: #4c5b74; white-space: nowrap; background: #edf1f7; }
 .contest-tag:hover { background: #e0e9ff; color: var(--primary-hover); }
