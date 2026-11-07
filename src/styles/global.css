@@ -268,14 +268,6 @@ a.contest-tag:hover { background: #bfdbfe; color: #1e3a8a; }
 .problem-neighbors { display: flex; justify-content: space-between; gap: 10px; margin-top: 18px; }
 .problem-neighbors a { color: #536d97; font-size: 12px; display: flex; align-items: center; gap: 6px; }
 .problem-neighbors a:hover { color: var(--primary); }
-.pdf-entry { min-height: 280px; padding: 30px 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 11px; text-align: center; background: #f8faff; color: var(--primary); }
-.pdf-entry h3 { font-size: 19px; font-weight: 650; color: var(--ink); }
-.pdf-entry p { font-size: 13px; color: #536078; }
-.pdf-entry > span { font-size: 11px; color: var(--muted); margin-top: 2px; }
-.pdf-entry .button { margin: 3px 0; }
-.pdf-preview { border-top: 1px solid var(--line); }
-.pdf-preview summary { cursor: pointer; padding: 13px 16px; font-size: 12px; color: #37578d; }
-.pdf-preview summary span { float: right; font-size: 11px; color: var(--muted); }
 
 /* Long-form reading retains comfortable line spacing */
 .prose { color: #273349; font-size: 14px; line-height: 1.9; overflow-wrap: anywhere; }
@@ -396,9 +388,6 @@ a.contest-tag:hover { background: #bfdbfe; color: #1e3a8a; }
   .reading-toolbar h2 { font-size: 13px; }
   .reading-toolbar .button { padding: 6px 8px; font-size: 11px; }
   .pdf-help { padding: 10px 12px; }
-  .pdf-preview summary { padding: 12px; }
-  .pdf-preview summary span { float: none; display: block; margin-top: 6px; }
-  .pdf-entry { min-height: 260px; padding: 24px 16px; }
   .guide-paper { padding: 22px 18px; }
   .prose { font-size: 13px; }
   .prose h1 { font-size: 23px; }

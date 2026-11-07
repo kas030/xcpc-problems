@@ -17,7 +17,7 @@
 3. 复制 `data/contests/` 中相近的定义，修改 `id`、标称年份、完整名称、短标签、`sourcePath`、QOJ 比赛和题目 ID。文件名必须等于 `<id>.json`，ID 发布后保持稳定。
 4. 填写最终榜证据 `finalEvidence` 和题目映射来源 `mappingSource`。只有已核对解封后的最终榜才设置 `finalVerified: true`。
 5. 确认参与评奖的队伍分组，通常是 `official`。`medalPolicy` 默认使用 `source-counts`，读取上游明确的金银铜人数；缺少可用人数时自动采用预设比例。核对获奖名单后可用 `verified-counts` 记录各档人数并附来源。金银铜人数均为各档人数，不能填累计名次。
-6. 优先填写官方中文题面链接。`page` 是 PDF 的实际页序号，从 1 开始，包含封面；每题可以覆盖比赛级的题册信息。
+6. 优先填写官方中文题面链接。`page`、`endPage` 分别是本题起始页和结束页（含），均为 PDF 的实际页序号，从 1 开始，包含封面；每题可以覆盖比赛级的题册信息。本地题册的每道题必须填写完整范围，并核对边界，排除封面、附录和其他题目。
 7. 运行 `npm run sync -- --contest=<id>`。打开本地题单、题目详情和比赛页，核对三组通过率、题目数量和链接，再执行常规检查。
 
 比赛标签：`YY-体系-站点[-附加标识]`，例如 `24-ICPC-南京`、`25-CCPC-总决赛`、`25-ICPC-西安-邀`、`25-ICPC-网1`。同年同站重名时加入赛事类型；完整名称在比赛页展示。
@@ -48,11 +48,13 @@ npm run import:qoj -- --url=https://qoj.ac/contest/1828 --html=.cache/qoj.html
 
 优先顺序：官方中文 Markdown/HTML → 官方中文 PDF → 可用的英文 HTML → 英文 PDF。Codeforces Gym 的 HTML 页面通常便于提取结构，但不能假定所有比赛都具有对应页面；先核对它和 QOJ 的题目是否一致。
 
-有官方中文题册时无需再翻译英文。当前四场比赛的题册保存为同域静态 PDF，解决 Codeforces 的 `X-Frame-Options: sameorigin` 对跨站预览的限制；详情页保留“打开题册”和“查看原始题册”入口。
+有官方中文题册时无需再翻译英文。当前四场比赛的题册保存为同域静态 PDF，解决 Codeforces 的 `X-Frame-Options: sameorigin` 对跨站预览的限制；详情页直接预览本题对应的页面，保留“打开完整题册”和“查看原始题册”入口。
 
-PDF 文件放在 `src/assets/statements/<contest-id>.pdf`，在 `src/lib/statement-pdfs.ts` 中用 `?url` 导入，并按完整的原始 URL 建立映射。同一题册只存一份，每题继续使用比赛定义中的 `page` 定位。构建自动添加部署路径前缀和文件内容哈希，开发模式由映射模块补齐缺失的路径前缀，无需额外服务或构建时下载；未配置副本的题册继续使用原始链接。验证时同时检查开发和生产预览地址，并使用浏览器导航请求（含 `Accept: text/html`）访问 PDF，不能只凭普通文件请求或 HEAD 的状态码判断可用。
+PDF 文件放在 `src/assets/statements/<contest-id>.pdf`，在 `src/lib/statement-sources.ts` 中按完整的原始 URL 映射到文件名；`src/lib/statement-pdfs.ts` 自动导入完整题册资源。同一题册的源码只存一份。静态端点 `src/pages/statements/[contest]/[label].pdf.ts` 使用 `pdf-lib` 按 `page` 至 `endPage` 复制原始页面，在构建时生成 `dist/statements/<contest-id>/<label>.pdf`，保留文字、公式、图片及原有排版。范围缺失、倒置或超出题册页数会导致构建失败；不要提交生成的单题 PDF。
 
-更新 PDF 时，从已核对的原始地址下载，确认文件确为 PDF 而非错误页，再替换对应文件。若题册分页变化，逐题复核 `page` 并运行 `npm run catalog`；若来源 URL 变化，同时更新比赛定义和 PDF 映射。新增题册时按来源许可确认可转载，记录出处，并在本地展开预览，检查中文、公式、图片和页码。
+单题预览从生成文件的第一页开始；“打开完整题册”仍定位到原始题册的 `page`。所有链接包含部署路径前缀，完整题册额外使用文件内容哈希。开发模式也通过同一端点生成预览，无需额外服务或构建时下载；未配置本地副本的题册继续使用原始链接。验证时同时检查开发和生产预览地址，并使用浏览器导航请求（含 `Accept: text/html`）访问 PDF，不能只凭普通文件请求或 HEAD 的状态码判断可用。
+
+更新 PDF 时，从已核对的原始地址下载，确认文件确为 PDF 而非错误页，再替换对应文件。若题册分页变化，逐题复核 `page`、`endPage` 并运行 `npm run catalog`；若来源 URL 变化，同时更新比赛定义和 PDF 映射。新增题册时按来源许可确认可转载，记录出处，并在本地检查单题预览的中文、公式、图片和页码，尤其检查跨页题目和最后一题。
 
 确认可转载或翻译后，在 `src/content/statements/<contest-id>/<label>.md` 建立文件：
 
@@ -70,7 +72,7 @@ sourceHash: 可选，原始题面内容的 SHA-256
 
 校对重点：量词与否定、上下界与开闭区间、下标范围、精度误差、整数溢出范围、交互协议、时间和空间限制、样例对应关系。对照原文逐项核对后才设 `status: reviewed`，可增加 `reviewedAt`；官方原文设 `official`。`draft` 会在网站显示醒目的待校对提示。
 
-运行 `npm run catalog` 更新元信息，再检查详情页中的公式、表格、图片、样例和手机布局。原始题册链接始终保留。未加入 Markdown 时自动显示 PDF 阅读入口。
+运行 `npm run catalog` 更新元信息，再检查详情页中的公式、表格、图片、样例和手机布局。原始题册链接始终保留。未加入 Markdown 时自动显示 PDF 预览。
 
 ## 数据异常处理
 

@@ -16,7 +16,10 @@ export const statementSchema = z.object({
   language: z.enum(['zh', 'en']),
   format: z.enum(['pdf', 'html']),
   page: z.number().int().positive().optional(),
+  endPage: z.number().int().positive().optional(),
   provenance: z.enum(['official', 'translation']).default('official'),
+}).refine(s => s.endPage === undefined || (s.page !== undefined && s.endPage >= s.page), {
+  message: '结束页码必须不小于起始页码', path: ['endPage'],
 });
 export const medalCountsSchema = z.object({
   gold: z.number().int().nonnegative(), silver: z.number().int().nonnegative(), bronze: z.number().int().nonnegative(),

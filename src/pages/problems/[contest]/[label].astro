@@ -2,9 +2,10 @@
 import { getCollection, render } from 'astro:content';
 import Layout from '../../../layouts/Layout.astro';
 import { catalog } from '../../../lib/catalog';
-import { href, problemHref } from '../../../lib/urls';
+import { base, href, problemHref } from '../../../lib/urls';
 import { difficultyLabels } from '../../../lib/schema';
 import { statementPdfs } from '../../../lib/statement-pdfs';
+import { problemPdfPath } from '../../../lib/statement-sources';
 export function getStaticPaths() {
   return catalog.problems.map(problem => ({ params: { contest: problem.contestId, label: problem.label }, props: { problem, contest: catalog.contests.find(c => c.id === problem.contestId)! } }));
 }
@@ -16,7 +17,9 @@ const statement = problem.statement;
 const pdfFragment = `#page=${statement?.page ?? 1}&view=FitH`;
 const sourceUrl = statement?.format === 'pdf' ? `${statement.url}${pdfFragment}` : statement?.url;
 const localPdf = statement?.format === 'pdf' ? statementPdfs.get(statement.url) : undefined;
-const readerUrl = localPdf ? `${localPdf}${pdfFragment}` : sourceUrl;
+const bookletUrl = localPdf ? `${localPdf}${pdfFragment}` : sourceUrl;
+const singlePdf = problemPdfPath(problem.id, statement);
+const readerUrl = singlePdf ? `${base}/${singlePdf}#view=FitH` : bookletUrl;
 const siblings = catalog.problems.filter(p => p.contestId === problem.contestId);
 const position = siblings.findIndex(p => p.id === problem.id);
 const previous = siblings[position-1];
@@ -28,13 +31,12 @@ const next = siblings[position+1];
   <div class="detail-grid">
     <section>
       <div class="reading-card">
-        <div class="reading-toolbar"><h2>{Content ? entry!.data.language === 'zh' ? '中文题面' : '英文题面' : '官方题面'}<span class="source-label">{Content ? entry!.data.status === 'official' ? '官方原文' : entry!.data.status === 'reviewed' ? '译文已校对' : '译文待校对' : statement?.language === 'zh' ? '中文 PDF' : '原文'}</span></h2>{statement && <a class="button button-small" href={readerUrl} target="_blank" rel="noopener noreferrer">打开题册 ↗</a>}</div>
+        <div class="reading-toolbar"><h2>{Content ? entry!.data.language === 'zh' ? '中文题面' : '英文题面' : '官方题面'}<span class="source-label">{Content ? entry!.data.status === 'official' ? '官方原文' : entry!.data.status === 'reviewed' ? '译文已校对' : '译文待校对' : statement?.language === 'zh' ? '中文 PDF' : '原文'}</span></h2>{statement && <a class="button button-small" href={bookletUrl} target="_blank" rel="noopener noreferrer">打开完整题册 ↗</a>}</div>
         {entry?.data.status === 'draft' && <div class="status-banner">这份译文尚未校对，训练时请同时核对原文中的约束和样例。</div>}
         {Content ? <article class="prose statement-prose"><Content /></article> : statement?.format === 'pdf' ? <>
-          <div class="pdf-entry"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h5"/></svg><h3>{statement.language === 'zh' ? '官方中文题册' : '官方题册'}</h3><p>Problem {problem.label} · {statement.page ? `从第 ${statement.page} 页开始阅读` : '在题册中按题号查找'}</p><a class="button button-primary" href={readerUrl} target="_blank" rel="noopener noreferrer">打开{statement.language === 'zh' ? '中文' : ''} PDF ↗</a><span>完整题意、数据范围与样例均见原始题册</span></div>
-          <details class="pdf-preview"><summary>在本页预览题册<span>{localPdf ? '支持翻页、缩放与下载' : '部分浏览器或题面来源可能不支持'}</span></summary><iframe class="pdf-frame" src={readerUrl} title={`${problem.label}. ${problem.title} ${statement.language === 'zh' ? '中文' : ''}题面`} loading="lazy" referrerpolicy="no-referrer" /></details>
+          <iframe class="pdf-frame" src={readerUrl} title={`${problem.label}. ${problem.title} ${statement.language === 'zh' ? '中文' : ''}题面`} referrerpolicy="no-referrer" />
         </> : <div class="statement-prose"><p>完整题面可在原始网站阅读。</p>{statement && <a class="button" href={statement.url} target="_blank" rel="noopener noreferrer">打开原始题面 ↗</a>}</div>}
-        <div class="pdf-help">{statement?.page ? `本题从题册第 ${statement.page} 页开始。` : '题册中可按题号查找本题。'} 浏览器不支持预览时，可<a href={readerUrl ?? `https://qoj.ac/problem/${problem.qojId}`} target="_blank" rel="noopener noreferrer">在新窗口打开</a>。{statement && <><a href={sourceUrl} target="_blank" rel="noopener noreferrer">查看原始题册 ↗</a>，题面版权归原作者所有。</>}</div>
+        <div class="pdf-help">{singlePdf ? `当前仅显示本题内容，对应完整题册第 ${statement!.page}${statement!.endPage === statement!.page ? '' : `–${statement!.endPage}`} 页。` : statement?.page ? `本题从题册第 ${statement.page} 页开始。` : '题册中可按题号查找本题。'} 浏览器不支持预览时，可<a href={readerUrl ?? `https://qoj.ac/problem/${problem.qojId}`} target="_blank" rel="noopener noreferrer">在新窗口打开</a>。{statement && <><a href={sourceUrl} target="_blank" rel="noopener noreferrer">查看原始题册 ↗</a>，题面版权归原作者所有。</>}</div>
       </div>
       <nav class="problem-neighbors" aria-label="本场其他题目"><span>{previous && <a href={problemHref(previous.id)}>← 上一题 {previous.label}</a>}</span><a href={href(`contests/${contest.id}`)}>整场题单</a><span>{next && <a href={problemHref(next.id)}>下一题 {next.label} →</a>}</span></nav>
     </section>
