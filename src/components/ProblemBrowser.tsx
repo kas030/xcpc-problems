@@ -84,7 +84,6 @@ export default function ProblemBrowser({ catalog, base }: { catalog: Catalog; ba
           {!filtered.length && <div className="empty-state"><Search size={30}/><h3>暂时没有符合条件的题目</h3><p>试试减少一个筛选条件，或换个关键词。</p><button className="button" onClick={clear}>重置筛选</button></div>}
           <div className="pagination"><span>{filtered.length ? `${(currentPage-1)*PER_PAGE+1}–${Math.min(currentPage*PER_PAGE,filtered.length)}` : '0'} / {filtered.length} 道题</span><div><button className="icon-button" aria-label="上一页" disabled={currentPage===1} onClick={()=>setPage(currentPage-1)}><ChevronLeft size={17}/></button>{Array.from({length:pages},(_,i)=>i+1).filter(i=>i===1||i===pages||Math.abs(i-currentPage)<=1).map((i,index,arr)=><span key={i}>{index>0&&arr[index-1]!==i-1&&<span className="page-ellipsis">…</span>}<button className={`page-number ${currentPage===i?'current':''}`} aria-label={`第 ${i} 页`} aria-current={currentPage===i?'page':undefined} onClick={()=>setPage(i)}>{i}</button></span>)}<button className="icon-button" aria-label="下一页" disabled={currentPage===pages} onClick={()=>setPage(currentPage+1)}><ChevronRight size={17}/></button></div></div>
         </div>
-        <div className="results-footnote"><span><span className="status-dot"/>数据更新于 {catalog.updatedAt.slice(0,10)}</span></div>
       </section>
     </div>
     <div className={`toast ${toast?'visible':''}`} role="status"><Check size={16}/>{toast}</div>

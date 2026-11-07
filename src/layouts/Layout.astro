@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import 'katex/dist/katex.min.css';
+import { catalog } from '../lib/catalog';
 import { href } from '../lib/urls';
 interface Props { title?: string; description?: string; active?: 'problems' | 'contests' | 'methodology'; wide?: boolean }
 const { title = 'XCPC 题单 · 找到下一道值得做的题', description = '基于真实 XCPC 榜单的训练题单，按金银铜牌队伍通过率筛选，直达中文题面、QOJ 与比赛榜单。', active = 'problems', wide = false } = Astro.props;
@@ -40,6 +41,6 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
       </div>
     </header>
     <main id="main" class:list={['page-shell', { 'page-wide': wide }]}><slot /></main>
-    <footer class="site-footer"><div><span>榜单数据来自 <a href="https://board.xcpcio.com/" target="_blank" rel="noopener noreferrer">XCPCIO ↗</a></span><span class="footer-divider">/</span><a href={href('methodology')}>了解难度口径</a></div></footer>
+    <footer class="site-footer"><div><span>榜单数据来自 <a href="https://board.xcpcio.com/" target="_blank" rel="noopener noreferrer">XCPCIO ↗</a></span><span class="footer-divider">/</span><span>数据更新于 {catalog.updatedAt.slice(0,10)}</span></div></footer>
   </body>
 </html>
