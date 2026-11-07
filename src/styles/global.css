@@ -235,9 +235,7 @@ a.contest-tag:hover { background: #bfdbfe; color: #1e3a8a; }
 .reading-toolbar { display: flex; align-items: center; justify-content: space-between; padding: 12px 16px; border-bottom: 1px solid var(--line); gap: 10px; }
 .reading-toolbar h2 { font-size: 14px; font-weight: 650; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 .source-label { font-size: 10px; color: var(--primary-hover); background: var(--primary-soft); border-radius: 999px; padding: 4px 8px; font-weight: 500; }
-.pdf-frame { width: 100%; height: 800px; border: 0; display: block; background: var(--surface-soft); }
-.pdf-help { padding: 10px 16px; background: var(--surface-soft); color: var(--muted); font-size: 11px; border-top: 1px solid var(--line); line-height: 1.8; }
-.pdf-help a { text-decoration: underline; color: var(--primary-hover); }
+.pdf-frame { width: 100%; height: 960px; border: 0; display: block; background: var(--surface-soft); }
 .detail-sidebar { display: flex; flex-direction: column; gap: 12px; }
 .detail-card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px; }
 .detail-card h2 { font-size: 13px; font-weight: 650; margin-bottom: 12px; }
@@ -320,7 +318,7 @@ a.contest-tag:hover { background: #bfdbfe; color: #1e3a8a; }
   .detail-sidebar { display: grid; grid-template-columns: 1fr 1fr; }
   .detail-head h1 { font-size: 25px; }
   .detail-card:last-child { grid-column: 1/-1; }
-  .pdf-frame { height: 740px; }
+  .pdf-frame { height: 860px; }
 }
 
 @media (max-width: 720px) {
@@ -380,11 +378,10 @@ a.contest-tag:hover { background: #bfdbfe; color: #1e3a8a; }
   .detail-meta { font-size: 11px; gap: 8px; }
   .detail-sidebar { grid-template-columns: 1fr; }
   .detail-card:last-child { grid-column: auto; }
-  .pdf-frame { height: 650px; }
+  .pdf-frame { height: 760px; }
   .reading-toolbar { padding: 10px 12px; }
   .reading-toolbar h2 { font-size: 13px; }
   .reading-toolbar .button { padding: 6px 8px; font-size: 11px; }
-  .pdf-help { padding: 10px 12px; }
   .guide-paper { padding: 22px 18px; }
   .prose { font-size: 13px; }
   .prose h1 { font-size: 23px; }
