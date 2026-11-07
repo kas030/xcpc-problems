@@ -29,7 +29,7 @@ const problems = catalog.problems.filter(p => p.contestId === contest.id);
         <thead><tr><th scope="col">题目</th><th scope="col">难度</th><th scope="col" class="rate-column">通过队伍</th><th scope="col" class="links-column">提交</th></tr></thead>
         <tbody>{problems.map(p => <tr data-problem-id={p.id}>
           <td>
-            <a class="problem-title" href={problemHref(p.id)}><span class="problem-letter">{p.label}</span><span>{p.title}</span>{p.interactive && <span class="contest-problem-note">交互题</span>}<span class="contest-completion" hidden><span aria-hidden="true">✓</span> 已完成</span></a>
+            <a class="problem-title" href={problemHref(p.id)} target="_blank" rel="noopener noreferrer"><span class="problem-letter">{p.label}</span><span>{p.title}</span>{p.interactive && <span class="contest-problem-note">交互题</span>}<span class="contest-completion" hidden><span aria-hidden="true">✓</span> 已完成</span></a>
           </td>
           <td><span class={`difficulty-badge ${p.difficulty}`}><span class="badge-dot" />{difficultyLabels[p.difficulty]}</span></td>
           <td class="rate-column"><span class="solve-count"><strong>{p.solved}</strong></span></td>
