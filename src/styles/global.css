@@ -139,8 +139,8 @@ input[type=search]::-webkit-search-cancel-button { cursor: pointer; }
 .difficulty-badge.silver { color: var(--silver); background: #def1fa; }
 .difficulty-badge.gold { color: var(--gold); background: #fff0b8; }
 .difficulty-badge.challenge { color: var(--challenge); background: #eee2ff; }
-.contest-tag { display: inline-flex; align-items: center; border: 0; padding: 5px 10px; border-radius: 999px; font-size: 11px; font-weight: 500; color: #4c5b74; white-space: nowrap; background: #edf1f7; }
-a.contest-tag:hover { background: #e0e9ff; color: var(--primary-hover); }
+.contest-tag { display: inline-flex; align-items: center; border: 0; padding: 5px 10px; border-radius: 999px; font-size: 11px; font-weight: 600; color: #1e40af; white-space: nowrap; background: #dbeafe; }
+a.contest-tag:hover { background: #bfdbfe; color: #1e3a8a; }
 
 /* Problem list */
 .table-card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
@@ -318,7 +318,7 @@ a.contest-tag:hover { background: #e0e9ff; color: var(--primary-hover); }
 
 @media (max-width: 1040px) {
   .problem-table .contest-column { display: none; }
-  .compact-contest { display: inline; color: #4d6eab; }
+  .compact-contest { display: inline; color: #1e40af; font-weight: 600; }
 }
 
 @media (max-width: 900px) {
