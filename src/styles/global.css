@@ -169,7 +169,10 @@ a.contest-tag:hover { background: #bfdbfe; color: #1e3a8a; }
 .problem-title { display: flex; align-items: baseline; gap: 10px; font-size: 14px; font-weight: 600; min-width: 150px; max-width: 430px; line-height: 1.5; overflow-wrap: anywhere; transition: color .15s; }
 .problem-title:hover { color: var(--primary); }
 .problem-letter { color: var(--primary); font-size: 12px; min-width: 12px; flex-shrink: 0; font-weight: 700; }
-.problem-subline { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; color: var(--muted); font-size: 10px; margin-left: 22px; margin-top: 3px; line-height: 1.5; }
+.problem-heading { display: flex; align-items: center; flex-wrap: wrap; gap: 3px 10px; }
+.problem-heading .problem-title { align-items: center; min-width: 0; }
+.problem-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; color: var(--muted); font-size: 10px; line-height: 1.5; }
+.problem-meta > span { white-space: nowrap; }
 .statement-indicator { display: flex; align-items: center; gap: 3px; color: #526b92; }
 .compact-contest { display: none; }
 .solve-count { white-space: nowrap; font-size: 11px; font-variant-numeric: tabular-nums; }
@@ -370,7 +373,8 @@ a.contest-tag:hover { background: #bfdbfe; color: #1e3a8a; }
   .problem-table .status-column { padding-left: 5px; padding-right: 0; width: 32px; }
   .problem-title { min-width: 0; font-size: 13px; gap: 7px; }
   .problem-letter { font-size: 11px; min-width: 11px; }
-  .problem-subline { margin-left: 18px; font-size: 10px; gap: 3px 8px; }
+  .problem-heading { column-gap: 8px; }
+  .problem-meta { gap: 3px 8px; }
   .difficulty-badge { font-size: 10px; gap: 5px; padding: 5px 8px; }
   .badge-dot { width: 4px; height: 4px; }
   .links-column { display: none; }
