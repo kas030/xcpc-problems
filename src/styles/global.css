@@ -10,6 +10,9 @@
   --primary: #2563eb;
   --primary-hover: #1d4ed8;
   --primary-soft: #eaf0ff;
+  --success: #15803d;
+  --success-hover: #166534;
+  --success-soft: #eaf8ef;
   --bronze: #ad4b12;
   --silver: #176783;
   --gold: #8d6100;
@@ -161,9 +164,12 @@ a.contest-tag:hover { background: #e0e9ff; color: var(--primary-hover); }
 .problem-table .status-column { width: 40px; padding-left: 12px; padding-right: 0; }
 .solve-button { display: flex; align-items: center; justify-content: center; color: #abb6c9; padding: 5px; border-radius: 50%; }
 .solve-button:hover { background: var(--primary-soft); color: var(--primary); }
-.solve-button.solved { color: var(--primary); }
-.is-solved { background: #f8faff; }
-.is-solved .problem-title { color: #52678b; }
+.solve-button.solved { color: var(--success); }
+.solve-button.solved:hover { background: var(--success-soft); color: var(--success-hover); }
+.is-solved { background: #f5fbf7; }
+.problem-table tbody tr.is-solved:hover { background: var(--success-soft); }
+.is-solved .problem-title, .is-solved .problem-letter { color: var(--success); }
+.is-solved .problem-title:hover { color: var(--success-hover); }
 .problem-title { display: flex; align-items: baseline; gap: 10px; font-size: 14px; font-weight: 600; min-width: 150px; max-width: 430px; line-height: 1.5; overflow-wrap: anywhere; transition: color .15s; }
 .problem-title:hover { color: var(--primary); }
 .problem-letter { color: var(--primary); font-size: 12px; min-width: 12px; flex-shrink: 0; font-weight: 700; }
@@ -258,7 +264,8 @@ a.contest-tag:hover { background: #e0e9ff; color: var(--primary-hover); }
 .detail-dl dt { color: var(--muted); }
 .detail-dl dd { margin: 0; color: var(--ink); text-align: right; font-variant-numeric: tabular-nums; }
 .progress-button { width: 100%; margin-top: 14px; }
-.progress-button[aria-pressed=true] { background: var(--primary-soft); color: var(--primary-hover); border-color: transparent; }
+.progress-button[aria-pressed=true] { background: var(--success-soft); color: var(--success); border-color: transparent; }
+.progress-button[aria-pressed=true]:hover { color: var(--success-hover); }
 .detail-external { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #466395; padding: 9px 0; border-bottom: 1px solid var(--line); }
 .detail-external:last-child { border: 0; padding-bottom: 0; }
 .detail-external:hover { color: var(--primary); }
