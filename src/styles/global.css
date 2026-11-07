@@ -206,6 +206,11 @@ a.contest-tag:hover { background: #bfdbfe; color: #1e3a8a; }
 .breadcrumb { display: flex; align-items: center; gap: 9px; font-size: 12px; color: var(--muted); margin-bottom: 18px; flex-wrap: wrap; }
 .breadcrumb a:hover { color: var(--primary); }
 .contest-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 14px; }
+.pagination.contest-pagination { margin-top: 16px; padding: 12px 0; font-size: 12px; flex-wrap: wrap; gap: 10px; }
+.contest-pagination > div { flex-wrap: wrap; }
+.contest-pagination .page-number { display: inline-flex; align-items: center; justify-content: center; }
+.contest-pagination .icon-button[aria-disabled=true] { opacity: .35; }
+.contest-pagination .icon-button[aria-disabled=true]:hover { background: none; color: var(--muted); }
 .contest-card { display: block; min-width: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 24px; transition: border-color .18s, box-shadow .18s; }
 .contest-card:hover, .contest-card:focus-visible { border-color: #9bb7e8; box-shadow: 0 3px 10px #1720330d; }
 .contest-card-heading { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
