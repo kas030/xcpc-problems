@@ -1,0 +1,194 @@
+{
+  "id": "icpc-2024-shenyang",
+  "name": "2024 ICPC 亚洲区域赛沈阳站",
+  "shortName": "24-ICPC-沈阳",
+  "year": 2024,
+  "series": "ICPC",
+  "kind": "regional",
+  "sourcePath": "icpc/49th/shenyang",
+  "qojContestId": 1865,
+  "mappingSource": "https://qoj.ac/problems?order=asc&page=99&sort=id",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/49th/shenyang/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://codeforces.com/gym/105578/attachments/download/28638/2024-shenyang-statement-zh.pdf",
+    "format": "pdf",
+    "language": "zh",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Safety First",
+      "qojId": 9798,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105578/attachments/download/28638/2024-shenyang-statement-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 1
+      }
+    },
+    {
+      "label": "B",
+      "title": "Magical Palette",
+      "qojId": 9799,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105578/attachments/download/28638/2024-shenyang-statement-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 3
+      }
+    },
+    {
+      "label": "C",
+      "title": "Crisis Event: Meteorite",
+      "qojId": 9800,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105578/attachments/download/28638/2024-shenyang-statement-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 5
+      }
+    },
+    {
+      "label": "D",
+      "title": "Dot Product Game",
+      "qojId": 9801,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105578/attachments/download/28638/2024-shenyang-statement-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 7
+      }
+    },
+    {
+      "label": "E",
+      "title": "Light Up the Grid",
+      "qojId": 9802,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105578/attachments/download/28638/2024-shenyang-statement-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 9
+      }
+    },
+    {
+      "label": "F",
+      "title": "Light Up the Hypercube",
+      "qojId": 9803,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105578/attachments/download/28638/2024-shenyang-statement-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 11
+      }
+    },
+    {
+      "label": "G",
+      "title": "Guess the Polygon",
+      "qojId": 9804,
+      "interactive": true,
+      "statement": {
+        "url": "https://codeforces.com/gym/105578/attachments/download/28638/2024-shenyang-statement-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 13
+      }
+    },
+    {
+      "label": "H",
+      "title": "Guide Map",
+      "qojId": 9805,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105578/attachments/download/28638/2024-shenyang-statement-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 15
+      }
+    },
+    {
+      "label": "I",
+      "title": "Growing Tree",
+      "qojId": 9806,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105578/attachments/download/28638/2024-shenyang-statement-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 17
+      }
+    },
+    {
+      "label": "J",
+      "title": "Make Them Believe",
+      "qojId": 9807,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105578/attachments/download/28638/2024-shenyang-statement-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 19
+      }
+    },
+    {
+      "label": "K",
+      "title": "Fragile Pinball",
+      "qojId": 9808,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105578/attachments/download/28638/2024-shenyang-statement-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 21
+      }
+    },
+    {
+      "label": "L",
+      "title": "The Grand Contest",
+      "qojId": 9809,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105578/attachments/download/28638/2024-shenyang-statement-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 23
+      }
+    },
+    {
+      "label": "M",
+      "title": "Obliviate, Then Reincarnate",
+      "qojId": 9810,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105578/attachments/download/28638/2024-shenyang-statement-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 25
+      }
+    }
+  ]
+}

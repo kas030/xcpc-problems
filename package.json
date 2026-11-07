@@ -1,0 +1,46 @@
+{
+  "name": "xcpc-problems",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1",
+    "build": "npm run validate && astro build",
+    "preview": "astro preview --host 127.0.0.1",
+    "check": "astro check",
+    "test": "tsx --test tests/*.test.ts",
+    "sync": "tsx scripts/sync.ts",
+    "discover": "tsx scripts/sync.ts --discover-only",
+    "validate": "tsx scripts/validate.ts",
+    "import:qoj": "tsx scripts/import-qoj.ts",
+    "catalog": "tsx scripts/build-catalog.ts"
+  },
+  "dependencies": {
+    "@astrojs/markdown-remark": "7.3.6",
+    "@astrojs/react": "7.1.4",
+    "astro": "7.4.7",
+    "katex": "^0.19.1",
+    "lucide-react": "^0.468.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "rehype-katex": "^7.0.1",
+    "remark-math": "^6.0.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "cheerio": "^1.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "yaml": "^2.9.1"
+  },
+  "overrides": {
+    "katex": "$katex"
+  }
+}

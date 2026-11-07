@@ -1,0 +1,195 @@
+{
+  "id": "ccpc-2024-chongqing",
+  "name": "2024 CCPC 中国大学生程序设计竞赛重庆站",
+  "shortName": "24-CCPC-重庆",
+  "year": 2024,
+  "series": "CCPC",
+  "kind": "regional",
+  "sourcePath": "ccpc/10th/chongqing",
+  "qojContestId": 1840,
+  "mappingSource": "https://qoj.ac/problems?tag=CCPC+Chongqing+2024",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/ccpc/10th/chongqing/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "unverified",
+    "note": "榜单使用 CCPC 通用比例，实际奖牌边界尚待核对。"
+  },
+  "statement": {
+    "url": "https://codeforces.com/gym/106030/attachments/download/32796/day1.pdf",
+    "format": "pdf",
+    "language": "zh",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "乘积，欧拉函数，求和",
+      "qojId": 9619,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/106030/attachments/download/32796/day1.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 2
+      }
+    },
+    {
+      "label": "B",
+      "title": "osu!mania",
+      "qojId": 9620,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/106030/attachments/download/32796/day1.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 3
+      }
+    },
+    {
+      "label": "C",
+      "title": "连方",
+      "qojId": 9621,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/106030/attachments/download/32796/day1.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 6
+      }
+    },
+    {
+      "label": "D",
+      "title": "有限小数",
+      "qojId": 9622,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/106030/attachments/download/32796/day1.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 9
+      }
+    },
+    {
+      "label": "E",
+      "title": "合成大西瓜",
+      "qojId": 9623,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/106030/attachments/download/32796/day1.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 11
+      }
+    },
+    {
+      "label": "F",
+      "title": "Pico Park",
+      "qojId": 9624,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/106030/attachments/download/32796/day1.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 13
+      }
+    },
+    {
+      "label": "G",
+      "title": "魔弹",
+      "qojId": 9625,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/106030/attachments/download/32796/day1.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 15
+      }
+    },
+    {
+      "label": "H",
+      "title": "str(list(s))",
+      "qojId": 9626,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/106030/attachments/download/32796/day1.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 17
+      }
+    },
+    {
+      "label": "I",
+      "title": "算术",
+      "qojId": 9627,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/106030/attachments/download/32796/day1.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 19
+      }
+    },
+    {
+      "label": "J",
+      "title": "骰子",
+      "qojId": 9628,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/106030/attachments/download/32796/day1.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 21
+      }
+    },
+    {
+      "label": "K",
+      "title": "小 C 的神秘图形",
+      "qojId": 9629,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/106030/attachments/download/32796/day1.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 23
+      }
+    },
+    {
+      "label": "L",
+      "title": "沙堆",
+      "qojId": 9630,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/106030/attachments/download/32796/day1.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 25
+      }
+    },
+    {
+      "label": "M",
+      "title": "Median Replacement",
+      "qojId": 9631,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/106030/attachments/download/32796/day1.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 27
+      }
+    }
+  ]
+}

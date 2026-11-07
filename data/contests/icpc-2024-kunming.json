@@ -1,0 +1,194 @@
+{
+  "id": "icpc-2024-kunming",
+  "name": "2024 ICPC 亚洲区域赛昆明站",
+  "shortName": "24-ICPC-昆明",
+  "year": 2024,
+  "series": "ICPC",
+  "kind": "regional",
+  "sourcePath": "icpc/49th/kunming",
+  "qojContestId": 1871,
+  "mappingSource": "https://qoj.ac/problems?order=desc&sort=id&tag=Kunming+Regional+2024",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/49th/kunming/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://codeforces.com/gym/105588/attachments/download/28814/2-statement-chinese.pdf",
+    "format": "pdf",
+    "language": "zh",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Antivirus",
+      "qojId": 9862,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105588/attachments/download/28814/2-statement-chinese.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 3
+      }
+    },
+    {
+      "label": "B",
+      "title": "Brackets",
+      "qojId": 9863,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105588/attachments/download/28814/2-statement-chinese.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 6
+      }
+    },
+    {
+      "label": "C",
+      "title": "Coin",
+      "qojId": 9864,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105588/attachments/download/28814/2-statement-chinese.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 8
+      }
+    },
+    {
+      "label": "D",
+      "title": "Dolls",
+      "qojId": 9865,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105588/attachments/download/28814/2-statement-chinese.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 9
+      }
+    },
+    {
+      "label": "E",
+      "title": "Extracting Weights",
+      "qojId": 9866,
+      "interactive": true,
+      "statement": {
+        "url": "https://codeforces.com/gym/105588/attachments/download/28814/2-statement-chinese.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 11
+      }
+    },
+    {
+      "label": "F",
+      "title": "Flowers",
+      "qojId": 9867,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105588/attachments/download/28814/2-statement-chinese.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 13
+      }
+    },
+    {
+      "label": "G",
+      "title": "GCD",
+      "qojId": 9868,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105588/attachments/download/28814/2-statement-chinese.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 14
+      }
+    },
+    {
+      "label": "H",
+      "title": "Horizon Scanning",
+      "qojId": 9869,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105588/attachments/download/28814/2-statement-chinese.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 15
+      }
+    },
+    {
+      "label": "I",
+      "title": "Items",
+      "qojId": 9870,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105588/attachments/download/28814/2-statement-chinese.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 17
+      }
+    },
+    {
+      "label": "J",
+      "title": "Just another Sorting Problem",
+      "qojId": 9871,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105588/attachments/download/28814/2-statement-chinese.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 18
+      }
+    },
+    {
+      "label": "K",
+      "title": "Key Recovery",
+      "qojId": 9872,
+      "interactive": true,
+      "statement": {
+        "url": "https://codeforces.com/gym/105588/attachments/download/28814/2-statement-chinese.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 19
+      }
+    },
+    {
+      "label": "L",
+      "title": "Last Chance: Threads of Despair",
+      "qojId": 9873,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105588/attachments/download/28814/2-statement-chinese.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 21
+      }
+    },
+    {
+      "label": "M",
+      "title": "Matrix Construction",
+      "qojId": 9874,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105588/attachments/download/28814/2-statement-chinese.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 23
+      }
+    }
+  ]
+}

@@ -1,0 +1,1382 @@
+[
+  {
+    "sourcePath": "icpc/51st/wuhan",
+    "name": "zh-CN / [object Object]",
+    "startTime": 1793498400000,
+    "endTime": 1793516400000
+  },
+  {
+    "sourcePath": "icpc/51st/chengdu",
+    "name": "zh-CN / [object Object]",
+    "startTime": 1792890600000,
+    "endTime": 1792908600000
+  },
+  {
+    "sourcePath": "icpc/51st/xian",
+    "name": "zh-CN / [object Object]",
+    "startTime": 1792285200000,
+    "endTime": 1792303200000
+  },
+  {
+    "sourcePath": "ccpc/12th/online-qualification",
+    "name": "第 12 届 CCPC 中国大学生程序设计竞赛网络预选赛",
+    "startTime": 1789794000000,
+    "endTime": 1789812000000
+  },
+  {
+    "sourcePath": "icpc/51st/shenyang-invitational",
+    "name": "2026 年 ICPC 国际大学生程序设计竞赛全国邀请赛（沈阳） - 正式赛",
+    "startTime": 1785290400000,
+    "endTime": 1785308400000
+  },
+  {
+    "sourcePath": "ccpc/12th/guizhou-invitational",
+    "name": "2026 CCPC 中国大学生程序设计竞赛全国邀请赛（贵州）暨贵州省赛 - 正式赛",
+    "startTime": 1780804800000,
+    "endTime": 1780822800000
+  },
+  {
+    "sourcePath": "ccpc/12th/nanchang-invitational",
+    "name": "2026 CCPC 中国大学生程序设计竞赛全国邀请赛（南昌） - 正式赛",
+    "startTime": 1779586200000,
+    "endTime": 1779604200000
+  },
+  {
+    "sourcePath": "ccpc/12th/qinhuangdao-invitational",
+    "name": "2026 CCPC 全国邀请赛（秦皇岛）暨第十届河北省大学生程序设计竞赛 - 正式赛",
+    "startTime": 1779582600000,
+    "endTime": 1779600600000
+  },
+  {
+    "sourcePath": "icpc/51st/wuhan-invitational",
+    "name": "2026 年 ICPC 国际大学生程序设计竞赛全国邀请赛（武汉）暨湖北省赛 - 正式赛",
+    "startTime": 1778981400000,
+    "endTime": 1778999400000
+  },
+  {
+    "sourcePath": "icpc/51st/jiangxi-invitational",
+    "name": "2026 年 ICPC 国际大学生程序设计竞赛全国邀请赛（南昌）暨江西省赛 - 正式赛",
+    "startTime": 1778979600000,
+    "endTime": 1778997600000
+  },
+  {
+    "sourcePath": "icpc/51st/xian-invitational",
+    "name": "第 51 届 ICPC 国际大学生程序设计竞赛邀请赛西安站 - 正式赛",
+    "startTime": 1777687200000,
+    "endTime": 1777705200000
+  },
+  {
+    "sourcePath": "icpc/51st/shenzhen-invitational",
+    "name": "2026 年 ICPC 国际大学生程序设计竞赛全国邀请赛（深圳）",
+    "startTime": 1775876400000,
+    "endTime": 1775894400000
+  },
+  {
+    "sourcePath": "icpc/50th/ecfinal",
+    "name": "The \"Huawei Cup\" 50th ICPC Asia East Continent Final Contest",
+    "startTime": 1769994300000,
+    "endTime": 1770012300000
+  },
+  {
+    "sourcePath": "ccpc/11th/chongqing",
+    "name": "第 11 届 CCPC 中国大学生程序设计竞赛重庆站 - 正式赛",
+    "startTime": 1764464400000,
+    "endTime": 1764482400000
+  },
+  {
+    "sourcePath": "icpc/50th/hongkong",
+    "name": "The 50th ICPC Asia Hong Kong Regional Contest",
+    "startTime": 1764464400000,
+    "endTime": 1764482400000
+  },
+  {
+    "sourcePath": "ccpc/11th/zhengzhou",
+    "name": "第 11 届 CCPC 中国大学生程序设计竞赛郑州站 - 正式赛",
+    "startTime": 1763859600000,
+    "endTime": 1763877600000
+  },
+  {
+    "sourcePath": "icpc/50th/shanghai",
+    "name": "「华为杯」第 50 届 ICPC 国际大学生程序设计竞赛区域赛上海站",
+    "startTime": 1763859600000,
+    "endTime": 1763877600000
+  },
+  {
+    "sourcePath": "ccpc/11th/jinan",
+    "name": "第 11 届 CCPC 中国大学生程序设计竞赛济南站 - 正式赛",
+    "startTime": 1763254800000,
+    "endTime": 1763272800000
+  },
+  {
+    "sourcePath": "icpc/50th/shenyang",
+    "name": "「华为杯」第 50 届 ICPC 国际大学生程序设计竞赛区域赛沈阳站",
+    "startTime": 1763254800000,
+    "endTime": 1763272800000
+  },
+  {
+    "sourcePath": "icpc/50th/nanjing",
+    "name": "「华为杯」第 50 届 ICPC 国际大学生程序设计竞赛区域赛南京站",
+    "startTime": 1762651800000,
+    "endTime": 1762669800000
+  },
+  {
+    "sourcePath": "ccpc/11th/harbin",
+    "name": "第 11 届 CCPC 中国大学生程序设计竞赛哈尔滨站 - 正式赛",
+    "startTime": 1762650000000,
+    "endTime": 1762668000000
+  },
+  {
+    "sourcePath": "icpc/50th/wuhan",
+    "name": "「华为杯」第 50 届 ICPC 国际大学生程序设计竞赛区域赛武汉站",
+    "startTime": 1762047000000,
+    "endTime": 1762065000000
+  },
+  {
+    "sourcePath": "icpc/50th/chengdu",
+    "name": "「华为杯」第 50 届 ICPC 国际大学生程序设计竞赛区域赛成都站",
+    "startTime": 1761441000000,
+    "endTime": 1761459000000
+  },
+  {
+    "sourcePath": "icpc/50th/xian",
+    "name": "第 50 届 ICPC 国际大学生程序设计竞赛西安站",
+    "startTime": 1760835600000,
+    "endTime": 1760853600000
+  },
+  {
+    "sourcePath": "icpc/48th/world-finals",
+    "name": "The 48th ICPC World Finals",
+    "startTime": 1726725079000,
+    "endTime": 1726743079000
+  },
+  {
+    "sourcePath": "ccpc/11th/nanchang-invitational",
+    "name": "2025 CCPC 全国邀请赛（南昌）暨第二届江西省赛 - 正式赛",
+    "startTime": 1757727000,
+    "endTime": 1757745600
+  },
+  {
+    "sourcePath": "icpc/49th/world-finals",
+    "name": "The 49th ICPC World Finals",
+    "startTime": 1756968526,
+    "endTime": 1756986526
+  },
+  {
+    "sourcePath": "icpc/49th/world-finals-dress-rehearsal",
+    "name": "The 49th ICPC World Finals - Dress Rehearsal",
+    "startTime": 1756796576,
+    "endTime": 1756803776
+  },
+  {
+    "sourcePath": "ccpc/11th/zhengzhou-invitational",
+    "name": "2025 CCPC 全国邀请赛（郑州）暨第七届 CCPC 河南省赛 - 正式赛",
+    "startTime": 1748826000,
+    "endTime": 1748844000
+  },
+  {
+    "sourcePath": "ccpc/11th/northeastern",
+    "name": "2025 年 CCPC 全国邀请赛（东北）暨第十九届 CCPC 东北地区大学生程序设计竞赛 - 正式赛",
+    "startTime": 1748136300,
+    "endTime": 1748154300
+  },
+  {
+    "sourcePath": "icpc/50th/nanchang-invitational",
+    "name": "2025年icpc全国邀请赛（南昌）暨2025年（icpc）江西省大学生程序设计竞赛 - 正式赛",
+    "startTime": 1747533600,
+    "endTime": 1747551600
+  },
+  {
+    "sourcePath": "icpc/50th/wuhan-invitational",
+    "name": "第 50 届 ICPC 国际大学生程序设计竞赛邀请赛武汉站 - 正式赛",
+    "startTime": 1745719200,
+    "endTime": 1745737200
+  },
+  {
+    "sourcePath": "icpc/49th/ecfinal",
+    "name": "The 49th ICPC Asia East Continent Final Contest",
+    "startTime": 1735351200,
+    "endTime": 1735369200
+  },
+  {
+    "sourcePath": "icpc/49th/hongkong",
+    "name": "The 49th ICPC Asia Hong Kong Regional Contest",
+    "startTime": 1734829800,
+    "endTime": 1734847800
+  },
+  {
+    "sourcePath": "ccpc/10th/zhengzhou",
+    "name": "第 10 届 CCPC 中国大学生程序设计竞赛郑州站 - 正式赛",
+    "startTime": 1731805200,
+    "endTime": 1731823200
+  },
+  {
+    "sourcePath": "icpc/49th/shanghai",
+    "name": "第 49 届 ICPC 国际大学生程序设计竞赛区域赛上海站 - 正式赛",
+    "startTime": 1731805200,
+    "endTime": 1731823200
+  },
+  {
+    "sourcePath": "icpc/49th/hangzhou",
+    "name": "第 49 届 ICPC 国际大学生程序设计竞赛区域赛杭州站 - 正式赛",
+    "startTime": 1731200400,
+    "endTime": 1731218580
+  },
+  {
+    "sourcePath": "icpc/49th/chengdu",
+    "name": "第 49 届 ICPC 国际大学生程序设计竞赛区域赛成都站 - 正式赛",
+    "startTime": 1729991100,
+    "endTime": 1730009100
+  },
+  {
+    "sourcePath": "ccpc/10th/jinan",
+    "name": "第 10 届 CCPC 中国大学生程序设计竞赛济南站 - 正式赛",
+    "startTime": 1729990800,
+    "endTime": 1730008800
+  },
+  {
+    "sourcePath": "ccpc/10th/harbin",
+    "name": "第 10 届 CCPC 中国大学生程序设计竞赛哈尔滨站 - 正式赛",
+    "startTime": 1729387200,
+    "endTime": 1729405200
+  },
+  {
+    "sourcePath": "icpc/49th/online-qualification-2",
+    "name": "The 49th ICPC Asia Regionals Online Contest (II)",
+    "startTime": 1726894800,
+    "endTime": 1726912800
+  },
+  {
+    "sourcePath": "icpc/49th/online-qualification-1",
+    "name": "The 49th ICPC Asia Regionals Online Contest (I)",
+    "startTime": 1726376400,
+    "endTime": 1726395300
+  },
+  {
+    "sourcePath": "ccpc/10th/online-qualification",
+    "name": "第十届中国大学生程序设计竞赛网络预选赛",
+    "startTime": 1725768000,
+    "endTime": 1725789600
+  },
+  {
+    "sourcePath": "icpc/49th/kunming-invitational",
+    "name": "第 49 届 ICPC 国际大学生程序设计竞赛邀请赛昆明站 - 正式赛",
+    "startTime": 1716688800,
+    "endTime": 1716706800
+  },
+  {
+    "sourcePath": "icpc/49th/xian-invitational",
+    "name": "第 49 届 ICPC 国际大学生程序设计竞赛邀请赛西安站 - 正式赛",
+    "startTime": 1716084000,
+    "endTime": 1716102000
+  },
+  {
+    "sourcePath": "icpc/49th/wuhan-invitational",
+    "name": "第 49 届 ICPC 国际大学生程序设计竞赛邀请赛武汉站 - 正式赛",
+    "startTime": 1714614000,
+    "endTime": 1714632000
+  },
+  {
+    "sourcePath": "icpc/46th/world-finals",
+    "name": "The 46th ICPC World Finals",
+    "startTime": 1713433680,
+    "endTime": 1713451680
+  },
+  {
+    "sourcePath": "icpc/47th/world-finals",
+    "name": "The 47th ICPC World Finals",
+    "startTime": 1713433680,
+    "endTime": 1713451680
+  },
+  {
+    "sourcePath": "ccpc/9th/final",
+    "name": "第 9 届 CCPC 中国大学生程序设计竞赛总决赛",
+    "startTime": 1711846800,
+    "endTime": 1711864800
+  },
+  {
+    "sourcePath": "icpc/48th/ecfinal",
+    "name": "The 48th ICPC Asia East Continent Final Contest",
+    "startTime": 1705114800,
+    "endTime": 1705132800
+  },
+  {
+    "sourcePath": "icpc/48th/hangzhou",
+    "name": "第 48 届 ICPC 国际大学生程序设计竞赛区域赛杭州站 - 正式赛",
+    "startTime": 1702170000,
+    "endTime": 1702188000
+  },
+  {
+    "sourcePath": "icpc/48th/jinan",
+    "name": "第 48 届 ICPC 国际大学生程序设计竞赛区域赛济南站 - 正式赛",
+    "startTime": 1701567000,
+    "endTime": 1701585000
+  },
+  {
+    "sourcePath": "icpc/48th/hefei",
+    "name": "第 48 届 ICPC 国际大学生程序设计竞赛区域赛合肥站 - 正式赛",
+    "startTime": 1700962200,
+    "endTime": 1700980200
+  },
+  {
+    "sourcePath": "icpc/48th/macau",
+    "name": "2023 - 2024 International Collegiate Programming Contest, Macau Site",
+    "startTime": 1700363100,
+    "endTime": 1700381700
+  },
+  {
+    "sourcePath": "ccpc/9th/shenzhen",
+    "name": "第 9 届 CCPC 中国大学生程序设计竞赛深圳站 - 正式赛",
+    "startTime": 1699750800,
+    "endTime": 1699768800
+  },
+  {
+    "sourcePath": "icpc/48th/shenyang",
+    "name": "第 48 届 ICPC 国际大学生程序设计竞赛区域赛沈阳站 - 正式赛",
+    "startTime": 1699750800,
+    "endTime": 1699768800
+  },
+  {
+    "sourcePath": "icpc/48th/nanjing",
+    "name": "第 48 届 ICPC 国际大学生程序设计竞赛区域赛南京站 - 正式赛",
+    "startTime": 1699147800,
+    "endTime": 1699165800
+  },
+  {
+    "sourcePath": "ccpc/9th/harbin",
+    "name": "第 9 届 CCPC 中国大学生程序设计竞赛哈尔滨站 - 正式赛",
+    "startTime": 1699146000,
+    "endTime": 1699164000
+  },
+  {
+    "sourcePath": "ccpc/9th/guilin",
+    "name": "第 9 届 CCPC 中国大学生程序设计竞赛桂林站 - 正式赛",
+    "startTime": 1698541200,
+    "endTime": 1698559200
+  },
+  {
+    "sourcePath": "icpc/48th/xian",
+    "name": "第 48 届 ICPC 国际大学生程序设计竞赛区域赛西安站 - 正式赛",
+    "startTime": 1697936400,
+    "endTime": 1697954400
+  },
+  {
+    "sourcePath": "ccpc/9th/girl",
+    "name": "第 9 届 CCPC 中国大学生程序设计竞赛女生专场 - 正式赛",
+    "startTime": 1697850000,
+    "endTime": 1697868000
+  },
+  {
+    "sourcePath": "ccpc/9th/vocational",
+    "name": "第 9 届 CCPC 中国大学生程序设计竞赛高职专场 - 正式赛",
+    "startTime": 1697850000,
+    "endTime": 1697868000
+  },
+  {
+    "sourcePath": "ccpc/9th/qinhuangdao",
+    "name": "第 9 届 CCPC 中国大学生程序设计竞赛秦皇岛站 - 正式赛",
+    "startTime": 1697331600,
+    "endTime": 1697349600
+  },
+  {
+    "sourcePath": "icpc/48th/online-qualification-2",
+    "name": "The 2023 ICPC Asia Regionals Online Contest (II)",
+    "startTime": 1695441600,
+    "endTime": 1695459600
+  },
+  {
+    "sourcePath": "icpc/48th/online-qualification-1",
+    "name": "The 2023 ICPC Asia Regionals Online Contest (I)",
+    "startTime": 1694923200,
+    "endTime": 1694941200
+  },
+  {
+    "sourcePath": "ccpc/9th/online-qualification",
+    "name": "第九届中国大学生程序设计竞赛网络预选赛",
+    "startTime": 1692504000,
+    "endTime": 1692522000
+  },
+  {
+    "sourcePath": "ccpc/9th/jiangsu-and-xiangtan",
+    "name": "2023 年 CCPC 江苏省赛 & 全国邀请赛（湖南）- 正式赛",
+    "startTime": 1685237400,
+    "endTime": 1685255400
+  },
+  {
+    "sourcePath": "ccpc/9th/xiangtan-invitational",
+    "name": "2023 年中国大学生程序设计竞赛全国邀请赛（湖南）- 正式赛",
+    "startTime": 1685237400,
+    "endTime": 1685255400
+  },
+  {
+    "sourcePath": "icpc/48th/xian-invitational",
+    "name": "第 48 届 ICPC 国际大学生程序设计竞赛西安邀请赛（正式赛）",
+    "startTime": 1684029600,
+    "endTime": 1684047600
+  },
+  {
+    "sourcePath": "ccpc/8th/final",
+    "name": "第八届中国大学生程序设计竞赛总决赛（正式赛）",
+    "startTime": 1684026600,
+    "endTime": 1684044600
+  },
+  {
+    "sourcePath": "icpc/47th/ec-final",
+    "name": "The 47th ICPC Asia East Continent Final Contest",
+    "startTime": 1679709600,
+    "endTime": 1679727600
+  },
+  {
+    "sourcePath": "icpc/47th/hongkong",
+    "name": "The 47th ICPC Asia Hong Kong Regional Contest",
+    "startTime": 1673670600,
+    "endTime": 1673688600
+  },
+  {
+    "sourcePath": "icpc/47th/nanjing",
+    "name": "第 47 届国际大学生程序设计竞赛亚洲区域赛南京站（正式赛）",
+    "startTime": 1671332400,
+    "endTime": 1671350400
+  },
+  {
+    "sourcePath": "icpc/47th/hangzhou",
+    "name": "第 47 届国际大学生程序设计竞赛亚洲区域赛杭州站（正式赛）",
+    "startTime": 1670126400,
+    "endTime": 1670144400
+  },
+  {
+    "sourcePath": "icpc/47th/jinan",
+    "name": "第 47 届国际大学生程序设计竞赛亚洲区域赛济南站（正式赛）",
+    "startTime": 1669521600,
+    "endTime": 1669539600
+  },
+  {
+    "sourcePath": "ccpc/8th/girls",
+    "name": "2022 中国大学生程序设计竞赛（女生专场） - 正式赛",
+    "startTime": 1669510800,
+    "endTime": 1669528800
+  },
+  {
+    "sourcePath": "icpc/47th/hefei",
+    "name": "第 47 届国际大学生程序设计竞赛亚洲区域赛合肥站（正式赛）",
+    "startTime": 1668916800,
+    "endTime": 1668934800
+  },
+  {
+    "sourcePath": "ccpc/8th/mianyang",
+    "name": "2022 中国大学生程序设计竞赛（绵阳） - 正式赛",
+    "startTime": 1668906000,
+    "endTime": 1668924000
+  },
+  {
+    "sourcePath": "icpc/47th/xian",
+    "name": "第 47 届国际大学生程序设计竞赛亚洲区域赛西安站（正式赛）",
+    "startTime": 1668312000,
+    "endTime": 1668330000
+  },
+  {
+    "sourcePath": "ccpc/8th/guangzhou",
+    "name": "2022 中国大学生程序设计竞赛（广州） - 正式赛",
+    "startTime": 1668301200,
+    "endTime": 1668319200
+  },
+  {
+    "sourcePath": "icpc/47th/shenyang",
+    "name": "第 47 届国际大学生程序设计竞赛亚洲区域赛沈阳站（正式赛）",
+    "startTime": 1667707200,
+    "endTime": 1667725200
+  },
+  {
+    "sourcePath": "ccpc/8th/weihai",
+    "name": "2022 中国大学生程序设计竞赛（威海） - 正式赛",
+    "startTime": 1667696400,
+    "endTime": 1667714400
+  },
+  {
+    "sourcePath": "ccpc/8th/guilin",
+    "name": "2022 年中国大学生程序设计竞赛 (CCPC) 桂林",
+    "startTime": 1667091600,
+    "endTime": 1667109600
+  },
+  {
+    "sourcePath": "ccpc/8th/gaozhi",
+    "name": "2022 年中国大学生程序设计竞赛 (CCPC) 高职专场",
+    "startTime": 1666486800,
+    "endTime": 1666504800
+  },
+  {
+    "sourcePath": "icpc/47th/online-qualification-2",
+    "name": "The 2022 ICPC Asia Regionals Online Contest (II)",
+    "startTime": 1664078400,
+    "endTime": 1664096400
+  },
+  {
+    "sourcePath": "icpc/47th/online-qualification-1",
+    "name": "The 2022 ICPC Asia Regionals Online Contest (I)",
+    "startTime": 1663387200,
+    "endTime": 1663405200
+  },
+  {
+    "sourcePath": "ccpc/8th/online-qualification",
+    "name": "2022 年中国大学生程序设计竞赛网络预选赛",
+    "startTime": 1662868800,
+    "endTime": 1662886800
+  },
+  {
+    "sourcePath": "ccpc/7th/final",
+    "name": "第七届中国大学生程序设计竞赛总决赛",
+    "startTime": 1658883600,
+    "endTime": 1658901600
+  },
+  {
+    "sourcePath": "icpc/46th/ec-final",
+    "name": "The 46th ICPC Asia East Continent Final Contest",
+    "startTime": 1658278800,
+    "endTime": 1658296800
+  },
+  {
+    "sourcePath": "icpc/46th/kunming",
+    "name": "第 46 届 ICPC 亚洲区域赛（昆明）正式赛",
+    "startTime": 1650164400,
+    "endTime": 1650182400
+  },
+  {
+    "sourcePath": "icpc/46th/macau",
+    "name": "第 46 屆 ICPC 東亞洲區域賽（澳門）正式賽",
+    "startTime": 1648954800,
+    "endTime": 1648972800
+  },
+  {
+    "sourcePath": "icpc/46th/nanjing",
+    "name": "第 46 届 ICPC 国际大学生程序设计竞赛亚洲区域赛（南京）正式赛",
+    "startTime": 1638586800,
+    "endTime": 1638604800
+  },
+  {
+    "sourcePath": "icpc/46th/shanghai",
+    "name": "第 46 届 ICPC 国际大学生程序设计竞赛亚洲区域赛（上海）正式赛",
+    "startTime": 1638068400,
+    "endTime": 1638086400
+  },
+  {
+    "sourcePath": "ccpc/7th/harbin",
+    "name": "第 7 届中国大学生程序设计竞赛（CCPC）哈尔滨站 - 正式赛",
+    "startTime": 1638061200,
+    "endTime": 1638079200
+  },
+  {
+    "sourcePath": "icpc/46th/shenyang",
+    "name": "第 46 届 ICPC 国际大学生程序设计竞赛亚洲区域赛（沈阳）正式赛",
+    "startTime": 1637463600,
+    "endTime": 1637481600
+  },
+  {
+    "sourcePath": "ccpc/7th/weihai",
+    "name": "第 7 届中国大学生程序设计竞赛（CCPC）威海站 - 正式赛",
+    "startTime": 1637456400,
+    "endTime": 1637474400
+  },
+  {
+    "sourcePath": "icpc/46th/jinan",
+    "name": "The 46th ICPC Asia Jinan Regional Contest - Contest Session",
+    "startTime": 1636858800,
+    "endTime": 1636876800
+  },
+  {
+    "sourcePath": "ccpc/7th/guangzhou",
+    "name": "第 7 届中国大学生程序设计竞赛（CCPC）广州站 - 正式赛",
+    "startTime": 1636851600,
+    "endTime": 1636869600
+  },
+  {
+    "sourcePath": "ccpc/7th/guilin",
+    "name": "2021 年中国大学生程序设计竞赛桂林站 正式赛",
+    "startTime": 1636246800,
+    "endTime": 1636264800
+  },
+  {
+    "sourcePath": "ccpc/7th/girl",
+    "name": "2021 年中国大学生程序设计竞赛女生专场 正式赛",
+    "startTime": 1635642000,
+    "endTime": 1635660000
+  },
+  {
+    "sourcePath": "icpc/2020/world-finals",
+    "name": "The 44th ICPC World Finals",
+    "startTime": 1633414860,
+    "endTime": 1633432860
+  },
+  {
+    "sourcePath": "icpc/2020/world-finals-Invitational",
+    "name": "The 44th ICPC World Finals Moscow Invitational Contest",
+    "startTime": 1633006800,
+    "endTime": 1633024800
+  },
+  {
+    "sourcePath": "icpc/2020/shenyang",
+    "name": "The 45th ICPC Asia Shenyang Regional Programming Contest",
+    "startTime": 1626570000,
+    "endTime": 1626588000
+  },
+  {
+    "sourcePath": "ccpc/2020/final",
+    "name": "第六届中国大学生程序设计竞赛总决赛（正式赛）",
+    "startTime": 1622336400,
+    "endTime": 1622354400
+  },
+  {
+    "sourcePath": "icpc/2020/yinchuan",
+    "name": "The 45th ICPC Asia Yinchuan Regional Programming Contest",
+    "startTime": 1621126800,
+    "endTime": 1621144800
+  },
+  {
+    "sourcePath": "icpc/2020/ec-final",
+    "name": "The 45th ICPC Asia East Continent Final Contest",
+    "startTime": 1618707600,
+    "endTime": 1618725600
+  },
+  {
+    "sourcePath": "icpc/2020/kunming",
+    "name": "第 45 届国际大学生程序设计竞赛（ICPC）亚洲区域赛（昆明）正式赛",
+    "startTime": 1617418800,
+    "endTime": 1617436800
+  },
+  {
+    "sourcePath": "icpc/2020/jinan",
+    "name": "第 45 届国际大学生程序设计竞赛（ICPC）亚洲区域赛（济南）正式赛",
+    "startTime": 1609038000,
+    "endTime": 1609056000
+  },
+  {
+    "sourcePath": "icpc/2020/nanjing",
+    "name": "第 45 届国际大学生程序设计竞赛（ICPC）亚洲区域赛（南京）正式赛",
+    "startTime": 1608433200,
+    "endTime": 1608451200
+  },
+  {
+    "sourcePath": "icpc/2020/shanghai",
+    "name": "第 45 届国际大学生程序设计竞赛（ICPC）亚洲区域赛（上海）正式赛",
+    "startTime": 1607828400,
+    "endTime": 1607846400
+  },
+  {
+    "sourcePath": "icpc/2020/xiaomi",
+    "name": "2020 ICPC·小米邀请赛 决赛",
+    "startTime": 1606006800,
+    "endTime": 1606024800
+  },
+  {
+    "sourcePath": "ccpc/2020/changchun",
+    "name": "CCPC2020-第六届中国大学生程序设计竞赛（长春） 正式赛",
+    "startTime": 1604797200,
+    "endTime": 1604815200
+  },
+  {
+    "sourcePath": "ccpc/2020/mianyang",
+    "name": "CCPC2020-第六届中国大学生程序设计竞赛（绵阳） 正式赛",
+    "startTime": 1604192400,
+    "endTime": 1604210400
+  },
+  {
+    "sourcePath": "icpc/2020/xiaomi-preliminary-contest-2",
+    "name": "ICPC2020-ICPC·小米 网络选拔赛第二场",
+    "startTime": 1604116800,
+    "endTime": 1604134800
+  },
+  {
+    "sourcePath": "icpc/2020/xiaomi-preliminary-contest-1",
+    "name": "ICPC2020-ICPC·小米 网络选拔赛第一场",
+    "startTime": 1603598400,
+    "endTime": 1603616400
+  },
+  {
+    "sourcePath": "ccpc/2020/weihai",
+    "name": "CCPC2020-第六届中国大学生程序设计竞赛（威海） 正式赛",
+    "startTime": 1603587600,
+    "endTime": 1603605600
+  },
+  {
+    "sourcePath": "ccpc/2020/qinhuangdao",
+    "name": "CCPC2020-第六届中国大学生程序设计竞赛（秦皇岛）正式赛",
+    "startTime": 1602982800,
+    "endTime": 1603000800
+  },
+  {
+    "sourcePath": "ccpc/2020/wfinal",
+    "name": "CCPC2020-第六届中国大学生程序设计竞赛（女生专场） 正式赛",
+    "startTime": 1602982800,
+    "endTime": 1603000800
+  },
+  {
+    "sourcePath": "icpc/2019/nanchang",
+    "name": "The 44th ICPC International Collegiate Programming Contest Asian Regional Contest (Nanchang)",
+    "startTime": 1573434000,
+    "endTime": 1573452000
+  },
+  {
+    "sourcePath": "icpc/2019/yinchuan",
+    "name": "The 44th ICPC Asia Yinchuan Regional Programming Contest",
+    "startTime": 1571533200,
+    "endTime": 1571551200
+  },
+  {
+    "sourcePath": "icpc/2019/world-finals",
+    "name": "The 43rd ICPC World Finals",
+    "startTime": 1554339600,
+    "endTime": 1554357600
+  },
+  {
+    "sourcePath": "icpc/2018/qingdao",
+    "name": "第 43 届 ICPC 国际大学生程序设计竞赛区域赛青岛站 - 正式赛",
+    "startTime": 1540083600,
+    "endTime": 1540101600
+  },
+  {
+    "sourcePath": "icpc/2018/world-finals",
+    "name": "The 42nd ICPC World Finals",
+    "startTime": 1524099600,
+    "endTime": 1524117600
+  },
+  {
+    "sourcePath": "ccpc/2017/hrbust_onsite",
+    "name": "CCPC 2017 哈尔滨赛区现场赛",
+    "startTime": 1508634000,
+    "endTime": 1508652000
+  },
+  {
+    "sourcePath": "icpc/2017/neu_onsite",
+    "name": "ICPC 2017 沈阳赛区现场赛",
+    "startTime": 1508634000,
+    "endTime": 1508652000
+  },
+  {
+    "sourcePath": "ccpc/2017/final_onsite",
+    "name": "CCPC final onsite",
+    "startTime": 1504227600,
+    "endTime": 1504245600
+  },
+  {
+    "sourcePath": "ccpc/2017/hdu_onsite",
+    "name": "CCPC hdu onsite",
+    "startTime": 1504227600,
+    "endTime": 1504245600
+  },
+  {
+    "sourcePath": "ccpc/2017/neu_onsite",
+    "name": "CCPC neu onsite",
+    "startTime": 1504227600,
+    "endTime": 1504245600
+  },
+  {
+    "sourcePath": "ccpc/2017/nwpu_onsite",
+    "name": "CCPC nwpu onsite",
+    "startTime": 1504227600,
+    "endTime": 1504245600
+  },
+  {
+    "sourcePath": "ccpc/2017/zstu_onsite",
+    "name": "CCPC zstu onsite",
+    "startTime": 1504227600,
+    "endTime": 1504245600
+  },
+  {
+    "sourcePath": "icpc/2017/gxu_onsite",
+    "name": "ICPC gxu onsite",
+    "startTime": 1504227600,
+    "endTime": 1504245600
+  },
+  {
+    "sourcePath": "icpc/2017/hrbust_onsite",
+    "name": "ICPC hrbust onsite",
+    "startTime": 1504227600,
+    "endTime": 1504245600
+  },
+  {
+    "sourcePath": "icpc/2017/nwpu_onsite",
+    "name": "ICPC nwpu onsite",
+    "startTime": 1504227600,
+    "endTime": 1504245600
+  },
+  {
+    "sourcePath": "icpc/2017/pku_onsite",
+    "name": "ICPC pku onsite",
+    "startTime": 1504227600,
+    "endTime": 1504245600
+  },
+  {
+    "sourcePath": "icpc/2017/qingdao",
+    "name": "第 42 届 ICPC 国际大学生程序设计竞赛区域赛青岛站 - 正式赛",
+    "startTime": 1504227600,
+    "endTime": 1504245600
+  },
+  {
+    "sourcePath": "icpc/2017/xju_onsite",
+    "name": "ICPC xju onsite",
+    "startTime": 1504227600,
+    "endTime": 1504245600
+  },
+  {
+    "sourcePath": "icpc/2016/cuhk_onsite",
+    "name": "ICPC 2016 香港赛区现场赛",
+    "startTime": 1478394000,
+    "endTime": 1478412000
+  },
+  {
+    "sourcePath": "icpc/2016/neu_onsite",
+    "name": "ICPC 2016 沈阳赛区现场赛",
+    "startTime": 1477184400,
+    "endTime": 1477202400
+  },
+  {
+    "sourcePath": "ccpc/2016/ahu_onsite",
+    "name": "CCPC 2016 合肥赛区现场赛",
+    "startTime": 1476579600,
+    "endTime": 1476597600
+  },
+  {
+    "sourcePath": "ccpc/2016/hdu_onsite",
+    "name": "CCPC 2016 杭州赛区现场赛",
+    "startTime": 1476579600,
+    "endTime": 1476597600
+  },
+  {
+    "sourcePath": "icpc/2016/dlmu_onsite",
+    "name": "ICPC 2016 大连赛区现场赛",
+    "startTime": 1476579600,
+    "endTime": 1476597600
+  },
+  {
+    "sourcePath": "ccpc/2016/jlu_onsite",
+    "name": "CCPC 2016 长春赛区现场赛",
+    "startTime": 1474938000,
+    "endTime": 1474956000
+  },
+  {
+    "sourcePath": "icpc/2016/neu_online",
+    "name": "ICPC 2016 沈阳赛区网络赛",
+    "startTime": 1474160400,
+    "endTime": 1474178400
+  },
+  {
+    "sourcePath": "icpc/2016/upc_online",
+    "name": "ICPC 2016 青岛网络赛",
+    "startTime": 1474074000,
+    "endTime": 1474092000
+  },
+  {
+    "sourcePath": "icpc/2016/dlmu_online",
+    "name": "ICPC 2016 大连赛区网络赛",
+    "startTime": 1473469200,
+    "endTime": 1473487200
+  },
+  {
+    "sourcePath": "ccpc/2016/cuhk_online",
+    "name": "CCPC cuhk online",
+    "startTime": 1472691600,
+    "endTime": 1472709600
+  },
+  {
+    "sourcePath": "ccpc/2016/cuhk_onsite",
+    "name": "CCPC cuhk onsite",
+    "startTime": 1472691600,
+    "endTime": 1472709600
+  },
+  {
+    "sourcePath": "ccpc/2016/dlmu_onsite",
+    "name": "CCPC dlmu onsite",
+    "startTime": 1472691600,
+    "endTime": 1472709600
+  },
+  {
+    "sourcePath": "ccpc/2016/neu_onsite",
+    "name": "CCPC neu onsite",
+    "startTime": 1472691600,
+    "endTime": 1472709600
+  },
+  {
+    "sourcePath": "icpc/2016/cuhk_online",
+    "name": "ICPC cuhk online",
+    "startTime": 1472691600,
+    "endTime": 1472709600
+  },
+  {
+    "sourcePath": "icpc/2016/dlmu_onsite2",
+    "name": "ICPC dlmu onsite2",
+    "startTime": 1472691600,
+    "endTime": 1472709600
+  },
+  {
+    "sourcePath": "icpc/2016/hrbust_onsite",
+    "name": "ICPC hrbust onsite",
+    "startTime": 1472691600,
+    "endTime": 1472709600
+  },
+  {
+    "sourcePath": "icpc/2016/nwpu_onsite",
+    "name": "ICPC nwpu onsite",
+    "startTime": 1472691600,
+    "endTime": 1472709600
+  },
+  {
+    "sourcePath": "icpc/2016/pku_onsite",
+    "name": "ICPC pku onsite",
+    "startTime": 1472691600,
+    "endTime": 1472709600
+  },
+  {
+    "sourcePath": "icpc/2016/shu_onsite",
+    "name": "ICPC shu onsite",
+    "startTime": 1472691600,
+    "endTime": 1472709600
+  },
+  {
+    "sourcePath": "icpc/2015/ecfinal",
+    "name": "The 40th ICPC Asia East Continent Final Contest",
+    "startTime": 1449968400,
+    "endTime": 1449986400
+  },
+  {
+    "sourcePath": "icpc/2015/ecust_onsite",
+    "name": "ICPC 2015 上海赛区现场赛",
+    "startTime": 1448154000,
+    "endTime": 1448172000
+  },
+  {
+    "sourcePath": "icpc/2015/pku_onsite",
+    "name": "ICPC 2015 北京赛区现场赛",
+    "startTime": 1447549200,
+    "endTime": 1447567200
+  },
+  {
+    "sourcePath": "icpc/2015/ustc_onsite",
+    "name": "ICPC 2015 合肥赛区现场赛",
+    "startTime": 1446944400,
+    "endTime": 1446962400
+  },
+  {
+    "sourcePath": "icpc/2015/neu_onsite",
+    "name": "ICPC 2015 沈阳赛区现场赛",
+    "startTime": 1445734800,
+    "endTime": 1445752800
+  },
+  {
+    "sourcePath": "ccpc/2015/nyist_onsite",
+    "name": "2015 中国大学生程序设计竞赛（南阳）",
+    "startTime": 1445130000,
+    "endTime": 1445148000
+  },
+  {
+    "sourcePath": "icpc/2015/nenu_onsite",
+    "name": "ICPC 2015 长春赛区现场赛",
+    "startTime": 1445130000,
+    "endTime": 1445148000
+  },
+  {
+    "sourcePath": "icpc/2015/ustc_online",
+    "name": "ICPC 2015 合肥赛区网络赛",
+    "startTime": 1443315600,
+    "endTime": 1443333600
+  },
+  {
+    "sourcePath": "icpc/2015/ecust_online",
+    "name": "ICPC 2015 上海赛区网络赛",
+    "startTime": 1443229200,
+    "endTime": 1443247200
+  },
+  {
+    "sourcePath": "icpc/2015/pku_online",
+    "name": "ICPC 2015 北京赛区网络赛",
+    "startTime": 1442710800,
+    "endTime": 1442728800
+  },
+  {
+    "sourcePath": "icpc/2015/neu_online",
+    "name": "ICPC 2015 沈阳赛区网络赛",
+    "startTime": 1442624400,
+    "endTime": 1442642400
+  },
+  {
+    "sourcePath": "icpc/2015/nenu_online",
+    "name": "ICPC 2015 长春赛区网络赛",
+    "startTime": 1442106000,
+    "endTime": 1442124000
+  },
+  {
+    "sourcePath": "icpc/2014/shu_onsite",
+    "name": "ICPC 2014 上海赛区现场赛",
+    "startTime": 1417914000,
+    "endTime": 1417932000
+  },
+  {
+    "sourcePath": "icpc/2014/scut_onsite",
+    "name": "ICPC 2014 广州赛区现场赛",
+    "startTime": 1416704400,
+    "endTime": 1416722400
+  },
+  {
+    "sourcePath": "icpc/2014/bnu_onsite",
+    "name": "ICPC 2014 北京赛区现场赛",
+    "startTime": 1416099600,
+    "endTime": 1416117600
+  },
+  {
+    "sourcePath": "icpc/2014/nwpu_onsite",
+    "name": "ICPC 2014 西安赛区现场赛",
+    "startTime": 1414285200,
+    "endTime": 1414303200
+  },
+  {
+    "sourcePath": "icpc/2014/ustl_onsite",
+    "name": "ICPC 2014 鞍山赛区现场赛",
+    "startTime": 1413680400,
+    "endTime": 1413698400
+  },
+  {
+    "sourcePath": "icpc/2014/mdjnu_onsite",
+    "name": "ICPC 2014 牡丹江赛区现场赛",
+    "startTime": 1413075600,
+    "endTime": 1413093600
+  },
+  {
+    "sourcePath": "icpc/2014/shu_online",
+    "name": "ICPC 2014 上海赛区网络赛",
+    "startTime": 1411779600,
+    "endTime": 1411797600
+  },
+  {
+    "sourcePath": "icpc/2014/bnu_online",
+    "name": "ICPC 2014 北京赛区网络赛",
+    "startTime": 1411261200,
+    "endTime": 1411279200
+  },
+  {
+    "sourcePath": "icpc/2014/scut_online",
+    "name": "ICPC 2014 广州赛区网络赛",
+    "startTime": 1411174800,
+    "endTime": 1411192800
+  },
+  {
+    "sourcePath": "icpc/2014/nwpu_online",
+    "name": "ICPC 2014 西安赛区网络赛",
+    "startTime": 1410656400,
+    "endTime": 1410674400
+  },
+  {
+    "sourcePath": "icpc/2014/ustl_online",
+    "name": "ICPC 2014 鞍山赛区网络赛",
+    "startTime": 1410570000,
+    "endTime": 1410588000
+  },
+  {
+    "sourcePath": "icpc/2014/mdjnu_online",
+    "name": "ICPC 2014 牡丹江赛区网络赛",
+    "startTime": 1410051600,
+    "endTime": 1410069600
+  },
+  {
+    "sourcePath": "icpc/2014/wpu_onsite",
+    "name": "ICPC wpu onsite",
+    "startTime": 1409533200,
+    "endTime": 1409551200
+  },
+  {
+    "sourcePath": "icpc/2013/jlu_onsite",
+    "name": "ICPC 2013 长春赛区现场赛",
+    "startTime": 1386464400,
+    "endTime": 1386482400
+  },
+  {
+    "sourcePath": "icpc/2013/hnu_onsite",
+    "name": "ICPC 2013 长沙赛区现场赛",
+    "startTime": 1384650000,
+    "endTime": 1384668000
+  },
+  {
+    "sourcePath": "icpc/2013/njust_onsite",
+    "name": "ICPC 2013 南京赛区现场赛",
+    "startTime": 1383354000,
+    "endTime": 1383372000
+  },
+  {
+    "sourcePath": "icpc/2013/zjut_onsite",
+    "name": "ICPC 2013 杭州赛区现场赛",
+    "startTime": 1382835600,
+    "endTime": 1382853600
+  },
+  {
+    "sourcePath": "icpc/2013/uestc_onsite",
+    "name": "ICPC 2013 成都赛区现场赛",
+    "startTime": 1382230800,
+    "endTime": 1382248800
+  },
+  {
+    "sourcePath": "icpc/2013/jlu_online",
+    "name": "ICPC 2013 长春赛区网络赛",
+    "startTime": 1380330000,
+    "endTime": 1380348000
+  },
+  {
+    "sourcePath": "icpc/2013/hnu_online",
+    "name": "ICPC 2013 长沙赛区网络赛",
+    "startTime": 1379811600,
+    "endTime": 1379829600
+  },
+  {
+    "sourcePath": "icpc/2013/njust_online",
+    "name": "ICPC 2013 南京赛区网络赛",
+    "startTime": 1379725200,
+    "endTime": 1379743200
+  },
+  {
+    "sourcePath": "icpc/2013/zjut_online",
+    "name": "ICPC 2013 杭州赛区网络赛",
+    "startTime": 1379206800,
+    "endTime": 1379224800
+  },
+  {
+    "sourcePath": "icpc/2013/uestc_online",
+    "name": "ICPC 2013 成都赛区网络赛",
+    "startTime": 1379120400,
+    "endTime": 1379138400
+  },
+  {
+    "sourcePath": "icpc/2012/nsu_onsite",
+    "name": "ICPC 2012 成都赛区现场赛",
+    "startTime": 1352595600,
+    "endTime": 1352613600
+  },
+  {
+    "sourcePath": "icpc/2012/zstu_onsite",
+    "name": "ICPC 2012 杭州赛区现场赛",
+    "startTime": 1351990800,
+    "endTime": 1352008800
+  },
+  {
+    "sourcePath": "icpc/2012/zjnu_onsite",
+    "name": "ICPC 2012 金华赛区现场赛",
+    "startTime": 1351386000,
+    "endTime": 1351404000
+  },
+  {
+    "sourcePath": "icpc/2012/tjut_onsite",
+    "name": "ICPC 2012 天津赛区现场赛",
+    "startTime": 1350781200,
+    "endTime": 1350799200
+  },
+  {
+    "sourcePath": "icpc/2012/nenu_onsite",
+    "name": "ICPC 2012 长春赛区现场赛",
+    "startTime": 1350176400,
+    "endTime": 1350194400
+  },
+  {
+    "sourcePath": "icpc/2012/zstu_online",
+    "name": "ICPC 2012 杭州赛区网络赛",
+    "startTime": 1348362000,
+    "endTime": 1348380000
+  },
+  {
+    "sourcePath": "icpc/2012/zjnu_online",
+    "name": "ICPC 2012 金华赛区网络赛",
+    "startTime": 1348275600,
+    "endTime": 1348293600
+  },
+  {
+    "sourcePath": "icpc/2012/nsu_online",
+    "name": "ICPC 2012 成都赛区网络赛",
+    "startTime": 1347757200,
+    "endTime": 1347775200
+  },
+  {
+    "sourcePath": "icpc/2012/tjut_online",
+    "name": "ICPC 2012 天津赛区网络赛",
+    "startTime": 1347152400,
+    "endTime": 1347170400
+  },
+  {
+    "sourcePath": "icpc/2012/nenu_online",
+    "name": "ICPC 2012 长春赛区网络赛",
+    "startTime": 1347066000,
+    "endTime": 1347084000
+  },
+  {
+    "sourcePath": "icpc/2012/ccniit_online",
+    "name": "ICPC ccniit online",
+    "startTime": 1346461200,
+    "endTime": 1346479200
+  },
+  {
+    "sourcePath": "icpc/2011/fjnu_onsite",
+    "name": "ICPC 2011 福州赛区现场赛",
+    "startTime": 1321750800,
+    "endTime": 1321768800
+  },
+  {
+    "sourcePath": "icpc/2011/ccniit_onsite",
+    "name": "ICPC 2011 成都赛区现场赛",
+    "startTime": 1320541200,
+    "endTime": 1320559200
+  },
+  {
+    "sourcePath": "icpc/2011/bupt_onsite",
+    "name": "ICPC 2011 北京赛区现场赛",
+    "startTime": 1319331600,
+    "endTime": 1319349600
+  },
+  {
+    "sourcePath": "icpc/2011/fdu_onsite",
+    "name": "ICPC 2011 上海赛区现场赛",
+    "startTime": 1318726800,
+    "endTime": 1318744800
+  },
+  {
+    "sourcePath": "icpc/2011/fjnu_online",
+    "name": "ICPC 2011 福州赛区网络赛",
+    "startTime": 1317949200,
+    "endTime": 1317967200
+  },
+  {
+    "sourcePath": "icpc/2011/dlut_onsite",
+    "name": "ICPC 2011 大连赛区现场赛",
+    "startTime": 1316912400,
+    "endTime": 1316930400
+  },
+  {
+    "sourcePath": "icpc/2011/bupt_online",
+    "name": "ICPC 2011 北京赛区网络赛",
+    "startTime": 1316307600,
+    "endTime": 1316325600
+  },
+  {
+    "sourcePath": "icpc/2011/ccniit_online",
+    "name": "ICPC 2011 成都赛区网络赛",
+    "startTime": 1315702800,
+    "endTime": 1315720800
+  },
+  {
+    "sourcePath": "icpc/2011/fdu_online",
+    "name": "ICPC 2011 上海赛区网络赛",
+    "startTime": 1315616400,
+    "endTime": 1315634400
+  },
+  {
+    "sourcePath": "icpc/2011/dlut_online",
+    "name": "ICPC 2011 大连赛区网络赛",
+    "startTime": 1315011600,
+    "endTime": 1315029600
+  },
+  {
+    "sourcePath": "icpc/2011/ccniit_onsite000",
+    "name": "ICPC ccniit onsite000",
+    "startTime": 1314838800,
+    "endTime": 1314856800
+  },
+  {
+    "sourcePath": "icpc/2011/dlut_onsite2",
+    "name": "ICPC dlut onsite2",
+    "startTime": 1314838800,
+    "endTime": 1314856800
+  },
+  {
+    "sourcePath": "icpc/2011/fdu_onsite0",
+    "name": "ICPC fdu onsite0",
+    "startTime": 1314838800,
+    "endTime": 1314856800
+  },
+  {
+    "sourcePath": "icpc/2010/fzu_onsite",
+    "name": "ICPC 2010 福州赛区现场赛",
+    "startTime": 1290301200,
+    "endTime": 1290319200
+  },
+  {
+    "sourcePath": "icpc/2010/scu_onsite",
+    "name": "ICPC 2010 成都赛区现场赛",
+    "startTime": 1289091600,
+    "endTime": 1289109600
+  },
+  {
+    "sourcePath": "icpc/2010/zstu_onsite",
+    "name": "ICPC 2010 杭州赛区现场赛",
+    "startTime": 1287882000,
+    "endTime": 1287900000
+  },
+  {
+    "sourcePath": "icpc/2010/tju_onsite",
+    "name": "ICPC 2010 天津赛区现场赛",
+    "startTime": 1287277200,
+    "endTime": 1287295200
+  },
+  {
+    "sourcePath": "icpc/2010/fzu_online",
+    "name": "ICPC 2010 福州赛区网络赛",
+    "startTime": 1286672400,
+    "endTime": 1286690400
+  },
+  {
+    "sourcePath": "icpc/2010/hrbeu_onsite",
+    "name": "ICPC 2010 哈尔滨赛区现场赛",
+    "startTime": 1285462800,
+    "endTime": 1285480800
+  },
+  {
+    "sourcePath": "icpc/2010/zstu_online",
+    "name": "ICPC 2010 杭州赛区网络赛",
+    "startTime": 1284858000,
+    "endTime": 1284876000
+  },
+  {
+    "sourcePath": "icpc/2010/scu_online",
+    "name": "ICPC 2010 成都赛区网络赛",
+    "startTime": 1284771600,
+    "endTime": 1284789600
+  },
+  {
+    "sourcePath": "icpc/2010/tju_online",
+    "name": "ICPC 2010 天津赛区网络赛",
+    "startTime": 1284253200,
+    "endTime": 1284271200
+  },
+  {
+    "sourcePath": "icpc/2010/hrbeu_online",
+    "name": "ICPC 2010 哈尔滨赛区网络赛",
+    "startTime": 1284166800,
+    "endTime": 1284184800
+  },
+  {
+    "sourcePath": "icpc/2009/dhu_online",
+    "name": "ICPC 2009 上海赛区网络赛",
+    "startTime": 1252630800,
+    "endTime": 1252648800
+  },
+  {
+    "sourcePath": "icpc/2009/hit_online",
+    "name": "ICPC 2009 哈尔滨赛区网络赛",
+    "startTime": 1252630800,
+    "endTime": 1252648800
+  },
+  {
+    "sourcePath": "icpc/2009/nit_online",
+    "name": "ICPC 2009 宁波赛区网络赛",
+    "startTime": 1252630800,
+    "endTime": 1252648800
+  },
+  {
+    "sourcePath": "icpc/2009/ustc_online",
+    "name": "ICPC 2009 合肥赛区网络赛",
+    "startTime": 1252630800,
+    "endTime": 1252648800
+  },
+  {
+    "sourcePath": "icpc/2009/whu_online",
+    "name": "ICPC 2009 武汉赛区网络赛",
+    "startTime": 1252630800,
+    "endTime": 1252648800
+  },
+  {
+    "sourcePath": "icpc/2009/whu_onsite",
+    "name": "ICPC 2009 武汉赛区现场赛",
+    "startTime": 1252630800,
+    "endTime": 1252648800
+  }
+]

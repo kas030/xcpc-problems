@@ -1,0 +1,2159 @@
+{
+  "schemaVersion": 1,
+  "algorithmVersion": "medal-cohort-v1",
+  "threshold": 0.5,
+  "minimumCohort": 5,
+  "updatedAt": "2026-11-07T11:23:37.380Z",
+  "contests": [
+    {
+      "id": "icpc-2024-kunming",
+      "name": "2024 ICPC 亚洲区域赛昆明站",
+      "shortName": "24-ICPC-昆明",
+      "year": 2024,
+      "series": "ICPC",
+      "kind": "regional",
+      "date": "2024-12-01T01:30:00.000Z",
+      "boardUrl": "https://board.xcpcio.com/icpc/49th/kunming/",
+      "qojUrl": "https://qoj.ac/contest/1871",
+      "sourceUrl": "https://github.com/xcpcio/board-data/tree/ae327835007ac328643444284e9254ef7d40a872/data/icpc/49th/kunming",
+      "sourceRevision": "ae327835007ac328643444284e9254ef7d40a872",
+      "syncedAt": "2026-11-07T11:23:35.915Z",
+      "participants": 449,
+      "problemCount": 13,
+      "classificationReady": true,
+      "classificationNote": "已使用最终榜与明确奖牌数量",
+      "medalCounts": {
+        "gold": 45,
+        "silver": 90,
+        "bronze": 135
+      },
+      "medalSource": "https://github.com/xcpcio/board-data/blob/ae327835007ac328643444284e9254ef7d40a872/data/icpc/49th/kunming/config.json",
+      "statement": {
+        "url": "https://codeforces.com/gym/105588/attachments/download/28814/2-statement-chinese.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-shenyang",
+      "name": "2024 ICPC 亚洲区域赛沈阳站",
+      "shortName": "24-ICPC-沈阳",
+      "year": 2024,
+      "series": "ICPC",
+      "kind": "regional",
+      "date": "2024-11-24T01:00:00.000Z",
+      "boardUrl": "https://board.xcpcio.com/icpc/49th/shenyang/",
+      "qojUrl": "https://qoj.ac/contest/1865",
+      "sourceUrl": "https://github.com/xcpcio/board-data/tree/ae327835007ac328643444284e9254ef7d40a872/data/icpc/49th/shenyang",
+      "sourceRevision": "ae327835007ac328643444284e9254ef7d40a872",
+      "syncedAt": "2026-11-07T11:23:37.380Z",
+      "participants": 300,
+      "problemCount": 13,
+      "classificationReady": true,
+      "classificationNote": "已使用最终榜与明确奖牌数量",
+      "medalCounts": {
+        "gold": 30,
+        "silver": 60,
+        "bronze": 90
+      },
+      "medalSource": "https://github.com/xcpcio/board-data/blob/ae327835007ac328643444284e9254ef7d40a872/data/icpc/49th/shenyang/config.json",
+      "statement": {
+        "url": "https://codeforces.com/gym/105578/attachments/download/28638/2024-shenyang-statement-zh.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "ccpc-2024-chongqing",
+      "name": "2024 CCPC 中国大学生程序设计竞赛重庆站",
+      "shortName": "24-CCPC-重庆",
+      "year": 2024,
+      "series": "CCPC",
+      "kind": "regional",
+      "date": "2024-11-10T01:20:00.000Z",
+      "boardUrl": "https://board.xcpcio.com/ccpc/10th/chongqing/",
+      "qojUrl": "https://qoj.ac/contest/1840",
+      "sourceUrl": "https://github.com/xcpcio/board-data/tree/ae327835007ac328643444284e9254ef7d40a872/data/ccpc/10th/chongqing",
+      "sourceRevision": "ae327835007ac328643444284e9254ef7d40a872",
+      "syncedAt": "2026-11-07T11:23:35.042Z",
+      "participants": 278,
+      "problemCount": 13,
+      "classificationReady": false,
+      "classificationNote": "榜单使用 CCPC 通用比例，实际奖牌边界尚待核对。",
+      "medalCounts": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "medalSource": "https://github.com/xcpcio/board-data/blob/ae327835007ac328643444284e9254ef7d40a872/data/ccpc/10th/chongqing/config.json",
+      "statement": {
+        "url": "https://codeforces.com/gym/106030/attachments/download/32796/day1.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-nanjing",
+      "name": "2024 ICPC 亚洲区域赛南京站",
+      "shortName": "24-ICPC-南京",
+      "year": 2024,
+      "series": "ICPC",
+      "kind": "regional",
+      "date": "2024-11-03T01:30:00.000Z",
+      "boardUrl": "https://board.xcpcio.com/icpc/49th/nanjing/",
+      "qojUrl": "https://qoj.ac/contest/1828",
+      "sourceUrl": "https://github.com/xcpcio/board-data/tree/ae327835007ac328643444284e9254ef7d40a872/data/icpc/49th/nanjing",
+      "sourceRevision": "ae327835007ac328643444284e9254ef7d40a872",
+      "syncedAt": "2026-11-07T11:23:36.874Z",
+      "participants": 336,
+      "problemCount": 13,
+      "classificationReady": true,
+      "classificationNote": "已使用最终榜与明确奖牌数量",
+      "medalCounts": {
+        "gold": 33,
+        "silver": 66,
+        "bronze": 99
+      },
+      "medalSource": "https://github.com/xcpcio/board-data/blob/ae327835007ac328643444284e9254ef7d40a872/data/icpc/49th/nanjing/config.json",
+      "statement": {
+        "url": "https://codeforces.com/gym/105484/attachments/download/28235/contest-zh.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official"
+      }
+    }
+  ],
+  "problems": [
+    {
+      "id": "icpc-2024-kunming/A",
+      "contestId": "icpc-2024-kunming",
+      "contestShortName": "24-ICPC-昆明",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "A",
+      "title": "Antivirus",
+      "qojId": 9862,
+      "interactive": false,
+      "difficulty": "challenge",
+      "reason": "金牌组赛内通过率也未达到 50%",
+      "solved": 2,
+      "participants": 449,
+      "cohorts": {
+        "bronze": {
+          "solved": 0,
+          "total": 135,
+          "rate": 0
+        },
+        "silver": {
+          "solved": 0,
+          "total": 90,
+          "rate": 0
+        },
+        "gold": {
+          "solved": 2,
+          "total": 45,
+          "rate": 0.044444444444444446
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105588/attachments/download/28814/2-statement-chinese.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 3,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-kunming/B",
+      "contestId": "icpc-2024-kunming",
+      "contestShortName": "24-ICPC-昆明",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "B",
+      "title": "Brackets",
+      "qojId": 9863,
+      "interactive": false,
+      "difficulty": "challenge",
+      "reason": "金牌组赛内通过率也未达到 50%",
+      "solved": 12,
+      "participants": 449,
+      "cohorts": {
+        "bronze": {
+          "solved": 0,
+          "total": 135,
+          "rate": 0
+        },
+        "silver": {
+          "solved": 0,
+          "total": 90,
+          "rate": 0
+        },
+        "gold": {
+          "solved": 12,
+          "total": 45,
+          "rate": 0.26666666666666666
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105588/attachments/download/28814/2-statement-chinese.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 6,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-kunming/C",
+      "contestId": "icpc-2024-kunming",
+      "contestShortName": "24-ICPC-昆明",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "C",
+      "title": "Coin",
+      "qojId": 9864,
+      "interactive": false,
+      "difficulty": "silver",
+      "reason": "该奖牌组至少 50% 的队伍在赛内通过",
+      "solved": 176,
+      "participants": 449,
+      "cohorts": {
+        "bronze": {
+          "solved": 45,
+          "total": 135,
+          "rate": 0.3333333333333333
+        },
+        "silver": {
+          "solved": 83,
+          "total": 90,
+          "rate": 0.9222222222222223
+        },
+        "gold": {
+          "solved": 45,
+          "total": 45,
+          "rate": 1
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105588/attachments/download/28814/2-statement-chinese.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 8,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-kunming/D",
+      "contestId": "icpc-2024-kunming",
+      "contestShortName": "24-ICPC-昆明",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "D",
+      "title": "Dolls",
+      "qojId": 9865,
+      "interactive": false,
+      "difficulty": "challenge",
+      "reason": "金牌组赛内通过率也未达到 50%",
+      "solved": 5,
+      "participants": 449,
+      "cohorts": {
+        "bronze": {
+          "solved": 0,
+          "total": 135,
+          "rate": 0
+        },
+        "silver": {
+          "solved": 0,
+          "total": 90,
+          "rate": 0
+        },
+        "gold": {
+          "solved": 5,
+          "total": 45,
+          "rate": 0.1111111111111111
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105588/attachments/download/28814/2-statement-chinese.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 9,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-kunming/E",
+      "contestId": "icpc-2024-kunming",
+      "contestShortName": "24-ICPC-昆明",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "E",
+      "title": "Extracting Weights",
+      "qojId": 9866,
+      "interactive": true,
+      "difficulty": "gold",
+      "reason": "该奖牌组至少 50% 的队伍在赛内通过",
+      "solved": 68,
+      "participants": 449,
+      "cohorts": {
+        "bronze": {
+          "solved": 1,
+          "total": 135,
+          "rate": 0.007407407407407408
+        },
+        "silver": {
+          "solved": 23,
+          "total": 90,
+          "rate": 0.25555555555555554
+        },
+        "gold": {
+          "solved": 44,
+          "total": 45,
+          "rate": 0.9777777777777777
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105588/attachments/download/28814/2-statement-chinese.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 11,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-kunming/F",
+      "contestId": "icpc-2024-kunming",
+      "contestShortName": "24-ICPC-昆明",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "F",
+      "title": "Flowers",
+      "qojId": 9867,
+      "interactive": false,
+      "difficulty": "challenge",
+      "reason": "金牌组赛内通过率也未达到 50%",
+      "solved": 13,
+      "participants": 449,
+      "cohorts": {
+        "bronze": {
+          "solved": 1,
+          "total": 135,
+          "rate": 0.007407407407407408
+        },
+        "silver": {
+          "solved": 0,
+          "total": 90,
+          "rate": 0
+        },
+        "gold": {
+          "solved": 12,
+          "total": 45,
+          "rate": 0.26666666666666666
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105588/attachments/download/28814/2-statement-chinese.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 13,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-kunming/G",
+      "contestId": "icpc-2024-kunming",
+      "contestShortName": "24-ICPC-昆明",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "G",
+      "title": "GCD",
+      "qojId": 9868,
+      "interactive": false,
+      "difficulty": "silver",
+      "reason": "该奖牌组至少 50% 的队伍在赛内通过",
+      "solved": 204,
+      "participants": 449,
+      "cohorts": {
+        "bronze": {
+          "solved": 62,
+          "total": 135,
+          "rate": 0.45925925925925926
+        },
+        "silver": {
+          "solved": 84,
+          "total": 90,
+          "rate": 0.9333333333333333
+        },
+        "gold": {
+          "solved": 45,
+          "total": 45,
+          "rate": 1
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105588/attachments/download/28814/2-statement-chinese.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 14,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-kunming/H",
+      "contestId": "icpc-2024-kunming",
+      "contestShortName": "24-ICPC-昆明",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "H",
+      "title": "Horizon Scanning",
+      "qojId": 9869,
+      "interactive": false,
+      "difficulty": "bronze",
+      "reason": "该奖牌组至少 50% 的队伍在赛内通过",
+      "solved": 342,
+      "participants": 449,
+      "cohorts": {
+        "bronze": {
+          "solved": 127,
+          "total": 135,
+          "rate": 0.9407407407407408
+        },
+        "silver": {
+          "solved": 90,
+          "total": 90,
+          "rate": 1
+        },
+        "gold": {
+          "solved": 45,
+          "total": 45,
+          "rate": 1
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105588/attachments/download/28814/2-statement-chinese.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 15,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-kunming/I",
+      "contestId": "icpc-2024-kunming",
+      "contestShortName": "24-ICPC-昆明",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "I",
+      "title": "Items",
+      "qojId": 9870,
+      "interactive": false,
+      "difficulty": "challenge",
+      "reason": "金牌组赛内通过率也未达到 50%",
+      "solved": 4,
+      "participants": 449,
+      "cohorts": {
+        "bronze": {
+          "solved": 0,
+          "total": 135,
+          "rate": 0
+        },
+        "silver": {
+          "solved": 1,
+          "total": 90,
+          "rate": 0.011111111111111112
+        },
+        "gold": {
+          "solved": 3,
+          "total": 45,
+          "rate": 0.06666666666666667
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105588/attachments/download/28814/2-statement-chinese.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 17,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-kunming/J",
+      "contestId": "icpc-2024-kunming",
+      "contestShortName": "24-ICPC-昆明",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "J",
+      "title": "Just another Sorting Problem",
+      "qojId": 9871,
+      "interactive": false,
+      "difficulty": "bronze",
+      "reason": "该奖牌组至少 50% 的队伍在赛内通过",
+      "solved": 433,
+      "participants": 449,
+      "cohorts": {
+        "bronze": {
+          "solved": 135,
+          "total": 135,
+          "rate": 1
+        },
+        "silver": {
+          "solved": 90,
+          "total": 90,
+          "rate": 1
+        },
+        "gold": {
+          "solved": 45,
+          "total": 45,
+          "rate": 1
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105588/attachments/download/28814/2-statement-chinese.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 18,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-kunming/K",
+      "contestId": "icpc-2024-kunming",
+      "contestShortName": "24-ICPC-昆明",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "K",
+      "title": "Key Recovery",
+      "qojId": 9872,
+      "interactive": true,
+      "difficulty": "challenge",
+      "reason": "金牌组赛内通过率也未达到 50%",
+      "solved": 0,
+      "participants": 449,
+      "cohorts": {
+        "bronze": {
+          "solved": 0,
+          "total": 135,
+          "rate": 0
+        },
+        "silver": {
+          "solved": 0,
+          "total": 90,
+          "rate": 0
+        },
+        "gold": {
+          "solved": 0,
+          "total": 45,
+          "rate": 0
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105588/attachments/download/28814/2-statement-chinese.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 19,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-kunming/L",
+      "contestId": "icpc-2024-kunming",
+      "contestShortName": "24-ICPC-昆明",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "L",
+      "title": "Last Chance: Threads of Despair",
+      "qojId": 9873,
+      "interactive": false,
+      "difficulty": "bronze",
+      "reason": "该奖牌组至少 50% 的队伍在赛内通过",
+      "solved": 246,
+      "participants": 449,
+      "cohorts": {
+        "bronze": {
+          "solved": 94,
+          "total": 135,
+          "rate": 0.6962962962962963
+        },
+        "silver": {
+          "solved": 89,
+          "total": 90,
+          "rate": 0.9888888888888889
+        },
+        "gold": {
+          "solved": 45,
+          "total": 45,
+          "rate": 1
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105588/attachments/download/28814/2-statement-chinese.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 21,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-kunming/M",
+      "contestId": "icpc-2024-kunming",
+      "contestShortName": "24-ICPC-昆明",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "M",
+      "title": "Matrix Construction",
+      "qojId": 9874,
+      "interactive": false,
+      "difficulty": "bronze",
+      "reason": "该奖牌组至少 50% 的队伍在赛内通过",
+      "solved": 426,
+      "participants": 449,
+      "cohorts": {
+        "bronze": {
+          "solved": 135,
+          "total": 135,
+          "rate": 1
+        },
+        "silver": {
+          "solved": 90,
+          "total": 90,
+          "rate": 1
+        },
+        "gold": {
+          "solved": 45,
+          "total": 45,
+          "rate": 1
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105588/attachments/download/28814/2-statement-chinese.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 23,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-shenyang/A",
+      "contestId": "icpc-2024-shenyang",
+      "contestShortName": "24-ICPC-沈阳",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "A",
+      "title": "Safety First",
+      "qojId": 9798,
+      "interactive": false,
+      "difficulty": "challenge",
+      "reason": "金牌组赛内通过率也未达到 50%",
+      "solved": 2,
+      "participants": 300,
+      "cohorts": {
+        "bronze": {
+          "solved": 0,
+          "total": 90,
+          "rate": 0
+        },
+        "silver": {
+          "solved": 0,
+          "total": 60,
+          "rate": 0
+        },
+        "gold": {
+          "solved": 2,
+          "total": 30,
+          "rate": 0.06666666666666667
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105578/attachments/download/28638/2024-shenyang-statement-zh.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 1,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-shenyang/B",
+      "contestId": "icpc-2024-shenyang",
+      "contestShortName": "24-ICPC-沈阳",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "B",
+      "title": "Magical Palette",
+      "qojId": 9799,
+      "interactive": false,
+      "difficulty": "bronze",
+      "reason": "该奖牌组至少 50% 的队伍在赛内通过",
+      "solved": 158,
+      "participants": 300,
+      "cohorts": {
+        "bronze": {
+          "solved": 54,
+          "total": 90,
+          "rate": 0.6
+        },
+        "silver": {
+          "solved": 53,
+          "total": 60,
+          "rate": 0.8833333333333333
+        },
+        "gold": {
+          "solved": 29,
+          "total": 30,
+          "rate": 0.9666666666666667
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105578/attachments/download/28638/2024-shenyang-statement-zh.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 3,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-shenyang/C",
+      "contestId": "icpc-2024-shenyang",
+      "contestShortName": "24-ICPC-沈阳",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "C",
+      "title": "Crisis Event: Meteorite",
+      "qojId": 9800,
+      "interactive": false,
+      "difficulty": "challenge",
+      "reason": "金牌组赛内通过率也未达到 50%",
+      "solved": 1,
+      "participants": 300,
+      "cohorts": {
+        "bronze": {
+          "solved": 0,
+          "total": 90,
+          "rate": 0
+        },
+        "silver": {
+          "solved": 0,
+          "total": 60,
+          "rate": 0
+        },
+        "gold": {
+          "solved": 1,
+          "total": 30,
+          "rate": 0.03333333333333333
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105578/attachments/download/28638/2024-shenyang-statement-zh.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 5,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-shenyang/D",
+      "contestId": "icpc-2024-shenyang",
+      "contestShortName": "24-ICPC-沈阳",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "D",
+      "title": "Dot Product Game",
+      "qojId": 9801,
+      "interactive": false,
+      "difficulty": "bronze",
+      "reason": "该奖牌组至少 50% 的队伍在赛内通过",
+      "solved": 171,
+      "participants": 300,
+      "cohorts": {
+        "bronze": {
+          "solved": 64,
+          "total": 90,
+          "rate": 0.7111111111111111
+        },
+        "silver": {
+          "solved": 60,
+          "total": 60,
+          "rate": 1
+        },
+        "gold": {
+          "solved": 30,
+          "total": 30,
+          "rate": 1
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105578/attachments/download/28638/2024-shenyang-statement-zh.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 7,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-shenyang/E",
+      "contestId": "icpc-2024-shenyang",
+      "contestShortName": "24-ICPC-沈阳",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "E",
+      "title": "Light Up the Grid",
+      "qojId": 9802,
+      "interactive": false,
+      "difficulty": "bronze",
+      "reason": "该奖牌组至少 50% 的队伍在赛内通过",
+      "solved": 174,
+      "participants": 300,
+      "cohorts": {
+        "bronze": {
+          "solved": 75,
+          "total": 90,
+          "rate": 0.8333333333333334
+        },
+        "silver": {
+          "solved": 60,
+          "total": 60,
+          "rate": 1
+        },
+        "gold": {
+          "solved": 30,
+          "total": 30,
+          "rate": 1
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105578/attachments/download/28638/2024-shenyang-statement-zh.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 9,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-shenyang/F",
+      "contestId": "icpc-2024-shenyang",
+      "contestShortName": "24-ICPC-沈阳",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "F",
+      "title": "Light Up the Hypercube",
+      "qojId": 9803,
+      "interactive": false,
+      "difficulty": "challenge",
+      "reason": "金牌组赛内通过率也未达到 50%",
+      "solved": 2,
+      "participants": 300,
+      "cohorts": {
+        "bronze": {
+          "solved": 0,
+          "total": 90,
+          "rate": 0
+        },
+        "silver": {
+          "solved": 0,
+          "total": 60,
+          "rate": 0
+        },
+        "gold": {
+          "solved": 2,
+          "total": 30,
+          "rate": 0.06666666666666667
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105578/attachments/download/28638/2024-shenyang-statement-zh.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 11,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-shenyang/G",
+      "contestId": "icpc-2024-shenyang",
+      "contestShortName": "24-ICPC-沈阳",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "G",
+      "title": "Guess the Polygon",
+      "qojId": 9804,
+      "interactive": true,
+      "difficulty": "gold",
+      "reason": "该奖牌组至少 50% 的队伍在赛内通过",
+      "solved": 43,
+      "participants": 300,
+      "cohorts": {
+        "bronze": {
+          "solved": 1,
+          "total": 90,
+          "rate": 0.011111111111111112
+        },
+        "silver": {
+          "solved": 16,
+          "total": 60,
+          "rate": 0.26666666666666666
+        },
+        "gold": {
+          "solved": 26,
+          "total": 30,
+          "rate": 0.8666666666666667
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105578/attachments/download/28638/2024-shenyang-statement-zh.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 13,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-shenyang/H",
+      "contestId": "icpc-2024-shenyang",
+      "contestShortName": "24-ICPC-沈阳",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "H",
+      "title": "Guide Map",
+      "qojId": 9805,
+      "interactive": false,
+      "difficulty": "challenge",
+      "reason": "金牌组赛内通过率也未达到 50%",
+      "solved": 15,
+      "participants": 300,
+      "cohorts": {
+        "bronze": {
+          "solved": 0,
+          "total": 90,
+          "rate": 0
+        },
+        "silver": {
+          "solved": 1,
+          "total": 60,
+          "rate": 0.016666666666666666
+        },
+        "gold": {
+          "solved": 14,
+          "total": 30,
+          "rate": 0.4666666666666667
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105578/attachments/download/28638/2024-shenyang-statement-zh.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 15,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-shenyang/I",
+      "contestId": "icpc-2024-shenyang",
+      "contestShortName": "24-ICPC-沈阳",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "I",
+      "title": "Growing Tree",
+      "qojId": 9806,
+      "interactive": false,
+      "difficulty": "gold",
+      "reason": "该奖牌组至少 50% 的队伍在赛内通过",
+      "solved": 17,
+      "participants": 300,
+      "cohorts": {
+        "bronze": {
+          "solved": 0,
+          "total": 90,
+          "rate": 0
+        },
+        "silver": {
+          "solved": 1,
+          "total": 60,
+          "rate": 0.016666666666666666
+        },
+        "gold": {
+          "solved": 16,
+          "total": 30,
+          "rate": 0.5333333333333333
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105578/attachments/download/28638/2024-shenyang-statement-zh.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 17,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-shenyang/J",
+      "contestId": "icpc-2024-shenyang",
+      "contestShortName": "24-ICPC-沈阳",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "J",
+      "title": "Make Them Believe",
+      "qojId": 9807,
+      "interactive": false,
+      "difficulty": "bronze",
+      "reason": "该奖牌组至少 50% 的队伍在赛内通过",
+      "solved": 300,
+      "participants": 300,
+      "cohorts": {
+        "bronze": {
+          "solved": 90,
+          "total": 90,
+          "rate": 1
+        },
+        "silver": {
+          "solved": 60,
+          "total": 60,
+          "rate": 1
+        },
+        "gold": {
+          "solved": 30,
+          "total": 30,
+          "rate": 1
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105578/attachments/download/28638/2024-shenyang-statement-zh.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 19,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-shenyang/K",
+      "contestId": "icpc-2024-shenyang",
+      "contestShortName": "24-ICPC-沈阳",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "K",
+      "title": "Fragile Pinball",
+      "qojId": 9808,
+      "interactive": false,
+      "difficulty": "challenge",
+      "reason": "金牌组赛内通过率也未达到 50%",
+      "solved": 0,
+      "participants": 300,
+      "cohorts": {
+        "bronze": {
+          "solved": 0,
+          "total": 90,
+          "rate": 0
+        },
+        "silver": {
+          "solved": 0,
+          "total": 60,
+          "rate": 0
+        },
+        "gold": {
+          "solved": 0,
+          "total": 30,
+          "rate": 0
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105578/attachments/download/28638/2024-shenyang-statement-zh.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 21,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-shenyang/L",
+      "contestId": "icpc-2024-shenyang",
+      "contestShortName": "24-ICPC-沈阳",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "L",
+      "title": "The Grand Contest",
+      "qojId": 9809,
+      "interactive": false,
+      "difficulty": "challenge",
+      "reason": "金牌组赛内通过率也未达到 50%",
+      "solved": 1,
+      "participants": 300,
+      "cohorts": {
+        "bronze": {
+          "solved": 0,
+          "total": 90,
+          "rate": 0
+        },
+        "silver": {
+          "solved": 0,
+          "total": 60,
+          "rate": 0
+        },
+        "gold": {
+          "solved": 1,
+          "total": 30,
+          "rate": 0.03333333333333333
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105578/attachments/download/28638/2024-shenyang-statement-zh.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 23,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-shenyang/M",
+      "contestId": "icpc-2024-shenyang",
+      "contestShortName": "24-ICPC-沈阳",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "M",
+      "title": "Obliviate, Then Reincarnate",
+      "qojId": 9810,
+      "interactive": false,
+      "difficulty": "silver",
+      "reason": "该奖牌组至少 50% 的队伍在赛内通过",
+      "solved": 90,
+      "participants": 300,
+      "cohorts": {
+        "bronze": {
+          "solved": 9,
+          "total": 90,
+          "rate": 0.1
+        },
+        "silver": {
+          "solved": 50,
+          "total": 60,
+          "rate": 0.8333333333333334
+        },
+        "gold": {
+          "solved": 30,
+          "total": 30,
+          "rate": 1
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105578/attachments/download/28638/2024-shenyang-statement-zh.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 25,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "ccpc-2024-chongqing/A",
+      "contestId": "ccpc-2024-chongqing",
+      "contestShortName": "24-CCPC-重庆",
+      "year": 2024,
+      "series": "CCPC",
+      "label": "A",
+      "title": "乘积，欧拉函数，求和",
+      "qojId": 9619,
+      "interactive": false,
+      "difficulty": "pending",
+      "reason": "榜单使用 CCPC 通用比例，实际奖牌边界尚待核对。",
+      "solved": 42,
+      "participants": 278,
+      "cohorts": {
+        "bronze": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        },
+        "silver": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        },
+        "gold": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/106030/attachments/download/32796/day1.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 2,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "ccpc-2024-chongqing/B",
+      "contestId": "ccpc-2024-chongqing",
+      "contestShortName": "24-CCPC-重庆",
+      "year": 2024,
+      "series": "CCPC",
+      "label": "B",
+      "title": "osu!mania",
+      "qojId": 9620,
+      "interactive": false,
+      "difficulty": "pending",
+      "reason": "榜单使用 CCPC 通用比例，实际奖牌边界尚待核对。",
+      "solved": 276,
+      "participants": 278,
+      "cohorts": {
+        "bronze": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        },
+        "silver": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        },
+        "gold": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/106030/attachments/download/32796/day1.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 3,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "ccpc-2024-chongqing/C",
+      "contestId": "ccpc-2024-chongqing",
+      "contestShortName": "24-CCPC-重庆",
+      "year": 2024,
+      "series": "CCPC",
+      "label": "C",
+      "title": "连方",
+      "qojId": 9621,
+      "interactive": false,
+      "difficulty": "pending",
+      "reason": "榜单使用 CCPC 通用比例，实际奖牌边界尚待核对。",
+      "solved": 187,
+      "participants": 278,
+      "cohorts": {
+        "bronze": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        },
+        "silver": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        },
+        "gold": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/106030/attachments/download/32796/day1.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 6,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "ccpc-2024-chongqing/D",
+      "contestId": "ccpc-2024-chongqing",
+      "contestShortName": "24-CCPC-重庆",
+      "year": 2024,
+      "series": "CCPC",
+      "label": "D",
+      "title": "有限小数",
+      "qojId": 9622,
+      "interactive": false,
+      "difficulty": "pending",
+      "reason": "榜单使用 CCPC 通用比例，实际奖牌边界尚待核对。",
+      "solved": 61,
+      "participants": 278,
+      "cohorts": {
+        "bronze": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        },
+        "silver": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        },
+        "gold": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/106030/attachments/download/32796/day1.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 9,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "ccpc-2024-chongqing/E",
+      "contestId": "ccpc-2024-chongqing",
+      "contestShortName": "24-CCPC-重庆",
+      "year": 2024,
+      "series": "CCPC",
+      "label": "E",
+      "title": "合成大西瓜",
+      "qojId": 9623,
+      "interactive": false,
+      "difficulty": "pending",
+      "reason": "榜单使用 CCPC 通用比例，实际奖牌边界尚待核对。",
+      "solved": 253,
+      "participants": 278,
+      "cohorts": {
+        "bronze": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        },
+        "silver": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        },
+        "gold": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/106030/attachments/download/32796/day1.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 11,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "ccpc-2024-chongqing/F",
+      "contestId": "ccpc-2024-chongqing",
+      "contestShortName": "24-CCPC-重庆",
+      "year": 2024,
+      "series": "CCPC",
+      "label": "F",
+      "title": "Pico Park",
+      "qojId": 9624,
+      "interactive": false,
+      "difficulty": "pending",
+      "reason": "榜单使用 CCPC 通用比例，实际奖牌边界尚待核对。",
+      "solved": 1,
+      "participants": 278,
+      "cohorts": {
+        "bronze": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        },
+        "silver": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        },
+        "gold": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/106030/attachments/download/32796/day1.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 13,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "ccpc-2024-chongqing/G",
+      "contestId": "ccpc-2024-chongqing",
+      "contestShortName": "24-CCPC-重庆",
+      "year": 2024,
+      "series": "CCPC",
+      "label": "G",
+      "title": "魔弹",
+      "qojId": 9625,
+      "interactive": false,
+      "difficulty": "pending",
+      "reason": "榜单使用 CCPC 通用比例，实际奖牌边界尚待核对。",
+      "solved": 0,
+      "participants": 278,
+      "cohorts": {
+        "bronze": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        },
+        "silver": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        },
+        "gold": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/106030/attachments/download/32796/day1.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 15,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "ccpc-2024-chongqing/H",
+      "contestId": "ccpc-2024-chongqing",
+      "contestShortName": "24-CCPC-重庆",
+      "year": 2024,
+      "series": "CCPC",
+      "label": "H",
+      "title": "str(list(s))",
+      "qojId": 9626,
+      "interactive": false,
+      "difficulty": "pending",
+      "reason": "榜单使用 CCPC 通用比例，实际奖牌边界尚待核对。",
+      "solved": 25,
+      "participants": 278,
+      "cohorts": {
+        "bronze": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        },
+        "silver": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        },
+        "gold": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/106030/attachments/download/32796/day1.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 17,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "ccpc-2024-chongqing/I",
+      "contestId": "ccpc-2024-chongqing",
+      "contestShortName": "24-CCPC-重庆",
+      "year": 2024,
+      "series": "CCPC",
+      "label": "I",
+      "title": "算术",
+      "qojId": 9627,
+      "interactive": false,
+      "difficulty": "pending",
+      "reason": "榜单使用 CCPC 通用比例，实际奖牌边界尚待核对。",
+      "solved": 256,
+      "participants": 278,
+      "cohorts": {
+        "bronze": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        },
+        "silver": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        },
+        "gold": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/106030/attachments/download/32796/day1.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 19,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "ccpc-2024-chongqing/J",
+      "contestId": "ccpc-2024-chongqing",
+      "contestShortName": "24-CCPC-重庆",
+      "year": 2024,
+      "series": "CCPC",
+      "label": "J",
+      "title": "骰子",
+      "qojId": 9628,
+      "interactive": false,
+      "difficulty": "pending",
+      "reason": "榜单使用 CCPC 通用比例，实际奖牌边界尚待核对。",
+      "solved": 278,
+      "participants": 278,
+      "cohorts": {
+        "bronze": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        },
+        "silver": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        },
+        "gold": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/106030/attachments/download/32796/day1.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 21,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "ccpc-2024-chongqing/K",
+      "contestId": "ccpc-2024-chongqing",
+      "contestShortName": "24-CCPC-重庆",
+      "year": 2024,
+      "series": "CCPC",
+      "label": "K",
+      "title": "小 C 的神秘图形",
+      "qojId": 9629,
+      "interactive": false,
+      "difficulty": "pending",
+      "reason": "榜单使用 CCPC 通用比例，实际奖牌边界尚待核对。",
+      "solved": 273,
+      "participants": 278,
+      "cohorts": {
+        "bronze": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        },
+        "silver": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        },
+        "gold": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/106030/attachments/download/32796/day1.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 23,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "ccpc-2024-chongqing/L",
+      "contestId": "ccpc-2024-chongqing",
+      "contestShortName": "24-CCPC-重庆",
+      "year": 2024,
+      "series": "CCPC",
+      "label": "L",
+      "title": "沙堆",
+      "qojId": 9630,
+      "interactive": false,
+      "difficulty": "pending",
+      "reason": "榜单使用 CCPC 通用比例，实际奖牌边界尚待核对。",
+      "solved": 0,
+      "participants": 278,
+      "cohorts": {
+        "bronze": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        },
+        "silver": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        },
+        "gold": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/106030/attachments/download/32796/day1.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 25,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "ccpc-2024-chongqing/M",
+      "contestId": "ccpc-2024-chongqing",
+      "contestShortName": "24-CCPC-重庆",
+      "year": 2024,
+      "series": "CCPC",
+      "label": "M",
+      "title": "Median Replacement",
+      "qojId": 9631,
+      "interactive": false,
+      "difficulty": "pending",
+      "reason": "榜单使用 CCPC 通用比例，实际奖牌边界尚待核对。",
+      "solved": 15,
+      "participants": 278,
+      "cohorts": {
+        "bronze": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        },
+        "silver": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        },
+        "gold": {
+          "solved": 0,
+          "total": 0,
+          "rate": null
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/106030/attachments/download/32796/day1.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 27,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-nanjing/A",
+      "contestId": "icpc-2024-nanjing",
+      "contestShortName": "24-ICPC-南京",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "A",
+      "title": "Hey, Have You Seen My Kangaroo?",
+      "qojId": 9564,
+      "interactive": false,
+      "difficulty": "challenge",
+      "reason": "金牌组赛内通过率也未达到 50%",
+      "solved": 0,
+      "participants": 336,
+      "cohorts": {
+        "bronze": {
+          "solved": 0,
+          "total": 99,
+          "rate": 0
+        },
+        "silver": {
+          "solved": 0,
+          "total": 66,
+          "rate": 0
+        },
+        "gold": {
+          "solved": 0,
+          "total": 33,
+          "rate": 0
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105484/attachments/download/28235/contest-zh.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 3,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-nanjing/B",
+      "contestId": "icpc-2024-nanjing",
+      "contestShortName": "24-ICPC-南京",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "B",
+      "title": "Birthday Gift",
+      "qojId": 9565,
+      "interactive": false,
+      "difficulty": "silver",
+      "reason": "该奖牌组至少 50% 的队伍在赛内通过",
+      "solved": 77,
+      "participants": 336,
+      "cohorts": {
+        "bronze": {
+          "solved": 11,
+          "total": 99,
+          "rate": 0.1111111111111111
+        },
+        "silver": {
+          "solved": 33,
+          "total": 66,
+          "rate": 0.5
+        },
+        "gold": {
+          "solved": 33,
+          "total": 33,
+          "rate": 1
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105484/attachments/download/28235/contest-zh.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 6,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-nanjing/C",
+      "contestId": "icpc-2024-nanjing",
+      "contestShortName": "24-ICPC-南京",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "C",
+      "title": "Topology",
+      "qojId": 9566,
+      "interactive": false,
+      "difficulty": "gold",
+      "reason": "该奖牌组至少 50% 的队伍在赛内通过",
+      "solved": 20,
+      "participants": 336,
+      "cohorts": {
+        "bronze": {
+          "solved": 0,
+          "total": 99,
+          "rate": 0
+        },
+        "silver": {
+          "solved": 2,
+          "total": 66,
+          "rate": 0.030303030303030304
+        },
+        "gold": {
+          "solved": 18,
+          "total": 33,
+          "rate": 0.5454545454545454
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105484/attachments/download/28235/contest-zh.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 7,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-nanjing/D",
+      "contestId": "icpc-2024-nanjing",
+      "contestShortName": "24-ICPC-南京",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "D",
+      "title": "Toe-Tac-Tics",
+      "qojId": 9567,
+      "interactive": false,
+      "difficulty": "challenge",
+      "reason": "金牌组赛内通过率也未达到 50%",
+      "solved": 0,
+      "participants": 336,
+      "cohorts": {
+        "bronze": {
+          "solved": 0,
+          "total": 99,
+          "rate": 0
+        },
+        "silver": {
+          "solved": 0,
+          "total": 66,
+          "rate": 0
+        },
+        "gold": {
+          "solved": 0,
+          "total": 33,
+          "rate": 0
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105484/attachments/download/28235/contest-zh.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 8,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-nanjing/E",
+      "contestId": "icpc-2024-nanjing",
+      "contestShortName": "24-ICPC-南京",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "E",
+      "title": "Left Shifting 3",
+      "qojId": 9568,
+      "interactive": false,
+      "difficulty": "bronze",
+      "reason": "该奖牌组至少 50% 的队伍在赛内通过",
+      "solved": 334,
+      "participants": 336,
+      "cohorts": {
+        "bronze": {
+          "solved": 99,
+          "total": 99,
+          "rate": 1
+        },
+        "silver": {
+          "solved": 66,
+          "total": 66,
+          "rate": 1
+        },
+        "gold": {
+          "solved": 33,
+          "total": 33,
+          "rate": 1
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105484/attachments/download/28235/contest-zh.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 10,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-nanjing/F",
+      "contestId": "icpc-2024-nanjing",
+      "contestShortName": "24-ICPC-南京",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "F",
+      "title": "Subway",
+      "qojId": 9569,
+      "interactive": false,
+      "difficulty": "challenge",
+      "reason": "金牌组赛内通过率也未达到 50%",
+      "solved": 4,
+      "participants": 336,
+      "cohorts": {
+        "bronze": {
+          "solved": 0,
+          "total": 99,
+          "rate": 0
+        },
+        "silver": {
+          "solved": 0,
+          "total": 66,
+          "rate": 0
+        },
+        "gold": {
+          "solved": 4,
+          "total": 33,
+          "rate": 0.12121212121212122
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105484/attachments/download/28235/contest-zh.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 11,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-nanjing/G",
+      "contestId": "icpc-2024-nanjing",
+      "contestShortName": "24-ICPC-南京",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "G",
+      "title": "Binary Tree",
+      "qojId": 9570,
+      "interactive": true,
+      "difficulty": "silver",
+      "reason": "该奖牌组至少 50% 的队伍在赛内通过",
+      "solved": 135,
+      "participants": 336,
+      "cohorts": {
+        "bronze": {
+          "solved": 39,
+          "total": 99,
+          "rate": 0.3939393939393939
+        },
+        "silver": {
+          "solved": 56,
+          "total": 66,
+          "rate": 0.8484848484848485
+        },
+        "gold": {
+          "solved": 33,
+          "total": 33,
+          "rate": 1
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105484/attachments/download/28235/contest-zh.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 12,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-nanjing/H",
+      "contestId": "icpc-2024-nanjing",
+      "contestShortName": "24-ICPC-南京",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "H",
+      "title": "Border Jump 2",
+      "qojId": 9571,
+      "interactive": false,
+      "difficulty": "challenge",
+      "reason": "金牌组赛内通过率也未达到 50%",
+      "solved": 0,
+      "participants": 336,
+      "cohorts": {
+        "bronze": {
+          "solved": 0,
+          "total": 99,
+          "rate": 0
+        },
+        "silver": {
+          "solved": 0,
+          "total": 66,
+          "rate": 0
+        },
+        "gold": {
+          "solved": 0,
+          "total": 33,
+          "rate": 0
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105484/attachments/download/28235/contest-zh.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 14,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-nanjing/I",
+      "contestId": "icpc-2024-nanjing",
+      "contestShortName": "24-ICPC-南京",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "I",
+      "title": "Bingo",
+      "qojId": 9572,
+      "interactive": false,
+      "difficulty": "challenge",
+      "reason": "金牌组赛内通过率也未达到 50%",
+      "solved": 16,
+      "participants": 336,
+      "cohorts": {
+        "bronze": {
+          "solved": 0,
+          "total": 99,
+          "rate": 0
+        },
+        "silver": {
+          "solved": 0,
+          "total": 66,
+          "rate": 0
+        },
+        "gold": {
+          "solved": 16,
+          "total": 33,
+          "rate": 0.48484848484848486
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105484/attachments/download/28235/contest-zh.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 15,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-nanjing/J",
+      "contestId": "icpc-2024-nanjing",
+      "contestShortName": "24-ICPC-南京",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "J",
+      "title": "Social Media",
+      "qojId": 9573,
+      "interactive": false,
+      "difficulty": "bronze",
+      "reason": "该奖牌组至少 50% 的队伍在赛内通过",
+      "solved": 326,
+      "participants": 336,
+      "cohorts": {
+        "bronze": {
+          "solved": 99,
+          "total": 99,
+          "rate": 1
+        },
+        "silver": {
+          "solved": 66,
+          "total": 66,
+          "rate": 1
+        },
+        "gold": {
+          "solved": 33,
+          "total": 33,
+          "rate": 1
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105484/attachments/download/28235/contest-zh.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 16,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-nanjing/K",
+      "contestId": "icpc-2024-nanjing",
+      "contestShortName": "24-ICPC-南京",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "K",
+      "title": "Strips",
+      "qojId": 9574,
+      "interactive": false,
+      "difficulty": "bronze",
+      "reason": "该奖牌组至少 50% 的队伍在赛内通过",
+      "solved": 213,
+      "participants": 336,
+      "cohorts": {
+        "bronze": {
+          "solved": 82,
+          "total": 99,
+          "rate": 0.8282828282828283
+        },
+        "silver": {
+          "solved": 64,
+          "total": 66,
+          "rate": 0.9696969696969697
+        },
+        "gold": {
+          "solved": 33,
+          "total": 33,
+          "rate": 1
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105484/attachments/download/28235/contest-zh.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 18,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-nanjing/L",
+      "contestId": "icpc-2024-nanjing",
+      "contestShortName": "24-ICPC-南京",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "L",
+      "title": "P ⊕ Q = R",
+      "qojId": 9575,
+      "interactive": false,
+      "difficulty": "challenge",
+      "reason": "金牌组赛内通过率也未达到 50%",
+      "solved": 0,
+      "participants": 336,
+      "cohorts": {
+        "bronze": {
+          "solved": 0,
+          "total": 99,
+          "rate": 0
+        },
+        "silver": {
+          "solved": 0,
+          "total": 66,
+          "rate": 0
+        },
+        "gold": {
+          "solved": 0,
+          "total": 33,
+          "rate": 0
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105484/attachments/download/28235/contest-zh.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 19,
+        "provenance": "official"
+      }
+    },
+    {
+      "id": "icpc-2024-nanjing/M",
+      "contestId": "icpc-2024-nanjing",
+      "contestShortName": "24-ICPC-南京",
+      "year": 2024,
+      "series": "ICPC",
+      "label": "M",
+      "title": "Ordainer of Inexorable Judgment",
+      "qojId": 9576,
+      "interactive": false,
+      "difficulty": "challenge",
+      "reason": "金牌组赛内通过率也未达到 50%",
+      "solved": 9,
+      "participants": 336,
+      "cohorts": {
+        "bronze": {
+          "solved": 0,
+          "total": 99,
+          "rate": 0
+        },
+        "silver": {
+          "solved": 2,
+          "total": 66,
+          "rate": 0.030303030303030304
+        },
+        "gold": {
+          "solved": 7,
+          "total": 33,
+          "rate": 0.21212121212121213
+        }
+      },
+      "statement": {
+        "url": "https://codeforces.com/gym/105484/attachments/download/28235/contest-zh.pdf",
+        "language": "zh",
+        "format": "pdf",
+        "page": 20,
+        "provenance": "official"
+      }
+    }
+  ]
+}

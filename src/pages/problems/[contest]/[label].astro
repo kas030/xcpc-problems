@@ -1,0 +1,53 @@
+---
+import { getCollection, render } from 'astro:content';
+import Layout from '../../../layouts/Layout.astro';
+import { catalog } from '../../../lib/catalog';
+import { href, problemHref } from '../../../lib/urls';
+import { difficultyLabels } from '../../../lib/schema';
+export function getStaticPaths() {
+  return catalog.problems.map(problem => ({ params: { contest: problem.contestId, label: problem.label }, props: { problem, contest: catalog.contests.find(c => c.id === problem.contestId)! } }));
+}
+const { problem, contest } = Astro.props;
+const entry = problem.markdown ? (await getCollection('statements')).find(e => e.data.problemId === problem.id) : undefined;
+const rendered = entry ? await render(entry) : undefined;
+const Content = rendered?.Content;
+const statement = problem.statement;
+const readerUrl = statement?.format === 'pdf' ? `${statement.url}#page=${statement.page ?? 1}&view=FitH` : statement?.url;
+const siblings = catalog.problems.filter(p => p.contestId === problem.contestId);
+const position = siblings.findIndex(p => p.id === problem.id);
+const previous = siblings[position-1];
+const next = siblings[position+1];
+---
+<Layout title={`${problem.label}. ${problem.title} · ${contest.shortName}`}>
+  <nav class="breadcrumb" aria-label="面包屑"><a href={href()}>题单</a><span>/</span><a href={href(`contests/${contest.id}`)}>{contest.shortName}</a><span>/</span><span>Problem {problem.label}</span></nav>
+  <header class="detail-head"><div><h1><span class="detail-label">{problem.label}.</span>{problem.title}</h1><div class="detail-meta"><a class="contest-tag" href={href(`contests/${contest.id}`)}>{contest.shortName}</a><span class={`difficulty-badge ${problem.difficulty}`}><span class="badge-dot"/>{difficultyLabels[problem.difficulty]}</span><span>QOJ #{problem.qojId}</span>{problem.interactive && <span>交互题</span>}</div></div><a class="button button-primary" href={`https://qoj.ac/problem/${problem.qojId}`} target="_blank" rel="noopener noreferrer">去 QOJ 提交 ↗</a></header>
+  <div class="detail-grid">
+    <section>
+      <div class="reading-card">
+        <div class="reading-toolbar"><h2>{Content ? entry!.data.language === 'zh' ? '中文题面' : '英文题面' : '官方题面'}<span class="source-label">{Content ? entry!.data.status === 'official' ? '官方原文' : entry!.data.status === 'reviewed' ? '译文已校对' : '译文待校对' : statement?.language === 'zh' ? '中文 PDF' : '原文'}</span></h2>{statement && <a class="button button-small" href={readerUrl} target="_blank" rel="noopener noreferrer">打开题册 ↗</a>}</div>
+        {entry?.data.status === 'draft' && <div class="status-banner">这份译文尚未校对，训练时请同时核对原文中的约束和样例。</div>}
+        {Content ? <article class="prose statement-prose"><Content /></article> : statement?.format === 'pdf' ? <>
+          <div class="pdf-entry"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h5"/></svg><h3>{statement.language === 'zh' ? '官方中文题册' : '官方题册'}</h3><p>Problem {problem.label} · {statement.page ? `从第 ${statement.page} 页开始阅读` : '在题册中按题号查找'}</p><a class="button button-primary" href={readerUrl} target="_blank" rel="noopener noreferrer">打开{statement.language === 'zh' ? '中文' : ''} PDF ↗</a><span>完整题意、数据范围与样例均见原始题册</span></div>
+          <details class="pdf-preview"><summary>在本页预览题册<span>部分浏览器或题面来源可能不支持</span></summary><iframe class="pdf-frame" src={readerUrl} title={`${problem.label}. ${problem.title} ${statement.language === 'zh' ? '中文' : ''}题面`} loading="lazy" referrerpolicy="no-referrer" /></details>
+        </> : <div class="statement-prose"><p>完整题面可在原始网站阅读。</p>{statement && <a class="button" href={statement.url} target="_blank" rel="noopener noreferrer">打开原始题面 ↗</a>}</div>}
+        <div class="pdf-help">{statement?.page ? `已定位到题册第 ${statement.page} 页。` : '题册中可按题号查找本题。'} 预览未显示时，可<a href={readerUrl ?? `https://qoj.ac/problem/${problem.qojId}`} target="_blank" rel="noopener noreferrer">在新窗口打开</a>。题面由原始网站提供。</div>
+      </div>
+      <nav class="problem-neighbors" aria-label="本场其他题目"><span>{previous && <a href={problemHref(previous.id)}>← 上一题 {previous.label}</a>}</span><a href={href(`contests/${contest.id}`)}>整场题单</a><span>{next && <a href={problemHref(next.id)}>下一题 {next.label} →</a>}</span></nav>
+    </section>
+    <aside class="detail-sidebar">
+      <section class="detail-card" id="difficulty"><h2>赛场难度</h2><div class="classification"><span class={`difficulty-badge ${problem.difficulty}`}><span class="badge-dot"/>{difficultyLabels[problem.difficulty]}</span></div><p>{problem.reason}</p>{(['bronze','silver','gold'] as const).map((medal,i) => {const stat = problem.cohorts[medal];return <div class="cohort-row"><div class="cohort-label"><span>{['铜牌','银牌','金牌'][i]}组</span><strong>{stat.rate === null ? '—' : `${(stat.rate*100).toFixed(1)}%`}</strong></div><div class={`cohort-track ${medal}`}><span style={`width:${(stat.rate ?? 0)*100}%`}/></div><span class="cohort-count">{stat.total ? `${stat.solved} / ${stat.total} 队通过` : '奖牌组尚未确认'}</span></div>})}<div class="detail-note">虚线为 50% 分级阈值<br/><a href={href('methodology')}>查看完整计算规则 →</a></div></section>
+      <section class="detail-card"><h2>本场记录</h2><dl class="detail-dl"><div><dt>正式队伍通过</dt><dd>{problem.solved} / {problem.participants}</dd></div><div><dt>比赛日期</dt><dd>{contest.date.slice(0,10)}</dd></div><div><dt>数据更新</dt><dd>{contest.syncedAt.slice(0,10)}</dd></div></dl><button class="button button-small progress-button" data-progress-id={problem.id} style="margin-top:18px;width:100%" aria-pressed="false">标记为已完成</button><p class="detail-note" data-progress-note>仅保存在当前浏览器</p></section>
+      <section class="detail-card"><h2>相关链接</h2><a class="detail-external" href={`https://qoj.ac/problem/${problem.qojId}`} target="_blank" rel="noopener noreferrer"><span>QOJ #{problem.qojId}</span><span>↗</span></a><a class="detail-external" href={contest.boardUrl} target="_blank" rel="noopener noreferrer"><span>XCPCIO 比赛榜单</span><span>↗</span></a><a class="detail-external" href={contest.sourceUrl} target="_blank" rel="noopener noreferrer"><span>榜单来源与版本</span><span>↗</span></a></section>
+    </aside>
+  </div>
+</Layout>
+<script>
+  const button = document.querySelector<HTMLButtonElement>('[data-progress-id]');
+  const note = document.querySelector<HTMLElement>('[data-progress-note]');
+  const storageKey = 'xcpc-problems:solved:v1';
+  let saved: string[] = [];
+  try { const value = JSON.parse(localStorage.getItem(storageKey) ?? '[]'); if (Array.isArray(value)) saved = value.filter(id => typeof id === 'string'); } catch {}
+  function paint() { if (button) { const done = saved.includes(button.dataset.progressId!); button.textContent = done ? '✓ 已完成' : '标记为已完成'; button.setAttribute('aria-pressed', String(done)); } }
+  paint();
+  button?.addEventListener('click', () => { const id = button.dataset.progressId!; saved = saved.includes(id) ? saved.filter(item => item !== id) : [...saved, id]; paint(); try { localStorage.setItem(storageKey, JSON.stringify(saved)); } catch { if (note) note.textContent = '浏览器无法保存，本次标记仍有效'; } });
+</script>

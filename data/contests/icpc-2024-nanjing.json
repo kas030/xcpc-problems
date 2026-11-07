@@ -1,0 +1,194 @@
+{
+  "id": "icpc-2024-nanjing",
+  "name": "2024 ICPC 亚洲区域赛南京站",
+  "shortName": "24-ICPC-南京",
+  "year": 2024,
+  "series": "ICPC",
+  "kind": "regional",
+  "sourcePath": "icpc/49th/nanjing",
+  "qojContestId": 1828,
+  "mappingSource": "https://qoj.ac/problems?tag=Nanjing+Regional+2024",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/49th/nanjing/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://codeforces.com/gym/105484/attachments/download/28235/contest-zh.pdf",
+    "format": "pdf",
+    "language": "zh",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Hey, Have You Seen My Kangaroo?",
+      "qojId": 9564,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105484/attachments/download/28235/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 3
+      }
+    },
+    {
+      "label": "B",
+      "title": "Birthday Gift",
+      "qojId": 9565,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105484/attachments/download/28235/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 6
+      }
+    },
+    {
+      "label": "C",
+      "title": "Topology",
+      "qojId": 9566,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105484/attachments/download/28235/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 7
+      }
+    },
+    {
+      "label": "D",
+      "title": "Toe-Tac-Tics",
+      "qojId": 9567,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105484/attachments/download/28235/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 8
+      }
+    },
+    {
+      "label": "E",
+      "title": "Left Shifting 3",
+      "qojId": 9568,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105484/attachments/download/28235/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 10
+      }
+    },
+    {
+      "label": "F",
+      "title": "Subway",
+      "qojId": 9569,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105484/attachments/download/28235/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 11
+      }
+    },
+    {
+      "label": "G",
+      "title": "Binary Tree",
+      "qojId": 9570,
+      "interactive": true,
+      "statement": {
+        "url": "https://codeforces.com/gym/105484/attachments/download/28235/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 12
+      }
+    },
+    {
+      "label": "H",
+      "title": "Border Jump 2",
+      "qojId": 9571,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105484/attachments/download/28235/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 14
+      }
+    },
+    {
+      "label": "I",
+      "title": "Bingo",
+      "qojId": 9572,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105484/attachments/download/28235/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 15
+      }
+    },
+    {
+      "label": "J",
+      "title": "Social Media",
+      "qojId": 9573,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105484/attachments/download/28235/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 16
+      }
+    },
+    {
+      "label": "K",
+      "title": "Strips",
+      "qojId": 9574,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105484/attachments/download/28235/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 18
+      }
+    },
+    {
+      "label": "L",
+      "title": "P ⊕ Q = R",
+      "qojId": 9575,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105484/attachments/download/28235/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 19
+      }
+    },
+    {
+      "label": "M",
+      "title": "Ordainer of Inexorable Judgment",
+      "qojId": 9576,
+      "interactive": false,
+      "statement": {
+        "url": "https://codeforces.com/gym/105484/attachments/download/28235/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 20
+      }
+    }
+  ]
+}

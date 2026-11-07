@@ -1,0 +1,8 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Guide from '../content/guides/methodology.md';
+import { href } from '../lib/urls';
+---
+<Layout title="难度分级说明 · XCPC 题单" active="methodology">
+  <div class="guide-page"><a class="back-link" href={href()}>← 返回题单</a><article class="guide-paper prose"><Guide /></article></div>
+</Layout>
