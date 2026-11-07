@@ -1,0 +1,90 @@
+{
+  "id": "ccpc-2022-mianyang",
+  "name": "2022 中国大学生程序设计竞赛（绵阳） - 正式赛",
+  "shortName": "22-CCPC-绵阳",
+  "year": 2022,
+  "series": "CCPC",
+  "kind": "regional",
+  "sourcePath": "ccpc/8th/mianyang",
+  "qojContestId": 1480,
+  "mappingSource": "https://qoj.ac/contest/1480",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/ccpc/8th/mianyang/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=1480&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Ban or Pick, What's the Trick",
+      "qojId": 8034
+    },
+    {
+      "label": "B",
+      "title": "Call Me Call Me",
+      "qojId": 8035
+    },
+    {
+      "label": "C",
+      "title": "Catch You Catch Me",
+      "qojId": 8036
+    },
+    {
+      "label": "D",
+      "title": "Gambler's Ruin",
+      "qojId": 8037
+    },
+    {
+      "label": "E",
+      "title": "Hammer to Fall",
+      "qojId": 8038
+    },
+    {
+      "label": "F",
+      "title": "Infinite Strife",
+      "qojId": 8039
+    },
+    {
+      "label": "G",
+      "title": "Let Them Eat Cake",
+      "qojId": 8040
+    },
+    {
+      "label": "H",
+      "title": "Life is Hard and Undecidable, but...",
+      "qojId": 8041
+    },
+    {
+      "label": "I",
+      "title": "Mental Abuse To Humans",
+      "qojId": 8042
+    },
+    {
+      "label": "J",
+      "title": "Middle Race",
+      "qojId": 8043
+    },
+    {
+      "label": "K",
+      "title": "Pattern Matching in A Minor \"Low Space\"",
+      "qojId": 8044
+    },
+    {
+      "label": "L",
+      "title": "Por Una Cabeza",
+      "qojId": 8045
+    },
+    {
+      "label": "M",
+      "title": "Rock-Paper-Scissors Pyramid",
+      "qojId": 8046
+    }
+  ]
+}

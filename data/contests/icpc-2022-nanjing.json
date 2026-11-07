@@ -1,0 +1,90 @@
+{
+  "id": "icpc-2022-nanjing",
+  "name": "第 47 届国际大学生程序设计竞赛亚洲区域赛南京站（正式赛）",
+  "shortName": "22-ICPC-南京",
+  "year": 2022,
+  "series": "ICPC",
+  "kind": "regional",
+  "sourcePath": "icpc/47th/nanjing",
+  "qojContestId": 1093,
+  "mappingSource": "https://qoj.ac/contest/1093",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/47th/nanjing/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://sua.ac/wiki/2022-icpc-nanjing/contest-zh.pdf",
+    "format": "pdf",
+    "language": "zh",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Stop, Yesterday Please No More",
+      "qojId": 5414
+    },
+    {
+      "label": "B",
+      "title": "Ropeway",
+      "qojId": 5415
+    },
+    {
+      "label": "C",
+      "title": "Fabulous Fungus Frenzy",
+      "qojId": 5416
+    },
+    {
+      "label": "D",
+      "title": "Chat Program",
+      "qojId": 5417
+    },
+    {
+      "label": "E",
+      "title": "Color the Tree",
+      "qojId": 5418
+    },
+    {
+      "label": "F",
+      "title": "Triangles",
+      "qojId": 5419
+    },
+    {
+      "label": "G",
+      "title": "Inscryption",
+      "qojId": 5420
+    },
+    {
+      "label": "H",
+      "title": "Factories Once More",
+      "qojId": 5421
+    },
+    {
+      "label": "I",
+      "title": "Perfect Palindrome",
+      "qojId": 5422
+    },
+    {
+      "label": "J",
+      "title": "Perfect Matching",
+      "qojId": 5423
+    },
+    {
+      "label": "K",
+      "title": "NaN in a Heap",
+      "qojId": 5424
+    },
+    {
+      "label": "L",
+      "title": "Proposition Composition",
+      "qojId": 5425
+    },
+    {
+      "label": "M",
+      "title": "Drain the Water Tank",
+      "qojId": 5426
+    }
+  ]
+}

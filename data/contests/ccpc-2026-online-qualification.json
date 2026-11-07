@@ -1,0 +1,89 @@
+{
+  "id": "ccpc-2026-online-qualification",
+  "name": "第 12 届 CCPC 中国大学生程序设计竞赛网络预选赛",
+  "shortName": "26-CCPC-网预选",
+  "year": 2026,
+  "series": "CCPC",
+  "kind": "online",
+  "sourcePath": "ccpc/12th/online-qualification",
+  "qojContestId": 4128,
+  "mappingSource": "https://qoj.ac/contest/4128",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/ccpc/12th/online-qualification/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "All the Trades Are the Best",
+      "qojId": 20715
+    },
+    {
+      "label": "B",
+      "title": "Better Dice",
+      "qojId": 20716
+    },
+    {
+      "label": "C",
+      "title": "Cross the Road",
+      "qojId": 20717
+    },
+    {
+      "label": "D",
+      "title": "Dodge the Car",
+      "qojId": 20718
+    },
+    {
+      "label": "E",
+      "title": "EPS.AC",
+      "qojId": 20719
+    },
+    {
+      "label": "F",
+      "title": "Flight of the Night Butterfly",
+      "qojId": 20720
+    },
+    {
+      "label": "G",
+      "title": "Growing Prefix Span",
+      "qojId": 20721
+    },
+    {
+      "label": "H",
+      "title": "Hidden Permutation",
+      "qojId": 20722
+    },
+    {
+      "label": "I",
+      "title": "Integer Triple",
+      "qojId": 20723
+    },
+    {
+      "label": "J",
+      "title": "Jobs through Pipelines",
+      "qojId": 20724
+    },
+    {
+      "label": "K",
+      "title": "Keep on the Right Track",
+      "qojId": 20725
+    },
+    {
+      "label": "L",
+      "title": "Logging Compression",
+      "qojId": 20726
+    },
+    {
+      "label": "M",
+      "title": "Median Equals X",
+      "qojId": 20727
+    },
+    {
+      "label": "N",
+      "title": "New CCPC Rules",
+      "qojId": 20728
+    }
+  ]
+}

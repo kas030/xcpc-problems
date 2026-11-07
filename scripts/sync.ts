@@ -3,16 +3,7 @@ import { at, definitions, fetchText, readJson, rawConfigSchema, rawRunSchema, ra
 import { buildCatalog } from './build-catalog';
 import type { Snapshot } from '../src/lib/schema';
 import { analyzeBoard } from '../src/lib/scoring';
-
-interface IndexEntry { sourcePath: string; name: string; startTime: number; endTime: number }
-function flattenIndex(node: unknown): IndexEntry[] {
-  if (!node || typeof node !== 'object') return [];
-  const item = node as Record<string, any>;
-  if (typeof item.board_link === 'string' && item.config) {
-    return [{ sourcePath: item.board_link.replace(/^\//, ''), name: typeof item.config.contest_name === 'string' ? item.config.contest_name : Object.values(item.config.contest_name).join(' / '), startTime: item.config.start_time, endTime: item.config.end_time }];
-  }
-  return Object.values(item).flatMap(flattenIndex);
-}
+import { flattenIndex, isCompetition } from './board-index';
 
 const args = process.argv.slice(2);
 const only = args.find(a => a.startsWith('--contest='))?.slice('--contest='.length);
@@ -20,7 +11,7 @@ const known = await definitions();
 if (only && !known.some(c => c.id === only)) throw new Error(`未知比赛：${only}`);
 const index = flattenIndex(JSON.parse(await fetchText('https://board.xcpcio.com/data/index/contest_list.json')));
 if (!index.length) throw new Error('比赛索引为空，停止更新');
-const discovered = index.filter(c => /^(icpc|ccpc)\//.test(c.sourcePath) && !/warmup|practice/.test(c.sourcePath) && !known.some(k => k.sourcePath === c.sourcePath))
+const discovered = index.filter(c => isCompetition(c.sourcePath) && !known.some(k => k.sourcePath === c.sourcePath))
   .sort((a, b) => b.startTime - a.startTime || a.sourcePath.localeCompare(b.sourcePath));
 if (!args.includes('--discover-only')) {
   const ref = JSON.parse(await fetchText('https://api.github.com/repos/xcpcio/board-data/commits/main'));

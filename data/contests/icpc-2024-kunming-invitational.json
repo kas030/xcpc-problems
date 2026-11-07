@@ -1,0 +1,91 @@
+{
+  "id": "icpc-2024-kunming-invitational",
+  "name": "第 49 届 ICPC 国际大学生程序设计竞赛邀请赛昆明站 - 正式赛",
+  "shortName": "24-ICPC-昆明-邀",
+  "year": 2024,
+  "series": "ICPC",
+  "kind": "invitational",
+  "sourcePath": "icpc/49th/kunming-invitational",
+  "qojContestId": 1802,
+  "mappingSource": "https://qoj.ac/contest/1802",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/49th/kunming-invitational/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://sua.ac/wiki/2024-icpc-invitational-kunming/contest-zh.pdf",
+    "format": "pdf",
+    "language": "zh",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Two-star Contest",
+      "qojId": 9422
+    },
+    {
+      "label": "B",
+      "title": "Gold Medal",
+      "qojId": 9423
+    },
+    {
+      "label": "C",
+      "title": "Stop the Castle 2",
+      "qojId": 9424
+    },
+    {
+      "label": "D",
+      "title": "Generated String",
+      "qojId": 9425
+    },
+    {
+      "label": "E",
+      "title": "Relearn through Review",
+      "qojId": 9426
+    },
+    {
+      "label": "F",
+      "title": "Collect the Coins",
+      "qojId": 9427
+    },
+    {
+      "label": "G",
+      "title": "Be Positive",
+      "qojId": 9428
+    },
+    {
+      "label": "H",
+      "title": "Subarray",
+      "qojId": 9429
+    },
+    {
+      "label": "I",
+      "title": "Left Shifting 2",
+      "qojId": 9430
+    },
+    {
+      "label": "J",
+      "title": "The Quest for El Dorado",
+      "qojId": 9431
+    },
+    {
+      "label": "K",
+      "title": "Permutation",
+      "qojId": 9432,
+      "interactive": true
+    },
+    {
+      "label": "L",
+      "title": "Trails",
+      "qojId": 9433
+    },
+    {
+      "label": "M",
+      "title": "Italian Cuisine",
+      "qojId": 9434
+    }
+  ]
+}

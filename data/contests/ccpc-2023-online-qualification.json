@@ -1,0 +1,85 @@
+{
+  "id": "ccpc-2023-online-qualification",
+  "name": "第九届中国大学生程序设计竞赛网络预选赛",
+  "shortName": "23-CCPC-网预选",
+  "year": 2023,
+  "series": "CCPC",
+  "kind": "online",
+  "sourcePath": "ccpc/9th/online-qualification",
+  "qojContestId": 1358,
+  "mappingSource": "https://qoj.ac/contest/1358?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/ccpc/9th/online-qualification/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=1358&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Almost Prefix Concatenation",
+      "qojId": 7512
+    },
+    {
+      "label": "B",
+      "title": "Palindromic Beads",
+      "qojId": 7513
+    },
+    {
+      "label": "C",
+      "title": "Clique Challenge",
+      "qojId": 7514
+    },
+    {
+      "label": "D",
+      "title": "Discrete Fourier Transform",
+      "qojId": 7515
+    },
+    {
+      "label": "E",
+      "title": "Robot Experiment",
+      "qojId": 7516
+    },
+    {
+      "label": "F",
+      "title": "Flying Ship Story",
+      "qojId": 7517
+    },
+    {
+      "label": "G",
+      "title": "GCD of Pattern Matching",
+      "qojId": 7518
+    },
+    {
+      "label": "H",
+      "title": "Hurricane",
+      "qojId": 7519
+    },
+    {
+      "label": "I",
+      "title": "Monster Generator",
+      "qojId": 7520
+    },
+    {
+      "label": "J",
+      "title": "Find the Gap",
+      "qojId": 7521
+    },
+    {
+      "label": "K",
+      "title": "Sequence Shift",
+      "qojId": 7522
+    },
+    {
+      "label": "L",
+      "title": "Partially Free Meal",
+      "qojId": 7523
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "ccpc-2023-guilin",
+  "name": "第 9 届 CCPC 中国大学生程序设计竞赛桂林站 - 正式赛",
+  "shortName": "23-CCPC-桂林",
+  "year": 2023,
+  "series": "CCPC",
+  "kind": "regional",
+  "sourcePath": "ccpc/9th/guilin",
+  "qojContestId": 1404,
+  "mappingSource": "https://qoj.ac/contest/1404?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/ccpc/9th/guilin/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=1404&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Easy Diameter Problem",
+      "qojId": 7677
+    },
+    {
+      "label": "B",
+      "title": "The Game",
+      "qojId": 7678
+    },
+    {
+      "label": "C",
+      "title": "Master of Both IV",
+      "qojId": 7679
+    },
+    {
+      "label": "D",
+      "title": "Subway",
+      "qojId": 7680
+    },
+    {
+      "label": "E",
+      "title": "Prefix Mahjong",
+      "qojId": 7681
+    },
+    {
+      "label": "F",
+      "title": "Redundant Towers",
+      "qojId": 7682
+    },
+    {
+      "label": "G",
+      "title": "Hard Brackets Problem",
+      "qojId": 7683
+    },
+    {
+      "label": "H",
+      "title": "Sweet Sugar",
+      "qojId": 7684
+    },
+    {
+      "label": "I",
+      "title": "Barkley II",
+      "qojId": 7685
+    },
+    {
+      "label": "J",
+      "title": "The Phantom Menace",
+      "qojId": 7686
+    },
+    {
+      "label": "K",
+      "title": "Randias Permutation Task",
+      "qojId": 7687
+    },
+    {
+      "label": "L",
+      "title": "Alea Iacta Est",
+      "qojId": 7688
+    },
+    {
+      "label": "M",
+      "title": "Flipping Cards",
+      "qojId": 7689
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "ccpc-2022-online-qualification",
+  "name": "2022 年中国大学生程序设计竞赛网络预选赛",
+  "shortName": "22-CCPC-网预选",
+  "year": 2022,
+  "series": "CCPC",
+  "kind": "online",
+  "sourcePath": "ccpc/8th/online-qualification",
+  "qojContestId": 2531,
+  "mappingSource": "https://qoj.ac/contest/2531",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/ccpc/8th/online-qualification/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Doubt VS Lie",
+      "qojId": 14534
+    },
+    {
+      "label": "B",
+      "title": "Degree",
+      "qojId": 14535
+    },
+    {
+      "label": "C",
+      "title": "Guess",
+      "qojId": 14536
+    },
+    {
+      "label": "D",
+      "title": "Pointer Sequence",
+      "qojId": 14537
+    },
+    {
+      "label": "E",
+      "title": "Substring Match",
+      "qojId": 14538
+    },
+    {
+      "label": "F",
+      "title": "Xor Circle",
+      "qojId": 14539
+    },
+    {
+      "label": "G",
+      "title": "Name the Puppy",
+      "qojId": 14540
+    },
+    {
+      "label": "H",
+      "title": "Mutiple Set",
+      "qojId": 14541
+    },
+    {
+      "label": "I",
+      "title": "Transport Plan",
+      "qojId": 14542
+    },
+    {
+      "label": "J",
+      "title": "Count Permutation",
+      "qojId": 14543
+    },
+    {
+      "label": "K",
+      "title": "Roulette",
+      "qojId": 14544
+    },
+    {
+      "label": "L",
+      "title": "Tree Division",
+      "qojId": 14545
+    },
+    {
+      "label": "M",
+      "title": "Count Permutation 2",
+      "qojId": 14546
+    }
+  ]
+}

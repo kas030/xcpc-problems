@@ -1,0 +1,90 @@
+{
+  "id": "icpc-2023-shenyang",
+  "name": "第 48 届 ICPC 国际大学生程序设计竞赛区域赛沈阳站 - 正式赛",
+  "shortName": "23-ICPC-沈阳",
+  "year": 2023,
+  "series": "ICPC",
+  "kind": "regional",
+  "sourcePath": "icpc/48th/shenyang",
+  "qojContestId": 1449,
+  "mappingSource": "https://qoj.ac/contest/1449?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/48th/shenyang/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=1449&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Intro: Dawn of a New Era",
+      "qojId": 7777
+    },
+    {
+      "label": "B",
+      "title": "Turning Permutation",
+      "qojId": 7778
+    },
+    {
+      "label": "C",
+      "title": "Swiss Stage",
+      "qojId": 7779
+    },
+    {
+      "label": "D",
+      "title": "Dark LaTeX vs. Light LaTeX",
+      "qojId": 7780
+    },
+    {
+      "label": "E",
+      "title": "Sheep Eat Wolves",
+      "qojId": 7781
+    },
+    {
+      "label": "F",
+      "title": "Ursa Minor",
+      "qojId": 7782
+    },
+    {
+      "label": "G",
+      "title": "Military Maneuver",
+      "qojId": 7783
+    },
+    {
+      "label": "H",
+      "title": "Line Graph Sequence",
+      "qojId": 7784
+    },
+    {
+      "label": "I",
+      "title": "Three Rectangles",
+      "qojId": 7785
+    },
+    {
+      "label": "J",
+      "title": "Graft and Transplant",
+      "qojId": 7786
+    },
+    {
+      "label": "K",
+      "title": "Maximum Rating",
+      "qojId": 7787
+    },
+    {
+      "label": "L",
+      "title": "Rook Detection",
+      "qojId": 7788
+    },
+    {
+      "label": "M",
+      "title": "Outro: True Love Waits",
+      "qojId": 7789
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "icpc-2026-wuhan-invitational",
+  "name": "2026 年 ICPC 国际大学生程序设计竞赛全国邀请赛（武汉）暨湖北省赛 - 正式赛",
+  "shortName": "26-ICPC-武汉-邀",
+  "year": 2026,
+  "series": "ICPC",
+  "kind": "invitational",
+  "sourcePath": "icpc/51st/wuhan-invitational",
+  "qojContestId": 3799,
+  "mappingSource": "https://qoj.ac/contest/3799?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/51st/wuhan-invitational/",
+  "eligibleGroup": "Invitational_participants",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=3799&r=1",
+    "language": "zh",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Sort",
+      "qojId": 18428
+    },
+    {
+      "label": "B",
+      "title": "Sequence Operations",
+      "qojId": 18429
+    },
+    {
+      "label": "C",
+      "title": "Believe in You",
+      "qojId": 18430
+    },
+    {
+      "label": "D",
+      "title": "Prime Game",
+      "qojId": 18431
+    },
+    {
+      "label": "E",
+      "title": "Rook",
+      "qojId": 18432
+    },
+    {
+      "label": "F",
+      "title": "Lottery",
+      "qojId": 18433
+    },
+    {
+      "label": "G",
+      "title": "I Will Always Remember You",
+      "qojId": 18434
+    },
+    {
+      "label": "H",
+      "title": "Rectangle Cutting",
+      "qojId": 18435
+    },
+    {
+      "label": "I",
+      "title": "Nailoong vs. Bombloong 2",
+      "qojId": 18436
+    },
+    {
+      "label": "J",
+      "title": "The Best Card",
+      "qojId": 18437
+    },
+    {
+      "label": "K",
+      "title": "Deletion Game",
+      "qojId": 18438
+    },
+    {
+      "label": "L",
+      "title": "String Matching",
+      "qojId": 18439
+    },
+    {
+      "label": "M",
+      "title": "Iroha and the Kingdom of Construction",
+      "qojId": 18440
+    }
+  ]
+}

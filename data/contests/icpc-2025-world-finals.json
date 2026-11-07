@@ -1,0 +1,85 @@
+{
+  "id": "icpc-2025-world-finals",
+  "name": "The 49th ICPC World Finals",
+  "shortName": "25-ICPC-世界总决赛",
+  "year": 2025,
+  "series": "ICPC",
+  "kind": "final",
+  "sourcePath": "icpc/49th/world-finals",
+  "qojContestId": 2522,
+  "mappingSource": "https://qoj.ac/contest/2522",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/49th/world-finals/",
+  "eligibleGroup": "all",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=2522&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "A-Skew-ed Reasoning",
+      "qojId": 14601
+    },
+    {
+      "label": "B",
+      "title": "Blackboard Game",
+      "qojId": 14602
+    },
+    {
+      "label": "C",
+      "title": "Bride of Pipe Stream",
+      "qojId": 14603
+    },
+    {
+      "label": "D",
+      "title": "Buggy Rover",
+      "qojId": 14604
+    },
+    {
+      "label": "E",
+      "title": "Delivery Service",
+      "qojId": 14605
+    },
+    {
+      "label": "F",
+      "title": "Herding Cats",
+      "qojId": 14606
+    },
+    {
+      "label": "G",
+      "title": "Lava Moat",
+      "qojId": 14607
+    },
+    {
+      "label": "H",
+      "title": "Score Values",
+      "qojId": 14608
+    },
+    {
+      "label": "I",
+      "title": "Slot Machine",
+      "qojId": 14609
+    },
+    {
+      "label": "J",
+      "title": "Stacking Cups",
+      "qojId": 14610
+    },
+    {
+      "label": "K",
+      "title": "Treasure Map",
+      "qojId": 14611
+    },
+    {
+      "label": "L",
+      "title": "Walking on Sunshine",
+      "qojId": 14612
+    }
+  ]
+}

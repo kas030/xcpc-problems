@@ -1,0 +1,84 @@
+{
+  "id": "icpc-2026-shenyang-invitational",
+  "name": "2026 年 ICPC 国际大学生程序设计竞赛全国邀请赛（沈阳） - 正式赛",
+  "shortName": "26-ICPC-沈阳-邀",
+  "year": 2026,
+  "series": "ICPC",
+  "kind": "invitational",
+  "sourcePath": "icpc/51st/shenyang-invitational",
+  "qojContestId": 3945,
+  "mappingSource": "https://qoj.ac/contest/3945",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/51st/shenyang-invitational/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "小 X 今天心情怎么样？",
+      "qojId": 19013
+    },
+    {
+      "label": "B",
+      "title": "最短路之和",
+      "qojId": 19014
+    },
+    {
+      "label": "C",
+      "title": "魔法审判",
+      "qojId": 19015
+    },
+    {
+      "label": "D",
+      "title": "隐藏的旋律",
+      "qojId": 19016
+    },
+    {
+      "label": "E",
+      "title": "时空回溯",
+      "qojId": 19017
+    },
+    {
+      "label": "F",
+      "title": "等距矩阵",
+      "qojId": 19018
+    },
+    {
+      "label": "G",
+      "title": "三角形",
+      "qojId": 19019
+    },
+    {
+      "label": "H",
+      "title": "Force!",
+      "qojId": 19020
+    },
+    {
+      "label": "I",
+      "title": "Alice的压岁钱",
+      "qojId": 19021
+    },
+    {
+      "label": "J",
+      "title": "霓虹天际线",
+      "qojId": 19022
+    },
+    {
+      "label": "K",
+      "title": "环线补给",
+      "qojId": 19023
+    },
+    {
+      "label": "L",
+      "title": "渐隐的记忆",
+      "qojId": 19024
+    },
+    {
+      "label": "M",
+      "title": "能量晶体",
+      "qojId": 19025
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "ccpc-2024-harbin",
+  "name": "第 10 届 CCPC 中国大学生程序设计竞赛哈尔滨站 - 正式赛",
+  "shortName": "24-CCPC-哈尔滨",
+  "year": 2024,
+  "series": "CCPC",
+  "kind": "regional",
+  "sourcePath": "ccpc/10th/harbin",
+  "qojContestId": 1817,
+  "mappingSource": "https://qoj.ac/contest/1817?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/ccpc/10th/harbin/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=1817&r=0",
+    "language": "zh",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Build a Computer",
+      "qojId": 9519
+    },
+    {
+      "label": "B",
+      "title": "Concave Hull",
+      "qojId": 9520
+    },
+    {
+      "label": "C",
+      "title": "Giving Directions in Harbin",
+      "qojId": 9521
+    },
+    {
+      "label": "D",
+      "title": "A Simple String Problem",
+      "qojId": 9522
+    },
+    {
+      "label": "E",
+      "title": "Marble Race",
+      "qojId": 9523
+    },
+    {
+      "label": "F",
+      "title": "1D Galaxy",
+      "qojId": 9524
+    },
+    {
+      "label": "G",
+      "title": "Welcome to Join the Online Meeting!",
+      "qojId": 9525
+    },
+    {
+      "label": "H",
+      "title": "Subsequence Counting",
+      "qojId": 9526
+    },
+    {
+      "label": "I",
+      "title": "A Brand New Geometric Problem",
+      "qojId": 9527
+    },
+    {
+      "label": "J",
+      "title": "New Energy Vehicle",
+      "qojId": 9528
+    },
+    {
+      "label": "K",
+      "title": "Farm Management",
+      "qojId": 9529
+    },
+    {
+      "label": "L",
+      "title": "A Game On Tree",
+      "qojId": 9530
+    },
+    {
+      "label": "M",
+      "title": "Weird Ceiling",
+      "qojId": 9531
+    }
+  ]
+}

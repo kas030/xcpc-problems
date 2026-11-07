@@ -1,0 +1,90 @@
+{
+  "id": "ccpc-2023-harbin",
+  "name": "第 9 届 CCPC 中国大学生程序设计竞赛哈尔滨站 - 正式赛",
+  "shortName": "23-CCPC-哈尔滨",
+  "year": 2023,
+  "series": "CCPC",
+  "kind": "regional",
+  "sourcePath": "ccpc/9th/harbin",
+  "qojContestId": 1412,
+  "mappingSource": "https://qoj.ac/contest/1412?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/ccpc/9th/harbin/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=1412&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Go go Baron Bunny!",
+      "qojId": 7746
+    },
+    {
+      "label": "B",
+      "title": "Memory",
+      "qojId": 7747
+    },
+    {
+      "label": "C",
+      "title": "Karshilov's Matching Problem II",
+      "qojId": 7748
+    },
+    {
+      "label": "D",
+      "title": "A Simple MST Problem",
+      "qojId": 7749
+    },
+    {
+      "label": "E",
+      "title": "Revenge on My Boss",
+      "qojId": 7750
+    },
+    {
+      "label": "F",
+      "title": "Palindrome Path",
+      "qojId": 7751
+    },
+    {
+      "label": "G",
+      "title": "The Only Way to the Destination",
+      "qojId": 7752
+    },
+    {
+      "label": "H",
+      "title": "Energy Distribution",
+      "qojId": 7753
+    },
+    {
+      "label": "I",
+      "title": "Rolling For Days",
+      "qojId": 7754
+    },
+    {
+      "label": "J",
+      "title": "Game on a Forest",
+      "qojId": 7755
+    },
+    {
+      "label": "K",
+      "title": "Omniscia Spares None",
+      "qojId": 7756
+    },
+    {
+      "label": "L",
+      "title": "Palm Island",
+      "qojId": 7757
+    },
+    {
+      "label": "M",
+      "title": "Painter",
+      "qojId": 7758
+    }
+  ]
+}

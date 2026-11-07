@@ -1,0 +1,90 @@
+{
+  "id": "ccpc-2025-chongqing",
+  "name": "第 11 届 CCPC 中国大学生程序设计竞赛重庆站 - 正式赛",
+  "shortName": "25-CCPC-重庆",
+  "year": 2025,
+  "series": "CCPC",
+  "kind": "regional",
+  "sourcePath": "ccpc/11th/chongqing",
+  "qojContestId": 3387,
+  "mappingSource": "https://qoj.ac/contest/3387?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/ccpc/11th/chongqing/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=3387&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "New Gomoku",
+      "qojId": 15419
+    },
+    {
+      "label": "B",
+      "title": "Abstract Portal",
+      "qojId": 15420
+    },
+    {
+      "label": "C",
+      "title": "GPA Optimization Plan",
+      "qojId": 15421
+    },
+    {
+      "label": "D",
+      "title": "Route Investigation",
+      "qojId": 15422
+    },
+    {
+      "label": "E",
+      "title": "Dinner Invitation",
+      "qojId": 15423
+    },
+    {
+      "label": "F",
+      "title": "Turtle Soup",
+      "qojId": 15424
+    },
+    {
+      "label": "G",
+      "title": "The Messenger",
+      "qojId": 15425
+    },
+    {
+      "label": "H",
+      "title": "Hot Pot",
+      "qojId": 15426
+    },
+    {
+      "label": "I",
+      "title": "Shit",
+      "qojId": 15427
+    },
+    {
+      "label": "J",
+      "title": "Tetris",
+      "qojId": 15428
+    },
+    {
+      "label": "K",
+      "title": "Reverse KMP",
+      "qojId": 15429
+    },
+    {
+      "label": "L",
+      "title": "Tiling the Floor",
+      "qojId": 15430
+    },
+    {
+      "label": "M",
+      "title": "Reduction and Growth",
+      "qojId": 15431
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "ccpc-2025-nanchang-invitational",
+  "name": "2025 CCPC 全国邀请赛（南昌）暨第二届江西省赛 - 正式赛",
+  "shortName": "25-CCPC-南昌-邀",
+  "year": 2025,
+  "series": "CCPC",
+  "kind": "invitational",
+  "sourcePath": "ccpc/11th/nanchang-invitational",
+  "qojContestId": 2521,
+  "mappingSource": "https://qoj.ac/contest/2521",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/ccpc/11th/nanchang-invitational/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=2521&r=0",
+    "language": "zh",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "扭蛋",
+      "qojId": 14501
+    },
+    {
+      "label": "B",
+      "title": "精神胜利",
+      "qojId": 14502
+    },
+    {
+      "label": "C",
+      "title": "虫洞",
+      "qojId": 14503
+    },
+    {
+      "label": "D",
+      "title": "挑战图同构",
+      "qojId": 14504
+    },
+    {
+      "label": "E",
+      "title": "魔法阵",
+      "qojId": 14505
+    },
+    {
+      "label": "F",
+      "title": "木林森",
+      "qojId": 14506
+    },
+    {
+      "label": "G",
+      "title": "玻璃碎晶",
+      "qojId": 14507
+    },
+    {
+      "label": "H",
+      "title": "珍珠链",
+      "qojId": 14508
+    },
+    {
+      "label": "I",
+      "title": "二维弹球",
+      "qojId": 14509
+    },
+    {
+      "label": "J",
+      "title": "合唱队形",
+      "qojId": 14510
+    },
+    {
+      "label": "K",
+      "title": "不许偷吃",
+      "qojId": 14511
+    },
+    {
+      "label": "L",
+      "title": "羽球比赛",
+      "qojId": 14512
+    },
+    {
+      "label": "M",
+      "title": "赛马娘",
+      "qojId": 14513
+    }
+  ]
+}

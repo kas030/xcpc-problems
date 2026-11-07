@@ -1,0 +1,95 @@
+{
+  "id": "icpc-2026-xian-invitational",
+  "name": "第 51 届 ICPC 国际大学生程序设计竞赛邀请赛西安站 - 正式赛",
+  "shortName": "26-ICPC-西安-邀",
+  "year": 2026,
+  "series": "ICPC",
+  "kind": "invitational",
+  "sourcePath": "icpc/51st/xian-invitational",
+  "qojContestId": 3766,
+  "mappingSource": "https://qoj.ac/contest/3766?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/51st/xian-invitational/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=3766&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "North and South",
+      "qojId": 17342
+    },
+    {
+      "label": "B",
+      "title": "Operating Robot",
+      "qojId": 17343
+    },
+    {
+      "label": "C",
+      "title": "Palindromic and Balanced",
+      "qojId": 17344
+    },
+    {
+      "label": "D",
+      "title": "Qenerals",
+      "qojId": 17345
+    },
+    {
+      "label": "E",
+      "title": "Registration",
+      "qojId": 17346
+    },
+    {
+      "label": "F",
+      "title": "Split Sticks",
+      "qojId": 17347
+    },
+    {
+      "label": "G",
+      "title": "Transform",
+      "qojId": 17348
+    },
+    {
+      "label": "H",
+      "title": "Unreachable Land",
+      "qojId": 17349
+    },
+    {
+      "label": "I",
+      "title": "VIP Coupon",
+      "qojId": 17350
+    },
+    {
+      "label": "J",
+      "title": "Would You Make a Convex?",
+      "qojId": 17351
+    },
+    {
+      "label": "K",
+      "title": "XOR and LCA",
+      "qojId": 17352
+    },
+    {
+      "label": "L",
+      "title": "Yesterday Once More (Easy Version)",
+      "qojId": 17353
+    },
+    {
+      "label": "M",
+      "title": "Yesterday Once More (Hard Version)",
+      "qojId": 17354
+    },
+    {
+      "label": "N",
+      "title": "Zebra Crossing",
+      "qojId": 17355
+    }
+  ]
+}

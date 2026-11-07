@@ -1,0 +1,90 @@
+{
+  "id": "ccpc-2024-zhengzhou",
+  "name": "第 10 届 CCPC 中国大学生程序设计竞赛郑州站 - 正式赛",
+  "shortName": "24-CCPC-郑州",
+  "year": 2024,
+  "series": "CCPC",
+  "kind": "regional",
+  "sourcePath": "ccpc/10th/zhengzhou",
+  "qojContestId": 1873,
+  "mappingSource": "https://qoj.ac/contest/1873?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/ccpc/10th/zhengzhou/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=1873&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "A + B = C Problem",
+      "qojId": 9768
+    },
+    {
+      "label": "B",
+      "title": "Rolling Stones",
+      "qojId": 9769
+    },
+    {
+      "label": "C",
+      "title": "Middle Point",
+      "qojId": 9770
+    },
+    {
+      "label": "D",
+      "title": "Guessing Game",
+      "qojId": 9771
+    },
+    {
+      "label": "E",
+      "title": "Permutation Routing",
+      "qojId": 9772
+    },
+    {
+      "label": "F",
+      "title": "Infinite Loop",
+      "qojId": 9773
+    },
+    {
+      "label": "G",
+      "title": "Same Sum",
+      "qojId": 9774
+    },
+    {
+      "label": "H",
+      "title": "The Witness",
+      "qojId": 9775
+    },
+    {
+      "label": "I",
+      "title": "Best Friend, Worst Enemy",
+      "qojId": 9776
+    },
+    {
+      "label": "J",
+      "title": "Balance in All Things",
+      "qojId": 9777
+    },
+    {
+      "label": "K",
+      "title": "Brotato",
+      "qojId": 9778
+    },
+    {
+      "label": "L",
+      "title": "Z-order Curve",
+      "qojId": 9779
+    },
+    {
+      "label": "M",
+      "title": "Rejection Sampling",
+      "qojId": 9780
+    }
+  ]
+}

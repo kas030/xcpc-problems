@@ -1,0 +1,80 @@
+{
+  "id": "icpc-2022-world-finals",
+  "name": "The 46th ICPC World Finals",
+  "shortName": "22-ICPC-世界总决赛",
+  "year": 2022,
+  "series": "ICPC",
+  "kind": "final",
+  "sourcePath": "icpc/46th/world-finals",
+  "qojContestId": 1661,
+  "mappingSource": "https://qoj.ac/contest/1661",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/46th/world-finals/",
+  "eligibleGroup": "all",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=1661&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "P",
+      "title": "Turning Red",
+      "qojId": 8680
+    },
+    {
+      "label": "Q",
+      "title": "Doing the Container Shuffle",
+      "qojId": 8685
+    },
+    {
+      "label": "R",
+      "title": "Zoo Management",
+      "qojId": 8686
+    },
+    {
+      "label": "S",
+      "title": "Bridging the Gap",
+      "qojId": 8683
+    },
+    {
+      "label": "T",
+      "title": "Carl’s Vacation",
+      "qojId": 8677
+    },
+    {
+      "label": "U",
+      "title": "Toy Train Tracks",
+      "qojId": 8687
+    },
+    {
+      "label": "V",
+      "title": "Three Kinds of Dice",
+      "qojId": 8676
+    },
+    {
+      "label": "W",
+      "title": "Riddle of the Sphinx",
+      "qojId": 8674
+    },
+    {
+      "label": "X",
+      "title": "Quartets",
+      "qojId": 8688
+    },
+    {
+      "label": "Y",
+      "title": "Compression",
+      "qojId": 8689
+    },
+    {
+      "label": "Z",
+      "title": "Archaeological Recovery",
+      "qojId": 8690
+    }
+  ]
+}

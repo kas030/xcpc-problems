@@ -10,6 +10,10 @@
 
 同步在同一个上游 commit 下读取 config/team/run，验证格式、题号和状态后写入最小化快照。网络或解析失败会终止任务。旧网站继续使用已部署的静态数据。
 
+同步兼容上游秒/毫秒绝对时间、`fallback_lang/texts` 比赛名称、`id`/`team_id` 队伍编号，以及旧版 `official`/`unofficial` 资格标记。快照的比赛起止时间统一存秒；提交时间按 `submission_timestamp_unit` 保留。没有提交 ID 的历史记录使用各行独立编号，不按相同队伍、题目和时间合并；有编号的记录仍以最后一次裁定为准。
+
+`CORRECT` 按通过处理，`INCORRECT`、`REJECTED` 和 `NO_OUTPUT` 按失败计罚时；`PRESENTATION_ERROR` 与 XCPCIO 一致不计罚时。`FROZEN` 等待裁定状态不会计作失败或通过。世界总决赛可明确配置 `eligibleGroup: "all"`；有多个评奖组的邀请赛必须选择对应邀请赛组，不能直接使用默认的 `official`。仅有“默认队伍组”而无法确认正式资格的榜单暂不收录。
+
 ## 新增比赛
 
 1. 从 `data/discovered.json` 选择比赛，打开 XCPCIO 榜单，确认是正式赛而非热身赛，并确认最终榜已解封。
@@ -48,7 +52,7 @@ npm run import:qoj -- --url=https://qoj.ac/contest/1828 --html=.cache/qoj.html
 
 优先顺序：官方中文 Markdown/HTML → 官方中文 PDF → 可用的英文 HTML → 英文 PDF。Codeforces Gym 的 HTML 页面通常便于提取结构，但不能假定所有比赛都具有对应页面；先核对它和 QOJ 的题目是否一致。
 
-有官方中文题册时无需再翻译英文。当前四场比赛的题册保存为同域静态 PDF，解决 Codeforces 的 `X-Frame-Options: sameorigin` 对跨站预览的限制；详情页直接预览本题对应的页面，顶部保留“打开完整题册”入口，预览底部不再显示说明栏。
+有官方中文题册时无需再翻译英文。原有 2024 昆明、沈阳、南京、重庆四场比赛的题册保存为同域静态 PDF，解决 Codeforces 的 `X-Frame-Options: sameorigin` 对跨站预览的限制；详情页直接预览本题对应的页面，顶部保留“打开完整题册”入口。新增外部题册使用原始链接在新标签页阅读；每题始终保留 QOJ 入口，没有题册时也能打开原题。
 
 PDF 文件放在 `src/assets/statements/<contest-id>.pdf`，在 `src/lib/statement-sources.ts` 中按完整的原始 URL 映射到文件名；`src/lib/statement-pdfs.ts` 自动导入完整题册资源。同一题册的源码只存一份。静态端点 `src/pages/statements/[contest]/[label].pdf.ts` 使用 `pdf-lib` 按 `page` 至 `endPage` 复制原始页面，在构建时生成 `dist/statements/<contest-id>/<label>.pdf`，保留文字、公式、图片及原有排版。范围缺失、倒置或超出题册页数会导致构建失败；不要提交生成的单题 PDF。
 
@@ -72,7 +76,7 @@ sourceHash: 可选，原始题面内容的 SHA-256
 
 校对重点：量词与否定、上下界与开闭区间、下标范围、精度误差、整数溢出范围、交互协议、时间和空间限制、样例对应关系。对照原文逐项核对后才设 `status: reviewed`，可增加 `reviewedAt`；官方原文设 `official`。`draft` 会在网站显示醒目的待校对提示。
 
-运行 `npm run catalog` 更新元信息，再检查详情页中的公式、表格、图片、样例和手机布局。原始题册链接始终保留。未加入 Markdown 时自动显示 PDF 预览。
+运行 `npm run catalog` 更新元信息，再检查详情页中的公式、表格、图片、样例和手机布局。原始题册链接始终保留。未加入 Markdown 时，有本地副本的题目显示 PDF 预览，其余显示原题和题册入口。
 
 ## 数据异常处理
 

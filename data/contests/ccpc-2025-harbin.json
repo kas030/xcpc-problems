@@ -1,0 +1,90 @@
+{
+  "id": "ccpc-2025-harbin",
+  "name": "第 11 届 CCPC 中国大学生程序设计竞赛哈尔滨站 - 正式赛",
+  "shortName": "25-CCPC-哈尔滨",
+  "year": 2025,
+  "series": "CCPC",
+  "kind": "regional",
+  "sourcePath": "ccpc/11th/harbin",
+  "qojContestId": 2575,
+  "mappingSource": "https://qoj.ac/contest/2575",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/ccpc/11th/harbin/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=2575&r=0",
+    "language": "zh",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Another GCD Problem",
+      "qojId": 14814
+    },
+    {
+      "label": "B",
+      "title": "Ball And Movable Walls",
+      "qojId": 14815
+    },
+    {
+      "label": "C",
+      "title": "Covering Problems",
+      "qojId": 14816
+    },
+    {
+      "label": "D",
+      "title": "Director and Excitement",
+      "qojId": 14817
+    },
+    {
+      "label": "E",
+      "title": "Efficient Summation",
+      "qojId": 14818
+    },
+    {
+      "label": "F",
+      "title": "Fun With Bitwise OR",
+      "qojId": 14819
+    },
+    {
+      "label": "G",
+      "title": "Great Snowfall",
+      "qojId": 14820
+    },
+    {
+      "label": "H",
+      "title": "How Many Rounds Are Expected?",
+      "qojId": 14821
+    },
+    {
+      "label": "I",
+      "title": "Infinite Hexagonal Grids",
+      "qojId": 14822
+    },
+    {
+      "label": "J",
+      "title": "Judge of Gensokyo",
+      "qojId": 14823
+    },
+    {
+      "label": "K",
+      "title": "Knapsack And Greedy Algorithm",
+      "qojId": 14824
+    },
+    {
+      "label": "L",
+      "title": "Let’s Avoid Obstacles",
+      "qojId": 14825
+    },
+    {
+      "label": "M",
+      "title": "连通的正三角形",
+      "qojId": 14826
+    }
+  ]
+}

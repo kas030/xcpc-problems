@@ -1,0 +1,84 @@
+{
+  "id": "ccpc-2026-qinhuangdao-invitational",
+  "name": "2026 CCPC 全国邀请赛（秦皇岛）暨第十届河北省大学生程序设计竞赛 - 正式赛",
+  "shortName": "26-CCPC-秦皇岛-邀",
+  "year": 2026,
+  "series": "CCPC",
+  "kind": "invitational",
+  "sourcePath": "ccpc/12th/qinhuangdao-invitational",
+  "qojContestId": 3933,
+  "mappingSource": "https://qoj.ac/contest/3933",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/ccpc/12th/qinhuangdao-invitational/",
+  "eligibleGroup": "participant",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "求求你不要再摔馍片了",
+      "qojId": 18945
+    },
+    {
+      "label": "B",
+      "title": "一句祝贺",
+      "qojId": 18942
+    },
+    {
+      "label": "C",
+      "title": "世界树",
+      "qojId": 18946
+    },
+    {
+      "label": "D",
+      "title": "简单字符串题",
+      "qojId": 18947
+    },
+    {
+      "label": "E",
+      "title": "电梯",
+      "qojId": 18948
+    },
+    {
+      "label": "F",
+      "title": "猜 01 序列",
+      "qojId": 18949
+    },
+    {
+      "label": "G",
+      "title": "建设高铁",
+      "qojId": 18950
+    },
+    {
+      "label": "H",
+      "title": "可能是字符串签到题",
+      "qojId": 18951
+    },
+    {
+      "label": "I",
+      "title": "山海关老冰糕",
+      "qojId": 18943
+    },
+    {
+      "label": "J",
+      "title": "海鲜大排档点生蚝",
+      "qojId": 18944
+    },
+    {
+      "label": "K",
+      "title": "灯带",
+      "qojId": 18953
+    },
+    {
+      "label": "L",
+      "title": "贪吃蛇",
+      "qojId": 18954
+    },
+    {
+      "label": "M",
+      "title": "拯救猫猫",
+      "qojId": 18955
+    }
+  ]
+}

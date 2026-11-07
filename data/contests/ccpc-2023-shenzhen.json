@@ -1,0 +1,90 @@
+{
+  "id": "ccpc-2023-shenzhen",
+  "name": "第 9 届 CCPC 中国大学生程序设计竞赛深圳站 - 正式赛",
+  "shortName": "23-CCPC-深圳",
+  "year": 2023,
+  "series": "CCPC",
+  "kind": "regional",
+  "sourcePath": "ccpc/9th/shenzhen",
+  "qojContestId": 1540,
+  "mappingSource": "https://qoj.ac/contest/1540?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/ccpc/9th/shenzhen/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=1540&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "A Good Problem",
+      "qojId": 8328
+    },
+    {
+      "label": "B",
+      "title": "Excuse",
+      "qojId": 8329
+    },
+    {
+      "label": "C",
+      "title": "Count off 3",
+      "qojId": 8330
+    },
+    {
+      "label": "D",
+      "title": "Bot Brothers",
+      "qojId": 8331
+    },
+    {
+      "label": "E",
+      "title": "Two in One",
+      "qojId": 8332
+    },
+    {
+      "label": "F",
+      "title": "Gift",
+      "qojId": 8333
+    },
+    {
+      "label": "G",
+      "title": "Gene",
+      "qojId": 8334
+    },
+    {
+      "label": "H",
+      "title": "Fast Hash Transform",
+      "qojId": 8335
+    },
+    {
+      "label": "I",
+      "title": "Indeterminate Equation",
+      "qojId": 8336
+    },
+    {
+      "label": "J",
+      "title": "Counter Reset Problem",
+      "qojId": 8337
+    },
+    {
+      "label": "K",
+      "title": "Quad Kingdoms Chess",
+      "qojId": 8338
+    },
+    {
+      "label": "L",
+      "title": "Rooted Tree",
+      "qojId": 8339
+    },
+    {
+      "label": "M",
+      "title": "3 Sum",
+      "qojId": 8340
+    }
+  ]
+}

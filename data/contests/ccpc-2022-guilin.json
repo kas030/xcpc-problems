@@ -1,0 +1,90 @@
+{
+  "id": "ccpc-2022-guilin",
+  "name": "2022 年中国大学生程序设计竞赛 (CCPC) 桂林",
+  "shortName": "22-CCPC-桂林",
+  "year": 2022,
+  "series": "CCPC",
+  "kind": "regional",
+  "sourcePath": "ccpc/8th/guilin",
+  "qojContestId": 1303,
+  "mappingSource": "https://qoj.ac/contest/1303",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/ccpc/8th/guilin/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=1303&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Lily",
+      "qojId": 6808
+    },
+    {
+      "label": "B",
+      "title": "Code With No Forces",
+      "qojId": 6809
+    },
+    {
+      "label": "C",
+      "title": "Array Concatenation",
+      "qojId": 6810
+    },
+    {
+      "label": "D",
+      "title": "Alice's Dolls",
+      "qojId": 6811
+    },
+    {
+      "label": "E",
+      "title": "Draw a triangle",
+      "qojId": 6812
+    },
+    {
+      "label": "F",
+      "title": "Union of Circular Sectors",
+      "qojId": 6813
+    },
+    {
+      "label": "G",
+      "title": "Group Homework",
+      "qojId": 6814
+    },
+    {
+      "label": "H",
+      "title": "Hysteretic Racing",
+      "qojId": 6815
+    },
+    {
+      "label": "I",
+      "title": "Invincible Hotwheels",
+      "qojId": 6816
+    },
+    {
+      "label": "J",
+      "title": "Permutation Puzzle",
+      "qojId": 6817
+    },
+    {
+      "label": "K",
+      "title": "Barrel Theory",
+      "qojId": 6818
+    },
+    {
+      "label": "L",
+      "title": "Largest Unique Wins",
+      "qojId": 6819
+    },
+    {
+      "label": "M",
+      "title": "Youth Finale",
+      "qojId": 6820
+    }
+  ]
+}

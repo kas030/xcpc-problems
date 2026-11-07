@@ -1,0 +1,91 @@
+{
+  "id": "icpc-2026-chengdu",
+  "name": "「华为杯」第 51 届 ICPC 国际大学生程序设计竞赛区域赛成都站 - 正式赛",
+  "shortName": "26-ICPC-成都",
+  "year": 2026,
+  "series": "ICPC",
+  "kind": "regional",
+  "sourcePath": "icpc/51st/chengdu",
+  "qojContestId": 4607,
+  "mappingSource": "https://qoj.ac/contest/4607?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/51st/chengdu/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=4607&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Average of Averages",
+      "qojId": 23592
+    },
+    {
+      "label": "B",
+      "title": "Bouncing Particles",
+      "qojId": 23593
+    },
+    {
+      "label": "C",
+      "title": "Counting Arrays",
+      "qojId": 23594
+    },
+    {
+      "label": "D",
+      "title": "Duel of Wrath",
+      "qojId": 23595
+    },
+    {
+      "label": "E",
+      "title": "Enclose the Point",
+      "qojId": 23596
+    },
+    {
+      "label": "F",
+      "title": "First Word",
+      "qojId": 23597
+    },
+    {
+      "label": "G",
+      "title": "Graph Reconstruction",
+      "qojId": 23598
+    },
+    {
+      "label": "H",
+      "title": "Hidden Order",
+      "qojId": 23599,
+      "interactive": true
+    },
+    {
+      "label": "I",
+      "title": "Invisible Edges",
+      "qojId": 23600
+    },
+    {
+      "label": "J",
+      "title": "Joint Relocation",
+      "qojId": 23601
+    },
+    {
+      "label": "K",
+      "title": "Keep Your Distance",
+      "qojId": 23602
+    },
+    {
+      "label": "L",
+      "title": "Long Slides",
+      "qojId": 23603
+    },
+    {
+      "label": "M",
+      "title": "Minimum Records",
+      "qojId": 23604
+    }
+  ]
+}

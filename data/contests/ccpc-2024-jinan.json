@@ -1,0 +1,90 @@
+{
+  "id": "ccpc-2024-jinan",
+  "name": "第 10 届 CCPC 中国大学生程序设计竞赛济南站 - 正式赛",
+  "shortName": "24-CCPC-济南",
+  "year": 2024,
+  "series": "CCPC",
+  "kind": "regional",
+  "sourcePath": "ccpc/10th/jinan",
+  "qojContestId": 1843,
+  "mappingSource": "https://qoj.ac/contest/1843?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/ccpc/10th/jinan/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=1843&r=1",
+    "language": "zh",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "The Fool",
+      "qojId": 9548
+    },
+    {
+      "label": "B",
+      "title": "The Magician",
+      "qojId": 9549
+    },
+    {
+      "label": "C",
+      "title": "The Empress",
+      "qojId": 9550
+    },
+    {
+      "label": "D",
+      "title": "The Emperor",
+      "qojId": 9551
+    },
+    {
+      "label": "E",
+      "title": "The Chariot",
+      "qojId": 9552
+    },
+    {
+      "label": "F",
+      "title": "The Hermit",
+      "qojId": 9553
+    },
+    {
+      "label": "G",
+      "title": "The Wheel of Fortune",
+      "qojId": 9554
+    },
+    {
+      "label": "H",
+      "title": "Strength",
+      "qojId": 9555
+    },
+    {
+      "label": "I",
+      "title": "The Hanged Man",
+      "qojId": 9556
+    },
+    {
+      "label": "J",
+      "title": "Temperance",
+      "qojId": 9557
+    },
+    {
+      "label": "K",
+      "title": "The Devil",
+      "qojId": 9558
+    },
+    {
+      "label": "L",
+      "title": "The Tower",
+      "qojId": 9559
+    },
+    {
+      "label": "M",
+      "title": "Judgement",
+      "qojId": 9560
+    }
+  ]
+}

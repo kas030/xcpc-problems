@@ -1,0 +1,80 @@
+{
+  "id": "icpc-2023-macau",
+  "name": "2023 - 2024 International Collegiate Programming Contest, Macau Site",
+  "shortName": "23-ICPC-澳门",
+  "year": 2023,
+  "series": "ICPC",
+  "kind": "regional",
+  "sourcePath": "icpc/48th/macau",
+  "qojContestId": 1459,
+  "mappingSource": "https://qoj.ac/contest/1459?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/48th/macau/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=1459&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "(-1,1)-Sumplete",
+      "qojId": 7857
+    },
+    {
+      "label": "B",
+      "title": "Basic Equation Solving",
+      "qojId": 7858
+    },
+    {
+      "label": "C",
+      "title": "Bladestorm",
+      "qojId": 7859
+    },
+    {
+      "label": "D",
+      "title": "Graph of Maximum Degree 3",
+      "qojId": 7860
+    },
+    {
+      "label": "E",
+      "title": "Inverse Topological Sort",
+      "qojId": 7861
+    },
+    {
+      "label": "F",
+      "title": "Land Trade",
+      "qojId": 7862
+    },
+    {
+      "label": "G",
+      "title": "Parity Game",
+      "qojId": 7863
+    },
+    {
+      "label": "H",
+      "title": "Random Tree Parking",
+      "qojId": 7864
+    },
+    {
+      "label": "I",
+      "title": "Refresher into Midas",
+      "qojId": 7865
+    },
+    {
+      "label": "J",
+      "title": "Teleportation",
+      "qojId": 7866
+    },
+    {
+      "label": "K",
+      "title": "Understand",
+      "qojId": 7867
+    }
+  ]
+}

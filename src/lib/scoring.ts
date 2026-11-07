@@ -2,10 +2,10 @@ import { medalNames, type BoardConfig, type BoardRun, type BoardTeam, type Cohor
 
 export const ALGORITHM_VERSION = 'medal-cohort-v2';
 export const THRESHOLD = 0.5;
-const accepted = new Set(['ACCEPTED', 'AC']);
-const failures = new Set(['WRONG_ANSWER', 'WA', 'TIME_LIMIT_EXCEEDED', 'TLE', 'MEMORY_LIMIT_EXCEEDED', 'MLE', 'RUNTIME_ERROR', 'RE', 'OUTPUT_LIMIT_EXCEEDED', 'OLE', 'PRESENTATION_ERROR', 'PE']);
-const ignored = new Set(['COMPILATION_ERROR', 'CE', 'IGNORED']);
-const pending = new Set(['PENDING', 'SUBMITTED', 'RUNNING', 'JUDGING', 'JUDGEMENT_FAILED', 'UNKNOWN']);
+const accepted = new Set(['ACCEPTED', 'AC', 'CORRECT']);
+const failures = new Set(['WRONG_ANSWER', 'WA', 'REJECTED', 'INCORRECT', 'NO_OUTPUT', 'TIME_LIMIT_EXCEEDED', 'TLE', 'MEMORY_LIMIT_EXCEEDED', 'MLE', 'RUNTIME_ERROR', 'RE', 'OUTPUT_LIMIT_EXCEEDED', 'OLE']);
+const ignored = new Set(['COMPILATION_ERROR', 'CE', 'PRESENTATION_ERROR', 'PE', 'IGNORED']);
+const pending = new Set(['PENDING', 'SUBMITTED', 'RUNNING', 'JUDGING', 'JUDGEMENT_FAILED', 'UNKNOWN', 'WAITING', 'PREPARING', 'COMPILING', 'FROZEN']);
 
 export interface RankedTeam {
   id: string; solved: Set<string>; penalty: number; lastAcceptedMinute: number; rank: number;
@@ -20,7 +20,7 @@ export function rankTeams(config: BoardConfig, teams: BoardTeam[], runs: BoardRu
   const mode = config.options?.calculation_of_penalty ?? 'in_minutes';
   if (!['in_minutes', 'in_seconds', 'accumulate_in_seconds_and_finally_to_the_minute'].includes(mode)) throw new Error(`不支持的罚时规则：${mode}`);
   const problemIds = new Set(config.problems.map(p => p.id));
-  const eligible = teams.filter(t => t.group.includes(group) && !t.group.includes('unofficial'));
+  const eligible = teams.filter(t => (group === 'all' || t.group.includes(group)) && !t.group.includes('unofficial'));
   if (new Set(eligible.map(t => t.team_id)).size !== eligible.length) throw new Error('队伍 ID 重复');
   const ranking = new Map<string, RankedTeam>(eligible.map(t => [t.team_id, { id: t.team_id, solved: new Set(), penalty: 0, lastAcceptedMinute: 0, rank: 0 }]));
   const rejected = new Map<string, number>();

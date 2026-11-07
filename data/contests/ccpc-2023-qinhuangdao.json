@@ -1,0 +1,90 @@
+{
+  "id": "ccpc-2023-qinhuangdao",
+  "name": "第 9 届 CCPC 中国大学生程序设计竞赛秦皇岛站 - 正式赛",
+  "shortName": "23-CCPC-秦皇岛",
+  "year": 2023,
+  "series": "CCPC",
+  "kind": "regional",
+  "sourcePath": "ccpc/9th/qinhuangdao",
+  "qojContestId": 1411,
+  "mappingSource": "https://qoj.ac/contest/1411?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/ccpc/9th/qinhuangdao/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=1411&r=1",
+    "language": "zh",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Make SYSU Great Again I",
+      "qojId": 7619
+    },
+    {
+      "label": "B",
+      "title": "Yet Another Subsequence Problem",
+      "qojId": 7620
+    },
+    {
+      "label": "C",
+      "title": "Palindrome",
+      "qojId": 7621
+    },
+    {
+      "label": "D",
+      "title": "Yet Another Coffee",
+      "qojId": 7622
+    },
+    {
+      "label": "E",
+      "title": "Coloring Tape",
+      "qojId": 7623
+    },
+    {
+      "label": "F",
+      "title": "Mystery of Prime",
+      "qojId": 7624
+    },
+    {
+      "label": "G",
+      "title": "Path",
+      "qojId": 7625
+    },
+    {
+      "label": "H",
+      "title": "Quake and Rebuild",
+      "qojId": 7626
+    },
+    {
+      "label": "I",
+      "title": "Phony",
+      "qojId": 7627
+    },
+    {
+      "label": "J",
+      "title": "Keyi LIkes Reading",
+      "qojId": 7628
+    },
+    {
+      "label": "K",
+      "title": "Make SYSU Great Again II",
+      "qojId": 7629
+    },
+    {
+      "label": "L",
+      "title": "Yet Another Maximize Permutation Subarrays",
+      "qojId": 7630
+    },
+    {
+      "label": "M",
+      "title": "Inverted",
+      "qojId": 7631
+    }
+  ]
+}

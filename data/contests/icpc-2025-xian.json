@@ -1,0 +1,90 @@
+{
+  "id": "icpc-2025-xian",
+  "name": "第 50 届 ICPC 国际大学生程序设计竞赛西安站",
+  "shortName": "25-ICPC-西安",
+  "year": 2025,
+  "series": "ICPC",
+  "kind": "regional",
+  "sourcePath": "icpc/50th/xian",
+  "qojContestId": 2562,
+  "mappingSource": "https://qoj.ac/contest/2562?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/50th/xian/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=2562&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Azalea Garden",
+      "qojId": 14681
+    },
+    {
+      "label": "B",
+      "title": "Beautiful Dangos",
+      "qojId": 14682
+    },
+    {
+      "label": "C",
+      "title": "Catch the Monster",
+      "qojId": 14683
+    },
+    {
+      "label": "D",
+      "title": "Directed Acyclic Graph",
+      "qojId": 14684
+    },
+    {
+      "label": "E",
+      "title": "Epilogue of Happiness",
+      "qojId": 14685
+    },
+    {
+      "label": "F",
+      "title": "Follow the Penguins",
+      "qojId": 14686
+    },
+    {
+      "label": "G",
+      "title": "Grand Voting",
+      "qojId": 14687
+    },
+    {
+      "label": "H",
+      "title": "Heart of Darkness",
+      "qojId": 14688
+    },
+    {
+      "label": "I",
+      "title": "Imagined Holly",
+      "qojId": 14689
+    },
+    {
+      "label": "J",
+      "title": "January's Color",
+      "qojId": 14690
+    },
+    {
+      "label": "K",
+      "title": "Killing Bits",
+      "qojId": 14691
+    },
+    {
+      "label": "L",
+      "title": "Let's Make a Convex!",
+      "qojId": 14692
+    },
+    {
+      "label": "M",
+      "title": "Mystique as Iris",
+      "qojId": 14693
+    }
+  ]
+}

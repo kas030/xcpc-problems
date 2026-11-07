@@ -1,0 +1,90 @@
+{
+  "id": "icpc-2025-shenyang",
+  "name": "「华为杯」第 50 届 ICPC 国际大学生程序设计竞赛区域赛沈阳站",
+  "shortName": "25-ICPC-沈阳",
+  "year": 2025,
+  "series": "ICPC",
+  "kind": "regional",
+  "sourcePath": "icpc/50th/shenyang",
+  "qojContestId": 2641,
+  "mappingSource": "https://qoj.ac/contest/2641?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/50th/shenyang/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=2641&r=1",
+    "language": "zh",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Square Kingdom",
+      "qojId": 14940
+    },
+    {
+      "label": "B",
+      "title": "Buggy Painting Software I",
+      "qojId": 14941
+    },
+    {
+      "label": "C",
+      "title": "Buggy Painting Software II",
+      "qojId": 14942
+    },
+    {
+      "label": "D",
+      "title": "LED Display Renovation",
+      "qojId": 14943
+    },
+    {
+      "label": "E",
+      "title": "Play It by Ear",
+      "qojId": 14944
+    },
+    {
+      "label": "F",
+      "title": "The Bond Beyond Time",
+      "qojId": 14945
+    },
+    {
+      "label": "G",
+      "title": "Collision Damage",
+      "qojId": 14946
+    },
+    {
+      "label": "H",
+      "title": "Cute Young Diagram Counting",
+      "qojId": 14947
+    },
+    {
+      "label": "I",
+      "title": "Volunteer Simulator",
+      "qojId": 14948
+    },
+    {
+      "label": "J",
+      "title": "The Echoes of Chronos",
+      "qojId": 14949
+    },
+    {
+      "label": "K",
+      "title": "Relay Jump",
+      "qojId": 14950
+    },
+    {
+      "label": "L",
+      "title": "Leo",
+      "qojId": 14951
+    },
+    {
+      "label": "M",
+      "title": "The End?",
+      "qojId": 14952
+    }
+  ]
+}

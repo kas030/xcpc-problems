@@ -1,0 +1,90 @@
+{
+  "id": "icpc-2025-wuhan-invitational",
+  "name": "第 50 届 ICPC 国际大学生程序设计竞赛邀请赛武汉站 - 正式赛",
+  "shortName": "25-ICPC-武汉-邀",
+  "year": 2025,
+  "series": "ICPC",
+  "kind": "invitational",
+  "sourcePath": "icpc/50th/wuhan-invitational",
+  "qojContestId": 2025,
+  "mappingSource": "https://qoj.ac/contest/2025?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/50th/wuhan-invitational/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://sua.ac/wiki/2025-icpc-invitational-wuhan/contest-zh.pdf",
+    "format": "pdf",
+    "language": "zh",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Problem Setting",
+      "qojId": 10736
+    },
+    {
+      "label": "B",
+      "title": "Black Red Tree",
+      "qojId": 10737
+    },
+    {
+      "label": "C",
+      "title": "One Must Imagine Sisyphus Happy",
+      "qojId": 10738
+    },
+    {
+      "label": "D",
+      "title": "Odd and Even",
+      "qojId": 10739
+    },
+    {
+      "label": "E",
+      "title": "Colorful Graph",
+      "qojId": 10740
+    },
+    {
+      "label": "F",
+      "title": "Knapsack",
+      "qojId": 10741
+    },
+    {
+      "label": "G",
+      "title": "Path Summing Problem",
+      "qojId": 10742
+    },
+    {
+      "label": "H",
+      "title": "WildFire, This Is for You!",
+      "qojId": 10743
+    },
+    {
+      "label": "I",
+      "title": "Bingo 3",
+      "qojId": 10744
+    },
+    {
+      "label": "J",
+      "title": "Dictionary",
+      "qojId": 10745
+    },
+    {
+      "label": "K",
+      "title": "Las Vegas",
+      "qojId": 10746
+    },
+    {
+      "label": "L",
+      "title": "Subsequence",
+      "qojId": 10747
+    },
+    {
+      "label": "M",
+      "title": "Flight Tracker",
+      "qojId": 10748
+    }
+  ]
+}

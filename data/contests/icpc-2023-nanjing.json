@@ -1,0 +1,90 @@
+{
+  "id": "icpc-2023-nanjing",
+  "name": "第 48 届 ICPC 国际大学生程序设计竞赛区域赛南京站 - 正式赛",
+  "shortName": "23-ICPC-南京",
+  "year": 2023,
+  "series": "ICPC",
+  "kind": "regional",
+  "sourcePath": "icpc/48th/nanjing",
+  "qojContestId": 1435,
+  "mappingSource": "https://qoj.ac/contest/1435?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/48th/nanjing/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://sua.ac/wiki/2023-icpc-nanjing/contest-zh.pdf",
+    "format": "pdf",
+    "language": "zh",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Cool, It’s Yesterday Four Times More",
+      "qojId": 7733
+    },
+    {
+      "label": "B",
+      "title": "Intersection over Union",
+      "qojId": 7734
+    },
+    {
+      "label": "C",
+      "title": "Primitive Root",
+      "qojId": 7735
+    },
+    {
+      "label": "D",
+      "title": "Red Black Tree",
+      "qojId": 7736
+    },
+    {
+      "label": "E",
+      "title": "Extending Distance",
+      "qojId": 7737
+    },
+    {
+      "label": "F",
+      "title": "Equivalent Rewriting",
+      "qojId": 7738
+    },
+    {
+      "label": "G",
+      "title": "Knapsack",
+      "qojId": 7739
+    },
+    {
+      "label": "H",
+      "title": "Puzzle: Question Mark",
+      "qojId": 7740
+    },
+    {
+      "label": "I",
+      "title": "Counter",
+      "qojId": 7741
+    },
+    {
+      "label": "J",
+      "title": "Suffix Structure",
+      "qojId": 7742
+    },
+    {
+      "label": "K",
+      "title": "Grand Finale",
+      "qojId": 7743
+    },
+    {
+      "label": "L",
+      "title": "Elevator",
+      "qojId": 7744
+    },
+    {
+      "label": "M",
+      "title": "Trapping Rain Water",
+      "qojId": 7745
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "icpc-2023-xian-invitational",
+  "name": "第 48 届 ICPC 国际大学生程序设计竞赛西安邀请赛（正式赛）",
+  "shortName": "23-ICPC-西安-邀",
+  "year": 2023,
+  "series": "ICPC",
+  "kind": "invitational",
+  "sourcePath": "icpc/48th/xian-invitational",
+  "qojContestId": 1291,
+  "mappingSource": "https://qoj.ac/contest/1291",
+  "finalVerified": false,
+  "finalEvidence": "https://board.xcpcio.com/icpc/48th/xian-invitational/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Alice and Bob",
+      "qojId": 6736
+    },
+    {
+      "label": "B",
+      "title": "Click the Circle",
+      "qojId": 6734
+    },
+    {
+      "label": "C",
+      "title": "Delete the Tree",
+      "qojId": 6745
+    },
+    {
+      "label": "D",
+      "title": "Leaves",
+      "qojId": 6742
+    },
+    {
+      "label": "E",
+      "title": "Merge the Rectangles",
+      "qojId": 6746
+    },
+    {
+      "label": "F",
+      "title": "Moniphant Sleep",
+      "qojId": 6733
+    },
+    {
+      "label": "G",
+      "title": "Permutation",
+      "qojId": 6747
+    },
+    {
+      "label": "H",
+      "title": "Spin the Wheel",
+      "qojId": 6748
+    },
+    {
+      "label": "I",
+      "title": "Square",
+      "qojId": 6744
+    },
+    {
+      "label": "J",
+      "title": "Target",
+      "qojId": 6749
+    },
+    {
+      "label": "K",
+      "title": "Tree",
+      "qojId": 6735
+    }
+  ]
+}

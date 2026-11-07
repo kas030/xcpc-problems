@@ -21,13 +21,13 @@ export async function buildCatalog(write = true): Promise<Catalog> {
       year: definition.year, series: definition.series, kind: definition.kind,
       date: new Date(snapshot.config.start_time * 1000).toISOString(),
       boardUrl: `https://board.xcpcio.com/${definition.sourcePath}/`,
-      qojUrl: `https://qoj.ac/contest/${definition.qojContestId}`,
+      qojUrl: new URL(definition.mappingSource).origin === 'https://qoj.ac' && new URL(definition.mappingSource).pathname === `/contest/${definition.qojContestId}` ? definition.mappingSource : `https://qoj.ac/contest/${definition.qojContestId}`,
       sourceUrl, sourceRevision: snapshot.revision, syncedAt: snapshot.syncedAt,
       participants: analysis.participants, problemCount: definition.problems.length,
       classificationNote: analysis.note, medalBasis: analysis.medalBasis,
       medalCounts: analysis.counts,
       ...(analysis.medalBasis === 'preset' ? {} : { medalSource: definition.medalPolicy.kind === 'verified-counts' ? definition.medalPolicy.source : `${sourceUrl.replace('/tree/', '/blob/')}/config.json` }),
-      statement: definition.statement,
+      ...(definition.statement ? { statement: definition.statement } : {}),
     };
     contests.push(contest);
     for (const p of definition.problems) {
@@ -38,7 +38,7 @@ export async function buildCatalog(write = true): Promise<Catalog> {
         label: p.label, title: p.title, qojId: p.qojId, interactive: p.interactive,
         difficulty: stats.difficulty, reason: stats.reason, solved: stats.solved,
         participants: analysis.participants, cohorts: stats.cohorts,
-        statement: p.statement ?? definition.statement,
+        ...((p.statement ?? definition.statement) ? { statement: p.statement ?? definition.statement } : {}),
       });
     }
   }

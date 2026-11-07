@@ -1,0 +1,84 @@
+{
+  "id": "icpc-2026-jiangxi-invitational",
+  "name": "2026 年 ICPC 国际大学生程序设计竞赛全国邀请赛（南昌）暨江西省赛 - 正式赛",
+  "shortName": "26-ICPC-南昌-邀",
+  "year": 2026,
+  "series": "ICPC",
+  "kind": "invitational",
+  "sourcePath": "icpc/51st/jiangxi-invitational",
+  "qojContestId": 3758,
+  "mappingSource": "https://qoj.ac/contest/3758",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/51st/jiangxi-invitational/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "马拉松的困难",
+      "qojId": 18272
+    },
+    {
+      "label": "B",
+      "title": "UNO",
+      "qojId": 18273
+    },
+    {
+      "label": "C",
+      "title": "旅行者的愿望",
+      "qojId": 18274
+    },
+    {
+      "label": "D",
+      "title": "吃樱桃",
+      "qojId": 18275
+    },
+    {
+      "label": "E",
+      "title": "完美无缺",
+      "qojId": 18276
+    },
+    {
+      "label": "F",
+      "title": "一笔画",
+      "qojId": 18277
+    },
+    {
+      "label": "G",
+      "title": "世界的意义",
+      "qojId": 18278
+    },
+    {
+      "label": "H",
+      "title": "粑粑博弈",
+      "qojId": 18279
+    },
+    {
+      "label": "I",
+      "title": "搞快点搞快点",
+      "qojId": 18280
+    },
+    {
+      "label": "J",
+      "title": "GCD 之旅",
+      "qojId": 18281
+    },
+    {
+      "label": "K",
+      "title": "祖传代码",
+      "qojId": 18282
+    },
+    {
+      "label": "L",
+      "title": "小 Z 的函数",
+      "qojId": 18283
+    },
+    {
+      "label": "M",
+      "title": "构造王坝",
+      "qojId": 18284
+    }
+  ]
+}

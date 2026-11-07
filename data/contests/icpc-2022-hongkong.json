@@ -1,0 +1,85 @@
+{
+  "id": "icpc-2022-hongkong",
+  "name": "The 47th ICPC Asia Hong Kong Regional Contest",
+  "shortName": "22-ICPC-香港",
+  "year": 2022,
+  "series": "ICPC",
+  "kind": "regional",
+  "sourcePath": "icpc/47th/hongkong",
+  "qojContestId": 1099,
+  "mappingSource": "https://qoj.ac/contest/1099",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/47th/hongkong/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=1099&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "TreeScript",
+      "qojId": 5455
+    },
+    {
+      "label": "B",
+      "title": "Big Picture",
+      "qojId": 5456
+    },
+    {
+      "label": "C",
+      "title": "Painting Grid",
+      "qojId": 5457
+    },
+    {
+      "label": "D",
+      "title": "Shortest Path Query",
+      "qojId": 5458
+    },
+    {
+      "label": "E",
+      "title": "Goose, goose, DUCK?",
+      "qojId": 5459
+    },
+    {
+      "label": "F",
+      "title": "Sum of Numbers",
+      "qojId": 5460
+    },
+    {
+      "label": "G",
+      "title": "Paddle Star",
+      "qojId": 5461
+    },
+    {
+      "label": "H",
+      "title": "Another Goose Goose Duck Problem",
+      "qojId": 5462
+    },
+    {
+      "label": "I",
+      "title": "Range Closest Pair of Points Query",
+      "qojId": 5463
+    },
+    {
+      "label": "J",
+      "title": "Dice Game",
+      "qojId": 5464
+    },
+    {
+      "label": "K",
+      "title": "Maximum GCD",
+      "qojId": 5465
+    },
+    {
+      "label": "L",
+      "title": "Permutation Compression",
+      "qojId": 5466
+    }
+  ]
+}

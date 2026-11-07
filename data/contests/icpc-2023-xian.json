@@ -1,0 +1,95 @@
+{
+  "id": "icpc-2023-xian",
+  "name": "第 48 届 ICPC 国际大学生程序设计竞赛区域赛西安站 - 正式赛",
+  "shortName": "23-ICPC-西安",
+  "year": 2023,
+  "series": "ICPC",
+  "kind": "regional",
+  "sourcePath": "icpc/48th/xian",
+  "qojContestId": 1784,
+  "mappingSource": "https://qoj.ac/contest/1784?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/48th/xian/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=1784&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "An Easy Geometry Problem",
+      "qojId": 9242
+    },
+    {
+      "label": "B",
+      "title": "Counting Multisets",
+      "qojId": 9243
+    },
+    {
+      "label": "C",
+      "title": "Counting Strings",
+      "qojId": 9244
+    },
+    {
+      "label": "D",
+      "title": "Bracket Sequence",
+      "qojId": 9245
+    },
+    {
+      "label": "E",
+      "title": "Dominating Point",
+      "qojId": 9246
+    },
+    {
+      "label": "F",
+      "title": "An Easy Counting Problem",
+      "qojId": 9247
+    },
+    {
+      "label": "G",
+      "title": "An Easy Math Problem",
+      "qojId": 9248
+    },
+    {
+      "label": "H",
+      "title": "Elimination Series Once More",
+      "qojId": 9249
+    },
+    {
+      "label": "I",
+      "title": "Max GCD",
+      "qojId": 9250
+    },
+    {
+      "label": "J",
+      "title": "Graph Changing",
+      "qojId": 9251
+    },
+    {
+      "label": "K",
+      "title": "Penguins in Refrigerator",
+      "qojId": 9252
+    },
+    {
+      "label": "L",
+      "title": "Prism Palace",
+      "qojId": 9253
+    },
+    {
+      "label": "M",
+      "title": "Random Variables",
+      "qojId": 9254
+    },
+    {
+      "label": "N",
+      "title": "Python Program",
+      "qojId": 9255
+    }
+  ]
+}

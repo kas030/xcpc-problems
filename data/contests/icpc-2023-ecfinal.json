@@ -1,0 +1,90 @@
+{
+  "id": "icpc-2023-ecfinal",
+  "name": "The 48th ICPC Asia East Continent Final Contest",
+  "shortName": "23-ICPC-EC-Final",
+  "year": 2023,
+  "series": "ICPC",
+  "kind": "final",
+  "sourcePath": "icpc/48th/ecfinal",
+  "qojContestId": 1522,
+  "mappingSource": "https://qoj.ac/contest/1522?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/48th/ecfinal/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=1522&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "DFS Order 4",
+      "qojId": 8047
+    },
+    {
+      "label": "B",
+      "title": "Roman Master",
+      "qojId": 8048
+    },
+    {
+      "label": "C",
+      "title": "Equal Sums",
+      "qojId": 8049
+    },
+    {
+      "label": "D",
+      "title": "Random Permutation",
+      "qojId": 8050
+    },
+    {
+      "label": "E",
+      "title": "Colorful Graph",
+      "qojId": 8051
+    },
+    {
+      "label": "F",
+      "title": "Dot Product",
+      "qojId": 8052
+    },
+    {
+      "label": "G",
+      "title": "Flow 2",
+      "qojId": 8053
+    },
+    {
+      "label": "H",
+      "title": "Map 2",
+      "qojId": 8054
+    },
+    {
+      "label": "I",
+      "title": "Balance",
+      "qojId": 8055
+    },
+    {
+      "label": "J",
+      "title": "Travel 2",
+      "qojId": 8056
+    },
+    {
+      "label": "K",
+      "title": "Best Carry Player 4",
+      "qojId": 8057
+    },
+    {
+      "label": "L",
+      "title": "Binary vs Ternary",
+      "qojId": 8058
+    },
+    {
+      "label": "M",
+      "title": "Circular Route",
+      "qojId": 8059
+    }
+  ]
+}

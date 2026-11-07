@@ -1,0 +1,85 @@
+{
+  "id": "icpc-2023-hefei",
+  "name": "第 48 届 ICPC 国际大学生程序设计竞赛区域赛合肥站 - 正式赛",
+  "shortName": "23-ICPC-合肥",
+  "year": 2023,
+  "series": "ICPC",
+  "kind": "regional",
+  "sourcePath": "icpc/48th/hefei",
+  "qojContestId": 1440,
+  "mappingSource": "https://qoj.ac/contest/1440?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/48th/hefei/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=1440&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "SQRT Problem",
+      "qojId": 7874
+    },
+    {
+      "label": "B",
+      "title": "Queue Sorting",
+      "qojId": 7875
+    },
+    {
+      "label": "C",
+      "title": "Cyclic Substrings",
+      "qojId": 7876
+    },
+    {
+      "label": "D",
+      "title": "Balanced Array",
+      "qojId": 7877
+    },
+    {
+      "label": "E",
+      "title": "Matrix Distances",
+      "qojId": 7878
+    },
+    {
+      "label": "F",
+      "title": "Colorful Balloons",
+      "qojId": 7879
+    },
+    {
+      "label": "G",
+      "title": "Streak Manipulation",
+      "qojId": 7880
+    },
+    {
+      "label": "H",
+      "title": "Computational Complexity",
+      "qojId": 7881
+    },
+    {
+      "label": "I",
+      "title": "Linguistics Puzzle",
+      "qojId": 7882
+    },
+    {
+      "label": "J",
+      "title": "Takeout Delivering",
+      "qojId": 7883
+    },
+    {
+      "label": "K",
+      "title": "Campus Partition",
+      "qojId": 7884
+    },
+    {
+      "label": "L",
+      "title": "Information Spread",
+      "qojId": 7885
+    }
+  ]
+}

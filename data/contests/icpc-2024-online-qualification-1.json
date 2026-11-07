@@ -1,0 +1,90 @@
+{
+  "id": "icpc-2024-online-qualification-1",
+  "name": "The 49th ICPC Asia Regionals Online Contest (I)",
+  "shortName": "24-ICPC-网1",
+  "year": 2024,
+  "series": "ICPC",
+  "kind": "online",
+  "sourcePath": "icpc/49th/online-qualification-1",
+  "qojContestId": 1794,
+  "mappingSource": "https://qoj.ac/contest/1794",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/49th/online-qualification-1/",
+  "eligibleGroup": "1",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=1794&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "World Cup",
+      "qojId": 9308
+    },
+    {
+      "label": "B",
+      "title": "Graph",
+      "qojId": 9309
+    },
+    {
+      "label": "C",
+      "title": "Permutation Counting 4",
+      "qojId": 9310
+    },
+    {
+      "label": "D",
+      "title": "Protection War",
+      "qojId": 9311
+    },
+    {
+      "label": "E",
+      "title": "Random Dungeon",
+      "qojId": 9312
+    },
+    {
+      "label": "F",
+      "title": "Make Max",
+      "qojId": 9313
+    },
+    {
+      "label": "G",
+      "title": "The Median of the Median of the Median",
+      "qojId": 9314
+    },
+    {
+      "label": "H",
+      "title": "Rainbow Bracket Sequence",
+      "qojId": 9315
+    },
+    {
+      "label": "I",
+      "title": "Boxes",
+      "qojId": 9316
+    },
+    {
+      "label": "J",
+      "title": "Rivals",
+      "qojId": 9317
+    },
+    {
+      "label": "K",
+      "title": "AC Automation Chicken",
+      "qojId": 9318
+    },
+    {
+      "label": "L",
+      "title": "Bull Farm",
+      "qojId": 9319
+    },
+    {
+      "label": "M",
+      "title": "Find the Easiest Problem",
+      "qojId": 9320
+    }
+  ]
+}

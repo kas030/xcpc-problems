@@ -1,0 +1,90 @@
+{
+  "id": "ccpc-2022-guangzhou",
+  "name": "2022 中国大学生程序设计竞赛（广州） - 正式赛",
+  "shortName": "22-CCPC-广州",
+  "year": 2022,
+  "series": "CCPC",
+  "kind": "regional",
+  "sourcePath": "ccpc/8th/guangzhou",
+  "qojContestId": 1493,
+  "mappingSource": "https://qoj.ac/contest/1493",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/ccpc/8th/guangzhou/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=1493&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Alice and Her Lost Cat",
+      "qojId": 8138
+    },
+    {
+      "label": "B",
+      "title": "Ayano and sequences",
+      "qojId": 8139
+    },
+    {
+      "label": "C",
+      "title": "Customs Controls 2",
+      "qojId": 8140
+    },
+    {
+      "label": "D",
+      "title": "Digits",
+      "qojId": 8141
+    },
+    {
+      "label": "E",
+      "title": "Elevator",
+      "qojId": 8142
+    },
+    {
+      "label": "F",
+      "title": "Equations",
+      "qojId": 8143
+    },
+    {
+      "label": "G",
+      "title": "Game",
+      "qojId": 8144
+    },
+    {
+      "label": "H",
+      "title": "GameX",
+      "qojId": 8145
+    },
+    {
+      "label": "I",
+      "title": "Infection",
+      "qojId": 8146
+    },
+    {
+      "label": "J",
+      "title": "Math Exam",
+      "qojId": 8147
+    },
+    {
+      "label": "K",
+      "title": "Middle Point Graph",
+      "qojId": 8148
+    },
+    {
+      "label": "L",
+      "title": "Station of Fate",
+      "qojId": 8149
+    },
+    {
+      "label": "M",
+      "title": "XOR Sum",
+      "qojId": 8150
+    }
+  ]
+}

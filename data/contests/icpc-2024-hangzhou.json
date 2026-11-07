@@ -1,0 +1,90 @@
+{
+  "id": "icpc-2024-hangzhou",
+  "name": "第 49 届 ICPC 国际大学生程序设计竞赛区域赛杭州站 - 正式赛",
+  "shortName": "24-ICPC-杭州",
+  "year": 2024,
+  "series": "ICPC",
+  "kind": "regional",
+  "sourcePath": "icpc/49th/hangzhou",
+  "qojContestId": 1893,
+  "mappingSource": "https://qoj.ac/contest/1893?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/49th/hangzhou/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=1893&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "AUS",
+      "qojId": 9726
+    },
+    {
+      "label": "B",
+      "title": "Barkley III",
+      "qojId": 9727
+    },
+    {
+      "label": "C",
+      "title": "Catch the Star",
+      "qojId": 9728
+    },
+    {
+      "label": "D",
+      "title": "Dividing Sequence",
+      "qojId": 9729
+    },
+    {
+      "label": "E",
+      "title": "Elevator II",
+      "qojId": 9730
+    },
+    {
+      "label": "F",
+      "title": "Fuzzy Ranking",
+      "qojId": 9731
+    },
+    {
+      "label": "G",
+      "title": "Gathering Mushrooms",
+      "qojId": 9732
+    },
+    {
+      "label": "H",
+      "title": "Heavy-light Decomposition",
+      "qojId": 9733
+    },
+    {
+      "label": "I",
+      "title": "Identify Chord",
+      "qojId": 9734
+    },
+    {
+      "label": "J",
+      "title": "Japanese Bands",
+      "qojId": 9735
+    },
+    {
+      "label": "K",
+      "title": "Kind of Bingo",
+      "qojId": 9736
+    },
+    {
+      "label": "L",
+      "title": "Let's Go! New Adventure",
+      "qojId": 9737
+    },
+    {
+      "label": "M",
+      "title": "Make It Divisible",
+      "qojId": 9738
+    }
+  ]
+}

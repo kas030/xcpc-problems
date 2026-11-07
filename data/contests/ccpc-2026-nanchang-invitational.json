@@ -1,0 +1,84 @@
+{
+  "id": "ccpc-2026-nanchang-invitational",
+  "name": "2026 CCPC 中国大学生程序设计竞赛全国邀请赛（南昌） - 正式赛",
+  "shortName": "26-CCPC-南昌-邀",
+  "year": 2026,
+  "series": "CCPC",
+  "kind": "invitational",
+  "sourcePath": "ccpc/12th/nanchang-invitational",
+  "qojContestId": 3929,
+  "mappingSource": "https://qoj.ac/contest/3929",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/ccpc/12th/nanchang-invitational/",
+  "eligibleGroup": "participant",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "求求你不要再摔馍片了",
+      "qojId": 18945
+    },
+    {
+      "label": "B",
+      "title": "世界树",
+      "qojId": 18946
+    },
+    {
+      "label": "C",
+      "title": "简单字符串题",
+      "qojId": 18947
+    },
+    {
+      "label": "D",
+      "title": "电梯",
+      "qojId": 18948
+    },
+    {
+      "label": "E",
+      "title": "猜 01 序列",
+      "qojId": 18949
+    },
+    {
+      "label": "F",
+      "title": "建设高铁",
+      "qojId": 18950
+    },
+    {
+      "label": "G",
+      "title": "可能是字符串签到题",
+      "qojId": 18951
+    },
+    {
+      "label": "H",
+      "title": "南昌拌粉的绝妙配比",
+      "qojId": 18952
+    },
+    {
+      "label": "I",
+      "title": "灯带",
+      "qojId": 18953
+    },
+    {
+      "label": "J",
+      "title": "贪吃蛇",
+      "qojId": 18954
+    },
+    {
+      "label": "K",
+      "title": "拯救猫猫",
+      "qojId": 18955
+    },
+    {
+      "label": "L",
+      "title": "三人成角",
+      "qojId": 18956
+    },
+    {
+      "label": "M",
+      "title": "最正宗的白糖糕",
+      "qojId": 18957
+    }
+  ]
+}

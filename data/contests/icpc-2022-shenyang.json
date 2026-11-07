@@ -1,0 +1,90 @@
+{
+  "id": "icpc-2022-shenyang",
+  "name": "第 47 届国际大学生程序设计竞赛亚洲区域赛沈阳站（正式赛）",
+  "shortName": "22-ICPC-沈阳",
+  "year": 2022,
+  "series": "ICPC",
+  "kind": "regional",
+  "sourcePath": "icpc/47th/shenyang",
+  "qojContestId": 1096,
+  "mappingSource": "https://qoj.ac/contest/1096",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/47th/shenyang/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=1096&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Absolute Difference",
+      "qojId": 5433
+    },
+    {
+      "label": "B",
+      "title": "Binary Substrings",
+      "qojId": 5434
+    },
+    {
+      "label": "C",
+      "title": "Clamped Sequence",
+      "qojId": 5435
+    },
+    {
+      "label": "D",
+      "title": "DRX vs. T1",
+      "qojId": 5436
+    },
+    {
+      "label": "E",
+      "title": "Graph Completing",
+      "qojId": 5437
+    },
+    {
+      "label": "F",
+      "title": "Half Mixed",
+      "qojId": 5438
+    },
+    {
+      "label": "G",
+      "title": "Meet in the Middle",
+      "qojId": 5439
+    },
+    {
+      "label": "H",
+      "title": "P-P-Palindrome",
+      "qojId": 5440
+    },
+    {
+      "label": "I",
+      "title": "Quartz Collection",
+      "qojId": 5441
+    },
+    {
+      "label": "J",
+      "title": "Referee Without Red",
+      "qojId": 5442
+    },
+    {
+      "label": "K",
+      "title": "Security at Museums",
+      "qojId": 5443
+    },
+    {
+      "label": "L",
+      "title": "Tavern Chess",
+      "qojId": 5444
+    },
+    {
+      "label": "M",
+      "title": "Vulpecula",
+      "qojId": 5445
+    }
+  ]
+}

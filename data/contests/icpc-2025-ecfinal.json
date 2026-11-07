@@ -1,0 +1,87 @@
+{
+  "id": "icpc-2025-ecfinal",
+  "name": "The \"Huawei Cup\" 50th ICPC Asia East Continent Final Contest",
+  "shortName": "25-ICPC-EC-Final",
+  "year": 2025,
+  "series": "ICPC",
+  "kind": "final",
+  "sourcePath": "icpc/50th/ecfinal",
+  "qojContestId": 3295,
+  "mappingSource": "https://qoj.ac/contest/3295?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/50th/ecfinal/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://sua.ac/wiki/2025-icpc-ecfinal/contest-en.pdf",
+    "format": "pdf",
+    "language": "en",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Outstanding Outlines",
+      "qojId": 16328
+    },
+    {
+      "label": "B",
+      "title": "Batching Badges",
+      "qojId": 16329
+    },
+    {
+      "label": "C",
+      "title": "Potential Peak",
+      "qojId": 16330
+    },
+    {
+      "label": "D",
+      "title": "Strategic Stones",
+      "qojId": 16331
+    },
+    {
+      "label": "E",
+      "title": "Efficient Express",
+      "qojId": 16332
+    },
+    {
+      "label": "F",
+      "title": "Set of Intervals 2",
+      "qojId": 16333
+    },
+    {
+      "label": "G",
+      "title": "Revolver Roulette",
+      "qojId": 16334,
+      "interactive": true
+    },
+    {
+      "label": "H",
+      "title": "Hextech High-roll",
+      "qojId": 16335
+    },
+    {
+      "label": "I",
+      "title": "Redundancy Refrain",
+      "qojId": 16336
+    },
+    {
+      "label": "J",
+      "title": "Tree-mendous Transmission",
+      "qojId": 16337
+    },
+    {
+      "label": "K",
+      "title": "Magically Marked Matching Master",
+      "qojId": 16338,
+      "interactive": true
+    },
+    {
+      "label": "L",
+      "title": "Logical Resonance",
+      "qojId": 16339
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "icpc-2023-jinan",
+  "name": "第 48 届 ICPC 国际大学生程序设计竞赛区域赛济南站 - 正式赛",
+  "shortName": "23-ICPC-济南",
+  "year": 2023,
+  "series": "ICPC",
+  "kind": "regional",
+  "sourcePath": "icpc/48th/jinan",
+  "qojContestId": 1472,
+  "mappingSource": "https://qoj.ac/contest/1472?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/48th/jinan/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://sua.ac/wiki/2023-icpc-jinan/contest-zh.pdf",
+    "format": "pdf",
+    "language": "zh",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Many Many Heads",
+      "qojId": 7894
+    },
+    {
+      "label": "B",
+      "title": "Graph Partitioning 2",
+      "qojId": 7895
+    },
+    {
+      "label": "C",
+      "title": "Turn on the Light 2",
+      "qojId": 7896
+    },
+    {
+      "label": "D",
+      "title": "Largest Digit",
+      "qojId": 7897
+    },
+    {
+      "label": "E",
+      "title": "I Just Want... One More...",
+      "qojId": 7898
+    },
+    {
+      "label": "F",
+      "title": "Say Hello to the Future",
+      "qojId": 7899
+    },
+    {
+      "label": "G",
+      "title": "Gifts from Knowledge",
+      "qojId": 7900
+    },
+    {
+      "label": "H",
+      "title": "Basic Substring Structure",
+      "qojId": 7901
+    },
+    {
+      "label": "I",
+      "title": "Strange Sorting",
+      "qojId": 7902
+    },
+    {
+      "label": "J",
+      "title": "Computational Intelligence",
+      "qojId": 7903
+    },
+    {
+      "label": "K",
+      "title": "Rainbow Subarray",
+      "qojId": 7904
+    },
+    {
+      "label": "L",
+      "title": "Ticket to Ride",
+      "qojId": 7905
+    },
+    {
+      "label": "M",
+      "title": "Almost Convex",
+      "qojId": 7906
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "icpc-2025-wuhan",
+  "name": "「华为杯」第 50 届 ICPC 国际大学生程序设计竞赛区域赛武汉站",
+  "shortName": "25-ICPC-武汉",
+  "year": 2025,
+  "series": "ICPC",
+  "kind": "regional",
+  "sourcePath": "icpc/50th/wuhan",
+  "qojContestId": 2609,
+  "mappingSource": "https://qoj.ac/contest/2609?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/50th/wuhan/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=2609&r=1",
+    "language": "zh",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Planting Trees",
+      "qojId": 14719
+    },
+    {
+      "label": "B",
+      "title": "77G Network",
+      "qojId": 14720
+    },
+    {
+      "label": "C",
+      "title": "Not Aqre",
+      "qojId": 14721
+    },
+    {
+      "label": "D",
+      "title": "Outsmarting",
+      "qojId": 14722
+    },
+    {
+      "label": "E",
+      "title": "Magic Trick",
+      "qojId": 14723
+    },
+    {
+      "label": "F",
+      "title": "Divide and Conquer",
+      "qojId": 14724
+    },
+    {
+      "label": "G",
+      "title": "Projection",
+      "qojId": 14725
+    },
+    {
+      "label": "H",
+      "title": "Restore the Array",
+      "qojId": 14726
+    },
+    {
+      "label": "I",
+      "title": "Dolls 2",
+      "qojId": 14727
+    },
+    {
+      "label": "J",
+      "title": "Circular Matching",
+      "qojId": 14728
+    },
+    {
+      "label": "K",
+      "title": "Organize the Bookshelf",
+      "qojId": 14729
+    },
+    {
+      "label": "L",
+      "title": "ICPC",
+      "qojId": 14730
+    },
+    {
+      "label": "M",
+      "title": "Kingdom of Construction",
+      "qojId": 14731
+    }
+  ]
+}

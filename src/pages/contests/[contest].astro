@@ -20,6 +20,7 @@ const problems = catalog.problems.filter(p => p.contestId === contest.id);
       <a href={contest.boardUrl} target="_blank" rel="noopener noreferrer">XCPCIO 榜单 <span aria-hidden="true">↗</span></a>
       {contest.statement && <a href={contest.statement.url} target="_blank" rel="noopener noreferrer">{contest.statement.provenance === 'official' ? '官方' : ''}{contest.statement.language === 'zh' ? '中文' : '英文'}题册 <span aria-hidden="true">↗</span></a>}
     </nav>
+    <p class="muted">{contest.classificationNote}</p>
   </header>
   <section class="table-card contest-problems" aria-label="比赛题目">
     <div class="table-scroll">

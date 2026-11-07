@@ -1,0 +1,85 @@
+{
+  "id": "icpc-2024-world-finals",
+  "name": "The 48th ICPC World Finals",
+  "shortName": "24-ICPC-世界总决赛",
+  "year": 2024,
+  "series": "ICPC",
+  "kind": "final",
+  "sourcePath": "icpc/48th/world-finals",
+  "qojContestId": 1966,
+  "mappingSource": "https://qoj.ac/contest/1966",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/48th/world-finals/",
+  "eligibleGroup": "all",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=1966&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Billboards",
+      "qojId": 10401
+    },
+    {
+      "label": "B",
+      "title": "Bingo for the Win!",
+      "qojId": 10402
+    },
+    {
+      "label": "C",
+      "title": "Citizenship",
+      "qojId": 10403
+    },
+    {
+      "label": "D",
+      "title": "Doubles Horseback Wrestling",
+      "qojId": 10404
+    },
+    {
+      "label": "E",
+      "title": "Flipping Container",
+      "qojId": 10405
+    },
+    {
+      "label": "F",
+      "title": "Friendly Rivalry",
+      "qojId": 10406
+    },
+    {
+      "label": "G",
+      "title": "Kindergarten",
+      "qojId": 10407
+    },
+    {
+      "label": "H",
+      "title": "Maxwell’s Demon",
+      "qojId": 10408
+    },
+    {
+      "label": "I",
+      "title": "Steppe on It",
+      "qojId": 10409
+    },
+    {
+      "label": "J",
+      "title": "The Silk Road . . . with Robots!",
+      "qojId": 10410
+    },
+    {
+      "label": "K",
+      "title": "Tower of noiHa",
+      "qojId": 10411
+    },
+    {
+      "label": "L",
+      "title": "Where Am I Now?",
+      "qojId": 10412
+    }
+  ]
+}

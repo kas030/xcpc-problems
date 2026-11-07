@@ -1,0 +1,85 @@
+{
+  "id": "ccpc-2024-online-qualification",
+  "name": "第十届中国大学生程序设计竞赛网络预选赛",
+  "shortName": "24-CCPC-网预选",
+  "year": 2024,
+  "series": "CCPC",
+  "kind": "online",
+  "sourcePath": "ccpc/10th/online-qualification",
+  "qojContestId": 2530,
+  "mappingSource": "https://qoj.ac/contest/2530",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/ccpc/10th/online-qualification/",
+  "eligibleGroup": "1",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=2530&r=0",
+    "language": "zh",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "军训 I",
+      "qojId": 14522
+    },
+    {
+      "label": "B",
+      "title": "军训 II",
+      "qojId": 14523
+    },
+    {
+      "label": "C",
+      "title": "种树",
+      "qojId": 14524
+    },
+    {
+      "label": "D",
+      "title": "编码器-解码器",
+      "qojId": 14525
+    },
+    {
+      "label": "E",
+      "title": "随机过程",
+      "qojId": 14526
+    },
+    {
+      "label": "F",
+      "title": "包子鸡蛋 III",
+      "qojId": 14527
+    },
+    {
+      "label": "G",
+      "title": "疯狂星期六",
+      "qojId": 14528
+    },
+    {
+      "label": "H",
+      "title": "另一个游戏",
+      "qojId": 14529
+    },
+    {
+      "label": "I",
+      "title": "找行李",
+      "qojId": 14530
+    },
+    {
+      "label": "J",
+      "title": "找最小",
+      "qojId": 14531
+    },
+    {
+      "label": "K",
+      "title": "取沙子游戏",
+      "qojId": 14532
+    },
+    {
+      "label": "L",
+      "title": "网络预选赛",
+      "qojId": 14533
+    }
+  ]
+}

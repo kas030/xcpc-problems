@@ -1,0 +1,90 @@
+{
+  "id": "ccpc-2023-final",
+  "name": "第 9 届 CCPC 中国大学生程序设计竞赛总决赛",
+  "shortName": "23-CCPC-总决赛",
+  "year": 2023,
+  "series": "CCPC",
+  "kind": "final",
+  "sourcePath": "ccpc/9th/final",
+  "qojContestId": 1596,
+  "mappingSource": "https://qoj.ac/contest/1596?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/ccpc/9th/final/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=1596&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Add One 2",
+      "qojId": 8542
+    },
+    {
+      "label": "B",
+      "title": "Periodic Sequence",
+      "qojId": 8543
+    },
+    {
+      "label": "C",
+      "title": "Colorful Graph 2",
+      "qojId": 8544
+    },
+    {
+      "label": "D",
+      "title": "Min or Max",
+      "qojId": 8545
+    },
+    {
+      "label": "E",
+      "title": "Min or Max 2",
+      "qojId": 8546
+    },
+    {
+      "label": "F",
+      "title": "Whose Land?",
+      "qojId": 8547
+    },
+    {
+      "label": "G",
+      "title": "China Convex Polygon Contest",
+      "qojId": 8548
+    },
+    {
+      "label": "H",
+      "title": "The Game",
+      "qojId": 8549
+    },
+    {
+      "label": "I",
+      "title": "All the Way Left",
+      "qojId": 8550
+    },
+    {
+      "label": "J",
+      "title": "DFS Order 5",
+      "qojId": 8551
+    },
+    {
+      "label": "K",
+      "title": "Sticks",
+      "qojId": 8552
+    },
+    {
+      "label": "L",
+      "title": "Exchanging Kubic",
+      "qojId": 8553
+    },
+    {
+      "label": "M",
+      "title": "Bot Friends",
+      "qojId": 8554
+    }
+  ]
+}

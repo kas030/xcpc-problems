@@ -1,0 +1,90 @@
+{
+  "id": "ccpc-2022-final",
+  "name": "第八届中国大学生程序设计竞赛总决赛（正式赛）",
+  "shortName": "22-CCPC-总决赛",
+  "year": 2022,
+  "series": "CCPC",
+  "kind": "final",
+  "sourcePath": "ccpc/8th/final",
+  "qojContestId": 1244,
+  "mappingSource": "https://qoj.ac/contest/1244",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/ccpc/8th/final/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=1244&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Graph Partitioning",
+      "qojId": 6501
+    },
+    {
+      "label": "B",
+      "title": "Disjoint Set Union",
+      "qojId": 6502
+    },
+    {
+      "label": "C",
+      "title": "DFS Order 3",
+      "qojId": 6503
+    },
+    {
+      "label": "D",
+      "title": "Flower's Land 2",
+      "qojId": 6504
+    },
+    {
+      "label": "E",
+      "title": "CCPC String",
+      "qojId": 6505
+    },
+    {
+      "label": "F",
+      "title": "Chase Game 3",
+      "qojId": 6506
+    },
+    {
+      "label": "G",
+      "title": "Recover the String",
+      "qojId": 6507
+    },
+    {
+      "label": "H",
+      "title": "This is not an Abnormal Team!",
+      "qojId": 6508
+    },
+    {
+      "label": "I",
+      "title": "Not Another Range Query Problem",
+      "qojId": 6509
+    },
+    {
+      "label": "J",
+      "title": "Best Carry Player 3",
+      "qojId": 6510
+    },
+    {
+      "label": "K",
+      "title": "Balancing Sequences",
+      "qojId": 6511
+    },
+    {
+      "label": "L",
+      "title": "Completely Multiplicative Function",
+      "qojId": 6512
+    },
+    {
+      "label": "M",
+      "title": "Expression 3",
+      "qojId": 6513
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "icpc-2022-xian",
+  "name": "第 47 届国际大学生程序设计竞赛亚洲区域赛西安站（正式赛）",
+  "shortName": "22-ICPC-西安",
+  "year": 2022,
+  "series": "ICPC",
+  "kind": "regional",
+  "sourcePath": "icpc/47th/xian",
+  "qojContestId": 1051,
+  "mappingSource": "https://qoj.ac/contest/1051",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/47th/xian/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=1051&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Bridge",
+      "qojId": 5113
+    },
+    {
+      "label": "B",
+      "title": "Cells Coloring",
+      "qojId": 5114
+    },
+    {
+      "label": "C",
+      "title": "Clone Ranran",
+      "qojId": 5115
+    },
+    {
+      "label": "D",
+      "title": "Contests",
+      "qojId": 5116
+    },
+    {
+      "label": "E",
+      "title": "Find Maximum",
+      "qojId": 5117
+    },
+    {
+      "label": "F",
+      "title": "Hotel",
+      "qojId": 5118
+    },
+    {
+      "label": "G",
+      "title": "Perfect Word",
+      "qojId": 5119
+    },
+    {
+      "label": "H",
+      "title": "Power of Two",
+      "qojId": 5120
+    },
+    {
+      "label": "I",
+      "title": "Square Grid",
+      "qojId": 5121
+    },
+    {
+      "label": "J",
+      "title": "Strange Sum",
+      "qojId": 5122
+    },
+    {
+      "label": "K",
+      "title": "Streets",
+      "qojId": 5123
+    },
+    {
+      "label": "L",
+      "title": "Tree",
+      "qojId": 5124
+    }
+  ]
+}

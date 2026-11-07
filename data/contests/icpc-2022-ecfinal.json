@@ -1,0 +1,90 @@
+{
+  "id": "icpc-2022-ecfinal",
+  "name": "The 47th ICPC Asia East Continent Final Contest",
+  "shortName": "22-ICPC-EC-Final",
+  "year": 2022,
+  "series": "ICPC",
+  "kind": "final",
+  "sourcePath": "icpc/47th/ec-final",
+  "qojContestId": 1197,
+  "mappingSource": "https://qoj.ac/contest/1197",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/47th/ec-final/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=1197&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Coloring",
+      "qojId": 6298
+    },
+    {
+      "label": "B",
+      "title": "Binary String",
+      "qojId": 6299
+    },
+    {
+      "label": "C",
+      "title": "Best Carry Player 2",
+      "qojId": 6300
+    },
+    {
+      "label": "D",
+      "title": "Minimum Suffix",
+      "qojId": 6301
+    },
+    {
+      "label": "E",
+      "title": "Map",
+      "qojId": 6302
+    },
+    {
+      "label": "F",
+      "title": "Inversion",
+      "qojId": 6303
+    },
+    {
+      "label": "G",
+      "title": "Rectangle",
+      "qojId": 6304
+    },
+    {
+      "label": "H",
+      "title": "Chinese Checker",
+      "qojId": 6305
+    },
+    {
+      "label": "I",
+      "title": "Chase Game",
+      "qojId": 6306
+    },
+    {
+      "label": "J",
+      "title": "Chase Game 2",
+      "qojId": 6307
+    },
+    {
+      "label": "K",
+      "title": "Magic",
+      "qojId": 6308
+    },
+    {
+      "label": "L",
+      "title": "Aqre",
+      "qojId": 6309
+    },
+    {
+      "label": "M",
+      "title": "Dining Professors",
+      "qojId": 6310
+    }
+  ]
+}

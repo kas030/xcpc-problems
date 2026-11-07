@@ -1,0 +1,90 @@
+{
+  "id": "ccpc-2025-zhengzhou",
+  "name": "第 11 届 CCPC 中国大学生程序设计竞赛郑州站 - 正式赛",
+  "shortName": "25-CCPC-郑州",
+  "year": 2025,
+  "series": "CCPC",
+  "kind": "regional",
+  "sourcePath": "ccpc/11th/zhengzhou",
+  "qojContestId": 2661,
+  "mappingSource": "https://qoj.ac/contest/2661?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/ccpc/11th/zhengzhou/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=2661&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Challenge Matrix Multiplication II",
+      "qojId": 15301
+    },
+    {
+      "label": "B",
+      "title": "Cutting Chocolate",
+      "qojId": 15302
+    },
+    {
+      "label": "C",
+      "title": "Basic Counting Practice Problems",
+      "qojId": 15303
+    },
+    {
+      "label": "D",
+      "title": "Diameter of a Tree",
+      "qojId": 15304
+    },
+    {
+      "label": "E",
+      "title": "Doo Doo Doo",
+      "qojId": 15305
+    },
+    {
+      "label": "F",
+      "title": "Challenge NPC II",
+      "qojId": 15306
+    },
+    {
+      "label": "G",
+      "title": "Plus Xor",
+      "qojId": 15307
+    },
+    {
+      "label": "H",
+      "title": "Random Shuffle",
+      "qojId": 15308
+    },
+    {
+      "label": "I",
+      "title": "Dumb Problem II",
+      "qojId": 15309
+    },
+    {
+      "label": "J",
+      "title": "Subrectangle Count",
+      "qojId": 15310
+    },
+    {
+      "label": "K",
+      "title": "Parentheses and Swapping",
+      "qojId": 15311
+    },
+    {
+      "label": "L",
+      "title": "Triangle Grid",
+      "qojId": 15312
+    },
+    {
+      "label": "M",
+      "title": "Replacement",
+      "qojId": 15313
+    }
+  ]
+}

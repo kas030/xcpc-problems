@@ -1,0 +1,90 @@
+{
+  "id": "icpc-2022-hangzhou",
+  "name": "第 47 届国际大学生程序设计竞赛亚洲区域赛杭州站（正式赛）",
+  "shortName": "22-ICPC-杭州",
+  "year": 2022,
+  "series": "ICPC",
+  "kind": "regional",
+  "sourcePath": "icpc/47th/hangzhou",
+  "qojContestId": 1071,
+  "mappingSource": "https://qoj.ac/contest/1071",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/47th/hangzhou/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=1071&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Modulo Ruins the Legend",
+      "qojId": 5301
+    },
+    {
+      "label": "B",
+      "title": "Useful Algorithm",
+      "qojId": 5302
+    },
+    {
+      "label": "C",
+      "title": "No Bug No Game",
+      "qojId": 5303
+    },
+    {
+      "label": "D",
+      "title": "Money Game",
+      "qojId": 5304
+    },
+    {
+      "label": "E",
+      "title": "Oscar is All You Need",
+      "qojId": 5305
+    },
+    {
+      "label": "F",
+      "title": "Da Mi Lao Shi Ai Kan De",
+      "qojId": 5306
+    },
+    {
+      "label": "G",
+      "title": "Subgraph Isomorphism",
+      "qojId": 5307
+    },
+    {
+      "label": "H",
+      "title": "RPG Pro League",
+      "qojId": 5308
+    },
+    {
+      "label": "I",
+      "title": "Guess Cycle Length",
+      "qojId": 5309
+    },
+    {
+      "label": "J",
+      "title": "Painting",
+      "qojId": 5310
+    },
+    {
+      "label": "K",
+      "title": "Master of Both",
+      "qojId": 5311
+    },
+    {
+      "label": "L",
+      "title": "Levenshtein Distance",
+      "qojId": 5312
+    },
+    {
+      "label": "M",
+      "title": "Please Save Pigeland",
+      "qojId": 5313
+    }
+  ]
+}

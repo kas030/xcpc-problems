@@ -1,0 +1,92 @@
+{
+  "id": "icpc-2026-shenzhen-invitational",
+  "name": "2026 年 ICPC 国际大学生程序设计竞赛全国邀请赛（深圳）",
+  "shortName": "26-ICPC-深圳-邀",
+  "year": 2026,
+  "series": "ICPC",
+  "kind": "invitational",
+  "sourcePath": "icpc/51st/shenzhen-invitational",
+  "qojContestId": 3588,
+  "mappingSource": "https://qoj.ac/contest/3588?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/51st/shenzhen-invitational/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://sua.ac/wiki/2026-icpc-invitational-shenzhen/contest-zh.pdf",
+    "format": "pdf",
+    "language": "zh",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Greetings from Prof. Chen",
+      "qojId": 17753
+    },
+    {
+      "label": "B",
+      "title": "All-Star Showdown",
+      "qojId": 17754
+    },
+    {
+      "label": "C",
+      "title": "One Item Away",
+      "qojId": 17755,
+      "interactive": true
+    },
+    {
+      "label": "D",
+      "title": "City Management",
+      "qojId": 17756
+    },
+    {
+      "label": "E",
+      "title": "Card Checking",
+      "qojId": 17757
+    },
+    {
+      "label": "F",
+      "title": "Astra",
+      "qojId": 17758
+    },
+    {
+      "label": "G",
+      "title": "Snake",
+      "qojId": 17759,
+      "interactive": true
+    },
+    {
+      "label": "H",
+      "title": "Telepathy",
+      "qojId": 17760
+    },
+    {
+      "label": "I",
+      "title": "Calendar Cubes",
+      "qojId": 17761
+    },
+    {
+      "label": "J",
+      "title": "Crossroads",
+      "qojId": 17762
+    },
+    {
+      "label": "K",
+      "title": "Sum and Product",
+      "qojId": 17763
+    },
+    {
+      "label": "L",
+      "title": "Critical Strike",
+      "qojId": 17764
+    },
+    {
+      "label": "M",
+      "title": "Night at the Museum",
+      "qojId": 17765
+    }
+  ]
+}

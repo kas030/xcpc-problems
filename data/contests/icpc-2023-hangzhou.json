@@ -1,0 +1,90 @@
+{
+  "id": "icpc-2023-hangzhou",
+  "name": "第 48 届 ICPC 国际大学生程序设计竞赛区域赛杭州站 - 正式赛",
+  "shortName": "23-ICPC-杭州",
+  "year": 2023,
+  "series": "ICPC",
+  "kind": "regional",
+  "sourcePath": "icpc/48th/hangzhou",
+  "qojContestId": 1516,
+  "mappingSource": "https://qoj.ac/contest/1516?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/48th/hangzhou/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=1516&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Submissions",
+      "qojId": 8230
+    },
+    {
+      "label": "B",
+      "title": "Festival Decorating",
+      "qojId": 8231
+    },
+    {
+      "label": "C",
+      "title": "Yet Another Shortest Path Query",
+      "qojId": 8232
+    },
+    {
+      "label": "D",
+      "title": "Operator Precedence",
+      "qojId": 8233
+    },
+    {
+      "label": "E",
+      "title": "Period of a String",
+      "qojId": 8234
+    },
+    {
+      "label": "F",
+      "title": "Top Cluster",
+      "qojId": 8235
+    },
+    {
+      "label": "G",
+      "title": "Snake Move",
+      "qojId": 8236
+    },
+    {
+      "label": "H",
+      "title": "Sugar Sweet II",
+      "qojId": 8237
+    },
+    {
+      "label": "I",
+      "title": "Dreamy Putata",
+      "qojId": 8238
+    },
+    {
+      "label": "J",
+      "title": "Mysterious Tree",
+      "qojId": 8239
+    },
+    {
+      "label": "K",
+      "title": "Card Game",
+      "qojId": 8240
+    },
+    {
+      "label": "L",
+      "title": "Master of Both V",
+      "qojId": 8241
+    },
+    {
+      "label": "M",
+      "title": "V-Diagram",
+      "qojId": 8242
+    }
+  ]
+}

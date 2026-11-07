@@ -1,0 +1,90 @@
+{
+  "id": "icpc-2025-shanghai",
+  "name": "「华为杯」第 50 届 ICPC 国际大学生程序设计竞赛区域赛上海站",
+  "shortName": "25-ICPC-上海",
+  "year": 2025,
+  "series": "ICPC",
+  "kind": "regional",
+  "sourcePath": "icpc/50th/shanghai",
+  "qojContestId": 2908,
+  "mappingSource": "https://qoj.ac/contest/2908?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/50th/shanghai/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=2908&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Menji, we miss you!",
+      "qojId": 15314
+    },
+    {
+      "label": "B",
+      "title": "Hamu",
+      "qojId": 15315
+    },
+    {
+      "label": "C",
+      "title": "Singularity",
+      "qojId": 15316
+    },
+    {
+      "label": "D",
+      "title": "Not a subset sum",
+      "qojId": 15317
+    },
+    {
+      "label": "E",
+      "title": "Flower's land 3",
+      "qojId": 15318
+    },
+    {
+      "label": "F",
+      "title": "Flower's land 4",
+      "qojId": 15319
+    },
+    {
+      "label": "G",
+      "title": "Gemcrate",
+      "qojId": 15320
+    },
+    {
+      "label": "H",
+      "title": "AGI",
+      "qojId": 15321
+    },
+    {
+      "label": "I",
+      "title": "Round screws",
+      "qojId": 15322
+    },
+    {
+      "label": "J",
+      "title": "Yet another mailbox problem",
+      "qojId": 15323
+    },
+    {
+      "label": "K",
+      "title": "No more regrets",
+      "qojId": 15324
+    },
+    {
+      "label": "L",
+      "title": "Yet another permutation problem",
+      "qojId": 15325
+    },
+    {
+      "label": "M",
+      "title": "Yet another 01 problem",
+      "qojId": 15326
+    }
+  ]
+}

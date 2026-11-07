@@ -1,0 +1,84 @@
+{
+  "id": "ccpc-2022-weihai",
+  "name": "2022 中国大学生程序设计竞赛（威海） - 正式赛",
+  "shortName": "22-CCPC-威海",
+  "year": 2022,
+  "series": "CCPC",
+  "kind": "regional",
+  "sourcePath": "ccpc/8th/weihai",
+  "qojContestId": 1833,
+  "mappingSource": "https://qoj.ac/contest/1833",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/ccpc/8th/weihai/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Dunai",
+      "qojId": 9591
+    },
+    {
+      "label": "B",
+      "title": "Recruitment",
+      "qojId": 9592
+    },
+    {
+      "label": "C",
+      "title": "Grass",
+      "qojId": 9593
+    },
+    {
+      "label": "D",
+      "title": "Sternhalma",
+      "qojId": 9594
+    },
+    {
+      "label": "E",
+      "title": "Python Will be Faster than C++",
+      "qojId": 9595
+    },
+    {
+      "label": "F",
+      "title": "Mooncake Delivery",
+      "qojId": 9596
+    },
+    {
+      "label": "G",
+      "title": "Grade 2",
+      "qojId": 9597
+    },
+    {
+      "label": "H",
+      "title": "Party Animals",
+      "qojId": 9598
+    },
+    {
+      "label": "I",
+      "title": "Dragon Bloodline",
+      "qojId": 9599
+    },
+    {
+      "label": "J",
+      "title": "Eat, Sleep, Repeat",
+      "qojId": 9600
+    },
+    {
+      "label": "K",
+      "title": "I Wanna Maker",
+      "qojId": 9601
+    },
+    {
+      "label": "L",
+      "title": "Novice Magician",
+      "qojId": 9602
+    },
+    {
+      "label": "M",
+      "title": "String Master",
+      "qojId": 9603
+    }
+  ]
+}

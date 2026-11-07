@@ -1,0 +1,85 @@
+{
+  "id": "icpc-2025-hongkong",
+  "name": "The 50th ICPC Asia Hong Kong Regional Contest",
+  "shortName": "25-ICPC-香港",
+  "year": 2025,
+  "series": "ICPC",
+  "kind": "regional",
+  "sourcePath": "icpc/50th/hongkong",
+  "qojContestId": 3169,
+  "mappingSource": "https://qoj.ac/contest/3169?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/50th/hongkong/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=3169&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Bipartite Graph Matching Problem",
+      "qojId": 15432
+    },
+    {
+      "label": "B",
+      "title": "Travelling",
+      "qojId": 15433
+    },
+    {
+      "label": "C",
+      "title": "Stonebag",
+      "qojId": 15434
+    },
+    {
+      "label": "D",
+      "title": "Dumb Problem",
+      "qojId": 15435
+    },
+    {
+      "label": "E",
+      "title": "Bipartite Graph Weighting Problem",
+      "qojId": 15436
+    },
+    {
+      "label": "F",
+      "title": "Find the Circuit",
+      "qojId": 15437
+    },
+    {
+      "label": "G",
+      "title": "Watering System",
+      "qojId": 15438
+    },
+    {
+      "label": "H",
+      "title": "Longest Common Prefix",
+      "qojId": 15439
+    },
+    {
+      "label": "I",
+      "title": "DFS Order - Extra Stage",
+      "qojId": 15440
+    },
+    {
+      "label": "J",
+      "title": "Re: Becoming the Programming Champion",
+      "qojId": 15441
+    },
+    {
+      "label": "K",
+      "title": "Cyclic Shift",
+      "qojId": 15442
+    },
+    {
+      "label": "L",
+      "title": "Cyclic Shift II",
+      "qojId": 15443
+    }
+  ]
+}

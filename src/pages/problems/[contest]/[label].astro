@@ -35,12 +35,12 @@ const readerUrl = singlePdf ? `${base}/${singlePdf}#view=FitH` : bookletUrl;
       <div class="reading-card">
         <div class="reading-toolbar">
           <h2>{Content ? entry!.data.language === 'zh' ? '中文题面' : '英文题面' : '官方题面'}{Content && <span class="source-label">{entry!.data.status === 'official' ? '官方原文' : entry!.data.status === 'reviewed' ? '译文已校对' : '译文待校对'}</span>}</h2>
-          {statement && <a class="booklet-link" href={bookletUrl} target="_blank" rel="noopener noreferrer" title="在新标签页打开完整题册"><span>完整题册</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>}
+          {statement && <a class="booklet-link" href={bookletUrl} target="_blank" rel="noopener noreferrer" title={statement.format === 'pdf' ? '在新标签页打开完整题册' : '在新标签页打开原始题面'}><span>{statement.format === 'pdf' ? '完整题册' : '原始题面'}</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>}
         </div>
         {entry?.data.status === 'draft' && <div class="status-banner">这份译文尚未校对，训练时请同时核对原文中的约束和样例。</div>}
-        {Content ? <article class="prose statement-prose"><Content /></article> : statement?.format === 'pdf' ? <>
+        {Content ? <article class="prose statement-prose"><Content /></article> : statement?.format === 'pdf' && localPdf ? <>
           <iframe class="pdf-frame" src={readerUrl} title={`${problem.label}. ${problem.title} ${statement.language === 'zh' ? '中文' : ''}题面`} referrerpolicy="no-referrer" />
-        </> : <div class="statement-prose"><p>完整题面可在原始网站阅读。</p>{statement && <a class="button" href={statement.url} target="_blank" rel="noopener noreferrer">打开原始题面 ↗</a>}</div>}
+        </> : <div class="statement-prose"><p>完整题面可在原始网站阅读。</p><a class="button button-primary" href={`https://qoj.ac/problem/${problem.qojId}`} target="_blank" rel="noopener noreferrer">在 QOJ 阅读本题 ↗</a>{statement && <a class="button" href={bookletUrl} target="_blank" rel="noopener noreferrer">{statement.format === 'pdf' ? `打开${statement.language === 'zh' ? '中文' : '英文'}题册` : '打开原始题面'} ↗</a>}</div>}
       </div>
     </section>
     <aside class="detail-sidebar">

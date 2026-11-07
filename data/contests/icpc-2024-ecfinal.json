@@ -1,0 +1,85 @@
+{
+  "id": "icpc-2024-ecfinal",
+  "name": "The 49th ICPC Asia East Continent Final Contest",
+  "shortName": "24-ICPC-EC-Final",
+  "year": 2024,
+  "series": "ICPC",
+  "kind": "final",
+  "sourcePath": "icpc/49th/ecfinal",
+  "qojContestId": 1894,
+  "mappingSource": "https://qoj.ac/contest/1894?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/49th/ecfinal/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=1894&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Hitoshizuku",
+      "qojId": 9975
+    },
+    {
+      "label": "B",
+      "title": "Guess the Polygon 2",
+      "qojId": 9976
+    },
+    {
+      "label": "C",
+      "title": "Norte da Universidade",
+      "qojId": 9977
+    },
+    {
+      "label": "D",
+      "title": "Keystone Correction",
+      "qojId": 9978
+    },
+    {
+      "label": "E",
+      "title": "Corrupted Scoreboard Log",
+      "qojId": 9979
+    },
+    {
+      "label": "F",
+      "title": "Boolean Function Reconstruction",
+      "qojId": 9980
+    },
+    {
+      "label": "G",
+      "title": "Collatz Conjecture",
+      "qojId": 9981
+    },
+    {
+      "label": "H",
+      "title": "Staircase Museum",
+      "qojId": 9982
+    },
+    {
+      "label": "I",
+      "title": "Color-Balanced Tree",
+      "qojId": 9983
+    },
+    {
+      "label": "J",
+      "title": "The Mysterious Shop",
+      "qojId": 9984
+    },
+    {
+      "label": "K",
+      "title": "Exploration Boundary",
+      "qojId": 9985
+    },
+    {
+      "label": "L",
+      "title": "Shiori",
+      "qojId": 9986
+    }
+  ]
+}

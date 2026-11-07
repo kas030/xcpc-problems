@@ -1,0 +1,90 @@
+{
+  "id": "icpc-2024-chengdu",
+  "name": "第 49 届 ICPC 国际大学生程序设计竞赛区域赛成都站 - 正式赛",
+  "shortName": "24-ICPC-成都",
+  "year": 2024,
+  "series": "ICPC",
+  "kind": "regional",
+  "sourcePath": "icpc/49th/chengdu",
+  "qojContestId": 1821,
+  "mappingSource": "https://qoj.ac/contest/1821?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/49th/chengdu/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=1821&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Arrow a Row",
+      "qojId": 9535
+    },
+    {
+      "label": "B",
+      "title": "Athlete Welcome Ceremony",
+      "qojId": 9536
+    },
+    {
+      "label": "C",
+      "title": "Chinese Chess",
+      "qojId": 9537
+    },
+    {
+      "label": "D",
+      "title": "Closest Derangement",
+      "qojId": 9538
+    },
+    {
+      "label": "E",
+      "title": "Disrupting Communications",
+      "qojId": 9539
+    },
+    {
+      "label": "F",
+      "title": "Double 11",
+      "qojId": 9540
+    },
+    {
+      "label": "G",
+      "title": "Expanding Array",
+      "qojId": 9541
+    },
+    {
+      "label": "H",
+      "title": "Friendship is Magic",
+      "qojId": 9542
+    },
+    {
+      "label": "I",
+      "title": "Good Partitions",
+      "qojId": 9543
+    },
+    {
+      "label": "J",
+      "title": "Grand Prix of Ballance",
+      "qojId": 9544
+    },
+    {
+      "label": "K",
+      "title": "Magical Set",
+      "qojId": 9545
+    },
+    {
+      "label": "L",
+      "title": "Recover Statistics",
+      "qojId": 9546
+    },
+    {
+      "label": "M",
+      "title": "Two Convex Holes",
+      "qojId": 9547
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "icpc-2025-nanjing",
+  "name": "「华为杯」第 50 届 ICPC 国际大学生程序设计竞赛区域赛南京站",
+  "shortName": "25-ICPC-南京",
+  "year": 2025,
+  "series": "ICPC",
+  "kind": "regional",
+  "sourcePath": "icpc/50th/nanjing",
+  "qojContestId": 2581,
+  "mappingSource": "https://qoj.ac/contest/2581?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/50th/nanjing/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://sua.ac/wiki/2025-icpc-nanjing/contest-zh.pdf",
+    "format": "pdf",
+    "language": "zh",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Wow, It’s Yesterday Six Times More",
+      "qojId": 14801,
+      "interactive": true
+    },
+    {
+      "label": "B",
+      "title": "What, More Kangaroos?",
+      "qojId": 14802
+    },
+    {
+      "label": "C",
+      "title": "Distributing Candies",
+      "qojId": 14803
+    },
+    {
+      "label": "D",
+      "title": "Fallleaves01 and Golf",
+      "qojId": 14804
+    },
+    {
+      "label": "E",
+      "title": "Cyan White Tree",
+      "qojId": 14805
+    },
+    {
+      "label": "F",
+      "title": "Bitwise And Path",
+      "qojId": 14806
+    },
+    {
+      "label": "G",
+      "title": "Bucket Bonanza",
+      "qojId": 14807
+    },
+    {
+      "label": "H",
+      "title": "Pen Pineapple Apple Pen",
+      "qojId": 14808
+    },
+    {
+      "label": "I",
+      "title": "Chi Fan",
+      "qojId": 14809
+    },
+    {
+      "label": "J",
+      "title": "Trajan Algorithm",
+      "qojId": 14810
+    },
+    {
+      "label": "K",
+      "title": "Xiangqi",
+      "qojId": 14811
+    },
+    {
+      "label": "L",
+      "title": "Regional Champion",
+      "qojId": 14812
+    },
+    {
+      "label": "M",
+      "title": "Many Convex Polygons",
+      "qojId": 14813
+    }
+  ]
+}

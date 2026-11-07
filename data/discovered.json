@@ -1,171 +1,21 @@
 [
   {
+    "sourcePath": "icpc/51st/nanjing",
+    "name": "「华为杯」第 51 届 ICPC 国际大学生程序设计竞赛区域赛南京站 - 正式赛",
+    "startTime": 1794101400,
+    "endTime": 1794119400
+  },
+  {
     "sourcePath": "icpc/51st/wuhan",
-    "name": "zh-CN / [object Object]",
-    "startTime": 1793498400000,
-    "endTime": 1793516400000
-  },
-  {
-    "sourcePath": "icpc/51st/chengdu",
-    "name": "zh-CN / [object Object]",
-    "startTime": 1792890600000,
-    "endTime": 1792908600000
-  },
-  {
-    "sourcePath": "icpc/51st/xian",
-    "name": "zh-CN / [object Object]",
-    "startTime": 1792285200000,
-    "endTime": 1792303200000
-  },
-  {
-    "sourcePath": "ccpc/12th/online-qualification",
-    "name": "第 12 届 CCPC 中国大学生程序设计竞赛网络预选赛",
-    "startTime": 1789794000000,
-    "endTime": 1789812000000
-  },
-  {
-    "sourcePath": "icpc/51st/shenyang-invitational",
-    "name": "2026 年 ICPC 国际大学生程序设计竞赛全国邀请赛（沈阳） - 正式赛",
-    "startTime": 1785290400000,
-    "endTime": 1785308400000
+    "name": "「华为杯」第 51 届 ICPC 国际大学生程序设计竞赛区域赛武汉站 - 正式赛",
+    "startTime": 1793498400,
+    "endTime": 1793516400
   },
   {
     "sourcePath": "ccpc/12th/guizhou-invitational",
     "name": "2026 CCPC 中国大学生程序设计竞赛全国邀请赛（贵州）暨贵州省赛 - 正式赛",
-    "startTime": 1780804800000,
-    "endTime": 1780822800000
-  },
-  {
-    "sourcePath": "ccpc/12th/nanchang-invitational",
-    "name": "2026 CCPC 中国大学生程序设计竞赛全国邀请赛（南昌） - 正式赛",
-    "startTime": 1779586200000,
-    "endTime": 1779604200000
-  },
-  {
-    "sourcePath": "ccpc/12th/qinhuangdao-invitational",
-    "name": "2026 CCPC 全国邀请赛（秦皇岛）暨第十届河北省大学生程序设计竞赛 - 正式赛",
-    "startTime": 1779582600000,
-    "endTime": 1779600600000
-  },
-  {
-    "sourcePath": "icpc/51st/wuhan-invitational",
-    "name": "2026 年 ICPC 国际大学生程序设计竞赛全国邀请赛（武汉）暨湖北省赛 - 正式赛",
-    "startTime": 1778981400000,
-    "endTime": 1778999400000
-  },
-  {
-    "sourcePath": "icpc/51st/jiangxi-invitational",
-    "name": "2026 年 ICPC 国际大学生程序设计竞赛全国邀请赛（南昌）暨江西省赛 - 正式赛",
-    "startTime": 1778979600000,
-    "endTime": 1778997600000
-  },
-  {
-    "sourcePath": "icpc/51st/xian-invitational",
-    "name": "第 51 届 ICPC 国际大学生程序设计竞赛邀请赛西安站 - 正式赛",
-    "startTime": 1777687200000,
-    "endTime": 1777705200000
-  },
-  {
-    "sourcePath": "icpc/51st/shenzhen-invitational",
-    "name": "2026 年 ICPC 国际大学生程序设计竞赛全国邀请赛（深圳）",
-    "startTime": 1775876400000,
-    "endTime": 1775894400000
-  },
-  {
-    "sourcePath": "icpc/50th/ecfinal",
-    "name": "The \"Huawei Cup\" 50th ICPC Asia East Continent Final Contest",
-    "startTime": 1769994300000,
-    "endTime": 1770012300000
-  },
-  {
-    "sourcePath": "ccpc/11th/chongqing",
-    "name": "第 11 届 CCPC 中国大学生程序设计竞赛重庆站 - 正式赛",
-    "startTime": 1764464400000,
-    "endTime": 1764482400000
-  },
-  {
-    "sourcePath": "icpc/50th/hongkong",
-    "name": "The 50th ICPC Asia Hong Kong Regional Contest",
-    "startTime": 1764464400000,
-    "endTime": 1764482400000
-  },
-  {
-    "sourcePath": "ccpc/11th/zhengzhou",
-    "name": "第 11 届 CCPC 中国大学生程序设计竞赛郑州站 - 正式赛",
-    "startTime": 1763859600000,
-    "endTime": 1763877600000
-  },
-  {
-    "sourcePath": "icpc/50th/shanghai",
-    "name": "「华为杯」第 50 届 ICPC 国际大学生程序设计竞赛区域赛上海站",
-    "startTime": 1763859600000,
-    "endTime": 1763877600000
-  },
-  {
-    "sourcePath": "ccpc/11th/jinan",
-    "name": "第 11 届 CCPC 中国大学生程序设计竞赛济南站 - 正式赛",
-    "startTime": 1763254800000,
-    "endTime": 1763272800000
-  },
-  {
-    "sourcePath": "icpc/50th/shenyang",
-    "name": "「华为杯」第 50 届 ICPC 国际大学生程序设计竞赛区域赛沈阳站",
-    "startTime": 1763254800000,
-    "endTime": 1763272800000
-  },
-  {
-    "sourcePath": "icpc/50th/nanjing",
-    "name": "「华为杯」第 50 届 ICPC 国际大学生程序设计竞赛区域赛南京站",
-    "startTime": 1762651800000,
-    "endTime": 1762669800000
-  },
-  {
-    "sourcePath": "ccpc/11th/harbin",
-    "name": "第 11 届 CCPC 中国大学生程序设计竞赛哈尔滨站 - 正式赛",
-    "startTime": 1762650000000,
-    "endTime": 1762668000000
-  },
-  {
-    "sourcePath": "icpc/50th/wuhan",
-    "name": "「华为杯」第 50 届 ICPC 国际大学生程序设计竞赛区域赛武汉站",
-    "startTime": 1762047000000,
-    "endTime": 1762065000000
-  },
-  {
-    "sourcePath": "icpc/50th/chengdu",
-    "name": "「华为杯」第 50 届 ICPC 国际大学生程序设计竞赛区域赛成都站",
-    "startTime": 1761441000000,
-    "endTime": 1761459000000
-  },
-  {
-    "sourcePath": "icpc/50th/xian",
-    "name": "第 50 届 ICPC 国际大学生程序设计竞赛西安站",
-    "startTime": 1760835600000,
-    "endTime": 1760853600000
-  },
-  {
-    "sourcePath": "icpc/48th/world-finals",
-    "name": "The 48th ICPC World Finals",
-    "startTime": 1726725079000,
-    "endTime": 1726743079000
-  },
-  {
-    "sourcePath": "ccpc/11th/nanchang-invitational",
-    "name": "2025 CCPC 全国邀请赛（南昌）暨第二届江西省赛 - 正式赛",
-    "startTime": 1757727000,
-    "endTime": 1757745600
-  },
-  {
-    "sourcePath": "icpc/49th/world-finals",
-    "name": "The 49th ICPC World Finals",
-    "startTime": 1756968526,
-    "endTime": 1756986526
-  },
-  {
-    "sourcePath": "icpc/49th/world-finals-dress-rehearsal",
-    "name": "The 49th ICPC World Finals - Dress Rehearsal",
-    "startTime": 1756796576,
-    "endTime": 1756803776
+    "startTime": 1780804800,
+    "endTime": 1780822800
   },
   {
     "sourcePath": "ccpc/11th/zhengzhou-invitational",
@@ -186,82 +36,10 @@
     "endTime": 1747551600
   },
   {
-    "sourcePath": "icpc/50th/wuhan-invitational",
-    "name": "第 50 届 ICPC 国际大学生程序设计竞赛邀请赛武汉站 - 正式赛",
-    "startTime": 1745719200,
-    "endTime": 1745737200
-  },
-  {
-    "sourcePath": "icpc/49th/ecfinal",
-    "name": "The 49th ICPC Asia East Continent Final Contest",
-    "startTime": 1735351200,
-    "endTime": 1735369200
-  },
-  {
-    "sourcePath": "icpc/49th/hongkong",
-    "name": "The 49th ICPC Asia Hong Kong Regional Contest",
-    "startTime": 1734829800,
-    "endTime": 1734847800
-  },
-  {
-    "sourcePath": "ccpc/10th/zhengzhou",
-    "name": "第 10 届 CCPC 中国大学生程序设计竞赛郑州站 - 正式赛",
-    "startTime": 1731805200,
-    "endTime": 1731823200
-  },
-  {
-    "sourcePath": "icpc/49th/shanghai",
-    "name": "第 49 届 ICPC 国际大学生程序设计竞赛区域赛上海站 - 正式赛",
-    "startTime": 1731805200,
-    "endTime": 1731823200
-  },
-  {
-    "sourcePath": "icpc/49th/hangzhou",
-    "name": "第 49 届 ICPC 国际大学生程序设计竞赛区域赛杭州站 - 正式赛",
-    "startTime": 1731200400,
-    "endTime": 1731218580
-  },
-  {
-    "sourcePath": "icpc/49th/chengdu",
-    "name": "第 49 届 ICPC 国际大学生程序设计竞赛区域赛成都站 - 正式赛",
-    "startTime": 1729991100,
-    "endTime": 1730009100
-  },
-  {
-    "sourcePath": "ccpc/10th/jinan",
-    "name": "第 10 届 CCPC 中国大学生程序设计竞赛济南站 - 正式赛",
-    "startTime": 1729990800,
-    "endTime": 1730008800
-  },
-  {
-    "sourcePath": "ccpc/10th/harbin",
-    "name": "第 10 届 CCPC 中国大学生程序设计竞赛哈尔滨站 - 正式赛",
-    "startTime": 1729387200,
-    "endTime": 1729405200
-  },
-  {
     "sourcePath": "icpc/49th/online-qualification-2",
     "name": "The 49th ICPC Asia Regionals Online Contest (II)",
     "startTime": 1726894800,
     "endTime": 1726912800
-  },
-  {
-    "sourcePath": "icpc/49th/online-qualification-1",
-    "name": "The 49th ICPC Asia Regionals Online Contest (I)",
-    "startTime": 1726376400,
-    "endTime": 1726395300
-  },
-  {
-    "sourcePath": "ccpc/10th/online-qualification",
-    "name": "第十届中国大学生程序设计竞赛网络预选赛",
-    "startTime": 1725768000,
-    "endTime": 1725789600
-  },
-  {
-    "sourcePath": "icpc/49th/kunming-invitational",
-    "name": "第 49 届 ICPC 国际大学生程序设计竞赛邀请赛昆明站 - 正式赛",
-    "startTime": 1716688800,
-    "endTime": 1716706800
   },
   {
     "sourcePath": "icpc/49th/xian-invitational",
@@ -276,90 +54,6 @@
     "endTime": 1714632000
   },
   {
-    "sourcePath": "icpc/46th/world-finals",
-    "name": "The 46th ICPC World Finals",
-    "startTime": 1713433680,
-    "endTime": 1713451680
-  },
-  {
-    "sourcePath": "icpc/47th/world-finals",
-    "name": "The 47th ICPC World Finals",
-    "startTime": 1713433680,
-    "endTime": 1713451680
-  },
-  {
-    "sourcePath": "ccpc/9th/final",
-    "name": "第 9 届 CCPC 中国大学生程序设计竞赛总决赛",
-    "startTime": 1711846800,
-    "endTime": 1711864800
-  },
-  {
-    "sourcePath": "icpc/48th/ecfinal",
-    "name": "The 48th ICPC Asia East Continent Final Contest",
-    "startTime": 1705114800,
-    "endTime": 1705132800
-  },
-  {
-    "sourcePath": "icpc/48th/hangzhou",
-    "name": "第 48 届 ICPC 国际大学生程序设计竞赛区域赛杭州站 - 正式赛",
-    "startTime": 1702170000,
-    "endTime": 1702188000
-  },
-  {
-    "sourcePath": "icpc/48th/jinan",
-    "name": "第 48 届 ICPC 国际大学生程序设计竞赛区域赛济南站 - 正式赛",
-    "startTime": 1701567000,
-    "endTime": 1701585000
-  },
-  {
-    "sourcePath": "icpc/48th/hefei",
-    "name": "第 48 届 ICPC 国际大学生程序设计竞赛区域赛合肥站 - 正式赛",
-    "startTime": 1700962200,
-    "endTime": 1700980200
-  },
-  {
-    "sourcePath": "icpc/48th/macau",
-    "name": "2023 - 2024 International Collegiate Programming Contest, Macau Site",
-    "startTime": 1700363100,
-    "endTime": 1700381700
-  },
-  {
-    "sourcePath": "ccpc/9th/shenzhen",
-    "name": "第 9 届 CCPC 中国大学生程序设计竞赛深圳站 - 正式赛",
-    "startTime": 1699750800,
-    "endTime": 1699768800
-  },
-  {
-    "sourcePath": "icpc/48th/shenyang",
-    "name": "第 48 届 ICPC 国际大学生程序设计竞赛区域赛沈阳站 - 正式赛",
-    "startTime": 1699750800,
-    "endTime": 1699768800
-  },
-  {
-    "sourcePath": "icpc/48th/nanjing",
-    "name": "第 48 届 ICPC 国际大学生程序设计竞赛区域赛南京站 - 正式赛",
-    "startTime": 1699147800,
-    "endTime": 1699165800
-  },
-  {
-    "sourcePath": "ccpc/9th/harbin",
-    "name": "第 9 届 CCPC 中国大学生程序设计竞赛哈尔滨站 - 正式赛",
-    "startTime": 1699146000,
-    "endTime": 1699164000
-  },
-  {
-    "sourcePath": "ccpc/9th/guilin",
-    "name": "第 9 届 CCPC 中国大学生程序设计竞赛桂林站 - 正式赛",
-    "startTime": 1698541200,
-    "endTime": 1698559200
-  },
-  {
-    "sourcePath": "icpc/48th/xian",
-    "name": "第 48 届 ICPC 国际大学生程序设计竞赛区域赛西安站 - 正式赛",
-    "startTime": 1697936400,
-    "endTime": 1697954400
-  },
-  {
     "sourcePath": "ccpc/9th/girl",
     "name": "第 9 届 CCPC 中国大学生程序设计竞赛女生专场 - 正式赛",
     "startTime": 1697850000,
@@ -372,28 +66,10 @@
     "endTime": 1697868000
   },
   {
-    "sourcePath": "ccpc/9th/qinhuangdao",
-    "name": "第 9 届 CCPC 中国大学生程序设计竞赛秦皇岛站 - 正式赛",
-    "startTime": 1697331600,
-    "endTime": 1697349600
-  },
-  {
     "sourcePath": "icpc/48th/online-qualification-2",
     "name": "The 2023 ICPC Asia Regionals Online Contest (II)",
     "startTime": 1695441600,
     "endTime": 1695459600
-  },
-  {
-    "sourcePath": "icpc/48th/online-qualification-1",
-    "name": "The 2023 ICPC Asia Regionals Online Contest (I)",
-    "startTime": 1694923200,
-    "endTime": 1694941200
-  },
-  {
-    "sourcePath": "ccpc/9th/online-qualification",
-    "name": "第九届中国大学生程序设计竞赛网络预选赛",
-    "startTime": 1692504000,
-    "endTime": 1692522000
   },
   {
     "sourcePath": "ccpc/9th/jiangsu-and-xiangtan",
@@ -408,48 +84,6 @@
     "endTime": 1685255400
   },
   {
-    "sourcePath": "icpc/48th/xian-invitational",
-    "name": "第 48 届 ICPC 国际大学生程序设计竞赛西安邀请赛（正式赛）",
-    "startTime": 1684029600,
-    "endTime": 1684047600
-  },
-  {
-    "sourcePath": "ccpc/8th/final",
-    "name": "第八届中国大学生程序设计竞赛总决赛（正式赛）",
-    "startTime": 1684026600,
-    "endTime": 1684044600
-  },
-  {
-    "sourcePath": "icpc/47th/ec-final",
-    "name": "The 47th ICPC Asia East Continent Final Contest",
-    "startTime": 1679709600,
-    "endTime": 1679727600
-  },
-  {
-    "sourcePath": "icpc/47th/hongkong",
-    "name": "The 47th ICPC Asia Hong Kong Regional Contest",
-    "startTime": 1673670600,
-    "endTime": 1673688600
-  },
-  {
-    "sourcePath": "icpc/47th/nanjing",
-    "name": "第 47 届国际大学生程序设计竞赛亚洲区域赛南京站（正式赛）",
-    "startTime": 1671332400,
-    "endTime": 1671350400
-  },
-  {
-    "sourcePath": "icpc/47th/hangzhou",
-    "name": "第 47 届国际大学生程序设计竞赛亚洲区域赛杭州站（正式赛）",
-    "startTime": 1670126400,
-    "endTime": 1670144400
-  },
-  {
-    "sourcePath": "icpc/47th/jinan",
-    "name": "第 47 届国际大学生程序设计竞赛亚洲区域赛济南站（正式赛）",
-    "startTime": 1669521600,
-    "endTime": 1669539600
-  },
-  {
     "sourcePath": "ccpc/8th/girls",
     "name": "2022 中国大学生程序设计竞赛（女生专场） - 正式赛",
     "startTime": 1669510800,
@@ -460,42 +94,6 @@
     "name": "第 47 届国际大学生程序设计竞赛亚洲区域赛合肥站（正式赛）",
     "startTime": 1668916800,
     "endTime": 1668934800
-  },
-  {
-    "sourcePath": "ccpc/8th/mianyang",
-    "name": "2022 中国大学生程序设计竞赛（绵阳） - 正式赛",
-    "startTime": 1668906000,
-    "endTime": 1668924000
-  },
-  {
-    "sourcePath": "icpc/47th/xian",
-    "name": "第 47 届国际大学生程序设计竞赛亚洲区域赛西安站（正式赛）",
-    "startTime": 1668312000,
-    "endTime": 1668330000
-  },
-  {
-    "sourcePath": "ccpc/8th/guangzhou",
-    "name": "2022 中国大学生程序设计竞赛（广州） - 正式赛",
-    "startTime": 1668301200,
-    "endTime": 1668319200
-  },
-  {
-    "sourcePath": "icpc/47th/shenyang",
-    "name": "第 47 届国际大学生程序设计竞赛亚洲区域赛沈阳站（正式赛）",
-    "startTime": 1667707200,
-    "endTime": 1667725200
-  },
-  {
-    "sourcePath": "ccpc/8th/weihai",
-    "name": "2022 中国大学生程序设计竞赛（威海） - 正式赛",
-    "startTime": 1667696400,
-    "endTime": 1667714400
-  },
-  {
-    "sourcePath": "ccpc/8th/guilin",
-    "name": "2022 年中国大学生程序设计竞赛 (CCPC) 桂林",
-    "startTime": 1667091600,
-    "endTime": 1667109600
   },
   {
     "sourcePath": "ccpc/8th/gaozhi",
@@ -514,12 +112,6 @@
     "name": "The 2022 ICPC Asia Regionals Online Contest (I)",
     "startTime": 1663387200,
     "endTime": 1663405200
-  },
-  {
-    "sourcePath": "ccpc/8th/online-qualification",
-    "name": "2022 年中国大学生程序设计竞赛网络预选赛",
-    "startTime": 1662868800,
-    "endTime": 1662886800
   },
   {
     "sourcePath": "ccpc/7th/final",

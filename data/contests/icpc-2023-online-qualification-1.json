@@ -1,0 +1,85 @@
+{
+  "id": "icpc-2023-online-qualification-1",
+  "name": "The 2023 ICPC Asia Regionals Online Contest (I)",
+  "shortName": "23-ICPC-网1",
+  "year": 2023,
+  "series": "ICPC",
+  "kind": "online",
+  "sourcePath": "icpc/48th/online-qualification-1",
+  "qojContestId": 1485,
+  "mappingSource": "https://qoj.ac/contest/1485",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/48th/online-qualification-1/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=1485&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Qualifiers Ranking Rules",
+      "qojId": 8072
+    },
+    {
+      "label": "B",
+      "title": "String",
+      "qojId": 8073
+    },
+    {
+      "label": "C",
+      "title": "Multiply Then Plus",
+      "qojId": 8074
+    },
+    {
+      "label": "D",
+      "title": "Transitivity",
+      "qojId": 8075
+    },
+    {
+      "label": "E",
+      "title": "Magical Pair",
+      "qojId": 8076
+    },
+    {
+      "label": "F",
+      "title": "Alice and Bob",
+      "qojId": 8077
+    },
+    {
+      "label": "G",
+      "title": "Spanning Tree",
+      "qojId": 8078
+    },
+    {
+      "label": "H",
+      "title": "Range Periodicity Query",
+      "qojId": 8079
+    },
+    {
+      "label": "I",
+      "title": "Pa?sWorD",
+      "qojId": 8080
+    },
+    {
+      "label": "J",
+      "title": "Minimum Manhattan Distance",
+      "qojId": 8081
+    },
+    {
+      "label": "K",
+      "title": "Minimum Euclidean Distance",
+      "qojId": 8082
+    },
+    {
+      "label": "L",
+      "title": "KaChang!",
+      "qojId": 8083
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "icpc-2024-hongkong",
+  "name": "The 49th ICPC Asia Hong Kong Regional Contest",
+  "shortName": "24-ICPC-香港",
+  "year": 2024,
+  "series": "ICPC",
+  "kind": "regional",
+  "sourcePath": "icpc/49th/hongkong",
+  "qojContestId": 1885,
+  "mappingSource": "https://qoj.ac/contest/1885?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/49th/hongkong/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=1885&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "General Symmetry",
+      "qojId": 9915
+    },
+    {
+      "label": "B",
+      "title": "Defeat the Enemies",
+      "qojId": 9916
+    },
+    {
+      "label": "C",
+      "title": "The Story of Emperor Bie",
+      "qojId": 9917
+    },
+    {
+      "label": "D",
+      "title": "Master of Both VI",
+      "qojId": 9918
+    },
+    {
+      "label": "E",
+      "title": "Concave Hull",
+      "qojId": 9919
+    },
+    {
+      "label": "F",
+      "title": "Money Game 2",
+      "qojId": 9920
+    },
+    {
+      "label": "G",
+      "title": "Yelkrab",
+      "qojId": 9921
+    },
+    {
+      "label": "H",
+      "title": "Mah-jong",
+      "qojId": 9922
+    },
+    {
+      "label": "I",
+      "title": "Ma Meilleure Ennemie",
+      "qojId": 9923
+    },
+    {
+      "label": "J",
+      "title": "Reconstruction",
+      "qojId": 9924
+    },
+    {
+      "label": "K",
+      "title": "LR String",
+      "qojId": 9925
+    },
+    {
+      "label": "L",
+      "title": "Flipping Paths",
+      "qojId": 9926
+    },
+    {
+      "label": "M",
+      "title": "Godzilla",
+      "qojId": 9927
+    }
+  ]
+}

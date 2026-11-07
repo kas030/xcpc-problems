@@ -1,0 +1,90 @@
+{
+  "id": "icpc-2024-shanghai",
+  "name": "第 49 届 ICPC 国际大学生程序设计竞赛区域赛上海站 - 正式赛",
+  "shortName": "24-ICPC-上海",
+  "year": 2024,
+  "series": "ICPC",
+  "kind": "regional",
+  "sourcePath": "icpc/49th/shanghai",
+  "qojContestId": 1913,
+  "mappingSource": "https://qoj.ac/contest/1913?v=1",
+  "finalVerified": true,
+  "finalEvidence": "https://board.xcpcio.com/icpc/49th/shanghai/",
+  "eligibleGroup": "official",
+  "medalPolicy": {
+    "kind": "source-counts"
+  },
+  "statement": {
+    "url": "https://qoj.ac/download.php?type=attachments&id=1913&r=0",
+    "language": "en",
+    "format": "pdf",
+    "provenance": "official"
+  },
+  "problems": [
+    {
+      "label": "A",
+      "title": "Ancient Maps, Hidden Danger",
+      "qojId": 9037
+    },
+    {
+      "label": "B",
+      "title": "Basic Graph Algorithm",
+      "qojId": 9038
+    },
+    {
+      "label": "C",
+      "title": "Conquer the Multiples",
+      "qojId": 9039
+    },
+    {
+      "label": "D",
+      "title": "Decrease and Swap",
+      "qojId": 9040
+    },
+    {
+      "label": "E",
+      "title": "Equal Measure",
+      "qojId": 9041
+    },
+    {
+      "label": "F",
+      "title": "Fast Bogosort",
+      "qojId": 9042
+    },
+    {
+      "label": "G",
+      "title": "Geometry Task",
+      "qojId": 9043
+    },
+    {
+      "label": "H",
+      "title": "Hexagon Puzzle",
+      "qojId": 9044
+    },
+    {
+      "label": "I",
+      "title": "In Search of the Ultimate Artifact",
+      "qojId": 9045
+    },
+    {
+      "label": "J",
+      "title": "Just-in-Time Render Analysis",
+      "qojId": 9046
+    },
+    {
+      "label": "K",
+      "title": "Knights of Night",
+      "qojId": 9047
+    },
+    {
+      "label": "L",
+      "title": "Lazy Susan",
+      "qojId": 9048
+    },
+    {
+      "label": "M",
+      "title": "Machine Learning with Penguins",
+      "qojId": 9049
+    }
+  ]
+}
