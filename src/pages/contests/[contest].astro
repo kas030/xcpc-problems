@@ -26,9 +26,9 @@ const problems = catalog.problems.filter(p => p.contestId === contest.id);
       <table class="problem-table">
         <caption class="sr-only">{contest.name}题目列表</caption>
         <thead><tr><th scope="col">题目</th><th scope="col">难度</th><th scope="col" class="rate-column">通过队伍</th><th scope="col" class="links-column">提交</th></tr></thead>
-        <tbody>{problems.map(p => <tr>
+        <tbody>{problems.map(p => <tr data-problem-id={p.id}>
           <td>
-            <a class="problem-title" href={problemHref(p.id)}><span class="problem-letter">{p.label}</span><span>{p.title}</span>{p.interactive && <span class="contest-problem-note">交互题</span>}</a>
+            <a class="problem-title" href={problemHref(p.id)}><span class="problem-letter">{p.label}</span><span>{p.title}</span>{p.interactive && <span class="contest-problem-note">交互题</span>}<span class="contest-completion" hidden><span aria-hidden="true">✓</span> 已完成</span></a>
           </td>
           <td><span class={`difficulty-badge ${p.difficulty}`}><span class="badge-dot" />{difficultyLabels[p.difficulty]}</span></td>
           <td class="rate-column"><span class="solve-count"><strong>{p.solved}</strong></span></td>
@@ -38,3 +38,25 @@ const problems = catalog.problems.filter(p => p.contestId === contest.id);
     </div>
   </section>
 </Layout>
+
+<script>
+  import { readSolvedProgress, SOLVED_STORAGE_KEY } from '../../lib/progress';
+
+  const rows = document.querySelectorAll<HTMLTableRowElement>('.contest-problems tr[data-problem-id]');
+  const refreshProgress = () => {
+    const solved = readSolvedProgress();
+    for (const row of rows) {
+      const completed = solved.has(row.dataset.problemId!);
+      row.classList.toggle('is-solved', completed);
+      const indicator = row.querySelector<HTMLElement>('.contest-completion');
+      if (indicator) indicator.hidden = !completed;
+    }
+  };
+
+  refreshProgress();
+  window.addEventListener('pageshow', refreshProgress);
+  window.addEventListener('focus', refreshProgress);
+  window.addEventListener('storage', event => {
+    if (event.key === SOLVED_STORAGE_KEY || event.key === null) refreshProgress();
+  });
+</script>

@@ -4,8 +4,8 @@ import type { Catalog, Difficulty } from '../lib/schema';
 import { difficultyLabels, difficultyNames } from '../lib/schema';
 import { emptyFilters, filterProblems, hasChinese, parseFilters, serializeFilters, type Filters } from '../lib/filters';
 import Select from './Select';
+import { readSolvedProgress, SOLVED_STORAGE_KEY as STORAGE_KEY } from '../lib/progress';
 
-const STORAGE_KEY = 'xcpc-problems:solved:v1';
 const PER_PAGE = 20;
 export default function ProblemBrowser({ catalog, base }: { catalog: Catalog; base: string }) {
   const [filters, setFilters] = useState<Filters>(emptyFilters);
@@ -18,10 +18,7 @@ export default function ProblemBrowser({ catalog, base }: { catalog: Catalog; ba
   useEffect(() => {
     const restore = () => { setFilters(parseFilters(location.search)); setPage(1); };
     restore();
-    try {
-      const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) ?? '[]');
-      if (Array.isArray(saved)) setSolved(new Set(saved.filter(id => typeof id === 'string' && known.has(id))));
-    } catch { /* Progress remains usable when storage is unavailable. */ }
+    setSolved(new Set([...readSolvedProgress()].filter(id => known.has(id))));
     setReady(true);
     window.addEventListener('popstate', restore);
     return () => { window.removeEventListener('popstate', restore); };
