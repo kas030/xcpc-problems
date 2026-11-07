@@ -48,7 +48,11 @@ npm run import:qoj -- --url=https://qoj.ac/contest/1828 --html=.cache/qoj.html
 
 优先顺序：官方中文 Markdown/HTML → 官方中文 PDF → 可用的英文 HTML → 英文 PDF。Codeforces Gym 的 HTML 页面通常便于提取结构，但不能假定所有比赛都具有对应页面；先核对它和 QOJ 的题目是否一致。
 
-有官方中文题册时无需再翻译英文。第一版引用外部 PDF，不自动批量转载或翻译。外部站点可能限制嵌入，详情页提供“打开题册”入口。
+有官方中文题册时无需再翻译英文。当前四场比赛的题册保存为同域静态 PDF，解决 Codeforces 的 `X-Frame-Options: sameorigin` 对跨站预览的限制；详情页保留“打开题册”和“查看原始题册”入口。
+
+PDF 文件放在 `src/assets/statements/<contest-id>.pdf`，在 `src/lib/statement-pdfs.ts` 中用 `?url` 导入，并按完整的原始 URL 建立映射。同一题册只存一份，每题继续使用比赛定义中的 `page` 定位。构建自动添加部署路径前缀和文件内容哈希，开发模式由映射模块补齐缺失的路径前缀，无需额外服务或构建时下载；未配置副本的题册继续使用原始链接。验证时同时检查开发和生产预览地址，并使用浏览器导航请求（含 `Accept: text/html`）访问 PDF，不能只凭普通文件请求或 HEAD 的状态码判断可用。
+
+更新 PDF 时，从已核对的原始地址下载，确认文件确为 PDF 而非错误页，再替换对应文件。若题册分页变化，逐题复核 `page` 并运行 `npm run catalog`；若来源 URL 变化，同时更新比赛定义和 PDF 映射。新增题册时按来源许可确认可转载，记录出处，并在本地展开预览，检查中文、公式、图片和页码。
 
 确认可转载或翻译后，在 `src/content/statements/<contest-id>/<label>.md` 建立文件：
 

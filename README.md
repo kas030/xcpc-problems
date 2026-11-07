@@ -11,7 +11,7 @@
 - 按难度、比赛、年份、中文题面及完成状态组合筛选，支持题名和 QOJ 编号搜索。
 - 筛选条件保存在 URL，可复制分享；完成状态保存在当前浏览器。
 - 每题展示金、银、铜牌组的通过队数与通过率，保留数据来源和固定版本。
-- 官方 PDF 阅读入口；支持 Markdown、LaTeX 公式和译文校对状态。
+- 官方 PDF 同域预览、页码定位与原始题册入口；支持 Markdown、LaTeX 公式和译文校对状态。
 - 本地命令发现新比赛、更新已收录榜单；核对后通过一条命令构建并发布。
 
 ## 难度口径
@@ -44,7 +44,7 @@ npm run catalog     # 修改比赛定义或 Markdown 后重新生成索引
 npm run deploy      # 本地检查、构建、推送 gh-pages 并验证上线
 ```
 
-构建只读取已提交的数据，不依赖 XCPCIO、QOJ 或翻译服务在线；阅读外部 PDF 仍需要访问原始网站。
+构建只读取已提交的数据和题册，不依赖 XCPCIO、QOJ 或翻译服务在线。当前四场比赛的 PDF 随站点发布，阅读时无需访问 Codeforces；页面保留原始题册链接。
 
 ## 目录
 
@@ -54,6 +54,8 @@ data/snapshots/            固定上游版本的最小化榜单快照
 data/catalog.json          自动生成的网站索引
 data/discovered.json       尚未整理的比赛，不会直接进入网站
 src/content/statements/   可选 Markdown 题面
+src/assets/statements/    官方 PDF 题册，每份只保存一次
+src/lib/statement-pdfs.ts  原始题册地址与同域 PDF 资源的对应关系
 src/lib/scoring.ts         排名与奖牌组分级算法
 scripts/                  同步、候选映射提取、构建和校验
 public/.nojekyll           让 Pages 直接发布预先构建的静态文件
@@ -84,4 +86,4 @@ GitHub 官方说明了 [`.nojekyll` 配合本地构建的直接发布方式](htt
 
 ## 内容与许可
 
-程序代码采用 [MIT](LICENSE)。榜单来自 [XCPCIO board-data](https://github.com/xcpcio/board-data)，保留上游版本和来源；题面及商标属于原作者。仓库不把第三方题面纳入代码许可，目前仅引用官方公开题册。新增转载或翻译前应确认来源许可，记录出处。详见 [来源说明](THIRD_PARTY.md)。
+程序代码采用 [MIT](LICENSE)。榜单来自 [XCPCIO board-data](https://github.com/xcpcio/board-data)，保留上游版本和来源；题面及商标属于原作者。官方 PDF 副本用于同域阅读，不纳入代码的 MIT 许可，原始出处见比赛定义及页面链接。新增转载或翻译前应确认来源许可，记录出处。详见 [来源说明](THIRD_PARTY.md)。
