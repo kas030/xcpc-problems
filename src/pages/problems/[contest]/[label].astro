@@ -23,7 +23,13 @@ const readerUrl = singlePdf ? `${base}/${singlePdf}#view=FitH` : bookletUrl;
 ---
 <Layout title={`${problem.label}. ${problem.title} · ${contest.shortName}`}>
   <nav class="breadcrumb" aria-label="面包屑"><a href={href()}>题单</a><span>/</span><a href={href(`contests/${contest.id}`)}>{contest.shortName}</a><span>/</span><span>Problem {problem.label}</span></nav>
-  <header class="detail-head"><div><h1><span class="detail-label">{problem.label}.</span>{problem.title}</h1><div class="detail-meta"><a class="contest-tag" href={href(`contests/${contest.id}`)}>{contest.shortName}</a><span class={`difficulty-badge ${problem.difficulty}`}><span class="badge-dot"/>{difficultyLabels[problem.difficulty]}</span><a class="qoj-link" href={`https://qoj.ac/problem/${problem.qojId}`} target="_blank" rel="noopener noreferrer" title="在 QOJ 打开题目">QOJ #{problem.qojId}</a>{problem.interactive && <span>交互题</span>}</div></div></header>
+  <header class="detail-head">
+    <div class="detail-heading"><h1><span class="detail-label">{problem.label}.</span>{problem.title}</h1><div class="detail-meta"><a class="contest-tag" href={href(`contests/${contest.id}`)}>{contest.shortName}</a><span class={`difficulty-badge ${problem.difficulty}`}><span class="badge-dot"/>{difficultyLabels[problem.difficulty]}</span><a class="qoj-link" href={`https://qoj.ac/problem/${problem.qojId}`} target="_blank" rel="noopener noreferrer" title="在 QOJ 打开题目">QOJ #{problem.qojId}</a>{problem.interactive && <span>交互题</span>}</div></div>
+    <div class="detail-actions">
+      <button class="button button-primary progress-button" data-progress-id={problem.id} aria-pressed="false"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg><span data-progress-label>标记为已完成</span></button>
+      <p class="detail-note" data-progress-note role="status" hidden></p>
+    </div>
+  </header>
   <div class="detail-grid">
     <section>
       <div class="reading-card">
@@ -42,18 +48,26 @@ const readerUrl = singlePdf ? `${base}/${singlePdf}#view=FitH` : bookletUrl;
         <h2>通过情况</h2>
         {(['bronze','silver','gold'] as const).map((medal,i) => {const stat = problem.cohorts[medal];return <div class="cohort-row"><div class="cohort-label"><span>{['铜牌','银牌','金牌'][i]}组</span><strong>{stat.rate === null ? '—' : `${(stat.rate*100).toFixed(1)}%`}</strong></div><div class={`cohort-track ${medal}`}><span style={`width:${(stat.rate ?? 0)*100}%`}/></div><span class="cohort-count">{stat.total ? `${stat.solved} / ${stat.total} 队通过` : '该组暂无队伍'}</span></div>})}
       </section>
-      <section class="detail-card"><h2>本场记录</h2><dl class="detail-dl"><div><dt>正式队伍通过</dt><dd>{problem.solved} / {problem.participants}</dd></div><div><dt>比赛日期</dt><dd>{contest.date.slice(0,10)}</dd></div><div><dt>数据更新</dt><dd>{contest.syncedAt.slice(0,10)}</dd></div></dl><button class="button button-small progress-button" data-progress-id={problem.id} aria-pressed="false">标记为已完成</button><p class="detail-note" data-progress-note role="status" hidden></p></section>
+      <section class="detail-card"><h2>本场记录</h2><dl class="detail-dl"><div><dt>正式队伍通过</dt><dd>{problem.solved} / {problem.participants}</dd></div><div><dt>比赛日期</dt><dd>{contest.date.slice(0,10)}</dd></div><div><dt>数据更新</dt><dd>{contest.syncedAt.slice(0,10)}</dd></div></dl></section>
       <section class="detail-card"><h2>相关链接</h2><a class="detail-external" href={`https://qoj.ac/problem/${problem.qojId}`} target="_blank" rel="noopener noreferrer"><span>QOJ #{problem.qojId}</span><span>↗</span></a><a class="detail-external" href={contest.boardUrl} target="_blank" rel="noopener noreferrer"><span>XCPCIO 比赛榜单</span><span>↗</span></a><a class="detail-external" href={contest.sourceUrl} target="_blank" rel="noopener noreferrer"><span>榜单来源与版本</span><span>↗</span></a></section>
     </aside>
   </div>
 </Layout>
 <script>
   const button = document.querySelector<HTMLButtonElement>('[data-progress-id]');
+  const label = button?.querySelector<HTMLElement>('[data-progress-label]');
   const note = document.querySelector<HTMLElement>('[data-progress-note]');
   const storageKey = 'xcpc-problems:solved:v1';
   let saved: string[] = [];
   try { const value = JSON.parse(localStorage.getItem(storageKey) ?? '[]'); if (Array.isArray(value)) saved = value.filter(id => typeof id === 'string'); } catch {}
-  function paint() { if (button) { const done = saved.includes(button.dataset.progressId!); button.textContent = done ? '✓ 已完成' : '标记为已完成'; button.setAttribute('aria-pressed', String(done)); } }
+  function paint() {
+    if (button && label) {
+      const done = saved.includes(button.dataset.progressId!);
+      label.textContent = done ? '已完成' : '标记为已完成';
+      button.setAttribute('aria-pressed', String(done));
+      button.title = done ? '取消完成标记' : '标记为已完成';
+    }
+  }
   paint();
   button?.addEventListener('click', () => { const id = button.dataset.progressId!; saved = saved.includes(id) ? saved.filter(item => item !== id) : [...saved, id]; paint(); try { localStorage.setItem(storageKey, JSON.stringify(saved)); } catch { if (note) { note.hidden = false; note.textContent = '浏览器无法保存，本次标记仍有效'; } } });
 </script>
