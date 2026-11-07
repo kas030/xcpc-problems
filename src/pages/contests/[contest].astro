@@ -10,7 +10,20 @@ const problems = catalog.problems.filter(p => p.contestId === contest.id);
 <Layout title={`${contest.shortName} · XCPC 题单`} active="contests">
   <a class="contest-back" href={href('contests')}><span aria-hidden="true">←</span> 所有比赛</a>
   <header class="contest-header">
-    <h1>{contest.name}</h1>
+    <div class="contest-heading">
+      <h1>{contest.name}</h1>
+      {contest.medalBasis === 'preset' && <div class="contest-estimate">
+        <button type="button" class="contest-estimate-icon" aria-label="查看奖牌分组估算说明" aria-describedby="contest-estimate-note">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7h.01"/></svg>
+        </button>
+        <div class="contest-estimate-popover" id="contest-estimate-note">
+          <div class="contest-estimate-card">
+            <p>奖牌分组为估算。</p>
+            <p>具体可查看<a href={href('methodology')}>分级说明</a>。</p>
+          </div>
+        </div>
+      </div>}
+    </div>
     <div class="contest-header-meta">
       <time datetime={contest.date}>{contest.date.slice(0,10)}</time>
       <span>{contest.participants} 支正式队伍</span>
@@ -20,7 +33,6 @@ const problems = catalog.problems.filter(p => p.contestId === contest.id);
       <a href={contest.boardUrl} target="_blank" rel="noopener noreferrer">XCPCIO 榜单 <span aria-hidden="true">↗</span></a>
       {contest.statement && <a href={contest.statement.url} target="_blank" rel="noopener noreferrer">{contest.statement.provenance === 'official' ? '官方' : ''}{contest.statement.language === 'zh' ? '中文' : '英文'}题册 <span aria-hidden="true">↗</span></a>}
     </nav>
-    <p class="muted">{contest.classificationNote}</p>
   </header>
   <section class="table-card contest-problems" aria-label="比赛题目">
     <div class="table-scroll">
@@ -42,6 +54,21 @@ const problems = catalog.problems.filter(p => p.contestId === contest.id);
 
 <script>
   import { readSolvedProgress, SOLVED_STORAGE_KEY } from '../../lib/progress';
+
+  const estimate = document.querySelector<HTMLElement>('.contest-estimate');
+  const popover = estimate?.querySelector<HTMLElement>('.contest-estimate-popover');
+  if (estimate && popover) {
+    const positionPopover = () => {
+      const anchor = estimate.getBoundingClientRect();
+      const width = popover.offsetWidth;
+      const centeredLeft = anchor.left + anchor.width / 2 - width / 2;
+      const left = Math.max(16, Math.min(centeredLeft, document.documentElement.clientWidth - width - 16));
+      popover.style.left = `${left - anchor.left}px`;
+    };
+    estimate.addEventListener('pointerenter', positionPopover);
+    estimate.addEventListener('focusin', positionPopover);
+    window.addEventListener('resize', positionPopover);
+  }
 
   const rows = document.querySelectorAll<HTMLTableRowElement>('.contest-problems tr[data-problem-id]');
   const refreshProgress = () => {
