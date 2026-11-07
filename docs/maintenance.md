@@ -2,9 +2,11 @@
 
 ## 常规更新
 
-在 Node.js 24 环境执行 `npm ci`、`npm run sync`，随后运行 `npm test`、`npm run check`、`npm run build`。查看 `git diff -- data`，重点检查奖牌人数、题目难度变化、快照上游版本和新增发现项，再提交 PR。
+在 Node.js 24 环境执行 `npm ci`、`npm run sync`。查看 `git diff -- data`，重点检查奖牌人数、题目难度变化、快照上游版本和新增发现项，再提交到 `main` 或通过 PR 合并。修改比赛定义或 Markdown 后运行 `npm run catalog`。
 
-也可以运行 `gh workflow run update-data.yml`。定时任务只负责确定性的抓取与计算，不调用付费翻译 API。无变化时保留快照时间和版本，避免无意义提交。
+将源码推送到 GitHub 后执行 `npm run deploy`。命令会在本地完成 `npm test`、`npm run check` 和 `npm run build`，再发布到 `gh-pages`，不用 GitHub Actions runner。无变化时保留快照时间和版本，避免无意义提交。
+
+建议每周由维护者或 agent 执行一次同步。目前没有云端定时任务；未来如需无人值守，可在自己的电脑或服务器上安排任务，但新比赛映射和译文仍需核对。同步与发布都不调用付费模型 API。
 
 同步在同一个上游 commit 下读取 config/team/run，验证格式、题号和状态后写入最小化快照。网络或解析失败会终止任务。旧网站继续使用已部署的静态数据。
 
@@ -66,10 +68,23 @@ sourceHash: 可选，原始题面内容的 SHA-256
 - 同一提交重判：以同一 submission ID 的最后一次记录为准。
 - 上游更新后分级变化：PR 中说明上游版本与原因；不要手改 `data/catalog.json`。
 
-## GitHub 配置
+## 发布与 GitHub 配置
 
-- Pages 构建源设为 `workflow`，Deployment 使用 `github-pages` environment。
-- `main` 推送与普通 PR 运行测试、类型检查和静态构建。
-- 数据工作流使用最小范围的 `contents: write` 与 `pull-requests: write`，只提交 `data/`。
-- `GITHUB_TOKEN` 创建的 PR 不会触发新的 PR workflow，所以更新任务在创建 PR 前已完成所有检查；合并到 main 时再次验证。
-- 不需要仓库密钥或模型 API key。不要将登录 Cookie、QOJ 凭据或浏览器保存的整页 HTML 提交到仓库。
+- Pages Source 选择 `Deploy from a branch`，使用 `gh-pages` 的 `/`。REST API 对应 `build_type: legacy`。
+- 构建产物根目录必须有 `.nojekyll`，由 `public/.nojekyll` 自动复制。它让 Pages 直接发布静态文件，不运行 Jekyll。
+- 本仓库的 Actions 已停用，旧工作流保留在 Git 历史中。推送 `main` 不会自动发布，也不会在云端运行检查。
+- `npm run deploy` 要求本地为已推送的、干净的 `main`，避免发布无法追溯的临时改动。
+- 发布脚本在 `.cache/` 下创建独立临时仓库，将完整构建输出组成新提交，以当前远端 `gh-pages` 为父提交。旧产物会从新版本中移除，源码工作区不切换分支，不强制推送。并发发布冲突时重新运行即可。
+- `dist/build-info.json` 记录源码提交，脚本核对线上内容后才报告成功。超过三分钟仍未确认时返回非零退出码；检查 Pages 状态，或稍后重新执行发布。
+- 发布需要已有 Git 推送权限及 GitHub CLI 登录；无需仓库密钥或模型 API key。不要将登录 Cookie、QOJ 凭据或浏览器保存的整页 HTML 提交到仓库。
+
+首次配置或恢复设置时，可在仓库 Settings → Pages 中选择发布源；当前脚本也会纠正已有 Pages 站点的发布源。若新建了其他仓库，先启用其 Pages 站点再使用该脚本。
+
+线上版本与服务状态可用以下命令查看：
+
+```sh
+gh api repos/kas030/xcpc-problems/pages
+gh api repos/kas030/xcpc-problems/pages/builds/latest
+```
+
+`.nojekyll` 方式见 [GitHub 官方说明](https://github.blog/changelog/2024-07-08-pages-legacy-worker-sunset/)。如果 GitHub Pages 服务本身被限制，本地构建和 Git 推送仍可完成，但不能据此宣称网站已上线。

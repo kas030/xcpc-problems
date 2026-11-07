@@ -1,6 +1,6 @@
 # XCPC 题单
 
-从真实比赛榜单挑选训练题目。静态网站采用 Astro + React + TypeScript，通过 GitHub Actions 发布到 GitHub Pages，无需后端。
+从真实比赛榜单挑选训练题目。静态网站采用 Astro + React + TypeScript，在本地构建后推送到 `gh-pages` 分支，由 GitHub Pages 托管，无需后端或自定义 GitHub Actions 工作流。
 
 **[在线题单](https://kas030.github.io/xcpc-problems/)** · [分级规则](https://kas030.github.io/xcpc-problems/methodology/) · [维护流程](docs/maintenance.md)
 
@@ -12,7 +12,7 @@
 - 筛选条件保存在 URL，可复制分享；完成状态保存在当前浏览器。
 - 每题展示金、银、铜牌组的通过队数与通过率，保留数据来源和固定版本。
 - 官方 PDF 阅读入口；支持 Markdown、LaTeX 公式和译文校对状态。
-- 每周自动发现新比赛、更新已收录榜单并提交数据 PR；合并后自动部署。
+- 本地命令发现新比赛、更新已收录榜单；核对后通过一条命令构建并发布。
 
 ## 难度口径
 
@@ -39,6 +39,7 @@ npm run preview     # 预览生产构建
 npm run sync        # 更新所有已收录比赛和待整理清单
 npm run discover    # 只更新待整理清单
 npm run catalog     # 修改比赛定义或 Markdown 后重新生成索引
+npm run deploy      # 本地检查、构建、推送 gh-pages 并验证上线
 ```
 
 构建只读取已提交的数据，不依赖 XCPCIO、QOJ 或翻译服务在线；阅读外部 PDF 仍需要访问原始网站。
@@ -53,18 +54,31 @@ data/discovered.json       尚未整理的比赛，不会直接进入网站
 src/content/statements/   可选 Markdown 题面
 src/lib/scoring.ts         排名与奖牌组分级算法
 scripts/                  同步、候选映射提取、构建和校验
-.github/workflows/        检查、数据 PR 和 Pages Deployment
+public/.nojekyll           让 Pages 直接发布预先构建的静态文件
 ```
 
 快照只保留统计需要的队伍 ID、分组和提交信息，不保存选手姓名、学校和联系方式。
 
 ## 部署与更新
 
-仓库 Settings → Pages → Source 选择 **GitHub Actions**。推送到 `main` 后，`Check and deploy Pages` 执行测试、类型检查、构建和 Deployment。默认地址为 `https://<owner>.github.io/<repo>/`。
+仓库 Settings → Pages → Source 选择 **Deploy from a branch**，发布源为 `gh-pages` 分支的根目录。该分支只保存构建产物与 `.nojekyll`，源码始终保存在 `main`。本仓库已停用 GitHub Actions，不再使用云端 runner 或定时工作流。
 
-`Update contest data` 每周一北京时间约 06:17 运行，也可在 Actions 中手动运行。需允许 GitHub Actions 创建 PR；有变更时更新 `data/weekly-update` 分支，无变更时不产生提交。新比赛的题目映射、奖牌资格和译文由维护者或 agent 按 [维护流程](docs/maintenance.md) 核对。
+本地需安装 Git、已登录的 GitHub CLI（`gh auth login`）和 Node.js 24，并能向仓库推送。更新流程：
 
-GitHub 可能在公开仓库长期无活动时暂停定时工作流；定期检查 Actions 状态。上游格式变化会使校验失败，已上线版本保持可用。
+```sh
+npm run sync
+# 核对 data/ 中的变更；修改比赛定义或 Markdown 后运行 npm run catalog
+git add data src
+git commit -m "chore(data): update contest archive"
+git push origin main
+npm run deploy
+```
+
+无数据变更时跳过提交。发布要求在 `main` 分支、工作区干净且当前提交已推送；脚本自动运行测试、类型检查和构建，非强制推送发布分支，并核对线上 `build-info.json` 中的源码版本。Pages 更新通常需要等待一段时间；若验证超时，命令返回失败并保留已推送的产物。
+
+定期更新改为维护者或 agent 执行 `npm run sync`，建议每周一次；目前没有云端定时任务。新比赛的题目映射、奖牌资格和译文仍按 [维护流程](docs/maintenance.md) 核对。上游格式变化会使校验失败，已上线版本保持可用。
+
+GitHub 官方说明了 [`.nojekyll` 配合本地构建的直接发布方式](https://github.blog/changelog/2024-07-08-pages-legacy-worker-sunset/)。网站托管仍依赖 GitHub Pages 服务本身；如果账号限制影响 Pages 服务，也需要先解决该限制或迁移托管。
 
 ## 内容与许可
 
