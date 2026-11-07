@@ -265,9 +265,6 @@ a.contest-tag:hover { background: #bfdbfe; color: #1e3a8a; }
 .detail-external { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #466395; padding: 9px 0; border-bottom: 1px solid var(--line); }
 .detail-external:last-child { border: 0; padding-bottom: 0; }
 .detail-external:hover { color: var(--primary); }
-.problem-neighbors { display: flex; justify-content: space-between; gap: 10px; margin-top: 18px; }
-.problem-neighbors a { color: #536d97; font-size: 12px; display: flex; align-items: center; gap: 6px; }
-.problem-neighbors a:hover { color: var(--primary); }
 
 /* Long-form reading retains comfortable line spacing */
 .prose { color: #273349; font-size: 14px; line-height: 1.9; overflow-wrap: anywhere; }

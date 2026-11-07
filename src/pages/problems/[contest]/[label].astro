@@ -2,7 +2,7 @@
 import { getCollection, render } from 'astro:content';
 import Layout from '../../../layouts/Layout.astro';
 import { catalog } from '../../../lib/catalog';
-import { base, href, problemHref } from '../../../lib/urls';
+import { base, href } from '../../../lib/urls';
 import { difficultyLabels } from '../../../lib/schema';
 import { statementPdfs } from '../../../lib/statement-pdfs';
 import { problemPdfPath } from '../../../lib/statement-sources';
@@ -20,10 +20,6 @@ const localPdf = statement?.format === 'pdf' ? statementPdfs.get(statement.url) 
 const bookletUrl = localPdf ? `${localPdf}${pdfFragment}` : sourceUrl;
 const singlePdf = problemPdfPath(problem.id, statement);
 const readerUrl = singlePdf ? `${base}/${singlePdf}#view=FitH` : bookletUrl;
-const siblings = catalog.problems.filter(p => p.contestId === problem.contestId);
-const position = siblings.findIndex(p => p.id === problem.id);
-const previous = siblings[position-1];
-const next = siblings[position+1];
 ---
 <Layout title={`${problem.label}. ${problem.title} · ${contest.shortName}`}>
   <nav class="breadcrumb" aria-label="面包屑"><a href={href()}>题单</a><span>/</span><a href={href(`contests/${contest.id}`)}>{contest.shortName}</a><span>/</span><span>Problem {problem.label}</span></nav>
@@ -38,7 +34,6 @@ const next = siblings[position+1];
         </> : <div class="statement-prose"><p>完整题面可在原始网站阅读。</p>{statement && <a class="button" href={statement.url} target="_blank" rel="noopener noreferrer">打开原始题面 ↗</a>}</div>}
         <div class="pdf-help">{singlePdf ? `当前仅显示本题内容，对应完整题册第 ${statement!.page}${statement!.endPage === statement!.page ? '' : `–${statement!.endPage}`} 页。` : statement?.page ? `本题从题册第 ${statement.page} 页开始。` : '题册中可按题号查找本题。'} 浏览器不支持预览时，可<a href={readerUrl ?? `https://qoj.ac/problem/${problem.qojId}`} target="_blank" rel="noopener noreferrer">在新窗口打开</a>。{statement && <><a href={sourceUrl} target="_blank" rel="noopener noreferrer">查看原始题册 ↗</a>，题面版权归原作者所有。</>}</div>
       </div>
-      <nav class="problem-neighbors" aria-label="本场其他题目"><span>{previous && <a href={problemHref(previous.id)}>← 上一题 {previous.label}</a>}</span><a href={href(`contests/${contest.id}`)}>整场题单</a><span>{next && <a href={problemHref(next.id)}>下一题 {next.label} →</a>}</span></nav>
     </section>
     <aside class="detail-sidebar">
       <section class="detail-card" id="difficulty">
