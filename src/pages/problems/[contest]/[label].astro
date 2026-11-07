@@ -24,7 +24,7 @@ const next = siblings[position+1];
 ---
 <Layout title={`${problem.label}. ${problem.title} · ${contest.shortName}`}>
   <nav class="breadcrumb" aria-label="面包屑"><a href={href()}>题单</a><span>/</span><a href={href(`contests/${contest.id}`)}>{contest.shortName}</a><span>/</span><span>Problem {problem.label}</span></nav>
-  <header class="detail-head"><div><h1><span class="detail-label">{problem.label}.</span>{problem.title}</h1><div class="detail-meta"><a class="contest-tag" href={href(`contests/${contest.id}`)}>{contest.shortName}</a><span class={`difficulty-badge ${problem.difficulty}`}><span class="badge-dot"/>{difficultyLabels[problem.difficulty]}</span><span>QOJ #{problem.qojId}</span>{problem.interactive && <span>交互题</span>}</div></div><a class="button button-primary" href={`https://qoj.ac/problem/${problem.qojId}`} target="_blank" rel="noopener noreferrer">去 QOJ 提交 ↗</a></header>
+  <header class="detail-head"><div><h1><span class="detail-label">{problem.label}.</span>{problem.title}</h1><div class="detail-meta"><a class="contest-tag" href={href(`contests/${contest.id}`)}>{contest.shortName}</a><span class={`difficulty-badge ${problem.difficulty}`}><span class="badge-dot"/>{difficultyLabels[problem.difficulty]}</span><a class="qoj-link" href={`https://qoj.ac/problem/${problem.qojId}`} target="_blank" rel="noopener noreferrer" title="在 QOJ 打开题目">QOJ #{problem.qojId}</a>{problem.interactive && <span>交互题</span>}</div></div></header>
   <div class="detail-grid">
     <section>
       <div class="reading-card">
