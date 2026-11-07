@@ -194,8 +194,6 @@ a.contest-tag:hover { background: #e0e9ff; color: var(--primary-hover); }
 .empty-state { display: flex; flex-direction: column; align-items: center; text-align: center; padding: 48px 16px; gap: 10px; color: var(--muted); }
 .empty-state > svg { color: var(--primary); }
 .empty-state h3 { font-size: 15px; font-weight: 600; color: var(--ink); }
-.empty-state p { font-size: 12px; }
-.empty-state .button { margin-top: 6px; }
 .toast { position: fixed; bottom: 24px; left: 50%; transform: translate(-50%,20px); opacity: 0; pointer-events: none; display: flex; align-items: center; gap: 8px; background: #172033; color: white; border-radius: 8px; padding: 11px 16px; font-size: 12px; box-shadow: 0 6px 24px #17203324; transition: opacity .2s, transform .2s; z-index: 30; max-width: 90vw; }
 .toast.visible { opacity: 1; transform: translate(-50%,0); }
 
