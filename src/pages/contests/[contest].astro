@@ -37,12 +37,4 @@ const problems = catalog.problems.filter(p => p.contestId === contest.id);
       </table>
     </div>
   </section>
-  <details class="contest-data">
-    <summary>分级与数据来源</summary>
-    <div class="contest-data-content">
-      <p>{contest.classificationNote}，分级通过率阈值为 {catalog.threshold * 100}%。<a href={href('methodology')}>分级规则 →</a></p>
-      <p>奖牌组队伍：金牌 {contest.medalCounts.gold} · 银牌 {contest.medalCounts.silver} · 铜牌 {contest.medalCounts.bronze}{contest.medalSource && <> · <a href={contest.medalSource} target="_blank" rel="noopener noreferrer">人数来源 ↗</a></>}</p>
-      <p>数据同步于 {contest.syncedAt.slice(0,10)} · <a href={contest.sourceUrl} target="_blank" rel="noopener noreferrer">来源快照 {contest.sourceRevision.slice(0,7)} ↗</a></p>
-    </div>
-  </details>
 </Layout>

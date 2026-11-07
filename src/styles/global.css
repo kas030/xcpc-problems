@@ -214,7 +214,7 @@ a.contest-tag:hover { background: #bfdbfe; color: #1e3a8a; }
 .contest-header-meta { grid-column: 2; grid-row: 1 / span 2; align-self: end; display: flex; flex-direction: column; align-items: flex-end; gap: 8px; padding-bottom: 6px; color: var(--muted); font-size: 12px; line-height: 1.5; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .contest-resources { grid-column: 1; display: flex; flex-wrap: wrap; gap: 4px 22px; }
 .contest-resources a { display: inline-flex; align-items: center; gap: 4px; padding: 6px 0; color: #4d6eab; font-size: 12px; line-height: 1.5; }
-.contest-resources a:hover, .contest-data a:hover { color: var(--primary); text-decoration: underline; text-underline-offset: 3px; }
+.contest-resources a:hover { color: var(--primary); text-decoration: underline; text-underline-offset: 3px; }
 .contest-problems .problem-table th { height: 40px; padding: 0 16px; background: #fafbfd; color: #46536a; border-bottom: 1px solid var(--line); font-size: 12px; font-weight: 600; }
 .contest-problems .problem-table td { padding: 11px 16px; }
 .contest-problems .problem-table th:nth-child(2), .contest-problems .problem-table td:nth-child(2) { width: 128px; text-align: center; }
@@ -223,12 +223,6 @@ a.contest-tag:hover { background: #bfdbfe; color: #1e3a8a; }
 .contest-problems .row-links { justify-content: center; }
 .contest-problems .problem-title { max-width: none; font-weight: 550; }
 .contest-problem-note { flex-shrink: 0; color: var(--muted); font-size: 11px; font-weight: 400; white-space: nowrap; }
-.contest-data { margin-top: 16px; color: var(--muted); font-size: 12px; }
-.contest-data summary { width: fit-content; padding: 6px 0; cursor: pointer; }
-.contest-data summary:hover { color: var(--ink); }
-.contest-data summary:focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; border-radius: 3px; }
-.contest-data-content { display: grid; gap: 6px; margin-top: 8px; padding: 14px 16px; border-left: 2px solid var(--line); overflow-wrap: anywhere; }
-.contest-data a { color: #4d6eab; }
 .notice { border: 1px solid #ead6a0; background: #fff7df; border-radius: 7px; color: #806023; font-size: 12px; line-height: 1.8; padding: 12px 15px; margin: 16px 0; }
 .notice a { text-decoration: underline; }
 
