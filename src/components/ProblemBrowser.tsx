@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { ArrowDownWideNarrow, ArrowRight, ArrowUpNarrowWide, ArrowUpRight, Check, CheckCircle2, ChevronLeft, ChevronRight, Circle, FileText, Filter, RotateCcw, Search, Share2, SlidersHorizontal, Trophy, X } from 'lucide-react';
+import { ArrowDownWideNarrow, ArrowRight, ArrowUpNarrowWide, ArrowUpRight, Check, CheckCircle2, ChevronLeft, ChevronRight, Circle, FileText, Filter, Search, Share2, Trophy, X } from 'lucide-react';
 import type { Catalog, Difficulty } from '../lib/schema';
 import { difficultyLabels, difficultyNames } from '../lib/schema';
 import { emptyFilters, filterProblems, hasChinese, parseFilters, serializeFilters, type Filters } from '../lib/filters';
@@ -58,7 +58,7 @@ export default function ProblemBrowser({ catalog, base }: { catalog: Catalog; ba
     <h1 className="sr-only">XCPC 训练题单</h1>
     <div className="browser-grid">
       <aside id="problem-filters" className={`filters-panel ${sidebarOpen ? 'mobile-open' : ''}`} aria-label="题目筛选">
-        <div className="filter-top"><h2><SlidersHorizontal size={17} />筛选题目</h2><button className="icon-button muted" onClick={clear} aria-label="重置所有筛选" title="重置筛选"><RotateCcw size={15} /></button><button className="icon-button mobile-close" onClick={() => setSidebarOpen(false)} aria-label="收起筛选"><X size={18}/></button></div>
+        <button className="icon-button mobile-close" onClick={() => setSidebarOpen(false)} aria-label="收起筛选"><X size={18}/></button>
         <fieldset className="filter-section"><legend>目标难度 <a href={`${base}/methodology/`} aria-label="查看难度计算方法" className="help-icon">?</a></legend><div className="level-options">{difficultyNames.map(d => <button key={d} className={`level-option ${filters.difficulties.includes(d) ? 'selected' : ''}`} aria-pressed={filters.difficulties.includes(d)} onClick={() => toggleLevel(d)}><span><span className={`level-dot ${d}`} />{difficultyLabels[d]}</span><span className="filter-count">{levelCounts[d]}</span></button>)}</div></fieldset>
         <fieldset className="filter-section"><legend>所属比赛</legend><div className="contest-options">{catalog.contests.map(c => <label key={c.id} className="checkbox-label"><input type="checkbox" checked={filters.contests.includes(c.id)} onChange={() => toggleContest(c.id)} /><span>{c.shortName}</span><span className="filter-count">{c.problemCount}</span></label>)}</div></fieldset>
         <div className="filter-section"><label className="filter-label" htmlFor="year">比赛年份</label><Select id="year" label="比赛年份" value={filters.year} onChange={year => update({ year })} options={[{ value: '', label: '全部年份' }, ...years.map(year => ({ value: String(year), label: `${year} 年` }))]} /></div>
