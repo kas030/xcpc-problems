@@ -1,5 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import ContestLogo from '../../components/ContestLogo.astro';
 import { catalog } from '../../lib/catalog';
 import { href, problemHref } from '../../lib/urls';
 import { difficultyLabels } from '../../lib/schema';
@@ -11,6 +12,7 @@ const problems = catalog.problems.filter(p => p.contestId === contest.id);
   <a class="contest-back" href={href('contests')}><span aria-hidden="true">←</span> 所有比赛</a>
   <header class="contest-header">
     <div class="contest-heading">
+      <ContestLogo series={contest.series} />
       <h1>{contest.name}</h1>
       {contest.medalBasis === 'preset' && <div class="contest-estimate">
         <button type="button" class="contest-estimate-icon" aria-label="查看奖牌分组估算说明" aria-describedby="contest-estimate-note">

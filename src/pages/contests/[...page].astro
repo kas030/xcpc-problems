@@ -2,6 +2,7 @@
 import type { GetStaticPaths } from 'astro';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import Layout from '../../layouts/Layout.astro';
+import ContestLogo from '../../components/ContestLogo.astro';
 import { catalog } from '../../lib/catalog';
 import { href } from '../../lib/urls';
 
@@ -29,6 +30,7 @@ const pageNumbers = Array.from({ length: totalPages }, (_, index) => index + 1)
 <Layout title={`${currentPage === 1 ? '比赛目录' : `比赛目录 · 第 ${currentPage} 页`} · XCPC 题单`} active="contests">
   <h1 class="sr-only">比赛目录{currentPage > 1 && ` · 第 ${currentPage} 页`}</h1>
   <div class="contest-grid">{contests.map(c => <a class="contest-card" href={href(`contests/${c.id}`)} aria-label={`查看${c.shortName}比赛题单`}>
+    <div class="contest-card-logo"><ContestLogo series={c.series} /></div>
     <div class="contest-card-heading">
       <h2>{c.shortName}</h2>
       <svg class="contest-card-arrow" aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6 6 6-6 6" /></svg>
