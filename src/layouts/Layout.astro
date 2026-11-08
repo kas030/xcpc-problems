@@ -2,7 +2,7 @@
 import '../styles/global.css';
 import 'katex/dist/katex.min.css';
 import { catalog } from '../lib/catalog';
-import { href } from '../lib/urls';
+import { base, href } from '../lib/urls';
 interface Props { title?: string; description?: string; active?: 'problems' | 'contests' | 'methodology'; wide?: boolean }
 const { title = 'XCPC 题单 · 找到下一道值得做的题', description = '基于真实 XCPC 榜单的训练题单，按金银铜牌队伍通过率筛选，直达中文题面、QOJ 与比赛榜单。', active = 'problems', wide = false } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site);
@@ -18,7 +18,8 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <link rel="canonical" href={canonical} />
-    <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/favicon.svg`} />
+    <link rel="icon" type="image/png" sizes="32x32" href={`${base}/favicon-32.png`} />
+    <link rel="icon" type="image/png" sizes="16x16" href={`${base}/favicon-16.png`} />
     <title>{title}</title>
   </head>
   <body>
@@ -26,7 +27,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <header class="site-header">
       <div class="header-inner">
         <a class="brand" href={href()} aria-label="XCPC 题单首页">
-          <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="m12 9-7 7 7 7m8-14 7 7-7 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="m18 7-4 18" stroke="#bfdbfe" stroke-width="2.5" stroke-linecap="round"/></svg></span>
+          <img class="brand-mark" src={`${base}/logo.png`} width="40" height="40" alt="" />
           <span>XCPC<span class="brand-zh">题单</span></span>
         </a>
         <nav class="main-nav" aria-label="主导航">

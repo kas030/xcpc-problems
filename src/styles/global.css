@@ -64,8 +64,7 @@ input[type=search]::-webkit-search-cancel-button { cursor: pointer; }
 .site-header { height: 60px; background: var(--surface); border-bottom: 1px solid var(--line); }
 .header-inner { max-width: 1480px; height: 100%; padding: 0 28px; margin: auto; display: flex; align-items: center; gap: 40px; }
 .brand { display: flex; align-items: center; gap: 9px; font-weight: 700; font-size: 21px; letter-spacing: -.6px; }
-.brand-mark { width: 32px; height: 32px; background: var(--primary); color: white; border-radius: 8px; padding: 3px; display: inline-flex; }
-.brand-mark svg { width: 100%; height: 100%; }
+.brand-mark { width: 40px; height: 40px; display: block; flex-shrink: 0; object-fit: contain; }
 .brand-zh { margin-left: 7px; font-size: 16px; letter-spacing: 0; font-weight: 650; }
 .main-nav { display: flex; gap: 5px; align-items: center; }
 .main-nav a { display: flex; align-items: center; min-height: 34px; padding: 0 14px; border-radius: 6px; font-size: 13px; font-weight: 550; color: var(--muted); }
@@ -356,7 +355,7 @@ a.contest-tag:hover { background: #bfdbfe; color: #1e3a8a; }
   .site-header { height: 56px; }
   .header-inner { padding: 0 14px; gap: 12px; }
   .brand { font-size: 18px; gap: 7px; }
-  .brand-mark { width: 28px; height: 28px; border-radius: 7px; }
+  .brand-mark { width: 36px; height: 36px; }
   .brand-zh { font-size: 14px; margin-left: 5px; }
   .main-nav { margin-left: auto; gap: 1px; }
   .main-nav a { font-size: 12px; padding: 0 9px; min-height: 32px; }
@@ -430,7 +429,7 @@ a.contest-tag:hover { background: #bfdbfe; color: #1e3a8a; }
 
 @media (max-width: 380px) {
   .header-inner { padding: 0 10px; gap: 8px; }
-  .brand-mark { width: 25px; height: 25px; }
+  .brand-mark { width: 32px; height: 32px; }
   .brand { font-size: 17px; gap: 5px; }
   .main-nav a { padding: 0 7px; font-size: 11px; }
   .toolbar-divider { display: none; }
