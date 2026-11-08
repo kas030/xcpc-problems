@@ -3,11 +3,11 @@ import type { GetStaticPaths } from 'astro';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import Layout from '../../layouts/Layout.astro';
 import ContestLogo from '../../components/ContestLogo.astro';
-import { catalog } from '../../lib/catalog';
+import { catalog, CONTESTS_PER_PAGE } from '../../lib/catalog';
 import { href } from '../../lib/urls';
 
 export const getStaticPaths = (() => {
-  const pageSize = 12;
+  const pageSize = CONTESTS_PER_PAGE;
   const total = catalog.contests.length;
   const totalPages = Math.max(1, Math.ceil(total / pageSize));
   return Array.from({ length: totalPages }, (_, index) => ({
