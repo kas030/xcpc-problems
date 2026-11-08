@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "Many Many Heads",
-      "qojId": 7894
+      "qojId": 7894,
+      "statement": {
+        "url": "https://sua.ac/wiki/2023-icpc-jinan/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 4
+      }
     },
     {
       "label": "B",
       "title": "Graph Partitioning 2",
-      "qojId": 7895
+      "qojId": 7895,
+      "statement": {
+        "url": "https://sua.ac/wiki/2023-icpc-jinan/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 5
+      }
     },
     {
       "label": "C",
       "title": "Turn on the Light 2",
-      "qojId": 7896
+      "qojId": 7896,
+      "statement": {
+        "url": "https://sua.ac/wiki/2023-icpc-jinan/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 7
+      }
     },
     {
       "label": "D",
       "title": "Largest Digit",
-      "qojId": 7897
+      "qojId": 7897,
+      "statement": {
+        "url": "https://sua.ac/wiki/2023-icpc-jinan/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 8
+      }
     },
     {
       "label": "E",
       "title": "I Just Want... One More...",
-      "qojId": 7898
+      "qojId": 7898,
+      "statement": {
+        "url": "https://sua.ac/wiki/2023-icpc-jinan/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 9
+      }
     },
     {
       "label": "F",
       "title": "Say Hello to the Future",
-      "qojId": 7899
+      "qojId": 7899,
+      "statement": {
+        "url": "https://sua.ac/wiki/2023-icpc-jinan/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 10,
+        "endPage": 11
+      }
     },
     {
       "label": "G",
       "title": "Gifts from Knowledge",
-      "qojId": 7900
+      "qojId": 7900,
+      "statement": {
+        "url": "https://sua.ac/wiki/2023-icpc-jinan/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 12,
+        "endPage": 12
+      }
     },
     {
       "label": "H",
       "title": "Basic Substring Structure",
-      "qojId": 7901
+      "qojId": 7901,
+      "statement": {
+        "url": "https://sua.ac/wiki/2023-icpc-jinan/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 13
+      }
     },
     {
       "label": "I",
       "title": "Strange Sorting",
-      "qojId": 7902
+      "qojId": 7902,
+      "statement": {
+        "url": "https://sua.ac/wiki/2023-icpc-jinan/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 14,
+        "endPage": 14
+      }
     },
     {
       "label": "J",
       "title": "Computational Intelligence",
-      "qojId": 7903
+      "qojId": 7903,
+      "statement": {
+        "url": "https://sua.ac/wiki/2023-icpc-jinan/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 15
+      }
     },
     {
       "label": "K",
       "title": "Rainbow Subarray",
-      "qojId": 7904
+      "qojId": 7904,
+      "statement": {
+        "url": "https://sua.ac/wiki/2023-icpc-jinan/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 16,
+        "endPage": 17
+      }
     },
     {
       "label": "L",
       "title": "Ticket to Ride",
-      "qojId": 7905
+      "qojId": 7905,
+      "statement": {
+        "url": "https://sua.ac/wiki/2023-icpc-jinan/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 18,
+        "endPage": 19
+      }
     },
     {
       "label": "M",
       "title": "Almost Convex",
-      "qojId": 7906
+      "qojId": 7906,
+      "statement": {
+        "url": "https://sua.ac/wiki/2023-icpc-jinan/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 20,
+        "endPage": 21
+      }
     }
   ]
 }

@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "A Lot of Paintings",
-      "qojId": 14706
+      "qojId": 14706,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2567&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 3
+      }
     },
     {
       "label": "B",
       "title": "Blood Memories",
-      "qojId": 14707
+      "qojId": 14707,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2567&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 5
+      }
     },
     {
       "label": "C",
       "title": "Crossing River",
-      "qojId": 14708
+      "qojId": 14708,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2567&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 7,
+        "endPage": 7
+      }
     },
     {
       "label": "D",
       "title": "Deductive Snooker Scoring",
-      "qojId": 14709
+      "qojId": 14709,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2567&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 10
+      }
     },
     {
       "label": "E",
       "title": "Escaping from Trap",
-      "qojId": 14710
+      "qojId": 14710,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2567&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 12
+      }
     },
     {
       "label": "F",
       "title": "Following Arrows",
-      "qojId": 14711
+      "qojId": 14711,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2567&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 13
+      }
     },
     {
       "label": "G",
       "title": "GCD of Subsets",
-      "qojId": 14712
+      "qojId": 14712,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2567&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 15
+      }
     },
     {
       "label": "H",
       "title": "Heuristic Knapsack",
-      "qojId": 14713
+      "qojId": 14713,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2567&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 17,
+        "endPage": 18
+      }
     },
     {
       "label": "I",
       "title": "Inside Triangle",
-      "qojId": 14714
+      "qojId": 14714,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2567&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 19,
+        "endPage": 20
+      }
     },
     {
       "label": "J",
       "title": "Judging Papers",
-      "qojId": 14715
+      "qojId": 14715,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2567&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 21,
+        "endPage": 22
+      }
     },
     {
       "label": "K",
       "title": "K-Coverage",
-      "qojId": 14716
+      "qojId": 14716,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2567&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 23,
+        "endPage": 23
+      }
     },
     {
       "label": "L",
       "title": "Label Matching",
-      "qojId": 14717
+      "qojId": 14717,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2567&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 25,
+        "endPage": 25
+      }
     },
     {
       "label": "M",
       "title": "Meeting for Meals",
-      "qojId": 14718
+      "qojId": 14718,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2567&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 27,
+        "endPage": 27
+      }
     }
   ]
 }

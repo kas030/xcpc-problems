@@ -25,67 +25,171 @@
       "label": "A",
       "title": "Wow, It’s Yesterday Six Times More",
       "qojId": 14801,
-      "interactive": true
+      "interactive": true,
+      "statement": {
+        "url": "https://sua.ac/wiki/2025-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 5
+      }
     },
     {
       "label": "B",
       "title": "What, More Kangaroos?",
-      "qojId": 14802
+      "qojId": 14802,
+      "statement": {
+        "url": "https://sua.ac/wiki/2025-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 6
+      }
     },
     {
       "label": "C",
       "title": "Distributing Candies",
-      "qojId": 14803
+      "qojId": 14803,
+      "statement": {
+        "url": "https://sua.ac/wiki/2025-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 7,
+        "endPage": 7
+      }
     },
     {
       "label": "D",
       "title": "Fallleaves01 and Golf",
-      "qojId": 14804
+      "qojId": 14804,
+      "statement": {
+        "url": "https://sua.ac/wiki/2025-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 8
+      }
     },
     {
       "label": "E",
       "title": "Cyan White Tree",
-      "qojId": 14805
+      "qojId": 14805,
+      "statement": {
+        "url": "https://sua.ac/wiki/2025-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 9
+      }
     },
     {
       "label": "F",
       "title": "Bitwise And Path",
-      "qojId": 14806
+      "qojId": 14806,
+      "statement": {
+        "url": "https://sua.ac/wiki/2025-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 10,
+        "endPage": 11
+      }
     },
     {
       "label": "G",
       "title": "Bucket Bonanza",
-      "qojId": 14807
+      "qojId": 14807,
+      "statement": {
+        "url": "https://sua.ac/wiki/2025-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 12,
+        "endPage": 12
+      }
     },
     {
       "label": "H",
       "title": "Pen Pineapple Apple Pen",
-      "qojId": 14808
+      "qojId": 14808,
+      "statement": {
+        "url": "https://sua.ac/wiki/2025-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 13
+      }
     },
     {
       "label": "I",
       "title": "Chi Fan",
-      "qojId": 14809
+      "qojId": 14809,
+      "statement": {
+        "url": "https://sua.ac/wiki/2025-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 14,
+        "endPage": 15
+      }
     },
     {
       "label": "J",
       "title": "Trajan Algorithm",
-      "qojId": 14810
+      "qojId": 14810,
+      "statement": {
+        "url": "https://sua.ac/wiki/2025-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 16,
+        "endPage": 17
+      }
     },
     {
       "label": "K",
       "title": "Xiangqi",
-      "qojId": 14811
+      "qojId": 14811,
+      "statement": {
+        "url": "https://sua.ac/wiki/2025-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 18,
+        "endPage": 19
+      }
     },
     {
       "label": "L",
       "title": "Regional Champion",
-      "qojId": 14812
+      "qojId": 14812,
+      "statement": {
+        "url": "https://sua.ac/wiki/2025-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 20,
+        "endPage": 21
+      }
     },
     {
       "label": "M",
       "title": "Many Convex Polygons",
-      "qojId": 14813
+      "qojId": 14813,
+      "statement": {
+        "url": "https://sua.ac/wiki/2025-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 22,
+        "endPage": 22
+      }
     }
   ]
 }

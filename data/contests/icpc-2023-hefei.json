@@ -24,62 +24,158 @@
     {
       "label": "A",
       "title": "SQRT Problem",
-      "qojId": 7874
+      "qojId": 7874,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1440&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 2,
+        "endPage": 2
+      }
     },
     {
       "label": "B",
       "title": "Queue Sorting",
-      "qojId": 7875
+      "qojId": 7875,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1440&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 3
+      }
     },
     {
       "label": "C",
       "title": "Cyclic Substrings",
-      "qojId": 7876
+      "qojId": 7876,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1440&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 4,
+        "endPage": 5
+      }
     },
     {
       "label": "D",
       "title": "Balanced Array",
-      "qojId": 7877
+      "qojId": 7877,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1440&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 6
+      }
     },
     {
       "label": "E",
       "title": "Matrix Distances",
-      "qojId": 7878
+      "qojId": 7878,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1440&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 7,
+        "endPage": 8
+      }
     },
     {
       "label": "F",
       "title": "Colorful Balloons",
-      "qojId": 7879
+      "qojId": 7879,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1440&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 9
+      }
     },
     {
       "label": "G",
       "title": "Streak Manipulation",
-      "qojId": 7880
+      "qojId": 7880,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1440&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 10,
+        "endPage": 10
+      }
     },
     {
       "label": "H",
       "title": "Computational Complexity",
-      "qojId": 7881
+      "qojId": 7881,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1440&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 12
+      }
     },
     {
       "label": "I",
       "title": "Linguistics Puzzle",
-      "qojId": 7882
+      "qojId": 7882,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1440&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 14
+      }
     },
     {
       "label": "J",
       "title": "Takeout Delivering",
-      "qojId": 7883
+      "qojId": 7883,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1440&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 15
+      }
     },
     {
       "label": "K",
       "title": "Campus Partition",
-      "qojId": 7884
+      "qojId": 7884,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1440&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 16,
+        "endPage": 16
+      }
     },
     {
       "label": "L",
       "title": "Information Spread",
-      "qojId": 7885
+      "qojId": 7885,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1440&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 17,
+        "endPage": 18
+      }
     }
   ]
 }

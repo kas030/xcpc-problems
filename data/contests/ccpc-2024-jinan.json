@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "The Fool",
-      "qojId": 9548
+      "qojId": 9548,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1843&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 3
+      }
     },
     {
       "label": "B",
       "title": "The Magician",
-      "qojId": 9549
+      "qojId": 9549,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1843&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 7
+      }
     },
     {
       "label": "C",
       "title": "The Empress",
-      "qojId": 9550
+      "qojId": 9550,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1843&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 9
+      }
     },
     {
       "label": "D",
       "title": "The Emperor",
-      "qojId": 9551
+      "qojId": 9551,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1843&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 11
+      }
     },
     {
       "label": "E",
       "title": "The Chariot",
-      "qojId": 9552
+      "qojId": 9552,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1843&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 13
+      }
     },
     {
       "label": "F",
       "title": "The Hermit",
-      "qojId": 9553
+      "qojId": 9553,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1843&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 15
+      }
     },
     {
       "label": "G",
       "title": "The Wheel of Fortune",
-      "qojId": 9554
+      "qojId": 9554,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1843&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 17,
+        "endPage": 18
+      }
     },
     {
       "label": "H",
       "title": "Strength",
-      "qojId": 9555
+      "qojId": 9555,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1843&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 19,
+        "endPage": 19
+      }
     },
     {
       "label": "I",
       "title": "The Hanged Man",
-      "qojId": 9556
+      "qojId": 9556,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1843&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 21,
+        "endPage": 22
+      }
     },
     {
       "label": "J",
       "title": "Temperance",
-      "qojId": 9557
+      "qojId": 9557,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1843&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 23,
+        "endPage": 23
+      }
     },
     {
       "label": "K",
       "title": "The Devil",
-      "qojId": 9558
+      "qojId": 9558,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1843&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 25,
+        "endPage": 25
+      }
     },
     {
       "label": "L",
       "title": "The Tower",
-      "qojId": 9559
+      "qojId": 9559,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1843&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 27,
+        "endPage": 28
+      }
     },
     {
       "label": "M",
       "title": "Judgement",
-      "qojId": 9560
+      "qojId": 9560,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1843&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 29,
+        "endPage": 30
+      }
     }
   ]
 }

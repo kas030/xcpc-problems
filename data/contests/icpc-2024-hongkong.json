@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "General Symmetry",
-      "qojId": 9915
+      "qojId": 9915,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1885&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 2,
+        "endPage": 2
+      }
     },
     {
       "label": "B",
       "title": "Defeat the Enemies",
-      "qojId": 9916
+      "qojId": 9916,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1885&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 4
+      }
     },
     {
       "label": "C",
       "title": "The Story of Emperor Bie",
-      "qojId": 9917
+      "qojId": 9917,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1885&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 5
+      }
     },
     {
       "label": "D",
       "title": "Master of Both VI",
-      "qojId": 9918
+      "qojId": 9918,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1885&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 7
+      }
     },
     {
       "label": "E",
       "title": "Concave Hull",
-      "qojId": 9919
+      "qojId": 9919,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1885&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 9
+      }
     },
     {
       "label": "F",
       "title": "Money Game 2",
-      "qojId": 9920
+      "qojId": 9920,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1885&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 10,
+        "endPage": 10
+      }
     },
     {
       "label": "G",
       "title": "Yelkrab",
-      "qojId": 9921
+      "qojId": 9921,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1885&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 11
+      }
     },
     {
       "label": "H",
       "title": "Mah-jong",
-      "qojId": 9922
+      "qojId": 9922,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1885&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 12,
+        "endPage": 12
+      }
     },
     {
       "label": "I",
       "title": "Ma Meilleure Ennemie",
-      "qojId": 9923
+      "qojId": 9923,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1885&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 13
+      }
     },
     {
       "label": "J",
       "title": "Reconstruction",
-      "qojId": 9924
+      "qojId": 9924,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1885&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 14,
+        "endPage": 14
+      }
     },
     {
       "label": "K",
       "title": "LR String",
-      "qojId": 9925
+      "qojId": 9925,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1885&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 15
+      }
     },
     {
       "label": "L",
       "title": "Flipping Paths",
-      "qojId": 9926
+      "qojId": 9926,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1885&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 16,
+        "endPage": 17
+      }
     },
     {
       "label": "M",
       "title": "Godzilla",
-      "qojId": 9927
+      "qojId": 9927,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1885&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 18,
+        "endPage": 18
+      }
     }
   ]
 }

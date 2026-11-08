@@ -24,57 +24,145 @@
     {
       "label": "A",
       "title": "Riddle of the Sphinx",
-      "qojId": 8674
+      "qojId": 8674,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1662&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 1,
+        "endPage": 2
+      }
     },
     {
       "label": "B",
       "title": "Schedule",
-      "qojId": 8675
+      "qojId": 8675,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1662&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 4
+      }
     },
     {
       "label": "C",
       "title": "Three Kinds of Dice",
-      "qojId": 8676
+      "qojId": 8676,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1662&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 6
+      }
     },
     {
       "label": "D",
       "title": "Carl’s Vacation",
-      "qojId": 8677
+      "qojId": 8677,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1662&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 7,
+        "endPage": 8
+      }
     },
     {
       "label": "E",
       "title": "A Recurring Problem",
-      "qojId": 8678
+      "qojId": 8678,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1662&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 10
+      }
     },
     {
       "label": "F",
       "title": "Tilting Tiles",
-      "qojId": 8679
+      "qojId": 8679,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1662&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 12
+      }
     },
     {
       "label": "G",
       "title": "Turning Red",
-      "qojId": 8680
+      "qojId": 8680,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1662&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 14
+      }
     },
     {
       "label": "H",
       "title": "Jet Lag",
-      "qojId": 8681
+      "qojId": 8681,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1662&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 16
+      }
     },
     {
       "label": "I",
       "title": "Waterworld",
-      "qojId": 8682
+      "qojId": 8682,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1662&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 17,
+        "endPage": 18
+      }
     },
     {
       "label": "J",
       "title": "Bridging the Gap",
-      "qojId": 8683
+      "qojId": 8683,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1662&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 19,
+        "endPage": 19
+      }
     },
     {
       "label": "K",
       "title": "Alea Iacta Est",
-      "qojId": 8684
+      "qojId": 8684,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1662&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 21,
+        "endPage": 22
+      }
     }
   ]
 }

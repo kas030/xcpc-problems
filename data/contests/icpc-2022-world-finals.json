@@ -24,57 +24,145 @@
     {
       "label": "P",
       "title": "Turning Red",
-      "qojId": 8680
+      "qojId": 8680,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1661&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 1,
+        "endPage": 2
+      }
     },
     {
       "label": "Q",
       "title": "Doing the Container Shuffle",
-      "qojId": 8685
+      "qojId": 8685,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1661&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 4
+      }
     },
     {
       "label": "R",
       "title": "Zoo Management",
-      "qojId": 8686
+      "qojId": 8686,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1661&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 6
+      }
     },
     {
       "label": "S",
       "title": "Bridging the Gap",
-      "qojId": 8683
+      "qojId": 8683,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1661&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 7,
+        "endPage": 7
+      }
     },
     {
       "label": "T",
       "title": "Carl’s Vacation",
-      "qojId": 8677
+      "qojId": 8677,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1661&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 10
+      }
     },
     {
       "label": "U",
       "title": "Toy Train Tracks",
-      "qojId": 8687
+      "qojId": 8687,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1661&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 12
+      }
     },
     {
       "label": "V",
       "title": "Three Kinds of Dice",
-      "qojId": 8676
+      "qojId": 8676,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1661&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 14
+      }
     },
     {
       "label": "W",
       "title": "Riddle of the Sphinx",
-      "qojId": 8674
+      "qojId": 8674,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1661&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 16
+      }
     },
     {
       "label": "X",
       "title": "Quartets",
-      "qojId": 8688
+      "qojId": 8688,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1661&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 17,
+        "endPage": 18
+      }
     },
     {
       "label": "Y",
       "title": "Compression",
-      "qojId": 8689
+      "qojId": 8689,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1661&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 19,
+        "endPage": 20
+      }
     },
     {
       "label": "Z",
       "title": "Archaeological Recovery",
-      "qojId": 8690
+      "qojId": 8690,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1661&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 21,
+        "endPage": 22
+      }
     }
   ]
 }

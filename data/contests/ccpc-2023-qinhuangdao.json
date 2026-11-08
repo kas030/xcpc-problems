@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "Make SYSU Great Again I",
-      "qojId": 7619
+      "qojId": 7619,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1411&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 1,
+        "endPage": 1
+      }
     },
     {
       "label": "B",
       "title": "Yet Another Subsequence Problem",
-      "qojId": 7620
+      "qojId": 7620,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1411&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 2,
+        "endPage": 3
+      }
     },
     {
       "label": "C",
       "title": "Palindrome",
-      "qojId": 7621
+      "qojId": 7621,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1411&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 4,
+        "endPage": 4
+      }
     },
     {
       "label": "D",
       "title": "Yet Another Coffee",
-      "qojId": 7622
+      "qojId": 7622,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1411&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 5
+      }
     },
     {
       "label": "E",
       "title": "Coloring Tape",
-      "qojId": 7623
+      "qojId": 7623,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1411&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 7
+      }
     },
     {
       "label": "F",
       "title": "Mystery of Prime",
-      "qojId": 7624
+      "qojId": 7624,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1411&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 8
+      }
     },
     {
       "label": "G",
       "title": "Path",
-      "qojId": 7625
+      "qojId": 7625,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1411&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 9
+      }
     },
     {
       "label": "H",
       "title": "Quake and Rebuild",
-      "qojId": 7626
+      "qojId": 7626,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1411&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 10,
+        "endPage": 11
+      }
     },
     {
       "label": "I",
       "title": "Phony",
-      "qojId": 7627
+      "qojId": 7627,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1411&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 12,
+        "endPage": 12
+      }
     },
     {
       "label": "J",
       "title": "Keyi LIkes Reading",
-      "qojId": 7628
+      "qojId": 7628,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1411&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 13
+      }
     },
     {
       "label": "K",
       "title": "Make SYSU Great Again II",
-      "qojId": 7629
+      "qojId": 7629,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1411&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 14,
+        "endPage": 14
+      }
     },
     {
       "label": "L",
       "title": "Yet Another Maximize Permutation Subarrays",
-      "qojId": 7630
+      "qojId": 7630,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1411&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 16
+      }
     },
     {
       "label": "M",
       "title": "Inverted",
-      "qojId": 7631
+      "qojId": 7631,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1411&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 17,
+        "endPage": 17
+      }
     }
   ]
 }

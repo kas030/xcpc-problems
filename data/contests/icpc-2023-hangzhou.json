@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "Submissions",
-      "qojId": 8230
+      "qojId": 8230,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1516&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 2,
+        "endPage": 4
+      }
     },
     {
       "label": "B",
       "title": "Festival Decorating",
-      "qojId": 8231
+      "qojId": 8231,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1516&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 5
+      }
     },
     {
       "label": "C",
       "title": "Yet Another Shortest Path Query",
-      "qojId": 8232
+      "qojId": 8232,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1516&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 7
+      }
     },
     {
       "label": "D",
       "title": "Operator Precedence",
-      "qojId": 8233
+      "qojId": 8233,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1516&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 8
+      }
     },
     {
       "label": "E",
       "title": "Period of a String",
-      "qojId": 8234
+      "qojId": 8234,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1516&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 9
+      }
     },
     {
       "label": "F",
       "title": "Top Cluster",
-      "qojId": 8235
+      "qojId": 8235,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1516&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 10,
+        "endPage": 10
+      }
     },
     {
       "label": "G",
       "title": "Snake Move",
-      "qojId": 8236
+      "qojId": 8236,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1516&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 12
+      }
     },
     {
       "label": "H",
       "title": "Sugar Sweet II",
-      "qojId": 8237
+      "qojId": 8237,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1516&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 14
+      }
     },
     {
       "label": "I",
       "title": "Dreamy Putata",
-      "qojId": 8238
+      "qojId": 8238,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1516&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 16
+      }
     },
     {
       "label": "J",
       "title": "Mysterious Tree",
-      "qojId": 8239
+      "qojId": 8239,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1516&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 17,
+        "endPage": 18
+      }
     },
     {
       "label": "K",
       "title": "Card Game",
-      "qojId": 8240
+      "qojId": 8240,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1516&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 19,
+        "endPage": 20
+      }
     },
     {
       "label": "L",
       "title": "Master of Both V",
-      "qojId": 8241
+      "qojId": 8241,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1516&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 21,
+        "endPage": 22
+      }
     },
     {
       "label": "M",
       "title": "V-Diagram",
-      "qojId": 8242
+      "qojId": 8242,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1516&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 23,
+        "endPage": 23
+      }
     }
   ]
 }

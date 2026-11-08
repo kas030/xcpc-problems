@@ -24,69 +24,173 @@
     {
       "label": "A",
       "title": "Greetings from Prof. Chen",
-      "qojId": 17753
+      "qojId": 17753,
+      "statement": {
+        "url": "https://sua.ac/wiki/2026-icpc-invitational-shenzhen/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 4
+      }
     },
     {
       "label": "B",
       "title": "All-Star Showdown",
-      "qojId": 17754
+      "qojId": 17754,
+      "statement": {
+        "url": "https://sua.ac/wiki/2026-icpc-invitational-shenzhen/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 5
+      }
     },
     {
       "label": "C",
       "title": "One Item Away",
       "qojId": 17755,
-      "interactive": true
+      "interactive": true,
+      "statement": {
+        "url": "https://sua.ac/wiki/2026-icpc-invitational-shenzhen/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 7
+      }
     },
     {
       "label": "D",
       "title": "City Management",
-      "qojId": 17756
+      "qojId": 17756,
+      "statement": {
+        "url": "https://sua.ac/wiki/2026-icpc-invitational-shenzhen/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 9
+      }
     },
     {
       "label": "E",
       "title": "Card Checking",
-      "qojId": 17757
+      "qojId": 17757,
+      "statement": {
+        "url": "https://sua.ac/wiki/2026-icpc-invitational-shenzhen/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 10,
+        "endPage": 11
+      }
     },
     {
       "label": "F",
       "title": "Astra",
-      "qojId": 17758
+      "qojId": 17758,
+      "statement": {
+        "url": "https://sua.ac/wiki/2026-icpc-invitational-shenzhen/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 12,
+        "endPage": 13
+      }
     },
     {
       "label": "G",
       "title": "Snake",
       "qojId": 17759,
-      "interactive": true
+      "interactive": true,
+      "statement": {
+        "url": "https://sua.ac/wiki/2026-icpc-invitational-shenzhen/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 14,
+        "endPage": 15
+      }
     },
     {
       "label": "H",
       "title": "Telepathy",
-      "qojId": 17760
+      "qojId": 17760,
+      "statement": {
+        "url": "https://sua.ac/wiki/2026-icpc-invitational-shenzhen/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 16,
+        "endPage": 17
+      }
     },
     {
       "label": "I",
       "title": "Calendar Cubes",
-      "qojId": 17761
+      "qojId": 17761,
+      "statement": {
+        "url": "https://sua.ac/wiki/2026-icpc-invitational-shenzhen/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 18,
+        "endPage": 18
+      }
     },
     {
       "label": "J",
       "title": "Crossroads",
-      "qojId": 17762
+      "qojId": 17762,
+      "statement": {
+        "url": "https://sua.ac/wiki/2026-icpc-invitational-shenzhen/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 19,
+        "endPage": 19
+      }
     },
     {
       "label": "K",
       "title": "Sum and Product",
-      "qojId": 17763
+      "qojId": 17763,
+      "statement": {
+        "url": "https://sua.ac/wiki/2026-icpc-invitational-shenzhen/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 20,
+        "endPage": 20
+      }
     },
     {
       "label": "L",
       "title": "Critical Strike",
-      "qojId": 17764
+      "qojId": 17764,
+      "statement": {
+        "url": "https://sua.ac/wiki/2026-icpc-invitational-shenzhen/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 21,
+        "endPage": 21
+      }
     },
     {
       "label": "M",
       "title": "Night at the Museum",
-      "qojId": 17765
+      "qojId": 17765,
+      "statement": {
+        "url": "https://sua.ac/wiki/2026-icpc-invitational-shenzhen/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 22,
+        "endPage": 23
+      }
     }
   ]
 }

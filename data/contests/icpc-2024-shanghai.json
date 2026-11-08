@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "Ancient Maps, Hidden Danger",
-      "qojId": 9037
+      "qojId": 9037,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1913&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 1,
+        "endPage": 2
+      }
     },
     {
       "label": "B",
       "title": "Basic Graph Algorithm",
-      "qojId": 9038
+      "qojId": 9038,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1913&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 4
+      }
     },
     {
       "label": "C",
       "title": "Conquer the Multiples",
-      "qojId": 9039
+      "qojId": 9039,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1913&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 5
+      }
     },
     {
       "label": "D",
       "title": "Decrease and Swap",
-      "qojId": 9040
+      "qojId": 9040,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1913&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 6
+      }
     },
     {
       "label": "E",
       "title": "Equal Measure",
-      "qojId": 9041
+      "qojId": 9041,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1913&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 7,
+        "endPage": 8
+      }
     },
     {
       "label": "F",
       "title": "Fast Bogosort",
-      "qojId": 9042
+      "qojId": 9042,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1913&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 9
+      }
     },
     {
       "label": "G",
       "title": "Geometry Task",
-      "qojId": 9043
+      "qojId": 9043,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1913&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 10,
+        "endPage": 10
+      }
     },
     {
       "label": "H",
       "title": "Hexagon Puzzle",
-      "qojId": 9044
+      "qojId": 9044,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1913&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 12
+      }
     },
     {
       "label": "I",
       "title": "In Search of the Ultimate Artifact",
-      "qojId": 9045
+      "qojId": 9045,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1913&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 13
+      }
     },
     {
       "label": "J",
       "title": "Just-in-Time Render Analysis",
-      "qojId": 9046
+      "qojId": 9046,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1913&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 14,
+        "endPage": 15
+      }
     },
     {
       "label": "K",
       "title": "Knights of Night",
-      "qojId": 9047
+      "qojId": 9047,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1913&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 16,
+        "endPage": 17
+      }
     },
     {
       "label": "L",
       "title": "Lazy Susan",
-      "qojId": 9048
+      "qojId": 9048,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1913&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 18,
+        "endPage": 19
+      }
     },
     {
       "label": "M",
       "title": "Machine Learning with Penguins",
-      "qojId": 9049
+      "qojId": 9049,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1913&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 20,
+        "endPage": 21
+      }
     }
   ]
 }

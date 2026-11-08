@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "Stop, Yesterday Please No More",
-      "qojId": 5414
+      "qojId": 5414,
+      "statement": {
+        "url": "https://sua.ac/wiki/2022-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 5
+      }
     },
     {
       "label": "B",
       "title": "Ropeway",
-      "qojId": 5415
+      "qojId": 5415,
+      "statement": {
+        "url": "https://sua.ac/wiki/2022-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 7
+      }
     },
     {
       "label": "C",
       "title": "Fabulous Fungus Frenzy",
-      "qojId": 5416
+      "qojId": 5416,
+      "statement": {
+        "url": "https://sua.ac/wiki/2022-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 12
+      }
     },
     {
       "label": "D",
       "title": "Chat Program",
-      "qojId": 5417
+      "qojId": 5417,
+      "statement": {
+        "url": "https://sua.ac/wiki/2022-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 14
+      }
     },
     {
       "label": "E",
       "title": "Color the Tree",
-      "qojId": 5418
+      "qojId": 5418,
+      "statement": {
+        "url": "https://sua.ac/wiki/2022-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 16
+      }
     },
     {
       "label": "F",
       "title": "Triangles",
-      "qojId": 5419
+      "qojId": 5419,
+      "statement": {
+        "url": "https://sua.ac/wiki/2022-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 17,
+        "endPage": 18
+      }
     },
     {
       "label": "G",
       "title": "Inscryption",
-      "qojId": 5420
+      "qojId": 5420,
+      "statement": {
+        "url": "https://sua.ac/wiki/2022-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 19,
+        "endPage": 20
+      }
     },
     {
       "label": "H",
       "title": "Factories Once More",
-      "qojId": 5421
+      "qojId": 5421,
+      "statement": {
+        "url": "https://sua.ac/wiki/2022-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 21,
+        "endPage": 21
+      }
     },
     {
       "label": "I",
       "title": "Perfect Palindrome",
-      "qojId": 5422
+      "qojId": 5422,
+      "statement": {
+        "url": "https://sua.ac/wiki/2022-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 22,
+        "endPage": 22
+      }
     },
     {
       "label": "J",
       "title": "Perfect Matching",
-      "qojId": 5423
+      "qojId": 5423,
+      "statement": {
+        "url": "https://sua.ac/wiki/2022-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 23,
+        "endPage": 23
+      }
     },
     {
       "label": "K",
       "title": "NaN in a Heap",
-      "qojId": 5424
+      "qojId": 5424,
+      "statement": {
+        "url": "https://sua.ac/wiki/2022-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 24,
+        "endPage": 25
+      }
     },
     {
       "label": "L",
       "title": "Proposition Composition",
-      "qojId": 5425
+      "qojId": 5425,
+      "statement": {
+        "url": "https://sua.ac/wiki/2022-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 26,
+        "endPage": 26
+      }
     },
     {
       "label": "M",
       "title": "Drain the Water Tank",
-      "qojId": 5426
+      "qojId": 5426,
+      "statement": {
+        "url": "https://sua.ac/wiki/2022-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 27,
+        "endPage": 28
+      }
     }
   ]
 }

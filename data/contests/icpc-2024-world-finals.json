@@ -24,62 +24,158 @@
     {
       "label": "A",
       "title": "Billboards",
-      "qojId": 10401
+      "qojId": 10401,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1966&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 1,
+        "endPage": 2
+      }
     },
     {
       "label": "B",
       "title": "Bingo for the Win!",
-      "qojId": 10402
+      "qojId": 10402,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1966&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 4
+      }
     },
     {
       "label": "C",
       "title": "Citizenship",
-      "qojId": 10403
+      "qojId": 10403,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1966&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 6
+      }
     },
     {
       "label": "D",
       "title": "Doubles Horseback Wrestling",
-      "qojId": 10404
+      "qojId": 10404,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1966&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 7,
+        "endPage": 7
+      }
     },
     {
       "label": "E",
       "title": "Flipping Container",
-      "qojId": 10405
+      "qojId": 10405,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1966&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 10
+      }
     },
     {
       "label": "F",
       "title": "Friendly Rivalry",
-      "qojId": 10406
+      "qojId": 10406,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1966&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 12
+      }
     },
     {
       "label": "G",
       "title": "Kindergarten",
-      "qojId": 10407
+      "qojId": 10407,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1966&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 14
+      }
     },
     {
       "label": "H",
       "title": "Maxwell’s Demon",
-      "qojId": 10408
+      "qojId": 10408,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1966&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 16
+      }
     },
     {
       "label": "I",
       "title": "Steppe on It",
-      "qojId": 10409
+      "qojId": 10409,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1966&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 17,
+        "endPage": 18
+      }
     },
     {
       "label": "J",
       "title": "The Silk Road . . . with Robots!",
-      "qojId": 10410
+      "qojId": 10410,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1966&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 19,
+        "endPage": 19
+      }
     },
     {
       "label": "K",
       "title": "Tower of noiHa",
-      "qojId": 10411
+      "qojId": 10411,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1966&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 21,
+        "endPage": 22
+      }
     },
     {
       "label": "L",
       "title": "Where Am I Now?",
-      "qojId": 10412
+      "qojId": 10412,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1966&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 23,
+        "endPage": 24
+      }
     }
   ]
 }

@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "Graph Partitioning",
-      "qojId": 6501
+      "qojId": 6501,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1244&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 1,
+        "endPage": 2
+      }
     },
     {
       "label": "B",
       "title": "Disjoint Set Union",
-      "qojId": 6502
+      "qojId": 6502,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1244&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 4
+      }
     },
     {
       "label": "C",
       "title": "DFS Order 3",
-      "qojId": 6503
+      "qojId": 6503,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1244&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 6
+      }
     },
     {
       "label": "D",
       "title": "Flower's Land 2",
-      "qojId": 6504
+      "qojId": 6504,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1244&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 7,
+        "endPage": 8
+      }
     },
     {
       "label": "E",
       "title": "CCPC String",
-      "qojId": 6505
+      "qojId": 6505,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1244&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 10
+      }
     },
     {
       "label": "F",
       "title": "Chase Game 3",
-      "qojId": 6506
+      "qojId": 6506,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1244&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 12
+      }
     },
     {
       "label": "G",
       "title": "Recover the String",
-      "qojId": 6507
+      "qojId": 6507,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1244&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 15
+      }
     },
     {
       "label": "H",
       "title": "This is not an Abnormal Team!",
-      "qojId": 6508
+      "qojId": 6508,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1244&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 16,
+        "endPage": 17
+      }
     },
     {
       "label": "I",
       "title": "Not Another Range Query Problem",
-      "qojId": 6509
+      "qojId": 6509,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1244&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 18,
+        "endPage": 19
+      }
     },
     {
       "label": "J",
       "title": "Best Carry Player 3",
-      "qojId": 6510
+      "qojId": 6510,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1244&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 20,
+        "endPage": 21
+      }
     },
     {
       "label": "K",
       "title": "Balancing Sequences",
-      "qojId": 6511
+      "qojId": 6511,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1244&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 22,
+        "endPage": 23
+      }
     },
     {
       "label": "L",
       "title": "Completely Multiplicative Function",
-      "qojId": 6512
+      "qojId": 6512,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1244&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 24,
+        "endPage": 24
+      }
     },
     {
       "label": "M",
       "title": "Expression 3",
-      "qojId": 6513
+      "qojId": 6513,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1244&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 25,
+        "endPage": 25
+      }
     }
   ]
 }

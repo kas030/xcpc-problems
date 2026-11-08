@@ -24,72 +24,184 @@
     {
       "label": "A",
       "title": "An Easy Geometry Problem",
-      "qojId": 9242
+      "qojId": 9242,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1784&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 1,
+        "endPage": 1
+      }
     },
     {
       "label": "B",
       "title": "Counting Multisets",
-      "qojId": 9243
+      "qojId": 9243,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1784&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 2,
+        "endPage": 2
+      }
     },
     {
       "label": "C",
       "title": "Counting Strings",
-      "qojId": 9244
+      "qojId": 9244,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1784&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 3
+      }
     },
     {
       "label": "D",
       "title": "Bracket Sequence",
-      "qojId": 9245
+      "qojId": 9245,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1784&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 4,
+        "endPage": 4
+      }
     },
     {
       "label": "E",
       "title": "Dominating Point",
-      "qojId": 9246
+      "qojId": 9246,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1784&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 5
+      }
     },
     {
       "label": "F",
       "title": "An Easy Counting Problem",
-      "qojId": 9247
+      "qojId": 9247,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1784&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 6
+      }
     },
     {
       "label": "G",
       "title": "An Easy Math Problem",
-      "qojId": 9248
+      "qojId": 9248,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1784&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 7,
+        "endPage": 7
+      }
     },
     {
       "label": "H",
       "title": "Elimination Series Once More",
-      "qojId": 9249
+      "qojId": 9249,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1784&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 8
+      }
     },
     {
       "label": "I",
       "title": "Max GCD",
-      "qojId": 9250
+      "qojId": 9250,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1784&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 9
+      }
     },
     {
       "label": "J",
       "title": "Graph Changing",
-      "qojId": 9251
+      "qojId": 9251,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1784&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 10,
+        "endPage": 10
+      }
     },
     {
       "label": "K",
       "title": "Penguins in Refrigerator",
-      "qojId": 9252
+      "qojId": 9252,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1784&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 11
+      }
     },
     {
       "label": "L",
       "title": "Prism Palace",
-      "qojId": 9253
+      "qojId": 9253,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1784&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 12,
+        "endPage": 12
+      }
     },
     {
       "label": "M",
       "title": "Random Variables",
-      "qojId": 9254
+      "qojId": 9254,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1784&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 13
+      }
     },
     {
       "label": "N",
       "title": "Python Program",
-      "qojId": 9255
+      "qojId": 9255,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1784&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 14,
+        "endPage": 15
+      }
     }
   ]
 }

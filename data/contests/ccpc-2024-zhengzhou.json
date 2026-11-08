@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "A + B = C Problem",
-      "qojId": 9768
+      "qojId": 9768,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1873&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 2,
+        "endPage": 2
+      }
     },
     {
       "label": "B",
       "title": "Rolling Stones",
-      "qojId": 9769
+      "qojId": 9769,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1873&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 4
+      }
     },
     {
       "label": "C",
       "title": "Middle Point",
-      "qojId": 9770
+      "qojId": 9770,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1873&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 5
+      }
     },
     {
       "label": "D",
       "title": "Guessing Game",
-      "qojId": 9771
+      "qojId": 9771,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1873&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 6
+      }
     },
     {
       "label": "E",
       "title": "Permutation Routing",
-      "qojId": 9772
+      "qojId": 9772,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1873&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 7,
+        "endPage": 7
+      }
     },
     {
       "label": "F",
       "title": "Infinite Loop",
-      "qojId": 9773
+      "qojId": 9773,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1873&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 8
+      }
     },
     {
       "label": "G",
       "title": "Same Sum",
-      "qojId": 9774
+      "qojId": 9774,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1873&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 9
+      }
     },
     {
       "label": "H",
       "title": "The Witness",
-      "qojId": 9775
+      "qojId": 9775,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1873&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 10,
+        "endPage": 13
+      }
     },
     {
       "label": "I",
       "title": "Best Friend, Worst Enemy",
-      "qojId": 9776
+      "qojId": 9776,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1873&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 14,
+        "endPage": 15
+      }
     },
     {
       "label": "J",
       "title": "Balance in All Things",
-      "qojId": 9777
+      "qojId": 9777,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1873&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 16,
+        "endPage": 16
+      }
     },
     {
       "label": "K",
       "title": "Brotato",
-      "qojId": 9778
+      "qojId": 9778,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1873&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 17,
+        "endPage": 17
+      }
     },
     {
       "label": "L",
       "title": "Z-order Curve",
-      "qojId": 9779
+      "qojId": 9779,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1873&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 18,
+        "endPage": 19
+      }
     },
     {
       "label": "M",
       "title": "Rejection Sampling",
-      "qojId": 9780
+      "qojId": 9780,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1873&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 20,
+        "endPage": 20
+      }
     }
   ]
 }

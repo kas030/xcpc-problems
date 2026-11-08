@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "New Gomoku",
-      "qojId": 15419
+      "qojId": 15419,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3387&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 1,
+        "endPage": 2
+      }
     },
     {
       "label": "B",
       "title": "Abstract Portal",
-      "qojId": 15420
+      "qojId": 15420,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3387&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 4
+      }
     },
     {
       "label": "C",
       "title": "GPA Optimization Plan",
-      "qojId": 15421
+      "qojId": 15421,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3387&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 6
+      }
     },
     {
       "label": "D",
       "title": "Route Investigation",
-      "qojId": 15422
+      "qojId": 15422,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3387&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 7,
+        "endPage": 8
+      }
     },
     {
       "label": "E",
       "title": "Dinner Invitation",
-      "qojId": 15423
+      "qojId": 15423,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3387&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 9
+      }
     },
     {
       "label": "F",
       "title": "Turtle Soup",
-      "qojId": 15424
+      "qojId": 15424,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3387&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 12
+      }
     },
     {
       "label": "G",
       "title": "The Messenger",
-      "qojId": 15425
+      "qojId": 15425,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3387&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 13
+      }
     },
     {
       "label": "H",
       "title": "Hot Pot",
-      "qojId": 15426
+      "qojId": 15426,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3387&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 15
+      }
     },
     {
       "label": "I",
       "title": "Shit",
-      "qojId": 15427
+      "qojId": 15427,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3387&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 17,
+        "endPage": 19
+      }
     },
     {
       "label": "J",
       "title": "Tetris",
-      "qojId": 15428
+      "qojId": 15428,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3387&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 21,
+        "endPage": 23
+      }
     },
     {
       "label": "K",
       "title": "Reverse KMP",
-      "qojId": 15429
+      "qojId": 15429,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3387&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 25,
+        "endPage": 25
+      }
     },
     {
       "label": "L",
       "title": "Tiling the Floor",
-      "qojId": 15430
+      "qojId": 15430,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3387&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 27,
+        "endPage": 28
+      }
     },
     {
       "label": "M",
       "title": "Reduction and Growth",
-      "qojId": 15431
+      "qojId": 15431,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3387&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 29,
+        "endPage": 29
+      }
     }
   ]
 }

@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "Intro: Dawn of a New Era",
-      "qojId": 7777
+      "qojId": 7777,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1449&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 2,
+        "endPage": 3
+      }
     },
     {
       "label": "B",
       "title": "Turning Permutation",
-      "qojId": 7778
+      "qojId": 7778,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1449&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 4,
+        "endPage": 4
+      }
     },
     {
       "label": "C",
       "title": "Swiss Stage",
-      "qojId": 7779
+      "qojId": 7779,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1449&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 6
+      }
     },
     {
       "label": "D",
       "title": "Dark LaTeX vs. Light LaTeX",
-      "qojId": 7780
+      "qojId": 7780,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1449&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 7,
+        "endPage": 7
+      }
     },
     {
       "label": "E",
       "title": "Sheep Eat Wolves",
-      "qojId": 7781
+      "qojId": 7781,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1449&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 9
+      }
     },
     {
       "label": "F",
       "title": "Ursa Minor",
-      "qojId": 7782
+      "qojId": 7782,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1449&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 10,
+        "endPage": 11
+      }
     },
     {
       "label": "G",
       "title": "Military Maneuver",
-      "qojId": 7783
+      "qojId": 7783,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1449&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 12,
+        "endPage": 13
+      }
     },
     {
       "label": "H",
       "title": "Line Graph Sequence",
-      "qojId": 7784
+      "qojId": 7784,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1449&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 14,
+        "endPage": 15
+      }
     },
     {
       "label": "I",
       "title": "Three Rectangles",
-      "qojId": 7785
+      "qojId": 7785,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1449&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 16,
+        "endPage": 17
+      }
     },
     {
       "label": "J",
       "title": "Graft and Transplant",
-      "qojId": 7786
+      "qojId": 7786,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1449&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 18,
+        "endPage": 18
+      }
     },
     {
       "label": "K",
       "title": "Maximum Rating",
-      "qojId": 7787
+      "qojId": 7787,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1449&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 19,
+        "endPage": 20
+      }
     },
     {
       "label": "L",
       "title": "Rook Detection",
-      "qojId": 7788
+      "qojId": 7788,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1449&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 21,
+        "endPage": 23
+      }
     },
     {
       "label": "M",
       "title": "Outro: True Love Waits",
-      "qojId": 7789
+      "qojId": 7789,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1449&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 24,
+        "endPage": 25
+      }
     }
   ]
 }

@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "DFS Order 4",
-      "qojId": 8047
+      "qojId": 8047,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1522&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 2,
+        "endPage": 3
+      }
     },
     {
       "label": "B",
       "title": "Roman Master",
-      "qojId": 8048
+      "qojId": 8048,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1522&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 4,
+        "endPage": 5
+      }
     },
     {
       "label": "C",
       "title": "Equal Sums",
-      "qojId": 8049
+      "qojId": 8049,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1522&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 7
+      }
     },
     {
       "label": "D",
       "title": "Random Permutation",
-      "qojId": 8050
+      "qojId": 8050,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1522&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 9
+      }
     },
     {
       "label": "E",
       "title": "Colorful Graph",
-      "qojId": 8051
+      "qojId": 8051,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1522&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 10,
+        "endPage": 10
+      }
     },
     {
       "label": "F",
       "title": "Dot Product",
-      "qojId": 8052
+      "qojId": 8052,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1522&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 11
+      }
     },
     {
       "label": "G",
       "title": "Flow 2",
-      "qojId": 8053
+      "qojId": 8053,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1522&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 12,
+        "endPage": 14
+      }
     },
     {
       "label": "H",
       "title": "Map 2",
-      "qojId": 8054
+      "qojId": 8054,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1522&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 16
+      }
     },
     {
       "label": "I",
       "title": "Balance",
-      "qojId": 8055
+      "qojId": 8055,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1522&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 17,
+        "endPage": 18
+      }
     },
     {
       "label": "J",
       "title": "Travel 2",
-      "qojId": 8056
+      "qojId": 8056,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1522&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 19,
+        "endPage": 20
+      }
     },
     {
       "label": "K",
       "title": "Best Carry Player 4",
-      "qojId": 8057
+      "qojId": 8057,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1522&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 21,
+        "endPage": 22
+      }
     },
     {
       "label": "L",
       "title": "Binary vs Ternary",
-      "qojId": 8058
+      "qojId": 8058,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1522&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 23,
+        "endPage": 23
+      }
     },
     {
       "label": "M",
       "title": "Circular Route",
-      "qojId": 8059
+      "qojId": 8059,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1522&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 24,
+        "endPage": 25
+      }
     }
   ]
 }

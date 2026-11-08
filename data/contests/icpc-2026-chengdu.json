@@ -24,68 +24,172 @@
     {
       "label": "A",
       "title": "Average of Averages",
-      "qojId": 23592
+      "qojId": 23592,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=4607&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 4
+      }
     },
     {
       "label": "B",
       "title": "Bouncing Particles",
-      "qojId": 23593
+      "qojId": 23593,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=4607&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 6
+      }
     },
     {
       "label": "C",
       "title": "Counting Arrays",
-      "qojId": 23594
+      "qojId": 23594,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=4607&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 7,
+        "endPage": 7
+      }
     },
     {
       "label": "D",
       "title": "Duel of Wrath",
-      "qojId": 23595
+      "qojId": 23595,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=4607&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 10
+      }
     },
     {
       "label": "E",
       "title": "Enclose the Point",
-      "qojId": 23596
+      "qojId": 23596,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=4607&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 12
+      }
     },
     {
       "label": "F",
       "title": "First Word",
-      "qojId": 23597
+      "qojId": 23597,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=4607&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 13
+      }
     },
     {
       "label": "G",
       "title": "Graph Reconstruction",
-      "qojId": 23598
+      "qojId": 23598,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=4607&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 15
+      }
     },
     {
       "label": "H",
       "title": "Hidden Order",
       "qojId": 23599,
-      "interactive": true
+      "interactive": true,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=4607&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 17,
+        "endPage": 18
+      }
     },
     {
       "label": "I",
       "title": "Invisible Edges",
-      "qojId": 23600
+      "qojId": 23600,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=4607&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 19,
+        "endPage": 20
+      }
     },
     {
       "label": "J",
       "title": "Joint Relocation",
-      "qojId": 23601
+      "qojId": 23601,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=4607&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 21,
+        "endPage": 21
+      }
     },
     {
       "label": "K",
       "title": "Keep Your Distance",
-      "qojId": 23602
+      "qojId": 23602,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=4607&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 23,
+        "endPage": 23
+      }
     },
     {
       "label": "L",
       "title": "Long Slides",
-      "qojId": 23603
+      "qojId": 23603,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=4607&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 25,
+        "endPage": 26
+      }
     },
     {
       "label": "M",
       "title": "Minimum Records",
-      "qojId": 23604
+      "qojId": 23604,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=4607&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 27,
+        "endPage": 27
+      }
     }
   ]
 }

@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "Ban or Pick, What's the Trick",
-      "qojId": 8034
+      "qojId": 8034,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1480&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 1,
+        "endPage": 2
+      }
     },
     {
       "label": "B",
       "title": "Call Me Call Me",
-      "qojId": 8035
+      "qojId": 8035,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1480&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 3
+      }
     },
     {
       "label": "C",
       "title": "Catch You Catch Me",
-      "qojId": 8036
+      "qojId": 8036,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1480&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 4,
+        "endPage": 5
+      }
     },
     {
       "label": "D",
       "title": "Gambler's Ruin",
-      "qojId": 8037
+      "qojId": 8037,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1480&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 7
+      }
     },
     {
       "label": "E",
       "title": "Hammer to Fall",
-      "qojId": 8038
+      "qojId": 8038,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1480&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 9
+      }
     },
     {
       "label": "F",
       "title": "Infinite Strife",
-      "qojId": 8039
+      "qojId": 8039,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1480&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 10,
+        "endPage": 11
+      }
     },
     {
       "label": "G",
       "title": "Let Them Eat Cake",
-      "qojId": 8040
+      "qojId": 8040,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1480&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 12,
+        "endPage": 12
+      }
     },
     {
       "label": "H",
       "title": "Life is Hard and Undecidable, but...",
-      "qojId": 8041
+      "qojId": 8041,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1480&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 15
+      }
     },
     {
       "label": "I",
       "title": "Mental Abuse To Humans",
-      "qojId": 8042
+      "qojId": 8042,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1480&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 16,
+        "endPage": 16
+      }
     },
     {
       "label": "J",
       "title": "Middle Race",
-      "qojId": 8043
+      "qojId": 8043,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1480&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 17,
+        "endPage": 18
+      }
     },
     {
       "label": "K",
       "title": "Pattern Matching in A Minor \"Low Space\"",
-      "qojId": 8044
+      "qojId": 8044,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1480&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 19,
+        "endPage": 19
+      }
     },
     {
       "label": "L",
       "title": "Por Una Cabeza",
-      "qojId": 8045
+      "qojId": 8045,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1480&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 20,
+        "endPage": 22
+      }
     },
     {
       "label": "M",
       "title": "Rock-Paper-Scissors Pyramid",
-      "qojId": 8046
+      "qojId": 8046,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1480&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 23,
+        "endPage": 24
+      }
     }
   ]
 }

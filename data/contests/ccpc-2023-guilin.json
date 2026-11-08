@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "Easy Diameter Problem",
-      "qojId": 7677
+      "qojId": 7677,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1404&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 2,
+        "endPage": 2
+      }
     },
     {
       "label": "B",
       "title": "The Game",
-      "qojId": 7678
+      "qojId": 7678,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1404&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 4
+      }
     },
     {
       "label": "C",
       "title": "Master of Both IV",
-      "qojId": 7679
+      "qojId": 7679,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1404&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 5
+      }
     },
     {
       "label": "D",
       "title": "Subway",
-      "qojId": 7680
+      "qojId": 7680,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1404&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 7
+      }
     },
     {
       "label": "E",
       "title": "Prefix Mahjong",
-      "qojId": 7681
+      "qojId": 7681,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1404&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 8
+      }
     },
     {
       "label": "F",
       "title": "Redundant Towers",
-      "qojId": 7682
+      "qojId": 7682,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1404&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 10
+      }
     },
     {
       "label": "G",
       "title": "Hard Brackets Problem",
-      "qojId": 7683
+      "qojId": 7683,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1404&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 11
+      }
     },
     {
       "label": "H",
       "title": "Sweet Sugar",
-      "qojId": 7684
+      "qojId": 7684,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1404&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 12,
+        "endPage": 12
+      }
     },
     {
       "label": "I",
       "title": "Barkley II",
-      "qojId": 7685
+      "qojId": 7685,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1404&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 13
+      }
     },
     {
       "label": "J",
       "title": "The Phantom Menace",
-      "qojId": 7686
+      "qojId": 7686,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1404&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 14,
+        "endPage": 14
+      }
     },
     {
       "label": "K",
       "title": "Randias Permutation Task",
-      "qojId": 7687
+      "qojId": 7687,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1404&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 15
+      }
     },
     {
       "label": "L",
       "title": "Alea Iacta Est",
-      "qojId": 7688
+      "qojId": 7688,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1404&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 16,
+        "endPage": 16
+      }
     },
     {
       "label": "M",
       "title": "Flipping Cards",
-      "qojId": 7689
+      "qojId": 7689,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1404&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 17,
+        "endPage": 17
+      }
     }
   ]
 }

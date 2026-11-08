@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "Arrow a Row",
-      "qojId": 9535
+      "qojId": 9535,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1821&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 2,
+        "endPage": 2
+      }
     },
     {
       "label": "B",
       "title": "Athlete Welcome Ceremony",
-      "qojId": 9536
+      "qojId": 9536,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1821&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 3
+      }
     },
     {
       "label": "C",
       "title": "Chinese Chess",
-      "qojId": 9537
+      "qojId": 9537,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1821&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 4,
+        "endPage": 5
+      }
     },
     {
       "label": "D",
       "title": "Closest Derangement",
-      "qojId": 9538
+      "qojId": 9538,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1821&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 6
+      }
     },
     {
       "label": "E",
       "title": "Disrupting Communications",
-      "qojId": 9539
+      "qojId": 9539,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1821&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 7,
+        "endPage": 7
+      }
     },
     {
       "label": "F",
       "title": "Double 11",
-      "qojId": 9540
+      "qojId": 9540,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1821&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 8
+      }
     },
     {
       "label": "G",
       "title": "Expanding Array",
-      "qojId": 9541
+      "qojId": 9541,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1821&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 9
+      }
     },
     {
       "label": "H",
       "title": "Friendship is Magic",
-      "qojId": 9542
+      "qojId": 9542,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1821&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 10,
+        "endPage": 10
+      }
     },
     {
       "label": "I",
       "title": "Good Partitions",
-      "qojId": 9543
+      "qojId": 9543,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1821&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 11
+      }
     },
     {
       "label": "J",
       "title": "Grand Prix of Ballance",
-      "qojId": 9544
+      "qojId": 9544,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1821&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 12,
+        "endPage": 13
+      }
     },
     {
       "label": "K",
       "title": "Magical Set",
-      "qojId": 9545
+      "qojId": 9545,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1821&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 14,
+        "endPage": 14
+      }
     },
     {
       "label": "L",
       "title": "Recover Statistics",
-      "qojId": 9546
+      "qojId": 9546,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1821&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 15
+      }
     },
     {
       "label": "M",
       "title": "Two Convex Holes",
-      "qojId": 9547
+      "qojId": 9547,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1821&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 16,
+        "endPage": 17
+      }
     }
   ]
 }

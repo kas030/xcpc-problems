@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "Menji, we miss you!",
-      "qojId": 15314
+      "qojId": 15314,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2908&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 2,
+        "endPage": 3
+      }
     },
     {
       "label": "B",
       "title": "Hamu",
-      "qojId": 15315
+      "qojId": 15315,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2908&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 4,
+        "endPage": 5
+      }
     },
     {
       "label": "C",
       "title": "Singularity",
-      "qojId": 15316
+      "qojId": 15316,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2908&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 7
+      }
     },
     {
       "label": "D",
       "title": "Not a subset sum",
-      "qojId": 15317
+      "qojId": 15317,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2908&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 8
+      }
     },
     {
       "label": "E",
       "title": "Flower's land 3",
-      "qojId": 15318
+      "qojId": 15318,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2908&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 9
+      }
     },
     {
       "label": "F",
       "title": "Flower's land 4",
-      "qojId": 15319
+      "qojId": 15319,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2908&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 10,
+        "endPage": 10
+      }
     },
     {
       "label": "G",
       "title": "Gemcrate",
-      "qojId": 15320
+      "qojId": 15320,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2908&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 11
+      }
     },
     {
       "label": "H",
       "title": "AGI",
-      "qojId": 15321
+      "qojId": 15321,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2908&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 12,
+        "endPage": 12
+      }
     },
     {
       "label": "I",
       "title": "Round screws",
-      "qojId": 15322
+      "qojId": 15322,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2908&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 13
+      }
     },
     {
       "label": "J",
       "title": "Yet another mailbox problem",
-      "qojId": 15323
+      "qojId": 15323,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2908&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 14,
+        "endPage": 16
+      }
     },
     {
       "label": "K",
       "title": "No more regrets",
-      "qojId": 15324
+      "qojId": 15324,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2908&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 17,
+        "endPage": 18
+      }
     },
     {
       "label": "L",
       "title": "Yet another permutation problem",
-      "qojId": 15325
+      "qojId": 15325,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2908&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 19,
+        "endPage": 19
+      }
     },
     {
       "label": "M",
       "title": "Yet another 01 problem",
-      "qojId": 15326
+      "qojId": 15326,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2908&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 20,
+        "endPage": 21
+      }
     }
   ]
 }

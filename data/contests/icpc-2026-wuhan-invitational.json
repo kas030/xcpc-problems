@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "Sort",
-      "qojId": 18428
+      "qojId": 18428,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3799&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 2,
+        "endPage": 2
+      }
     },
     {
       "label": "B",
       "title": "Sequence Operations",
-      "qojId": 18429
+      "qojId": 18429,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3799&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 4
+      }
     },
     {
       "label": "C",
       "title": "Believe in You",
-      "qojId": 18430
+      "qojId": 18430,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3799&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 7
+      }
     },
     {
       "label": "D",
       "title": "Prime Game",
-      "qojId": 18431
+      "qojId": 18431,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3799&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 8
+      }
     },
     {
       "label": "E",
       "title": "Rook",
-      "qojId": 18432
+      "qojId": 18432,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3799&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 9
+      }
     },
     {
       "label": "F",
       "title": "Lottery",
-      "qojId": 18433
+      "qojId": 18433,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3799&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 10,
+        "endPage": 10
+      }
     },
     {
       "label": "G",
       "title": "I Will Always Remember You",
-      "qojId": 18434
+      "qojId": 18434,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3799&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 12
+      }
     },
     {
       "label": "H",
       "title": "Rectangle Cutting",
-      "qojId": 18435
+      "qojId": 18435,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3799&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 14
+      }
     },
     {
       "label": "I",
       "title": "Nailoong vs. Bombloong 2",
-      "qojId": 18436
+      "qojId": 18436,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3799&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 16
+      }
     },
     {
       "label": "J",
       "title": "The Best Card",
-      "qojId": 18437
+      "qojId": 18437,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3799&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 17,
+        "endPage": 18
+      }
     },
     {
       "label": "K",
       "title": "Deletion Game",
-      "qojId": 18438
+      "qojId": 18438,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3799&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 19,
+        "endPage": 20
+      }
     },
     {
       "label": "L",
       "title": "String Matching",
-      "qojId": 18439
+      "qojId": 18439,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3799&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 21,
+        "endPage": 21
+      }
     },
     {
       "label": "M",
       "title": "Iroha and the Kingdom of Construction",
-      "qojId": 18440
+      "qojId": 18440,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3799&r=1",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 22,
+        "endPage": 23
+      }
     }
   ]
 }

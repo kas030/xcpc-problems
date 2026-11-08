@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "Coloring",
-      "qojId": 6298
+      "qojId": 6298,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1197&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 1,
+        "endPage": 2
+      }
     },
     {
       "label": "B",
       "title": "Binary String",
-      "qojId": 6299
+      "qojId": 6299,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1197&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 3
+      }
     },
     {
       "label": "C",
       "title": "Best Carry Player 2",
-      "qojId": 6300
+      "qojId": 6300,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1197&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 4,
+        "endPage": 4
+      }
     },
     {
       "label": "D",
       "title": "Minimum Suffix",
-      "qojId": 6301
+      "qojId": 6301,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1197&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 5
+      }
     },
     {
       "label": "E",
       "title": "Map",
-      "qojId": 6302
+      "qojId": 6302,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1197&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 7
+      }
     },
     {
       "label": "F",
       "title": "Inversion",
-      "qojId": 6303
+      "qojId": 6303,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1197&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 8
+      }
     },
     {
       "label": "G",
       "title": "Rectangle",
-      "qojId": 6304
+      "qojId": 6304,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1197&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 9
+      }
     },
     {
       "label": "H",
       "title": "Chinese Checker",
-      "qojId": 6305
+      "qojId": 6305,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1197&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 10,
+        "endPage": 11
+      }
     },
     {
       "label": "I",
       "title": "Chase Game",
-      "qojId": 6306
+      "qojId": 6306,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1197&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 12,
+        "endPage": 13
+      }
     },
     {
       "label": "J",
       "title": "Chase Game 2",
-      "qojId": 6307
+      "qojId": 6307,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1197&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 14,
+        "endPage": 14
+      }
     },
     {
       "label": "K",
       "title": "Magic",
-      "qojId": 6308
+      "qojId": 6308,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1197&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 15
+      }
     },
     {
       "label": "L",
       "title": "Aqre",
-      "qojId": 6309
+      "qojId": 6309,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1197&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 16,
+        "endPage": 16
+      }
     },
     {
       "label": "M",
       "title": "Dining Professors",
-      "qojId": 6310
+      "qojId": 6310,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1197&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 17,
+        "endPage": 17
+      }
     }
   ]
 }

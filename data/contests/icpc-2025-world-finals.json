@@ -24,62 +24,158 @@
     {
       "label": "A",
       "title": "A-Skew-ed Reasoning",
-      "qojId": 14601
+      "qojId": 14601,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2522&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 1,
+        "endPage": 2
+      }
     },
     {
       "label": "B",
       "title": "Blackboard Game",
-      "qojId": 14602
+      "qojId": 14602,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2522&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 3
+      }
     },
     {
       "label": "C",
       "title": "Bride of Pipe Stream",
-      "qojId": 14603
+      "qojId": 14603,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2522&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 6
+      }
     },
     {
       "label": "D",
       "title": "Buggy Rover",
-      "qojId": 14604
+      "qojId": 14604,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2522&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 7,
+        "endPage": 8
+      }
     },
     {
       "label": "E",
       "title": "Delivery Service",
-      "qojId": 14605
+      "qojId": 14605,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2522&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 10
+      }
     },
     {
       "label": "F",
       "title": "Herding Cats",
-      "qojId": 14606
+      "qojId": 14606,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2522&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 12
+      }
     },
     {
       "label": "G",
       "title": "Lava Moat",
-      "qojId": 14607
+      "qojId": 14607,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2522&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 14
+      }
     },
     {
       "label": "H",
       "title": "Score Values",
-      "qojId": 14608
+      "qojId": 14608,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2522&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 16
+      }
     },
     {
       "label": "I",
       "title": "Slot Machine",
-      "qojId": 14609
+      "qojId": 14609,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2522&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 17,
+        "endPage": 18
+      }
     },
     {
       "label": "J",
       "title": "Stacking Cups",
-      "qojId": 14610
+      "qojId": 14610,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2522&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 19,
+        "endPage": 20
+      }
     },
     {
       "label": "K",
       "title": "Treasure Map",
-      "qojId": 14611
+      "qojId": 14611,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2522&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 21,
+        "endPage": 22
+      }
     },
     {
       "label": "L",
       "title": "Walking on Sunshine",
-      "qojId": 14612
+      "qojId": 14612,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2522&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 23,
+        "endPage": 24
+      }
     }
   ]
 }

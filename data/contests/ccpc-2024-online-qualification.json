@@ -24,62 +24,158 @@
     {
       "label": "A",
       "title": "军训 I",
-      "qojId": 14522
+      "qojId": 14522,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2530&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 1,
+        "endPage": 2
+      }
     },
     {
       "label": "B",
       "title": "军训 II",
-      "qojId": 14523
+      "qojId": 14523,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2530&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 3
+      }
     },
     {
       "label": "C",
       "title": "种树",
-      "qojId": 14524
+      "qojId": 14524,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2530&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 4,
+        "endPage": 4
+      }
     },
     {
       "label": "D",
       "title": "编码器-解码器",
-      "qojId": 14525
+      "qojId": 14525,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2530&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 5
+      }
     },
     {
       "label": "E",
       "title": "随机过程",
-      "qojId": 14526
+      "qojId": 14526,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2530&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 6
+      }
     },
     {
       "label": "F",
       "title": "包子鸡蛋 III",
-      "qojId": 14527
+      "qojId": 14527,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2530&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 7,
+        "endPage": 7
+      }
     },
     {
       "label": "G",
       "title": "疯狂星期六",
-      "qojId": 14528
+      "qojId": 14528,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2530&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 8
+      }
     },
     {
       "label": "H",
       "title": "另一个游戏",
-      "qojId": 14529
+      "qojId": 14529,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2530&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 9
+      }
     },
     {
       "label": "I",
       "title": "找行李",
-      "qojId": 14530
+      "qojId": 14530,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2530&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 10,
+        "endPage": 10
+      }
     },
     {
       "label": "J",
       "title": "找最小",
-      "qojId": 14531
+      "qojId": 14531,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2530&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 11
+      }
     },
     {
       "label": "K",
       "title": "取沙子游戏",
-      "qojId": 14532
+      "qojId": 14532,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2530&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 12,
+        "endPage": 12
+      }
     },
     {
       "label": "L",
       "title": "网络预选赛",
-      "qojId": 14533
+      "qojId": 14533,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2530&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 13
+      }
     }
   ]
 }

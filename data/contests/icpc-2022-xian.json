@@ -24,62 +24,158 @@
     {
       "label": "A",
       "title": "Bridge",
-      "qojId": 5113
+      "qojId": 5113,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1051&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 1,
+        "endPage": 1
+      }
     },
     {
       "label": "B",
       "title": "Cells Coloring",
-      "qojId": 5114
+      "qojId": 5114,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1051&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 2,
+        "endPage": 2
+      }
     },
     {
       "label": "C",
       "title": "Clone Ranran",
-      "qojId": 5115
+      "qojId": 5115,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1051&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 3
+      }
     },
     {
       "label": "D",
       "title": "Contests",
-      "qojId": 5116
+      "qojId": 5116,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1051&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 4,
+        "endPage": 4
+      }
     },
     {
       "label": "E",
       "title": "Find Maximum",
-      "qojId": 5117
+      "qojId": 5117,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1051&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 5
+      }
     },
     {
       "label": "F",
       "title": "Hotel",
-      "qojId": 5118
+      "qojId": 5118,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1051&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 6
+      }
     },
     {
       "label": "G",
       "title": "Perfect Word",
-      "qojId": 5119
+      "qojId": 5119,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1051&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 7,
+        "endPage": 7
+      }
     },
     {
       "label": "H",
       "title": "Power of Two",
-      "qojId": 5120
+      "qojId": 5120,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1051&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 9
+      }
     },
     {
       "label": "I",
       "title": "Square Grid",
-      "qojId": 5121
+      "qojId": 5121,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1051&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 10,
+        "endPage": 10
+      }
     },
     {
       "label": "J",
       "title": "Strange Sum",
-      "qojId": 5122
+      "qojId": 5122,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1051&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 11
+      }
     },
     {
       "label": "K",
       "title": "Streets",
-      "qojId": 5123
+      "qojId": 5123,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1051&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 12,
+        "endPage": 13
+      }
     },
     {
       "label": "L",
       "title": "Tree",
-      "qojId": 5124
+      "qojId": 5124,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1051&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 14,
+        "endPage": 14
+      }
     }
   ]
 }

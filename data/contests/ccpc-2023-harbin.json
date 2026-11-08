@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "Go go Baron Bunny!",
-      "qojId": 7746
+      "qojId": 7746,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1412&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 2,
+        "endPage": 3
+      }
     },
     {
       "label": "B",
       "title": "Memory",
-      "qojId": 7747
+      "qojId": 7747,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1412&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 4,
+        "endPage": 4
+      }
     },
     {
       "label": "C",
       "title": "Karshilov's Matching Problem II",
-      "qojId": 7748
+      "qojId": 7748,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1412&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 5
+      }
     },
     {
       "label": "D",
       "title": "A Simple MST Problem",
-      "qojId": 7749
+      "qojId": 7749,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1412&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 6
+      }
     },
     {
       "label": "E",
       "title": "Revenge on My Boss",
-      "qojId": 7750
+      "qojId": 7750,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1412&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 7,
+        "endPage": 8
+      }
     },
     {
       "label": "F",
       "title": "Palindrome Path",
-      "qojId": 7751
+      "qojId": 7751,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1412&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 10
+      }
     },
     {
       "label": "G",
       "title": "The Only Way to the Destination",
-      "qojId": 7752
+      "qojId": 7752,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1412&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 12
+      }
     },
     {
       "label": "H",
       "title": "Energy Distribution",
-      "qojId": 7753
+      "qojId": 7753,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1412&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 13
+      }
     },
     {
       "label": "I",
       "title": "Rolling For Days",
-      "qojId": 7754
+      "qojId": 7754,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1412&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 14,
+        "endPage": 15
+      }
     },
     {
       "label": "J",
       "title": "Game on a Forest",
-      "qojId": 7755
+      "qojId": 7755,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1412&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 16,
+        "endPage": 16
+      }
     },
     {
       "label": "K",
       "title": "Omniscia Spares None",
-      "qojId": 7756
+      "qojId": 7756,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1412&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 17,
+        "endPage": 19
+      }
     },
     {
       "label": "L",
       "title": "Palm Island",
-      "qojId": 7757
+      "qojId": 7757,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1412&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 20,
+        "endPage": 21
+      }
     },
     {
       "label": "M",
       "title": "Painter",
-      "qojId": 7758
+      "qojId": 7758,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1412&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 22,
+        "endPage": 23
+      }
     }
   ]
 }

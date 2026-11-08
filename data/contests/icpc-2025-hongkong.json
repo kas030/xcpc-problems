@@ -24,62 +24,158 @@
     {
       "label": "A",
       "title": "Bipartite Graph Matching Problem",
-      "qojId": 15432
+      "qojId": 15432,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3169&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 1,
+        "endPage": 2
+      }
     },
     {
       "label": "B",
       "title": "Travelling",
-      "qojId": 15433
+      "qojId": 15433,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3169&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 4
+      }
     },
     {
       "label": "C",
       "title": "Stonebag",
-      "qojId": 15434
+      "qojId": 15434,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3169&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 5
+      }
     },
     {
       "label": "D",
       "title": "Dumb Problem",
-      "qojId": 15435
+      "qojId": 15435,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3169&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 6
+      }
     },
     {
       "label": "E",
       "title": "Bipartite Graph Weighting Problem",
-      "qojId": 15436
+      "qojId": 15436,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3169&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 7,
+        "endPage": 8
+      }
     },
     {
       "label": "F",
       "title": "Find the Circuit",
-      "qojId": 15437
+      "qojId": 15437,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3169&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 10
+      }
     },
     {
       "label": "G",
       "title": "Watering System",
-      "qojId": 15438
+      "qojId": 15438,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3169&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 12
+      }
     },
     {
       "label": "H",
       "title": "Longest Common Prefix",
-      "qojId": 15439
+      "qojId": 15439,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3169&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 13
+      }
     },
     {
       "label": "I",
       "title": "DFS Order - Extra Stage",
-      "qojId": 15440
+      "qojId": 15440,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3169&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 14,
+        "endPage": 14
+      }
     },
     {
       "label": "J",
       "title": "Re: Becoming the Programming Champion",
-      "qojId": 15441
+      "qojId": 15441,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3169&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 16
+      }
     },
     {
       "label": "K",
       "title": "Cyclic Shift",
-      "qojId": 15442
+      "qojId": 15442,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3169&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 17,
+        "endPage": 17
+      }
     },
     {
       "label": "L",
       "title": "Cyclic Shift II",
-      "qojId": 15443
+      "qojId": 15443,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3169&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 18,
+        "endPage": 20
+      }
     }
   ]
 }

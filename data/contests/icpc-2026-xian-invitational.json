@@ -24,72 +24,184 @@
     {
       "label": "A",
       "title": "North and South",
-      "qojId": 17342
+      "qojId": 17342,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3766&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 4
+      }
     },
     {
       "label": "B",
       "title": "Operating Robot",
-      "qojId": 17343
+      "qojId": 17343,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3766&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 6
+      }
     },
     {
       "label": "C",
       "title": "Palindromic and Balanced",
-      "qojId": 17344
+      "qojId": 17344,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3766&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 7,
+        "endPage": 8
+      }
     },
     {
       "label": "D",
       "title": "Qenerals",
-      "qojId": 17345
+      "qojId": 17345,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3766&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 10
+      }
     },
     {
       "label": "E",
       "title": "Registration",
-      "qojId": 17346
+      "qojId": 17346,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3766&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 12
+      }
     },
     {
       "label": "F",
       "title": "Split Sticks",
-      "qojId": 17347
+      "qojId": 17347,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3766&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 14
+      }
     },
     {
       "label": "G",
       "title": "Transform",
-      "qojId": 17348
+      "qojId": 17348,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3766&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 16
+      }
     },
     {
       "label": "H",
       "title": "Unreachable Land",
-      "qojId": 17349
+      "qojId": 17349,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3766&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 17,
+        "endPage": 17
+      }
     },
     {
       "label": "I",
       "title": "VIP Coupon",
-      "qojId": 17350
+      "qojId": 17350,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3766&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 18,
+        "endPage": 19
+      }
     },
     {
       "label": "J",
       "title": "Would You Make a Convex?",
-      "qojId": 17351
+      "qojId": 17351,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3766&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 20,
+        "endPage": 21
+      }
     },
     {
       "label": "K",
       "title": "XOR and LCA",
-      "qojId": 17352
+      "qojId": 17352,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3766&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 22,
+        "endPage": 23
+      }
     },
     {
       "label": "L",
       "title": "Yesterday Once More (Easy Version)",
-      "qojId": 17353
+      "qojId": 17353,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3766&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 24,
+        "endPage": 25
+      }
     },
     {
       "label": "M",
       "title": "Yesterday Once More (Hard Version)",
-      "qojId": 17354
+      "qojId": 17354,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3766&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 26,
+        "endPage": 27
+      }
     },
     {
       "label": "N",
       "title": "Zebra Crossing",
-      "qojId": 17355
+      "qojId": 17355,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=3766&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 28,
+        "endPage": 29
+      }
     }
   ]
 }

@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "World Cup",
-      "qojId": 9308
+      "qojId": 9308,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1794&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 1,
+        "endPage": 1
+      }
     },
     {
       "label": "B",
       "title": "Graph",
-      "qojId": 9309
+      "qojId": 9309,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1794&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 2,
+        "endPage": 2
+      }
     },
     {
       "label": "C",
       "title": "Permutation Counting 4",
-      "qojId": 9310
+      "qojId": 9310,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1794&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 3
+      }
     },
     {
       "label": "D",
       "title": "Protection War",
-      "qojId": 9311
+      "qojId": 9311,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1794&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 4,
+        "endPage": 5
+      }
     },
     {
       "label": "E",
       "title": "Random Dungeon",
-      "qojId": 9312
+      "qojId": 9312,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1794&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 6
+      }
     },
     {
       "label": "F",
       "title": "Make Max",
-      "qojId": 9313
+      "qojId": 9313,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1794&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 7,
+        "endPage": 7
+      }
     },
     {
       "label": "G",
       "title": "The Median of the Median of the Median",
-      "qojId": 9314
+      "qojId": 9314,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1794&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 8
+      }
     },
     {
       "label": "H",
       "title": "Rainbow Bracket Sequence",
-      "qojId": 9315
+      "qojId": 9315,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1794&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 9
+      }
     },
     {
       "label": "I",
       "title": "Boxes",
-      "qojId": 9316
+      "qojId": 9316,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1794&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 10,
+        "endPage": 11
+      }
     },
     {
       "label": "J",
       "title": "Rivals",
-      "qojId": 9317
+      "qojId": 9317,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1794&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 12,
+        "endPage": 12
+      }
     },
     {
       "label": "K",
       "title": "AC Automation Chicken",
-      "qojId": 9318
+      "qojId": 9318,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1794&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 14
+      }
     },
     {
       "label": "L",
       "title": "Bull Farm",
-      "qojId": 9319
+      "qojId": 9319,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1794&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 16
+      }
     },
     {
       "label": "M",
       "title": "Find the Easiest Problem",
-      "qojId": 9320
+      "qojId": 9320,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1794&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 17,
+        "endPage": 18
+      }
     }
   ]
 }

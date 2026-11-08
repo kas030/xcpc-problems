@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "A Good Problem",
-      "qojId": 8328
+      "qojId": 8328,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1540&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 2,
+        "endPage": 2
+      }
     },
     {
       "label": "B",
       "title": "Excuse",
-      "qojId": 8329
+      "qojId": 8329,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1540&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 3
+      }
     },
     {
       "label": "C",
       "title": "Count off 3",
-      "qojId": 8330
+      "qojId": 8330,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1540&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 4,
+        "endPage": 5
+      }
     },
     {
       "label": "D",
       "title": "Bot Brothers",
-      "qojId": 8331
+      "qojId": 8331,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1540&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 7
+      }
     },
     {
       "label": "E",
       "title": "Two in One",
-      "qojId": 8332
+      "qojId": 8332,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1540&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 8
+      }
     },
     {
       "label": "F",
       "title": "Gift",
-      "qojId": 8333
+      "qojId": 8333,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1540&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 9
+      }
     },
     {
       "label": "G",
       "title": "Gene",
-      "qojId": 8334
+      "qojId": 8334,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1540&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 10,
+        "endPage": 11
+      }
     },
     {
       "label": "H",
       "title": "Fast Hash Transform",
-      "qojId": 8335
+      "qojId": 8335,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1540&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 12,
+        "endPage": 14
+      }
     },
     {
       "label": "I",
       "title": "Indeterminate Equation",
-      "qojId": 8336
+      "qojId": 8336,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1540&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 15
+      }
     },
     {
       "label": "J",
       "title": "Counter Reset Problem",
-      "qojId": 8337
+      "qojId": 8337,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1540&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 16,
+        "endPage": 16
+      }
     },
     {
       "label": "K",
       "title": "Quad Kingdoms Chess",
-      "qojId": 8338
+      "qojId": 8338,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1540&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 17,
+        "endPage": 18
+      }
     },
     {
       "label": "L",
       "title": "Rooted Tree",
-      "qojId": 8339
+      "qojId": 8339,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1540&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 19,
+        "endPage": 19
+      }
     },
     {
       "label": "M",
       "title": "3 Sum",
-      "qojId": 8340
+      "qojId": 8340,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1540&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 20,
+        "endPage": 20
+      }
     }
   ]
 }

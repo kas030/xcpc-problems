@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "AUS",
-      "qojId": 9726
+      "qojId": 9726,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1893&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 1,
+        "endPage": 1
+      }
     },
     {
       "label": "B",
       "title": "Barkley III",
-      "qojId": 9727
+      "qojId": 9727,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1893&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 2,
+        "endPage": 2
+      }
     },
     {
       "label": "C",
       "title": "Catch the Star",
-      "qojId": 9728
+      "qojId": 9728,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1893&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 5
+      }
     },
     {
       "label": "D",
       "title": "Dividing Sequence",
-      "qojId": 9729
+      "qojId": 9729,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1893&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 6
+      }
     },
     {
       "label": "E",
       "title": "Elevator II",
-      "qojId": 9730
+      "qojId": 9730,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1893&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 7,
+        "endPage": 7
+      }
     },
     {
       "label": "F",
       "title": "Fuzzy Ranking",
-      "qojId": 9731
+      "qojId": 9731,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1893&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 9
+      }
     },
     {
       "label": "G",
       "title": "Gathering Mushrooms",
-      "qojId": 9732
+      "qojId": 9732,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1893&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 10,
+        "endPage": 10
+      }
     },
     {
       "label": "H",
       "title": "Heavy-light Decomposition",
-      "qojId": 9733
+      "qojId": 9733,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1893&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 12
+      }
     },
     {
       "label": "I",
       "title": "Identify Chord",
-      "qojId": 9734
+      "qojId": 9734,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1893&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 14
+      }
     },
     {
       "label": "J",
       "title": "Japanese Bands",
-      "qojId": 9735
+      "qojId": 9735,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1893&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 15
+      }
     },
     {
       "label": "K",
       "title": "Kind of Bingo",
-      "qojId": 9736
+      "qojId": 9736,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1893&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 16,
+        "endPage": 16
+      }
     },
     {
       "label": "L",
       "title": "Let's Go! New Adventure",
-      "qojId": 9737
+      "qojId": 9737,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1893&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 17,
+        "endPage": 18
+      }
     },
     {
       "label": "M",
       "title": "Make It Divisible",
-      "qojId": 9738
+      "qojId": 9738,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1893&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 19,
+        "endPage": 19
+      }
     }
   ]
 }

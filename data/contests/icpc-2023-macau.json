@@ -24,57 +24,145 @@
     {
       "label": "A",
       "title": "(-1,1)-Sumplete",
-      "qojId": 7857
+      "qojId": 7857,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1459&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 2,
+        "endPage": 3
+      }
     },
     {
       "label": "B",
       "title": "Basic Equation Solving",
-      "qojId": 7858
+      "qojId": 7858,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1459&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 4,
+        "endPage": 4
+      }
     },
     {
       "label": "C",
       "title": "Bladestorm",
-      "qojId": 7859
+      "qojId": 7859,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1459&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 6
+      }
     },
     {
       "label": "D",
       "title": "Graph of Maximum Degree 3",
-      "qojId": 7860
+      "qojId": 7860,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1459&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 7,
+        "endPage": 8
+      }
     },
     {
       "label": "E",
       "title": "Inverse Topological Sort",
-      "qojId": 7861
+      "qojId": 7861,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1459&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 10
+      }
     },
     {
       "label": "F",
       "title": "Land Trade",
-      "qojId": 7862
+      "qojId": 7862,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1459&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 12
+      }
     },
     {
       "label": "G",
       "title": "Parity Game",
-      "qojId": 7863
+      "qojId": 7863,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1459&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 15
+      }
     },
     {
       "label": "H",
       "title": "Random Tree Parking",
-      "qojId": 7864
+      "qojId": 7864,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1459&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 16,
+        "endPage": 17
+      }
     },
     {
       "label": "I",
       "title": "Refresher into Midas",
-      "qojId": 7865
+      "qojId": 7865,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1459&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 18,
+        "endPage": 19
+      }
     },
     {
       "label": "J",
       "title": "Teleportation",
-      "qojId": 7866
+      "qojId": 7866,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1459&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 20,
+        "endPage": 21
+      }
     },
     {
       "label": "K",
       "title": "Understand",
-      "qojId": 7867
+      "qojId": 7867,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1459&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 22,
+        "endPage": 23
+      }
     }
   ]
 }

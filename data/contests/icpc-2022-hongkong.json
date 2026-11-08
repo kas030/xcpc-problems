@@ -24,62 +24,158 @@
     {
       "label": "A",
       "title": "TreeScript",
-      "qojId": 5455
+      "qojId": 5455,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1099&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 2,
+        "endPage": 2
+      }
     },
     {
       "label": "B",
       "title": "Big Picture",
-      "qojId": 5456
+      "qojId": 5456,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1099&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 4
+      }
     },
     {
       "label": "C",
       "title": "Painting Grid",
-      "qojId": 5457
+      "qojId": 5457,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1099&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 5
+      }
     },
     {
       "label": "D",
       "title": "Shortest Path Query",
-      "qojId": 5458
+      "qojId": 5458,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1099&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 6
+      }
     },
     {
       "label": "E",
       "title": "Goose, goose, DUCK?",
-      "qojId": 5459
+      "qojId": 5459,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1099&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 7,
+        "endPage": 7
+      }
     },
     {
       "label": "F",
       "title": "Sum of Numbers",
-      "qojId": 5460
+      "qojId": 5460,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1099&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 8
+      }
     },
     {
       "label": "G",
       "title": "Paddle Star",
-      "qojId": 5461
+      "qojId": 5461,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1099&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 10
+      }
     },
     {
       "label": "H",
       "title": "Another Goose Goose Duck Problem",
-      "qojId": 5462
+      "qojId": 5462,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1099&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 11
+      }
     },
     {
       "label": "I",
       "title": "Range Closest Pair of Points Query",
-      "qojId": 5463
+      "qojId": 5463,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1099&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 12,
+        "endPage": 12
+      }
     },
     {
       "label": "J",
       "title": "Dice Game",
-      "qojId": 5464
+      "qojId": 5464,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1099&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 13
+      }
     },
     {
       "label": "K",
       "title": "Maximum GCD",
-      "qojId": 5465
+      "qojId": 5465,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1099&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 14,
+        "endPage": 14
+      }
     },
     {
       "label": "L",
       "title": "Permutation Compression",
-      "qojId": 5466
+      "qojId": 5466,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1099&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 15
+      }
     }
   ]
 }

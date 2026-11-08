@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "Tower",
-      "qojId": 5137
+      "qojId": 5137,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1053&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 1,
+        "endPage": 1
+      }
     },
     {
       "label": "B",
       "title": "Torch",
-      "qojId": 5138
+      "qojId": 5138,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1053&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 2,
+        "endPage": 3
+      }
     },
     {
       "label": "C",
       "title": "DFS Order 2",
-      "qojId": 5139
+      "qojId": 5139,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1053&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 4,
+        "endPage": 4
+      }
     },
     {
       "label": "D",
       "title": "Frozen Scoreboard",
-      "qojId": 5140
+      "qojId": 5140,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1053&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 7
+      }
     },
     {
       "label": "E",
       "title": "Identical Parity",
-      "qojId": 5141
+      "qojId": 5141,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1053&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 8
+      }
     },
     {
       "label": "F",
       "title": "Grid Points",
-      "qojId": 5142
+      "qojId": 5142,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1053&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 10
+      }
     },
     {
       "label": "G",
       "title": "Quick Sort",
-      "qojId": 5143
+      "qojId": 5143,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1053&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 12
+      }
     },
     {
       "label": "H",
       "title": "Set of Intervals",
-      "qojId": 5144
+      "qojId": 5144,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1053&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 13
+      }
     },
     {
       "label": "I",
       "title": "Shortest Path",
-      "qojId": 5145
+      "qojId": 5145,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1053&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 14,
+        "endPage": 14
+      }
     },
     {
       "label": "J",
       "title": "Skills",
-      "qojId": 5146
+      "qojId": 5146,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1053&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 15
+      }
     },
     {
       "label": "K",
       "title": "Stack Sort",
-      "qojId": 5147
+      "qojId": 5147,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1053&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 16,
+        "endPage": 16
+      }
     },
     {
       "label": "L",
       "title": "Tree Distance",
-      "qojId": 5148
+      "qojId": 5148,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1053&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 17,
+        "endPage": 17
+      }
     },
     {
       "label": "M",
       "title": "Best Carry Player",
-      "qojId": 5149
+      "qojId": 5149,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1053&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 18,
+        "endPage": 18
+      }
     }
   ]
 }

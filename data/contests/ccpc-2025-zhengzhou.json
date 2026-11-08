@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "Challenge Matrix Multiplication II",
-      "qojId": 15301
+      "qojId": 15301,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2661&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 1,
+        "endPage": 1
+      }
     },
     {
       "label": "B",
       "title": "Cutting Chocolate",
-      "qojId": 15302
+      "qojId": 15302,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2661&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 2,
+        "endPage": 3
+      }
     },
     {
       "label": "C",
       "title": "Basic Counting Practice Problems",
-      "qojId": 15303
+      "qojId": 15303,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2661&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 4,
+        "endPage": 4
+      }
     },
     {
       "label": "D",
       "title": "Diameter of a Tree",
-      "qojId": 15304
+      "qojId": 15304,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2661&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 6
+      }
     },
     {
       "label": "E",
       "title": "Doo Doo Doo",
-      "qojId": 15305
+      "qojId": 15305,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2661&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 7,
+        "endPage": 7
+      }
     },
     {
       "label": "F",
       "title": "Challenge NPC II",
-      "qojId": 15306
+      "qojId": 15306,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2661&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 9
+      }
     },
     {
       "label": "G",
       "title": "Plus Xor",
-      "qojId": 15307
+      "qojId": 15307,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2661&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 10,
+        "endPage": 10
+      }
     },
     {
       "label": "H",
       "title": "Random Shuffle",
-      "qojId": 15308
+      "qojId": 15308,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2661&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 12
+      }
     },
     {
       "label": "I",
       "title": "Dumb Problem II",
-      "qojId": 15309
+      "qojId": 15309,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2661&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 13
+      }
     },
     {
       "label": "J",
       "title": "Subrectangle Count",
-      "qojId": 15310
+      "qojId": 15310,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2661&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 14,
+        "endPage": 14
+      }
     },
     {
       "label": "K",
       "title": "Parentheses and Swapping",
-      "qojId": 15311
+      "qojId": 15311,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2661&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 15
+      }
     },
     {
       "label": "L",
       "title": "Triangle Grid",
-      "qojId": 15312
+      "qojId": 15312,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2661&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 16,
+        "endPage": 18
+      }
     },
     {
       "label": "M",
       "title": "Replacement",
-      "qojId": 15313
+      "qojId": 15313,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2661&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 19,
+        "endPage": 19
+      }
     }
   ]
 }

@@ -24,62 +24,158 @@
     {
       "label": "A",
       "title": "Almost Prefix Concatenation",
-      "qojId": 7512
+      "qojId": 7512,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1358&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 1,
+        "endPage": 1
+      }
     },
     {
       "label": "B",
       "title": "Palindromic Beads",
-      "qojId": 7513
+      "qojId": 7513,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1358&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 2,
+        "endPage": 2
+      }
     },
     {
       "label": "C",
       "title": "Clique Challenge",
-      "qojId": 7514
+      "qojId": 7514,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1358&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 3
+      }
     },
     {
       "label": "D",
       "title": "Discrete Fourier Transform",
-      "qojId": 7515
+      "qojId": 7515,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1358&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 4,
+        "endPage": 4
+      }
     },
     {
       "label": "E",
       "title": "Robot Experiment",
-      "qojId": 7516
+      "qojId": 7516,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1358&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 5
+      }
     },
     {
       "label": "F",
       "title": "Flying Ship Story",
-      "qojId": 7517
+      "qojId": 7517,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1358&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 6
+      }
     },
     {
       "label": "G",
       "title": "GCD of Pattern Matching",
-      "qojId": 7518
+      "qojId": 7518,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1358&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 7,
+        "endPage": 7
+      }
     },
     {
       "label": "H",
       "title": "Hurricane",
-      "qojId": 7519
+      "qojId": 7519,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1358&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 8
+      }
     },
     {
       "label": "I",
       "title": "Monster Generator",
-      "qojId": 7520
+      "qojId": 7520,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1358&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 9
+      }
     },
     {
       "label": "J",
       "title": "Find the Gap",
-      "qojId": 7521
+      "qojId": 7521,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1358&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 10,
+        "endPage": 10
+      }
     },
     {
       "label": "K",
       "title": "Sequence Shift",
-      "qojId": 7522
+      "qojId": 7522,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1358&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 11
+      }
     },
     {
       "label": "L",
       "title": "Partially Free Meal",
-      "qojId": 7523
+      "qojId": 7523,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1358&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 12,
+        "endPage": 12
+      }
     }
   ]
 }

@@ -24,68 +24,172 @@
     {
       "label": "A",
       "title": "Two-star Contest",
-      "qojId": 9422
+      "qojId": 9422,
+      "statement": {
+        "url": "https://sua.ac/wiki/2024-icpc-invitational-kunming/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 4
+      }
     },
     {
       "label": "B",
       "title": "Gold Medal",
-      "qojId": 9423
+      "qojId": 9423,
+      "statement": {
+        "url": "https://sua.ac/wiki/2024-icpc-invitational-kunming/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 5
+      }
     },
     {
       "label": "C",
       "title": "Stop the Castle 2",
-      "qojId": 9424
+      "qojId": 9424,
+      "statement": {
+        "url": "https://sua.ac/wiki/2024-icpc-invitational-kunming/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 7
+      }
     },
     {
       "label": "D",
       "title": "Generated String",
-      "qojId": 9425
+      "qojId": 9425,
+      "statement": {
+        "url": "https://sua.ac/wiki/2024-icpc-invitational-kunming/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 8
+      }
     },
     {
       "label": "E",
       "title": "Relearn through Review",
-      "qojId": 9426
+      "qojId": 9426,
+      "statement": {
+        "url": "https://sua.ac/wiki/2024-icpc-invitational-kunming/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 9
+      }
     },
     {
       "label": "F",
       "title": "Collect the Coins",
-      "qojId": 9427
+      "qojId": 9427,
+      "statement": {
+        "url": "https://sua.ac/wiki/2024-icpc-invitational-kunming/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 10,
+        "endPage": 10
+      }
     },
     {
       "label": "G",
       "title": "Be Positive",
-      "qojId": 9428
+      "qojId": 9428,
+      "statement": {
+        "url": "https://sua.ac/wiki/2024-icpc-invitational-kunming/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 11
+      }
     },
     {
       "label": "H",
       "title": "Subarray",
-      "qojId": 9429
+      "qojId": 9429,
+      "statement": {
+        "url": "https://sua.ac/wiki/2024-icpc-invitational-kunming/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 12,
+        "endPage": 12
+      }
     },
     {
       "label": "I",
       "title": "Left Shifting 2",
-      "qojId": 9430
+      "qojId": 9430,
+      "statement": {
+        "url": "https://sua.ac/wiki/2024-icpc-invitational-kunming/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 13
+      }
     },
     {
       "label": "J",
       "title": "The Quest for El Dorado",
-      "qojId": 9431
+      "qojId": 9431,
+      "statement": {
+        "url": "https://sua.ac/wiki/2024-icpc-invitational-kunming/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 14,
+        "endPage": 15
+      }
     },
     {
       "label": "K",
       "title": "Permutation",
       "qojId": 9432,
-      "interactive": true
+      "interactive": true,
+      "statement": {
+        "url": "https://sua.ac/wiki/2024-icpc-invitational-kunming/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 16,
+        "endPage": 16
+      }
     },
     {
       "label": "L",
       "title": "Trails",
-      "qojId": 9433
+      "qojId": 9433,
+      "statement": {
+        "url": "https://sua.ac/wiki/2024-icpc-invitational-kunming/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 17,
+        "endPage": 17
+      }
     },
     {
       "label": "M",
       "title": "Italian Cuisine",
-      "qojId": 9434
+      "qojId": 9434,
+      "statement": {
+        "url": "https://sua.ac/wiki/2024-icpc-invitational-kunming/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 18,
+        "endPage": 19
+      }
     }
   ]
 }

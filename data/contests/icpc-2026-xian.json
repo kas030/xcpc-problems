@@ -24,68 +24,172 @@
     {
       "label": "A",
       "title": "And Revive The Melody",
-      "qojId": 20051
+      "qojId": 20051,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=4593&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 4
+      }
     },
     {
       "label": "B",
       "title": "Break The Speakers",
-      "qojId": 20052
+      "qojId": 20052,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=4593&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 6
+      }
     },
     {
       "label": "C",
       "title": "Cryptarithm",
-      "qojId": 20053
+      "qojId": 20053,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=4593&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 7,
+        "endPage": 8
+      }
     },
     {
       "label": "D",
       "title": "Don't Fight The Music",
-      "qojId": 20054
+      "qojId": 20054,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=4593&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 10
+      }
     },
     {
       "label": "E",
       "title": "Ether Strike",
-      "qojId": 20055
+      "qojId": 20055,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=4593&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 12
+      }
     },
     {
       "label": "F",
       "title": "False Amber",
-      "qojId": 20056
+      "qojId": 20056,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=4593&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 14
+      }
     },
     {
       "label": "G",
       "title": "Gungnir Fracture",
-      "qojId": 20057
+      "qojId": 20057,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=4593&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 15
+      }
     },
     {
       "label": "H",
       "title": "Hydra",
-      "qojId": 20058
+      "qojId": 20058,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=4593&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 16,
+        "endPage": 17
+      }
     },
     {
       "label": "I",
       "title": "Incyde",
-      "qojId": 20059
+      "qojId": 20059,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=4593&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 18,
+        "endPage": 18
+      }
     },
     {
       "label": "J",
       "title": "Journey",
-      "qojId": 20060
+      "qojId": 20060,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=4593&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 19,
+        "endPage": 20
+      }
     },
     {
       "label": "K",
       "title": "Kikai No Tsubasa",
-      "qojId": 20061
+      "qojId": 20061,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=4593&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 21,
+        "endPage": 22
+      }
     },
     {
       "label": "L",
       "title": "Lucid Traveler",
       "qojId": 20062,
-      "interactive": true
+      "interactive": true,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=4593&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 23,
+        "endPage": 24
+      }
     },
     {
       "label": "M",
       "title": "Melodiniq",
-      "qojId": 20063
+      "qojId": 20063,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=4593&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 25,
+        "endPage": 26
+      }
     }
   ]
 }

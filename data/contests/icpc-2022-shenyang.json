@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "Absolute Difference",
-      "qojId": 5433
+      "qojId": 5433,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1096&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 2,
+        "endPage": 2
+      }
     },
     {
       "label": "B",
       "title": "Binary Substrings",
-      "qojId": 5434
+      "qojId": 5434,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1096&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 3
+      }
     },
     {
       "label": "C",
       "title": "Clamped Sequence",
-      "qojId": 5435
+      "qojId": 5435,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1096&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 4,
+        "endPage": 4
+      }
     },
     {
       "label": "D",
       "title": "DRX vs. T1",
-      "qojId": 5436
+      "qojId": 5436,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1096&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 5
+      }
     },
     {
       "label": "E",
       "title": "Graph Completing",
-      "qojId": 5437
+      "qojId": 5437,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1096&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 6
+      }
     },
     {
       "label": "F",
       "title": "Half Mixed",
-      "qojId": 5438
+      "qojId": 5438,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1096&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 7,
+        "endPage": 7
+      }
     },
     {
       "label": "G",
       "title": "Meet in the Middle",
-      "qojId": 5439
+      "qojId": 5439,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1096&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 8
+      }
     },
     {
       "label": "H",
       "title": "P-P-Palindrome",
-      "qojId": 5440
+      "qojId": 5440,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1096&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 9
+      }
     },
     {
       "label": "I",
       "title": "Quartz Collection",
-      "qojId": 5441
+      "qojId": 5441,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1096&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 10,
+        "endPage": 10
+      }
     },
     {
       "label": "J",
       "title": "Referee Without Red",
-      "qojId": 5442
+      "qojId": 5442,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1096&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 12
+      }
     },
     {
       "label": "K",
       "title": "Security at Museums",
-      "qojId": 5443
+      "qojId": 5443,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1096&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 13
+      }
     },
     {
       "label": "L",
       "title": "Tavern Chess",
-      "qojId": 5444
+      "qojId": 5444,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1096&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 14,
+        "endPage": 15
+      }
     },
     {
       "label": "M",
       "title": "Vulpecula",
-      "qojId": 5445
+      "qojId": 5445,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1096&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 16,
+        "endPage": 17
+      }
     }
   ]
 }

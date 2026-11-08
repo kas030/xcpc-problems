@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "Another GCD Problem",
-      "qojId": 14814
+      "qojId": 14814,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2575&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 3
+      }
     },
     {
       "label": "B",
       "title": "Ball And Movable Walls",
-      "qojId": 14815
+      "qojId": 14815,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2575&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 6
+      }
     },
     {
       "label": "C",
       "title": "Covering Problems",
-      "qojId": 14816
+      "qojId": 14816,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2575&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 7,
+        "endPage": 8
+      }
     },
     {
       "label": "D",
       "title": "Director and Excitement",
-      "qojId": 14817
+      "qojId": 14817,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2575&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 10
+      }
     },
     {
       "label": "E",
       "title": "Efficient Summation",
-      "qojId": 14818
+      "qojId": 14818,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2575&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 11
+      }
     },
     {
       "label": "F",
       "title": "Fun With Bitwise OR",
-      "qojId": 14819
+      "qojId": 14819,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2575&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 13
+      }
     },
     {
       "label": "G",
       "title": "Great Snowfall",
-      "qojId": 14820
+      "qojId": 14820,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2575&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 15
+      }
     },
     {
       "label": "H",
       "title": "How Many Rounds Are Expected?",
-      "qojId": 14821
+      "qojId": 14821,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2575&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 17,
+        "endPage": 18
+      }
     },
     {
       "label": "I",
       "title": "Infinite Hexagonal Grids",
-      "qojId": 14822
+      "qojId": 14822,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2575&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 19,
+        "endPage": 20
+      }
     },
     {
       "label": "J",
       "title": "Judge of Gensokyo",
-      "qojId": 14823
+      "qojId": 14823,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2575&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 21,
+        "endPage": 21
+      }
     },
     {
       "label": "K",
       "title": "Knapsack And Greedy Algorithm",
-      "qojId": 14824
+      "qojId": 14824,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2575&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 23,
+        "endPage": 24
+      }
     },
     {
       "label": "L",
       "title": "Let’s Avoid Obstacles",
-      "qojId": 14825
+      "qojId": 14825,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2575&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 25,
+        "endPage": 26
+      }
     },
     {
       "label": "M",
       "title": "连通的正三角形",
-      "qojId": 14826
+      "qojId": 14826,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2575&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 27,
+        "endPage": 29
+      }
     }
   ]
 }

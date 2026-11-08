@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "Cipher",
-      "qojId": 15032
+      "qojId": 15032,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2693&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 1,
+        "endPage": 1
+      }
     },
     {
       "label": "B",
       "title": "Fortress",
-      "qojId": 15033
+      "qojId": 15033,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2693&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 2,
+        "endPage": 4
+      }
     },
     {
       "label": "C",
       "title": "Finding Keywords",
-      "qojId": 15034
+      "qojId": 15034,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2693&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 5
+      }
     },
     {
       "label": "D",
       "title": "Lighthouse",
-      "qojId": 15035
+      "qojId": 15035,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2693&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 7
+      }
     },
     {
       "label": "E",
       "title": "Tree and Subgraph Problem",
-      "qojId": 15036
+      "qojId": 15036,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2693&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 9
+      }
     },
     {
       "label": "F",
       "title": "Grid Filling Game",
-      "qojId": 15037
+      "qojId": 15037,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2693&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 10,
+        "endPage": 11
+      }
     },
     {
       "label": "G",
       "title": "Make SYSU Great Again IV",
-      "qojId": 15038
+      "qojId": 15038,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2693&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 12,
+        "endPage": 13
+      }
     },
     {
       "label": "H",
       "title": "Hashing",
-      "qojId": 15039
+      "qojId": 15039,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2693&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 14,
+        "endPage": 14
+      }
     },
     {
       "label": "I",
       "title": "I Love CCPC",
-      "qojId": 15040
+      "qojId": 15040,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2693&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 16
+      }
     },
     {
       "label": "J",
       "title": "Memory, Permutation, and Rooted Tree",
-      "qojId": 15041
+      "qojId": 15041,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2693&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 17,
+        "endPage": 18
+      }
     },
     {
       "label": "K",
       "title": "Card Game",
-      "qojId": 15042
+      "qojId": 15042,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2693&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 19,
+        "endPage": 20
+      }
     },
     {
       "label": "L",
       "title": "Activity Rehearsal",
-      "qojId": 15043
+      "qojId": 15043,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2693&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 21,
+        "endPage": 22
+      }
     },
     {
       "label": "M",
       "title": "MEX Problem",
-      "qojId": 15044
+      "qojId": 15044,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2693&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 23,
+        "endPage": 23
+      }
     }
   ]
 }

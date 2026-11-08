@@ -24,62 +24,158 @@
     {
       "label": "A",
       "title": "Hitoshizuku",
-      "qojId": 9975
+      "qojId": 9975,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1894&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 1,
+        "endPage": 2
+      }
     },
     {
       "label": "B",
       "title": "Guess the Polygon 2",
-      "qojId": 9976
+      "qojId": 9976,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1894&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 4
+      }
     },
     {
       "label": "C",
       "title": "Norte da Universidade",
-      "qojId": 9977
+      "qojId": 9977,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1894&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 6
+      }
     },
     {
       "label": "D",
       "title": "Keystone Correction",
-      "qojId": 9978
+      "qojId": 9978,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1894&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 7,
+        "endPage": 8
+      }
     },
     {
       "label": "E",
       "title": "Corrupted Scoreboard Log",
-      "qojId": 9979
+      "qojId": 9979,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1894&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 10
+      }
     },
     {
       "label": "F",
       "title": "Boolean Function Reconstruction",
-      "qojId": 9980
+      "qojId": 9980,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1894&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 12
+      }
     },
     {
       "label": "G",
       "title": "Collatz Conjecture",
-      "qojId": 9981
+      "qojId": 9981,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1894&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 13
+      }
     },
     {
       "label": "H",
       "title": "Staircase Museum",
-      "qojId": 9982
+      "qojId": 9982,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1894&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 16
+      }
     },
     {
       "label": "I",
       "title": "Color-Balanced Tree",
-      "qojId": 9983
+      "qojId": 9983,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1894&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 17,
+        "endPage": 18
+      }
     },
     {
       "label": "J",
       "title": "The Mysterious Shop",
-      "qojId": 9984
+      "qojId": 9984,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1894&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 19,
+        "endPage": 19
+      }
     },
     {
       "label": "K",
       "title": "Exploration Boundary",
-      "qojId": 9985
+      "qojId": 9985,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1894&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 21,
+        "endPage": 23
+      }
     },
     {
       "label": "L",
       "title": "Shiori",
-      "qojId": 9986
+      "qojId": 9986,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1894&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 25,
+        "endPage": 26
+      }
     }
   ]
 }

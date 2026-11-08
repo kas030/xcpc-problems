@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "Alice and Her Lost Cat",
-      "qojId": 8138
+      "qojId": 8138,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1493&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 1,
+        "endPage": 2
+      }
     },
     {
       "label": "B",
       "title": "Ayano and sequences",
-      "qojId": 8139
+      "qojId": 8139,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1493&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 3
+      }
     },
     {
       "label": "C",
       "title": "Customs Controls 2",
-      "qojId": 8140
+      "qojId": 8140,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1493&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 4,
+        "endPage": 5
+      }
     },
     {
       "label": "D",
       "title": "Digits",
-      "qojId": 8141
+      "qojId": 8141,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1493&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 7
+      }
     },
     {
       "label": "E",
       "title": "Elevator",
-      "qojId": 8142
+      "qojId": 8142,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1493&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 8
+      }
     },
     {
       "label": "F",
       "title": "Equations",
-      "qojId": 8143
+      "qojId": 8143,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1493&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 9
+      }
     },
     {
       "label": "G",
       "title": "Game",
-      "qojId": 8144
+      "qojId": 8144,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1493&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 10,
+        "endPage": 10
+      }
     },
     {
       "label": "H",
       "title": "GameX",
-      "qojId": 8145
+      "qojId": 8145,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1493&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 11
+      }
     },
     {
       "label": "I",
       "title": "Infection",
-      "qojId": 8146
+      "qojId": 8146,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1493&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 12,
+        "endPage": 12
+      }
     },
     {
       "label": "J",
       "title": "Math Exam",
-      "qojId": 8147
+      "qojId": 8147,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1493&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 13
+      }
     },
     {
       "label": "K",
       "title": "Middle Point Graph",
-      "qojId": 8148
+      "qojId": 8148,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1493&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 14,
+        "endPage": 15
+      }
     },
     {
       "label": "L",
       "title": "Station of Fate",
-      "qojId": 8149
+      "qojId": 8149,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1493&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 16,
+        "endPage": 16
+      }
     },
     {
       "label": "M",
       "title": "XOR Sum",
-      "qojId": 8150
+      "qojId": 8150,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1493&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 17,
+        "endPage": 17
+      }
     }
   ]
 }

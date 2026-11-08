@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "Problem Setting",
-      "qojId": 10736
+      "qojId": 10736,
+      "statement": {
+        "url": "https://sua.ac/wiki/2025-icpc-invitational-wuhan/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 3
+      }
     },
     {
       "label": "B",
       "title": "Black Red Tree",
-      "qojId": 10737
+      "qojId": 10737,
+      "statement": {
+        "url": "https://sua.ac/wiki/2025-icpc-invitational-wuhan/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 4,
+        "endPage": 5
+      }
     },
     {
       "label": "C",
       "title": "One Must Imagine Sisyphus Happy",
-      "qojId": 10738
+      "qojId": 10738,
+      "statement": {
+        "url": "https://sua.ac/wiki/2025-icpc-invitational-wuhan/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 7
+      }
     },
     {
       "label": "D",
       "title": "Odd and Even",
-      "qojId": 10739
+      "qojId": 10739,
+      "statement": {
+        "url": "https://sua.ac/wiki/2025-icpc-invitational-wuhan/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 9
+      }
     },
     {
       "label": "E",
       "title": "Colorful Graph",
-      "qojId": 10740
+      "qojId": 10740,
+      "statement": {
+        "url": "https://sua.ac/wiki/2025-icpc-invitational-wuhan/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 10,
+        "endPage": 10
+      }
     },
     {
       "label": "F",
       "title": "Knapsack",
-      "qojId": 10741
+      "qojId": 10741,
+      "statement": {
+        "url": "https://sua.ac/wiki/2025-icpc-invitational-wuhan/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 11
+      }
     },
     {
       "label": "G",
       "title": "Path Summing Problem",
-      "qojId": 10742
+      "qojId": 10742,
+      "statement": {
+        "url": "https://sua.ac/wiki/2025-icpc-invitational-wuhan/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 12,
+        "endPage": 12
+      }
     },
     {
       "label": "H",
       "title": "WildFire, This Is for You!",
-      "qojId": 10743
+      "qojId": 10743,
+      "statement": {
+        "url": "https://sua.ac/wiki/2025-icpc-invitational-wuhan/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 13
+      }
     },
     {
       "label": "I",
       "title": "Bingo 3",
-      "qojId": 10744
+      "qojId": 10744,
+      "statement": {
+        "url": "https://sua.ac/wiki/2025-icpc-invitational-wuhan/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 14,
+        "endPage": 14
+      }
     },
     {
       "label": "J",
       "title": "Dictionary",
-      "qojId": 10745
+      "qojId": 10745,
+      "statement": {
+        "url": "https://sua.ac/wiki/2025-icpc-invitational-wuhan/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 15
+      }
     },
     {
       "label": "K",
       "title": "Las Vegas",
-      "qojId": 10746
+      "qojId": 10746,
+      "statement": {
+        "url": "https://sua.ac/wiki/2025-icpc-invitational-wuhan/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 16,
+        "endPage": 17
+      }
     },
     {
       "label": "L",
       "title": "Subsequence",
-      "qojId": 10747
+      "qojId": 10747,
+      "statement": {
+        "url": "https://sua.ac/wiki/2025-icpc-invitational-wuhan/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 18,
+        "endPage": 18
+      }
     },
     {
       "label": "M",
       "title": "Flight Tracker",
-      "qojId": 10748
+      "qojId": 10748,
+      "statement": {
+        "url": "https://sua.ac/wiki/2025-icpc-invitational-wuhan/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 19,
+        "endPage": 20
+      }
     }
   ]
 }

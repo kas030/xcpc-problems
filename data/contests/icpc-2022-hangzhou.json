@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "Modulo Ruins the Legend",
-      "qojId": 5301
+      "qojId": 5301,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1071&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 1,
+        "endPage": 1
+      }
     },
     {
       "label": "B",
       "title": "Useful Algorithm",
-      "qojId": 5302
+      "qojId": 5302,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1071&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 2,
+        "endPage": 3
+      }
     },
     {
       "label": "C",
       "title": "No Bug No Game",
-      "qojId": 5303
+      "qojId": 5303,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1071&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 4,
+        "endPage": 4
+      }
     },
     {
       "label": "D",
       "title": "Money Game",
-      "qojId": 5304
+      "qojId": 5304,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1071&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 5
+      }
     },
     {
       "label": "E",
       "title": "Oscar is All You Need",
-      "qojId": 5305
+      "qojId": 5305,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1071&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 6
+      }
     },
     {
       "label": "F",
       "title": "Da Mi Lao Shi Ai Kan De",
-      "qojId": 5306
+      "qojId": 5306,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1071&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 7,
+        "endPage": 7
+      }
     },
     {
       "label": "G",
       "title": "Subgraph Isomorphism",
-      "qojId": 5307
+      "qojId": 5307,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1071&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 9
+      }
     },
     {
       "label": "H",
       "title": "RPG Pro League",
-      "qojId": 5308
+      "qojId": 5308,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1071&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 10,
+        "endPage": 10
+      }
     },
     {
       "label": "I",
       "title": "Guess Cycle Length",
-      "qojId": 5309
+      "qojId": 5309,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1071&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 11
+      }
     },
     {
       "label": "J",
       "title": "Painting",
-      "qojId": 5310
+      "qojId": 5310,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1071&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 12,
+        "endPage": 12
+      }
     },
     {
       "label": "K",
       "title": "Master of Both",
-      "qojId": 5311
+      "qojId": 5311,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1071&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 13
+      }
     },
     {
       "label": "L",
       "title": "Levenshtein Distance",
-      "qojId": 5312
+      "qojId": 5312,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1071&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 14,
+        "endPage": 14
+      }
     },
     {
       "label": "M",
       "title": "Please Save Pigeland",
-      "qojId": 5313
+      "qojId": 5313,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1071&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 16
+      }
     }
   ]
 }

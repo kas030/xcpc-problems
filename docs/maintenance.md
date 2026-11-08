@@ -52,9 +52,9 @@ npm run import:qoj -- --url=https://qoj.ac/contest/1828 --html=.cache/qoj.html
 
 优先顺序：官方中文 Markdown/HTML → 官方中文 PDF → 可用的英文 HTML → 英文 PDF。Codeforces Gym 的 HTML 页面通常便于提取结构，但不能假定所有比赛都具有对应页面；先核对它和 QOJ 的题目是否一致。
 
-有官方中文题册时无需再翻译英文。原有 2024 昆明、沈阳、南京、重庆四场比赛的题册保存为同域静态 PDF，解决 Codeforces 的 `X-Frame-Options: sameorigin` 对跨站预览的限制；详情页直接预览本题对应的页面，顶部保留“打开完整题册”入口。新增外部题册使用原始链接在新标签页阅读；每题始终保留 QOJ 入口，没有题册时也能打开原题。
+有官方中文题册时无需再翻译英文。当前归档中有题册的 64 场比赛均保存为同域静态 PDF，解决跨站预览限制和外部附件访问不稳定的问题；详情页沿用原有的本题 PDF 预览，顶部保留“完整题册”入口。没有本地 PDF 或 Markdown 题面时，不显示题面提示卡片及其中的重复阅读按钮，原有 QOJ 链接和其他界面保持不变。覆盖情况见 `docs/archive-2022-2026.md`。
 
-PDF 文件放在 `src/assets/statements/<contest-id>.pdf`，在 `src/lib/statement-sources.ts` 中按完整的原始 URL 映射到文件名；`src/lib/statement-pdfs.ts` 自动导入完整题册资源。同一题册的源码只存一份。静态端点 `src/pages/statements/[contest]/[label].pdf.ts` 使用 `pdf-lib` 按 `page` 至 `endPage` 复制原始页面，在构建时生成 `dist/statements/<contest-id>/<label>.pdf`，保留文字、公式、图片及原有排版。范围缺失、倒置或超出题册页数会导致构建失败；不要提交生成的单题 PDF。
+PDF 文件放在 `src/assets/statements/<contest-id>.pdf`，在 `src/lib/statement-sources.ts` 中按完整的原始 URL 映射到文件名；`src/lib/statement-pdfs.ts` 自动导入完整题册资源。同一题册的源码只存一份。静态端点 `src/pages/statements/[contest]/[label].pdf.ts` 使用 `pdf-lib` 按 `page` 至 `endPage` 复制原始页面，在构建时生成 `dist/statements/<contest-id>/<label>.pdf`，保留文字、公式、图片及原有排版。范围缺失、倒置或超出题册页数会导致构建失败；不要提交生成的单题 PDF。末页不能直接取下一题之前的所有页面：排除留白、致谢、封底和附录，但保留样例配图等正文内容；只有少量可提取文字的页面仍可能包含必要图片，应渲染核对。
 
 单题预览从生成文件的第一页开始；“打开完整题册”仍定位到原始题册的 `page`。所有链接包含部署路径前缀，完整题册额外使用文件内容哈希。开发模式也通过同一端点生成预览，无需额外服务或构建时下载；未配置本地副本的题册继续使用原始链接。验证时同时检查开发和生产预览地址，并使用浏览器导航请求（含 `Accept: text/html`）访问 PDF，不能只凭普通文件请求或 HEAD 的状态码判断可用。
 
@@ -76,7 +76,7 @@ sourceHash: 可选，原始题面内容的 SHA-256
 
 校对重点：量词与否定、上下界与开闭区间、下标范围、精度误差、整数溢出范围、交互协议、时间和空间限制、样例对应关系。对照原文逐项核对后才设 `status: reviewed`，可增加 `reviewedAt`；官方原文设 `official`。`draft` 会在网站显示醒目的待校对提示。
 
-运行 `npm run catalog` 更新元信息，再检查详情页中的公式、表格、图片、样例和手机布局。原始题册链接始终保留。未加入 Markdown 时，有本地副本的题目显示 PDF 预览，其余显示原题和题册入口。
+运行 `npm run catalog` 更新元信息，再检查详情页中的公式、表格、图片、样例和手机布局。原始题册链接始终保留。未加入 Markdown 时，有本地副本的题目显示 PDF 预览，其余不显示题面卡片，可通过页面原有的 QOJ 链接打开原题。
 
 ## 数据异常处理
 

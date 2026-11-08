@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "Build a Computer",
-      "qojId": 9519
+      "qojId": 9519,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1817&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 2,
+        "endPage": 2
+      }
     },
     {
       "label": "B",
       "title": "Concave Hull",
-      "qojId": 9520
+      "qojId": 9520,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1817&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 3
+      }
     },
     {
       "label": "C",
       "title": "Giving Directions in Harbin",
-      "qojId": 9521
+      "qojId": 9521,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1817&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 4,
+        "endPage": 4
+      }
     },
     {
       "label": "D",
       "title": "A Simple String Problem",
-      "qojId": 9522
+      "qojId": 9522,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1817&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 5
+      }
     },
     {
       "label": "E",
       "title": "Marble Race",
-      "qojId": 9523
+      "qojId": 9523,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1817&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 6
+      }
     },
     {
       "label": "F",
       "title": "1D Galaxy",
-      "qojId": 9524
+      "qojId": 9524,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1817&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 7,
+        "endPage": 7
+      }
     },
     {
       "label": "G",
       "title": "Welcome to Join the Online Meeting!",
-      "qojId": 9525
+      "qojId": 9525,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1817&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 8
+      }
     },
     {
       "label": "H",
       "title": "Subsequence Counting",
-      "qojId": 9526
+      "qojId": 9526,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1817&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 9
+      }
     },
     {
       "label": "I",
       "title": "A Brand New Geometric Problem",
-      "qojId": 9527
+      "qojId": 9527,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1817&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 10,
+        "endPage": 10
+      }
     },
     {
       "label": "J",
       "title": "New Energy Vehicle",
-      "qojId": 9528
+      "qojId": 9528,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1817&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 11
+      }
     },
     {
       "label": "K",
       "title": "Farm Management",
-      "qojId": 9529
+      "qojId": 9529,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1817&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 12,
+        "endPage": 12
+      }
     },
     {
       "label": "L",
       "title": "A Game On Tree",
-      "qojId": 9530
+      "qojId": 9530,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1817&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 13
+      }
     },
     {
       "label": "M",
       "title": "Weird Ceiling",
-      "qojId": 9531
+      "qojId": 9531,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1817&r=0",
+        "language": "zh",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 14,
+        "endPage": 14
+      }
     }
   ]
 }

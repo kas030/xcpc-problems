@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "Add One 2",
-      "qojId": 8542
+      "qojId": 8542,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1596&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 2,
+        "endPage": 2
+      }
     },
     {
       "label": "B",
       "title": "Periodic Sequence",
-      "qojId": 8543
+      "qojId": 8543,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1596&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 3
+      }
     },
     {
       "label": "C",
       "title": "Colorful Graph 2",
-      "qojId": 8544
+      "qojId": 8544,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1596&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 4,
+        "endPage": 5
+      }
     },
     {
       "label": "D",
       "title": "Min or Max",
-      "qojId": 8545
+      "qojId": 8545,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1596&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 6
+      }
     },
     {
       "label": "E",
       "title": "Min or Max 2",
-      "qojId": 8546
+      "qojId": 8546,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1596&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 7,
+        "endPage": 7
+      }
     },
     {
       "label": "F",
       "title": "Whose Land?",
-      "qojId": 8547
+      "qojId": 8547,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1596&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 9
+      }
     },
     {
       "label": "G",
       "title": "China Convex Polygon Contest",
-      "qojId": 8548
+      "qojId": 8548,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1596&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 10,
+        "endPage": 11
+      }
     },
     {
       "label": "H",
       "title": "The Game",
-      "qojId": 8549
+      "qojId": 8549,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1596&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 12,
+        "endPage": 12
+      }
     },
     {
       "label": "I",
       "title": "All the Way Left",
-      "qojId": 8550
+      "qojId": 8550,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1596&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 14
+      }
     },
     {
       "label": "J",
       "title": "DFS Order 5",
-      "qojId": 8551
+      "qojId": 8551,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1596&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 16
+      }
     },
     {
       "label": "K",
       "title": "Sticks",
-      "qojId": 8552
+      "qojId": 8552,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1596&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 17,
+        "endPage": 17
+      }
     },
     {
       "label": "L",
       "title": "Exchanging Kubic",
-      "qojId": 8553
+      "qojId": 8553,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1596&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 18,
+        "endPage": 19
+      }
     },
     {
       "label": "M",
       "title": "Bot Friends",
-      "qojId": 8554
+      "qojId": 8554,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=1596&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 20,
+        "endPage": 20
+      }
     }
   ]
 }

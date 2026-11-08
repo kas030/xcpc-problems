@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "Cool, It’s Yesterday Four Times More",
-      "qojId": 7733
+      "qojId": 7733,
+      "statement": {
+        "url": "https://sua.ac/wiki/2023-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 5
+      }
     },
     {
       "label": "B",
       "title": "Intersection over Union",
-      "qojId": 7734
+      "qojId": 7734,
+      "statement": {
+        "url": "https://sua.ac/wiki/2023-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 6,
+        "endPage": 7
+      }
     },
     {
       "label": "C",
       "title": "Primitive Root",
-      "qojId": 7735
+      "qojId": 7735,
+      "statement": {
+        "url": "https://sua.ac/wiki/2023-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 8,
+        "endPage": 8
+      }
     },
     {
       "label": "D",
       "title": "Red Black Tree",
-      "qojId": 7736
+      "qojId": 7736,
+      "statement": {
+        "url": "https://sua.ac/wiki/2023-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 9
+      }
     },
     {
       "label": "E",
       "title": "Extending Distance",
-      "qojId": 7737
+      "qojId": 7737,
+      "statement": {
+        "url": "https://sua.ac/wiki/2023-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 10,
+        "endPage": 11
+      }
     },
     {
       "label": "F",
       "title": "Equivalent Rewriting",
-      "qojId": 7738
+      "qojId": 7738,
+      "statement": {
+        "url": "https://sua.ac/wiki/2023-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 12,
+        "endPage": 12
+      }
     },
     {
       "label": "G",
       "title": "Knapsack",
-      "qojId": 7739
+      "qojId": 7739,
+      "statement": {
+        "url": "https://sua.ac/wiki/2023-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 13
+      }
     },
     {
       "label": "H",
       "title": "Puzzle: Question Mark",
-      "qojId": 7740
+      "qojId": 7740,
+      "statement": {
+        "url": "https://sua.ac/wiki/2023-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 14,
+        "endPage": 15
+      }
     },
     {
       "label": "I",
       "title": "Counter",
-      "qojId": 7741
+      "qojId": 7741,
+      "statement": {
+        "url": "https://sua.ac/wiki/2023-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 16,
+        "endPage": 16
+      }
     },
     {
       "label": "J",
       "title": "Suffix Structure",
-      "qojId": 7742
+      "qojId": 7742,
+      "statement": {
+        "url": "https://sua.ac/wiki/2023-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 17,
+        "endPage": 17
+      }
     },
     {
       "label": "K",
       "title": "Grand Finale",
-      "qojId": 7743
+      "qojId": 7743,
+      "statement": {
+        "url": "https://sua.ac/wiki/2023-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 18,
+        "endPage": 19
+      }
     },
     {
       "label": "L",
       "title": "Elevator",
-      "qojId": 7744
+      "qojId": 7744,
+      "statement": {
+        "url": "https://sua.ac/wiki/2023-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 20,
+        "endPage": 21
+      }
     },
     {
       "label": "M",
       "title": "Trapping Rain Water",
-      "qojId": 7745
+      "qojId": 7745,
+      "statement": {
+        "url": "https://sua.ac/wiki/2023-icpc-nanjing/contest-zh.pdf",
+        "format": "pdf",
+        "language": "zh",
+        "provenance": "official",
+        "page": 22,
+        "endPage": 22
+      }
     }
   ]
 }

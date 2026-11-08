@@ -24,67 +24,171 @@
     {
       "label": "A",
       "title": "Azalea Garden",
-      "qojId": 14681
+      "qojId": 14681,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2562&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 1,
+        "endPage": 2
+      }
     },
     {
       "label": "B",
       "title": "Beautiful Dangos",
-      "qojId": 14682
+      "qojId": 14682,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2562&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 3,
+        "endPage": 4
+      }
     },
     {
       "label": "C",
       "title": "Catch the Monster",
-      "qojId": 14683
+      "qojId": 14683,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2562&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 5,
+        "endPage": 6
+      }
     },
     {
       "label": "D",
       "title": "Directed Acyclic Graph",
-      "qojId": 14684
+      "qojId": 14684,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2562&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 7,
+        "endPage": 8
+      }
     },
     {
       "label": "E",
       "title": "Epilogue of Happiness",
-      "qojId": 14685
+      "qojId": 14685,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2562&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 9,
+        "endPage": 10
+      }
     },
     {
       "label": "F",
       "title": "Follow the Penguins",
-      "qojId": 14686
+      "qojId": 14686,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2562&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 11,
+        "endPage": 12
+      }
     },
     {
       "label": "G",
       "title": "Grand Voting",
-      "qojId": 14687
+      "qojId": 14687,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2562&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 13,
+        "endPage": 13
+      }
     },
     {
       "label": "H",
       "title": "Heart of Darkness",
-      "qojId": 14688
+      "qojId": 14688,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2562&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 14,
+        "endPage": 14
+      }
     },
     {
       "label": "I",
       "title": "Imagined Holly",
-      "qojId": 14689
+      "qojId": 14689,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2562&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 15,
+        "endPage": 16
+      }
     },
     {
       "label": "J",
       "title": "January's Color",
-      "qojId": 14690
+      "qojId": 14690,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2562&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 17,
+        "endPage": 18
+      }
     },
     {
       "label": "K",
       "title": "Killing Bits",
-      "qojId": 14691
+      "qojId": 14691,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2562&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 19,
+        "endPage": 20
+      }
     },
     {
       "label": "L",
       "title": "Let's Make a Convex!",
-      "qojId": 14692
+      "qojId": 14692,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2562&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 21,
+        "endPage": 22
+      }
     },
     {
       "label": "M",
       "title": "Mystique as Iris",
-      "qojId": 14693
+      "qojId": 14693,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=attachments&id=2562&r=0",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "page": 23,
+        "endPage": 23
+      }
     }
   ]
 }
