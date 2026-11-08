@@ -2,7 +2,8 @@ import { useEffect, useMemo, useState } from 'react';
 import { ArrowDownWideNarrow, ArrowUpNarrowWide, ArrowUpRight, Check, CheckCircle2, ChevronLeft, ChevronRight, Circle, FileText, Filter, MessagesSquare, Search, Share2, Trophy, X } from 'lucide-react';
 import type { Catalog, Difficulty } from '../lib/schema';
 import { difficultyLabels, difficultyNames } from '../lib/schema';
-import { emptyFilters, filterProblems, hasChinese, parseFilters, serializeFilters, type Filters } from '../lib/filters';
+import { emptyFilters, filterProblems, hasChinese, type Filters } from '../lib/filters';
+import { parseBrowserState, readBrowserState, saveBrowserState, serializeBrowserState } from '../lib/browser-state';
 import Select from './Select';
 import { readSolvedProgress, SOLVED_STORAGE_KEY as STORAGE_KEY } from '../lib/progress';
 
@@ -16,18 +17,19 @@ export default function ProblemBrowser({ catalog, base }: { catalog: Catalog; ba
   const [toast, setToast] = useState('');
   const known = useMemo(() => new Set(catalog.problems.map(p => p.id)), [catalog]);
   useEffect(() => {
-    const restore = () => { setFilters(parseFilters(location.search)); setPage(1); };
-    restore();
+    const saved = readBrowserState(location.search);
+    setFilters(saved.filters);
+    setPage(saved.page);
+    const restore = () => {
+      const state = parseBrowserState(location.search);
+      setFilters(state.filters);
+      setPage(state.page);
+    };
     setSolved(new Set([...readSolvedProgress()].filter(id => known.has(id))));
     setReady(true);
     window.addEventListener('popstate', restore);
     return () => { window.removeEventListener('popstate', restore); };
   }, [known]);
-  useEffect(() => {
-    if (!ready) return;
-    const query = serializeFilters(filters);
-    history.replaceState(null, '', `${location.pathname}${query ? '?' + query : ''}${location.hash}`);
-  }, [filters, ready]);
   useEffect(() => { if (toast) { const timer = setTimeout(() => setToast(''), 3000); return () => clearTimeout(timer); } }, [toast]);
   const update = (patch: Partial<Filters>) => { setFilters(f => ({ ...f, ...patch })); setPage(1); };
   const toggleLevel = (level: Difficulty) => update({ difficulties: filters.difficulties.includes(level) ? filters.difficulties.filter(d => d !== level) : [...filters.difficulties, level] });
@@ -43,6 +45,13 @@ export default function ProblemBrowser({ catalog, base }: { catalog: Catalog; ba
   const sortDirectionLabel = filters.order === 'asc' ? '当前升序，切换为降序' : '当前降序，切换为升序';
   const pages = Math.max(1, Math.ceil(filtered.length / PER_PAGE));
   const currentPage = Math.min(page, pages);
+  useEffect(() => {
+    if (!ready) return;
+    if (page !== currentPage) setPage(currentPage);
+    const query = serializeBrowserState(filters, currentPage);
+    history.replaceState(history.state, '', `${location.pathname}?${query}${location.hash}`);
+    saveBrowserState(query);
+  }, [filters, page, currentPage, ready]);
   const visible = filtered.slice((currentPage - 1) * PER_PAGE, currentPage * PER_PAGE);
   const activeCount = filters.difficulties.length + filters.contests.length + Number(!!filters.year) + Number(filters.progress !== 'all');
   const levelCounts = Object.fromEntries(difficultyNames.map(d => [d, catalog.problems.filter(p => p.difficulty === d).length]));
