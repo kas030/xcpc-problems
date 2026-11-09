@@ -3,7 +3,7 @@ import '../styles/global.css';
 import 'katex/dist/katex.min.css';
 import { catalog } from '../lib/catalog';
 import { base, href } from '../lib/urls';
-interface Props { title?: string; description?: string; active?: 'problems' | 'contests' | 'methodology'; wide?: boolean }
+interface Props { title?: string; description?: string; active?: 'problems' | 'contests' | 'training' | 'methodology'; wide?: boolean }
 const { title = 'XCPC 题单 · 找到下一道值得做的题', description = '基于真实 XCPC 榜单的训练题单，按金银铜牌队伍通过率筛选，直达中文题面、QOJ 与比赛榜单。', active = 'problems', wide = false } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 ---
@@ -33,6 +33,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
         <nav class="main-nav" aria-label="主导航">
           <a href={href()} class:list={{ active: active === 'problems' }} aria-current={active === 'problems' ? 'page' : undefined}>题目</a>
           <a href={href('contests')} class:list={{ active: active === 'contests' }} aria-current={active === 'contests' ? 'page' : undefined}>比赛</a>
+          <a href={href('training')} class:list={{ active: active === 'training' }} aria-current={active === 'training' ? 'page' : undefined}>训练情况</a>
           <a href={href('methodology')} class:list={{ active: active === 'methodology' }} aria-current={active === 'methodology' ? 'page' : undefined}>分级说明</a>
         </nav>
         <a class="github-link" href="https://github.com/kas030/xcpc-problems" target="_blank" rel="noopener noreferrer" aria-label="在 GitHub 查看源码">
