@@ -27,7 +27,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <header class="site-header">
       <div class="header-inner">
         <a class="brand" href={href()} aria-label="XCPC 题单首页">
-          <img class="brand-mark" src={`${base}/logo.png`} width="32" height="32" alt="" />
+          <img class="brand-mark" src={`${base}/logo.png`} width="32" height="32" alt="" draggable="false" />
           <span>XCPC<span class="brand-zh">题单</span></span>
         </a>
         <nav class="main-nav" aria-label="主导航">

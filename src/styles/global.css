@@ -80,7 +80,7 @@ input[type=search]::-webkit-search-cancel-button { cursor: pointer; }
 .site-header { height: 64px; background: var(--surface); border-bottom: 1px solid var(--line); }
 .header-inner { max-width: 1480px; height: 100%; padding: 0 28px; margin: auto; display: flex; align-items: center; gap: 16px; }
 .brand { display: flex; align-items: center; gap: 9px; flex-shrink: 0; white-space: nowrap; font-weight: 700; font-size: 19px; letter-spacing: -.4px; }
-.brand-mark { width: 32px; height: 32px; display: block; flex-shrink: 0; object-fit: contain; transform: translateY(-2px); }
+.brand-mark { width: 32px; height: 32px; display: block; flex-shrink: 0; object-fit: contain; transform: translateY(-2px); -webkit-user-select: none; user-select: none; }
 .brand-zh { margin-left: 7px; font-size: 15px; letter-spacing: 0; font-weight: 600; }
 .main-nav { display: flex; flex: 1; align-self: stretch; gap: 8px; align-items: center; margin-left: 24px; }
 .main-nav a { position: relative; display: flex; justify-content: center; align-items: center; min-height: 40px; padding: 0 14px; border-radius: 6px; white-space: nowrap; font-size: 14px; font-weight: 500; color: var(--muted); transition: color .15s, background .15s; }
