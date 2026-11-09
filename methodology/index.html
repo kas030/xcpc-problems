@@ -1,23 +1,22 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="基于真实 XCPC 榜单的训练题单，按金银铜牌队伍通过率筛选，直达中文题面、QOJ 与比赛榜单。"><meta name="theme-color" content="#f7f8f5"><meta property="og:title" content="难度分级说明 · XCPC 题单"><meta property="og:description" content="基于真实 XCPC 榜单的训练题单，按金银铜牌队伍通过率筛选，直达中文题面、QOJ 与比赛榜单。"><meta property="og:type" content="website"><link rel="canonical" href="https://kas030.github.io/xcpc-problems/methodology/"><link rel="icon" type="image/svg+xml" href="/xcpc-problems/favicon.svg"><title>难度分级说明 · XCPC 题单</title><link rel="stylesheet" href="/xcpc-problems/_astro/Layout.B1n-hhem.css"></head><body><a class="skip-link" href="#main">跳至主要内容</a><header class="site-header"><div class="header-inner"><a class="brand" href="/xcpc-problems/" aria-label="XCPC 题单首页"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="m12 9-7 7 7 7m8-14 7 7-7 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="m18 7-4 18" stroke="#c2e8a2" stroke-width="2.5" stroke-linecap="round"></path></svg></span><span>XCPC<span class="brand-zh">题单</span></span></a><nav class="main-nav" aria-label="主导航"><a href="/xcpc-problems/">题目</a><a href="/xcpc-problems/contests/">比赛</a><a href="/xcpc-problems/methodology/" class="active" aria-current="page">分级说明</a></nav><a class="github-link" href="https://github.com/kas030/xcpc-problems" target="_blank" rel="noopener noreferrer" aria-label="在 GitHub 查看源码"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65"><path d="M9 19c-4.3 1.3-4.3-2-6-2m12 5v-3.4a3 3 0 0 0-.8-2.3c2.7-.3 5.6-1.3 5.6-6a4.7 4.7 0 0 0-1.3-3.3 4.3 4.3 0 0 0-.1-3.3s-1.1-.3-3.4 1.3a11.4 11.4 0 0 0-6 0C6.7 2.4 5.6 2.7 5.6 2.7a4.3 4.3 0 0 0-.1 3.3A4.7 4.7 0 0 0 4.2 9.3c0 4.7 2.9 5.7 5.6 6a3 3 0 0 0-.8 2.3V22"></path></svg><span>GitHub</span><span aria-hidden="true">↗</span></a></div></header><main id="main" class="page-shell"><div class="guide-page"><a class="back-link" href="/xcpc-problems/">← 返回题单</a><article class="guide-paper prose"><h1 id="难度是怎样计算的">难度是怎样计算的？</h1>
-<p>这里的金、银、铜牌题，表示<strong>在对应比赛中，该奖牌档的大多数队伍能够完成的题目</strong>。标签依据真实赛内提交计算，帮助你挑选适合当前训练阶段的题目。</p>
-<h2 id="先确定队伍再统计题目">先确定队伍，再统计题目</h2>
-<p>只统计该场比赛正式参赛、参与对应分组评奖的队伍。打星队、场外参赛队和赛后提交不参与统计。女队等附加标签不影响正式队伍资格。</p>
-<p>我们使用比赛结束、解封后的提交记录，按照该场的时间单位和罚时规则重建排名。重复提交和重判不会重复计数，编译错误不计罚时，通过后的额外提交不改变成绩。</p>
-<p>奖牌组使用榜单中明确配置的数量，或已核对的获奖名单。只有通用奖牌比例、缺少最终榜、存在未裁定提交，或者奖牌边界出现无法确认的并列时，题目保留为“待定”。</p>
-<h2 id="50-通过率规则">50% 通过率规则</h2>
-<p>金、银、铜牌组是三个互不重叠的队伍集合。某组的通过率为：</p>
-<span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>r</mi><mrow><mi>g</mi><mo separator="true">,</mo><mi>p</mi></mrow></msub><mo>=</mo><mfrac><mrow><mtext>奖牌组 </mtext><mi>g</mi><mtext> 中赛内通过题目 </mtext><mi>p</mi><mtext> 的队伍数</mtext></mrow><mrow><mtext>奖牌组 </mtext><mi>g</mi><mtext> 的队伍总数</mtext></mrow></mfrac></mrow><annotation encoding="application/x-tex">r_{g,p}=\frac{\text{奖牌组 }g\text{ 中赛内通过题目 }p\text{ 的队伍数}}{\text{奖牌组 }g\text{ 的队伍总数}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="katex-base"><span class="katex-strut" style="height:0.7167em;vertical-align:-0.2861em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.0278em;">r</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.0278em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="katex-sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.0359em;">g</span><span class="mpunct mtight">,</span><span class="mord mathnormal mtight">p</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2861em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="katex-base"><span class="katex-strut" style="height:2.2408em;vertical-align:-0.8804em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3603em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord cjk_fallback">奖牌组</span><span class="mord"> </span></span><span class="mord mathnormal" style="margin-right:0.0359em;">g</span><span class="mord text"><span class="mord"> </span><span class="mord cjk_fallback">的队伍总数</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord text"><span class="mord cjk_fallback">奖牌组</span><span class="mord"> </span></span><span class="mord mathnormal" style="margin-right:0.0359em;">g</span><span class="mord text"><span class="mord"> </span><span class="mord cjk_fallback">中赛内通过题目</span><span class="mord"> </span></span><span class="mord mathnormal">p</span><span class="mord text"><span class="mord"> </span><span class="mord cjk_fallback">的队伍数</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.8804em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span>
-<p>依次从铜牌组、银牌组、金牌组判断，采用第一个达到 <strong>50%（含）</strong> 的档位。</p>
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="基于真实 XCPC 榜单的训练题单，按金银铜牌队伍通过率筛选，直达中文题面、QOJ 与比赛榜单。"><meta name="theme-color" content="#f3f5f9"><meta property="og:title" content="难度分级说明 · XCPC 题单"><meta property="og:description" content="基于真实 XCPC 榜单的训练题单，按金银铜牌队伍通过率筛选，直达中文题面、QOJ 与比赛榜单。"><meta property="og:type" content="website"><link rel="canonical" href="https://kas030.github.io/xcpc-problems/methodology/"><link rel="icon" type="image/png" sizes="32x32" href="/xcpc-problems/favicon-32.png"><link rel="icon" type="image/png" sizes="16x16" href="/xcpc-problems/favicon-16.png"><title>难度分级说明 · XCPC 题单</title><link rel="stylesheet" href="/xcpc-problems/_astro/Layout.HzXbGTQ2.css"></head><body><a class="skip-link" href="#main">跳至主要内容</a><header class="site-header"><div class="header-inner"><a class="brand" href="/xcpc-problems/" aria-label="XCPC 题单首页"><img class="brand-mark" src="/xcpc-problems/logo.png" width="32" height="32" alt="" draggable="false"><span>XCPC<span class="brand-zh">题单</span></span></a><nav class="main-nav" aria-label="主导航"><a href="/xcpc-problems/">题目</a><a href="/xcpc-problems/contests/">比赛</a><a href="/xcpc-problems/training/">训练情况</a><a href="/xcpc-problems/methodology/" class="nav-help active" aria-current="page">分级说明</a></nav><a class="github-link" href="https://github.com/kas030/xcpc-problems" target="_blank" rel="noopener noreferrer" aria-label="在 GitHub 查看源码" title="在 GitHub 查看源码"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65"><path d="M9 19c-4.3 1.3-4.3-2-6-2m12 5v-3.4a3 3 0 0 0-.8-2.3c2.7-.3 5.6-1.3 5.6-6a4.7 4.7 0 0 0-1.3-3.3 4.3 4.3 0 0 0-.1-3.3s-1.1-.3-3.4 1.3a11.4 11.4 0 0 0-6 0C6.7 2.4 5.6 2.7 5.6 2.7a4.3 4.3 0 0 0-.1 3.3A4.7 4.7 0 0 0 4.2 9.3c0 4.7 2.9 5.7 5.6 6a3 3 0 0 0-.8 2.3V22"></path></svg><span>GitHub</span><span aria-hidden="true">↗</span></a></div></header><main id="main" class="page-shell"><div class="guide-page"><article class="guide-paper prose"><h1 id="难度分级说明">难度分级说明</h1>
+<p>本站根据正式队伍及各奖牌组的<strong>赛内通过率</strong>，将题目分为签到、铜牌、银牌、金牌和挑战五档，用于训练选题。</p>
+<h2 id="如何判定难度">如何判定难度</h2>
+<p>金、银、铜牌组互不重叠。每组的通过率为：<strong>该组通过题目的队伍数 ÷ 该组总队伍数</strong>。</p>
+<p>按下表从上往下判断，取第一个满足条件的难度。</p>
 <table>
 <thead>
 <tr>
-<th>条件，按顺序判断</th>
+<th>判定条件</th>
 <th>标签</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>铜牌组通过率 ≥ 50%</td>
+<td>铜牌组通过率 ≥ 90%，且全部正式队伍通过率 ≥ 80%</td>
+<td>签到题</td>
+</tr>
+<tr>
+<td>未达到签到条件，铜牌组通过率 ≥ 50%</td>
 <td>铜牌题</td>
 </tr>
 <tr>
@@ -29,26 +28,13 @@
 <td>金牌题</td>
 </tr>
 <tr>
-<td>金牌组也不足 50%</td>
+<td>各奖牌组均未达到 50%</td>
 <td>挑战题</td>
-</tr>
-<tr>
-<td>数据或奖牌边界未确认，或任一组不足 5 队</td>
-<td>待定</td>
 </tr>
 </tbody>
 </table>
-<p>例如，一道题的铜、银、金牌组通过率分别为 12%、65%、92%，它会被标为银牌题。详情页展示每组的通过队数与总队数，你可以自行判断。</p>
-<p>50% 是本站统一采用的训练分类阈值，并非主办方给题目指定的官方难度。规则版本为 <code>medal-cohort-v1</code>。</p>
-<h2 id="怎样使用这些标签">怎样使用这些标签</h2>
-<ul>
-<li><strong>跨比赛比较时结合赛事级别。</strong> 区域赛的银牌题和总决赛的银牌题并不具有相同的绝对难度。</li>
-<li><strong>通过率体现赛场表现。</strong> 选题策略、比赛时间、题目长度和队伍擅长的方向都会影响结果。</li>
-<li><strong>待定不代表更难。</strong> 它表示目前还不能可靠分类。</li>
-<li><strong>完成状态由你手动标记。</strong> 数据保存在当前浏览器，本站不会读取你的 QOJ 账号或提交记录。</li>
-</ul>
-<h2 id="比赛标签与来源">比赛标签与来源</h2>
-<p>比赛标签采用“年份后两位-赛事体系-站点”的形式，例如 <code>24-ICPC-南京</code>。年份使用赛事的标称年份；邀请赛、网络赛和总决赛可增加“邀”“网1”“ECF”等标识。</p>
-<p>榜单与提交记录来自 <a href="https://board.xcpcio.com/">XCPCIO</a> 及其 <a href="https://github.com/xcpcio/board-data">公开数据仓库</a>，题目提交入口指向 <a href="https://qoj.ac/">QOJ</a>。每场比赛都保留数据版本和原始榜单链接。</p>
-<p>首批题目使用已公开的官方中文 PDF。已有 Markdown 整理版时优先展示正文，并保留原始题面。翻译稿会明确标记为“待校对”或“已校对”。</p>
-<p>发现题目映射、统计或题面错误，可以<a href="https://github.com/kas030/xcpc-problems/issues/new">在 GitHub 提交问题</a>。请附上题目链接和对应来源，方便核对。</p></article></div></main><footer class="site-footer"><span>一题一步，积累向前。</span><div><span>榜单数据来自 <a href="https://board.xcpcio.com/" target="_blank" rel="noopener noreferrer">XCPCIO ↗</a></span><span class="footer-divider">/</span><a href="/xcpc-problems/methodology/">了解难度口径</a></div></footer></body></html>
+<p>例如，铜、银、金牌组通过率分别为 12%、65%、92% 时，该题为<strong>银牌题</strong>。题目详情页可查看各组的通过队数与总队数。</p>
+<h2 id="奖牌组如何划分">奖牌组如何划分</h2>
+<p>只统计正式队伍在比赛期间的通过情况，不计打星队、场外队和赛后提交。</p>
+<p>按比赛奖牌人数，将正式队伍分为金、银、铜牌组。缺少奖牌人数的比赛，按榜单排名比例估算，并在比赛页面标注。</p>
+<p>榜单数据来自 <a href="https://board.xcpcio.com/">XCPCIO</a>。发现统计错误，可附上题目链接和依据<a href="https://github.com/kas030/xcpc-problems/issues/new">在 GitHub 反馈</a>。</p></article></div></main><footer class="site-footer"><div><span>榜单数据来自 <a href="https://board.xcpcio.com/" target="_blank" rel="noopener noreferrer">XCPCIO ↗</a></span><span class="footer-divider">/</span><span>数据更新于 2026-11-07</span></div></footer></body></html>
