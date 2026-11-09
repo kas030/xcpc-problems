@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/9728/statement/zh_cn
 sourceHash: 379cd154193be934c14f4e5fe6b5d3e8def6e05bbc1ad81093724c38b1c728bb
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：4.0 秒；内存限制：1024 MB。
