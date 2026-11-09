@@ -1,89 +1,67 @@
-# XCPC 题单
+<div align="center">
 
-从真实比赛榜单挑选训练题目。静态网站采用 Astro + React + TypeScript，在本地构建后推送到 `gh-pages` 分支，由 GitHub Pages 托管，无需后端或自定义 GitHub Actions 工作流。
+<a href="https://kas030.github.io/xcpc-problems/">
+  <img src="public/logo.png" alt="XCPC 训练题单 Logo" width="120" />
+</a>
 
-**[在线题单](https://kas030.github.io/xcpc-problems/)** · [分级规则](https://kas030.github.io/xcpc-problems/methodology/) · [维护流程](docs/maintenance.md)
+# XCPC 训练题单
 
-当前收录 2022–2026 年的 72 场 ICPC / CCPC 比赛，共 920 题，包含区域赛、总决赛、邀请赛和网络赛。每题提供 QOJ 题面与提交入口、XCPCIO 榜单和奖牌组通过率；已有中文题册入口覆盖 259 题。难度分为签到题、铜牌题、银牌题、金牌题和挑战题。年份按赛事标称年份归档，实际举办日期单独显示；收录范围和待补项见 [近五年收录记录](docs/archive-2022-2026.md)。
+从真实比赛榜单出发，找到适合自己的下一道题。
 
-## 功能
+![Astro](https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Node.js 24](https://img.shields.io/badge/Node.js-24-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white)
 
-- 按难度、比赛、年份、中文题面及完成状态组合筛选，支持题名和 QOJ 编号搜索。
-- 筛选条件保存在 URL，可复制分享；完成状态保存在当前浏览器。
-- 每题展示金、银、铜牌组的通过队数与通过率，保留数据来源和固定版本。
-- 官方 PDF 同域预览、页码定位与原始题册入口；支持 Markdown、LaTeX 公式和译文校对状态。
-- 本地命令发现新比赛、更新已收录榜单；核对后通过一条命令构建并发布。
+</div>
 
-## 难度口径
+---
 
-先判断签到题：铜牌组赛内通过率达到 90%，且全部正式队伍赛内通过率达到 80%（分母包含零通过队伍）。铜牌组为空时不判签到。其余题目采用三个**互不重叠**的奖牌组，按铜、银、金顺序检查赛内通过率，第一组达到 50% 即作为题目标签；全部未达到则为挑战题。优先使用已配置的奖牌人数，缺少可用人数时，按有赛内通过记录的正式队伍数，以累计 10%、30%、60% 向上取整分组。比赛详情页仅对估算分组在比赛名称后显示图标，悬停可查看提示。
+## 在这里可以做什么
 
-小样本照常分类，空组跳过；分界并列队伍归入同一较高奖牌组，展示实际组内队数。未裁定提交暂不计入通过，未确认最终榜时按当前已裁定结果计算。没有正式队伍通过任何题时，所有题按挑战题收录并注明无通过记录。
+按比赛中的实际通过情况挑题，适合日常训练、赛后补题，也方便和队友分享训练范围。打开网站即可使用，无需注册本站账号。
 
-只统计参与对应评奖分组的正式队伍，排除打星、场外和赛后提交。每场比赛按原始时间单位和罚时规则重建排名。这个标签用于训练，跨赛事比较时仍需结合比赛级别。完整说明见 [methodology.md](src/content/guides/methodology.md)。
+| 选题与训练 | 使用方式 |
+| --- | --- |
+| 🎯 按目标选题 | 组合筛选难度、比赛、年份和完成状态，搜索题名、比赛或 QOJ 编号 |
+| 📊 查看难度依据 | 查看金、银、铜牌组的通过队数与通过率，跳转原始比赛榜单 |
+| 📖 阅读题面 | 阅读已收录的中文题面、单题 PDF 和完整题册，通过 QOJ 入口提交代码 |
+| ✅ 记录训练进度 | 手动标记已完成题目，筛选未完成题目继续训练 |
+| 🔗 分享训练范围 | 复制筛选链接，和队友查看同一组筛选条件 |
 
-## 本地运行
+目前收录 **2022–2026 年 · 72 场比赛 · 920 道题**，涵盖区域赛、总决赛、邀请赛和网络赛。收录范围见 [比赛归档](docs/archive-2022-2026.md)，最新题目以在线题单为准。
 
-使用 Node.js 24 LTS（`.nvmrc` 已指定）。
+完成状态仅保存在当前浏览器，清除浏览器网站数据会丢失进度。分享链接会保留筛选条件，不会分享你的完成记录。
 
-```sh
-npm ci
-npm run dev
-```
+## 开始训练
 
-打开 <http://localhost:4321/xcpc-problems/>。
+1. **挑选题目**：打开 [在线题单](https://kas030.github.io/xcpc-problems/)，选择目标难度。想补某场比赛时，再选择比赛或年份。
+2. **阅读并提交**：进入题目详情查看题面和通过率，通过 QOJ 链接提交代码。
+3. **记录进度**：通过后手动标记为已完成，下次可筛选“未完成”继续练习。
 
-```sh
-npm test            # 排名、分组、筛选等测试
-npm run check       # TypeScript 与 Astro 检查
-npm run build       # 校验数据并输出 dist/
-npm run preview     # 预览生产构建
-npm run sync        # 更新所有已收录比赛和待整理清单
-npm run discover    # 只更新待整理清单
-npm run catalog     # 修改比赛定义或 Markdown 后重新生成索引
-npm run deploy      # 本地检查、构建、推送 gh-pages 并验证上线
-```
+## 难度怎么看
 
-构建只读取已提交的数据和题册，不依赖 XCPCIO、QOJ 或翻译服务在线。原有 2024 昆明、沈阳、南京、重庆四场的 PDF 随站点发布；新增比赛提供 QOJ 原题入口及已找到的官方题册链接。外部题册在新标签页阅读，未提供本地副本时不嵌入跨站 PDF。
+难度依据正式队伍的**赛内通过率**划分。金、银、铜牌组互不重叠，按下表从上往下判断，取第一个满足条件的标签。
 
-## 目录
+| 难度 | 判定条件 |
+| --- | --- |
+| 签到题 | 铜牌组通过率 ≥ 90%，且全部正式队伍通过率 ≥ 80% |
+| 铜牌题 | 铜牌组通过率 ≥ 50% |
+| 银牌题 | 银牌组通过率 ≥ 50% |
+| 金牌题 | 金牌组通过率 ≥ 50% |
+| 挑战题 | 各奖牌组均未达到 50% |
 
-```text
-data/contests/             人工核对的比赛定义、QOJ 映射、题面来源
-data/snapshots/            固定上游版本的最小化榜单快照
-data/catalog.json          自动生成的网站索引
-data/discovered.json       尚未整理的比赛，不会直接进入网站
-src/content/statements/   可选 Markdown 题面
-src/assets/statements/    官方 PDF 题册，每份只保存一次
-src/lib/statement-pdfs.ts  原始题册地址与同域 PDF 资源的对应关系
-src/lib/scoring.ts         排名与奖牌组分级算法
-scripts/                  同步、候选映射提取、构建和校验
-public/.nojekyll           让 Pages 直接发布预先构建的静态文件
-```
+标签用于辅助选题，跨比赛比较时还需结合赛事级别。缺少奖牌人数的比赛会按比例估算分组，并在比赛页标注。详见 [分级说明](https://kas030.github.io/xcpc-problems/methodology/)。
 
-快照只保留统计需要的队伍 ID、分组和提交信息，不保存选手姓名、学校和联系方式。
+## 题面与反馈
 
-## 部署与更新
+题面入口因题目而异，提供已收录的官方题面、QOJ 中文版或中文译文。需要核对题意时，可查看原文或原始题册。
 
-仓库 Settings → Pages → Source 选择 **Deploy from a branch**，发布源为 `gh-pages` 分支的根目录。该分支只保存构建产物与 `.nojekyll`，源码始终保存在 `main`。本仓库已停用 GitHub Actions，不再使用云端 runner 或定时工作流。
+遇到题目映射错误、题面问题、链接失效或难度统计异常，欢迎 [提交 Issue](https://github.com/kas030/xcpc-problems/issues/new)，附上题目链接、问题描述和参考来源。也可以在这里建议补充比赛。
 
-本地需安装 Git、已登录的 GitHub CLI（`gh auth login`）和 Node.js 24，并能向仓库推送。更新流程：
+## 参与项目
 
-```sh
-npm run sync
-# 核对 data/ 中的变更；修改比赛定义或 Markdown 后运行 npm run catalog
-git add data src
-git commit -m "chore(data): update contest archive"
-git push origin main
-npm run deploy
-```
+想在本地运行、补充比赛或修正题面？请参阅 [开发指南](docs/development.md) 与 [维护流程](docs/maintenance.md)。
 
-无数据变更时跳过提交。发布要求在 `main` 分支、工作区干净且当前提交已推送；脚本自动运行测试、类型检查和构建，非强制推送发布分支，并核对线上 `build-info.json` 中的源码版本。Pages 更新通常需要等待一段时间；若验证超时，命令返回失败并保留已推送的产物。
-
-定期更新改为维护者或 agent 执行 `npm run sync`，建议每周一次；目前没有云端定时任务。新比赛的题目映射、奖牌资格和译文仍按 [维护流程](docs/maintenance.md) 核对。上游格式变化会使校验失败，已上线版本保持可用。
-
-GitHub 官方说明了 [`.nojekyll` 配合本地构建的直接发布方式](https://github.blog/changelog/2024-07-08-pages-legacy-worker-sunset/)。网站托管仍依赖 GitHub Pages 服务本身；如果账号限制影响 Pages 服务，也需要先解决该限制或迁移托管。
-
-## 内容与许可
-
-程序代码采用 [MIT](LICENSE)。榜单来自 [XCPCIO board-data](https://github.com/xcpcio/board-data)，保留上游版本和来源；题面及商标属于原作者。官方 PDF 副本用于同域阅读，不纳入代码的 MIT 许可，原始出处见比赛定义及页面链接。新增转载或翻译前应确认来源许可，记录出处。详见 [来源说明](THIRD_PARTY.md)。
+程序代码采用 [MIT 许可](LICENSE)。榜单数据来自 [XCPCIO board-data](https://github.com/xcpcio/board-data)，题面及商标属于原作者，题面不纳入代码的 MIT 许可。完整来源与许可说明见 [THIRD_PARTY.md](THIRD_PARTY.md)。

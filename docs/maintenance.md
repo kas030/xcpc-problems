@@ -1,5 +1,7 @@
 # 维护与新增比赛
 
+[返回 README](../README.md) · [本地开发与命令](development.md)
+
 中文题面收录与翻译的当前进度、暂停断点及待处理清单见 [translation-progress.md](translation-progress.md)。
 
 ## 常规更新
@@ -49,6 +51,8 @@ npm run import:qoj -- --url=https://qoj.ac/contest/1828 --html=.cache/qoj.html
 比例规则与 [XCPCIO 的 CCPC 预设](https://github.com/xcpcio/xcpcio/blob/7899799f851ee0ed86e65248fa7b2a35c7451b9e/packages/libs/core/src/rank.ts#L533-L585)一致。2024 重庆站有 278 支正式队伍获得赛内通过，自动得到金、银、铜组各 28、56、83 队，与 [XCPCIO 正式榜](https://board.xcpcio.com/ccpc/10th/chongqing/?group=official)显示一致；本站将其标为比例估算，并随快照重新计算，无需写死人数。
 
 分界并列队伍归入同一较高奖牌组，实际组数可能偏离预设人数，但每队只计入一组。小样本正常分类，空组跳过；没有正式队伍通过任何题时，所有题按挑战题收录，并注明无通过记录。生成索引使用 `medal-cohort-v3`，难度含签到、铜、银、金、挑战五档。先判断签到：铜牌组赛内通过率 ≥ 90%，且全部正式队伍赛内通过率 ≥ 80%（包含零通过队伍）；铜牌组为空时不判签到。未达到签到条件时沿用奖牌组 50% 阈值。阈值均含边界，以原始比例判定，不强制每场比赛都有签到题。
+
+未达到签到条件时，按铜、银、金顺序检查，第一组赛内通过率达到 50% 即作为题目标签；全部未达到则为挑战题。只统计参与对应评奖分组的正式队伍，排除打星、场外和赛后提交。年份按赛事标称年份归档，实际举办日期单独显示。
 
 ## 中文 Markdown 与翻译
 
@@ -111,6 +115,19 @@ QOJ 若将中文版标注为 AI 翻译，须在 Markdown 开头保留相应提�
 - 上游更新后分级变化：PR 中说明上游版本与原因；不要手改 `data/catalog.json`。
 
 ## 发布与 GitHub 配置
+
+本地需安装 Git、Node.js 24 和已登录的 GitHub CLI（`gh auth login`），并具备仓库推送权限。日常更新示例：
+
+```sh
+npm run sync
+# 核对 data/ 中的变更；修改比赛定义或 Markdown 后运行 npm run catalog
+git add data src
+git commit -m "chore(data): update contest archive"
+git push origin main
+npm run deploy
+```
+
+无数据变更时跳过提交。`main` 保存源码，`gh-pages` 只保存构建产物；发布验证超时时，已推送的产物会保留。
 
 - Pages Source 选择 `Deploy from a branch`，使用 `gh-pages` 的 `/`。REST API 对应 `build_type: legacy`。
 - 构建产物根目录必须有 `.nojekyll`，由 `public/.nojekyll` 自动复制。它让 Pages 直接发布静态文件，不运行 Jekyll。
