@@ -72,6 +72,19 @@ if (entry?.data.format === 'pdf' && !qojPdf) throw new Error(`QOJ 中文 PDF 缺
   </div>
 </Layout>
 <script>
+  document.querySelectorAll<HTMLImageElement>('.statement-prose img').forEach(img => {
+    if (img.closest('a')) return;
+    const link = document.createElement('a');
+    link.className = 'statement-image-link';
+    link.href = img.currentSrc || img.src;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    link.title = '在新标签页查看原图';
+    link.setAttribute('aria-label', `${img.alt || '题面图片'}：在新标签页查看原图`);
+    img.before(link);
+    link.append(img);
+  });
+
   document.querySelectorAll<HTMLPreElement>('.statement-prose pre').forEach(pre => {
     const code = pre.querySelector('code') ?? pre;
     const block = document.createElement('div');

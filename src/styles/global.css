@@ -356,6 +356,8 @@ a.contest-tag:hover { background: var(--contest-hover-bg); }
 .prose img { max-width: 100%; height: auto; }
 .prose .katex-display { overflow-x: auto; overflow-y: hidden; padding: 5px; }
 .statement-prose { padding: 22px 26px; }
+.statement-prose img { width: auto; height: auto; max-width: min(100%, 640px); max-height: 480px; }
+.statement-image-link { cursor: zoom-in; }
 .statement-prose > :first-child { margin-top: 0; }
 .statement-prose pre, .statement-prose code { font-family: ui-monospace, 'Cascadia Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
 .statement-prose pre { margin: 16px 0; border: 1px solid var(--line); background: var(--surface-soft) !important; color: var(--ink); font-size: 13px; white-space: pre; overflow-wrap: normal; tab-size: 4; }
