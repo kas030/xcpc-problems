@@ -231,7 +231,6 @@ a.contest-tag:hover { background: var(--contest-hover-bg); }
 .training-level-count > .training-count { font-size: 20px; font-weight: 650; }
 .training-level-count > span:not(.training-count) { color: var(--muted); }
 .training-level-count > strong { margin-left: auto; font-size: 12px; font-weight: 550; }
-.training-remaining { display: inline-block; margin-top: 10px; font-size: 12px; }
 .training-contests .table-toolbar > .muted { font-size: 11px; }
 
 .training-heatmap { padding: 14px 18px; --heatmap-gap: 5px; }

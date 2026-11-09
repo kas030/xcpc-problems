@@ -60,7 +60,6 @@ export default function TrainingDashboard({ catalog, base }: { catalog: Catalog;
         <h3><span className={`difficulty-badge ${row.difficulty}`}>{difficultyLabels[row.difficulty]}</span></h3>
         <div className="training-level-count"><span className="training-count">{row.completed}</span><span> / {row.total} 道</span><strong>{formatTrainingRate(row)}</strong></div>
         <ProgressBar row={row} label={`${difficultyLabels[row.difficulty]}完成率`} />
-        <span className="training-remaining">未完成 {row.remaining} 道<span className="sr-only">{difficultyLabels[row.difficulty]}</span></span>
       </div>)}</div>
     </section>
 
