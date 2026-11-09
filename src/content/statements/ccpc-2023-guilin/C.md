@@ -50,7 +50,3 @@ Prof. Chen 是算术运算和二进制运算的大师。今天他给学生 Putat
 4
 11
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/7679/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

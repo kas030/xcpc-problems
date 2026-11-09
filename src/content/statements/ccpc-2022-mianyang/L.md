@@ -131,7 +131,3 @@ Bobo 是著名电视节目“Sunday Night Live”的导演。该节目最近推�
 ![原题图示](../../../assets/qoj-statements/8045/cb66c95e84c84b64.png)
 
 第二个样例测试，第二次更改后
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/8045/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

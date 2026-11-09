@@ -65,7 +65,3 @@ sourceHash: b0c85a019dd7707c1cc3a8aab3b23a9b3db417d5980cafbae2ea00b880460871
 ```text
 7
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/8332/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

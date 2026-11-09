@@ -68,7 +68,3 @@ Shama 希望尽可能快地删除所有节点。你需要帮助她求出达成�
 - 对 $a_5$ 应用一次 MEX 操作，然后删除节点 $5$。
 
 总共使用了 $9$ 次操作。
-
----
-
-译自[官方英文题面](https://qoj.ac/download.php?type=attachments&id=4593&r=0)，原题版权归原作者所有。译稿经 DeepSeek 辅助生成并对照原文核验，已调整中文表述与 Markdown 排版。

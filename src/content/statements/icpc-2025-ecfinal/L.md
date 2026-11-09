@@ -107,7 +107,3 @@ Plana 已经从数学上证明，在此约束下，有效的逻辑 A 日志和�
 ![原题图示](../../../assets/qoj-statements/16339/98dc96e7532777fc.png)
 
 逻辑 A 与逻辑 B 的对应关系
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/16339/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

@@ -62,7 +62,3 @@ NO
 ## 说明
 
 对于第一个和第三个样例测试用例，一个有效的密码函数可以是 $f(\text{a}) = f(\text{b}) = f(\text{c}) = f(\text{d}) = \text{a}$ 且 $f(\text{e}) = \text{b}$。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9726/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

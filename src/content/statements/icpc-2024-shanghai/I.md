@@ -57,7 +57,3 @@ Justin 决心使用这个咒语来制造出尽可能强大的神器。他执行�
 100
 0
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9045/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

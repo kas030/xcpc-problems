@@ -77,7 +77,3 @@ Imperial Chance & Play 赌场提供一种使用老虎机进行的游戏。该老
 3 -1
 2 -1
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/14609/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。 QOJ 中文页中失效或错配的图片已按原有顺序补为[官方英文题面](https://qoj.ac/download.php?type=attachments&id=2522&r=0)中的对应图示。

@@ -96,7 +96,3 @@ sourceHash: 3023de5e4197a3dc4a00869d95b9a1c30ac236272ecd4fc4cc90cad7974ff9b5
 ```text
 -1
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9047/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

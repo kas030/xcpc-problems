@@ -79,7 +79,3 @@ Setsuna 正在研究音乐理论。共有 $n$ 个互不相同的音高，编号�
 
 - $[2,3,1]$ 是紧凑的。
 - $[3,1,4]$ 不是紧凑的。
-
----
-
-译自[官方英文题面](https://qoj.ac/download.php?type=attachments&id=4593&r=0)，原题版权归原作者所有。译稿经 DeepSeek 辅助生成并对照原文核验，已调整中文表述与 Markdown 排版。

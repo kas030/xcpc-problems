@@ -57,7 +57,3 @@ Ekko 刚刚发明了 Z-Drive，这使他能够回到过去。Heimerdinger 开发
 ```text
 18530141
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9923/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

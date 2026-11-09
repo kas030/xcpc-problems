@@ -71,7 +71,3 @@ Pig100ton 还有另一棵包含 $n$ 个顶点的树 $T$。对于每个 $1 \le u 
 ```text
 010110
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9924/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

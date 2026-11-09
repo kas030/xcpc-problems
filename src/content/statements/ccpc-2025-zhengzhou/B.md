@@ -92,7 +92,3 @@ sourceHash: e0365fa7fd946323db4b6358ff0ffd04fa20a0a6b1466fabccee14fb95fb7092
 ```text
 180
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/15302/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

@@ -78,7 +78,3 @@ Grammy 计划在 Pigeland 建造地铁。她选择了 $n$ 个车站，并决定�
 1
 5 0 0 1 1 2 2 4 4 8 8
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/7680/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

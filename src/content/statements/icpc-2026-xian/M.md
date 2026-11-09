@@ -75,8 +75,3 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHAHHHHHHHHHHHHHHHHHHHHHHHH
 ## 说明
 
 原题册为适应排版，将最后一组样例中的长字符串分行显示；这里已按每行长度 $103$ 还原。原始样例也可从 Domjudge 下载。
-
-
----
-
-译自[官方英文题面](https://qoj.ac/download.php?type=attachments&id=4593&r=0)，原题版权归原作者所有。

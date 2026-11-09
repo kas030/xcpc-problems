@@ -125,7 +125,3 @@ NO
 ![原题图示](../../../assets/qoj-statements/9775/9973ae8c4a31e9f9.png)
 
 Figure 1. 示例谜题 1
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9775/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

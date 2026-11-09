@@ -138,7 +138,3 @@ sourceHash: dc7f58c59769a163e664a664a58cc943e3af75e972b6abe4f43b381040e72915
 ### 样例 3 提示
 
 注意：$n$ 可能会非常大。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/15428/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

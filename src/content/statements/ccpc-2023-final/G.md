@@ -81,7 +81,3 @@ Kevin 和 Little Cyan Fish 参加了中国凸多边形竞赛决赛（CCPC Final�
 -   放弃无法完成的第三道题。
 
 从第 1 秒到第 5 秒，以及从第 6 秒到第 9 秒，“最后成功者”为 Little Cyan Fish，因此答案为 $(5 - 1) + (9 - 6) = 7$。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/8548/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

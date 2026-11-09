@@ -101,7 +101,3 @@ $$
     -   $(1, 3)$: $1 \oplus 3 = 2$，$\text{lca}_2(1, 3) = 2$。
     -   $(2, 3)$: $2 \oplus 3 = 1$，$\text{lca}_1(2, 3) = 2$。
 -   异或和为 $1 \oplus 2 \oplus 3 \oplus 2 \oplus 2 \oplus 2 = 2$。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/17352/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

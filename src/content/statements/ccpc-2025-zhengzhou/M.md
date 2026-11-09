@@ -52,7 +52,3 @@ $\oplus$ 表示二进制异或（XOR）运算。替换后，$\oplus$ 两侧的�
 100
 10
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/15313/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

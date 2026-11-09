@@ -65,7 +65,3 @@ Prof.Chen 希望尽可能多地制作蛋糕。请帮助 Prof.Chen 确定他最�
 1
 0
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/7684/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

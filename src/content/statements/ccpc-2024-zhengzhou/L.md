@@ -62,7 +62,3 @@ Bobo 现在向你提出以下问题：对于从 $L$ 到 $R$ 提取的 Z-curve �
 ![原题图示](../../../assets/qoj-statements/9779/a6cb2a2e888dc57a.png)
 
 样例测试用例示意图（红色：测试用例 1，绿色：测试用例 3）
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9779/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

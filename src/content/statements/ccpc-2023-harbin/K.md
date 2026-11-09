@@ -97,7 +97,3 @@ Yes
 但下面这个是不合法的，因为存在内部相交的连接：
 
 ![不合法的连接示例：连接线在内部相交](../../../assets/qoj-statements/7756/official-f5.jpeg)
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/7756/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。 QOJ 中文页中的失效图片已按原有顺序补为[官方英文题面](https://qoj.ac/download.php?type=attachments&id=1412&r=0)中的对应图示。

@@ -67,7 +67,3 @@ sourceHash: 25d9117f529814ec887a830e9796166356a9553e0c727f67bc158e89143503cc
 3
 1
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9046/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

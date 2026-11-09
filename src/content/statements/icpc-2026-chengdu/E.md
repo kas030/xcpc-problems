@@ -83,7 +83,3 @@ sourceHash: 553456bdf849d3e698141892314c141bb41a0df056e65b0a1bdc69d864ba6dc0
 ![problem\_23596\_b7e688351da0758f2f7d7d3948442e24.png](../../../assets/qoj-statements/23596/556f96898ebdc7bd.png)
 
 样例测试用例的图示
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/23596/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

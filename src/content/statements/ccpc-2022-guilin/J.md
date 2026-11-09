@@ -79,7 +79,3 @@ Little relyt871 想知道是否所有要求都能同时满足。请编写一个�
 ```text
 -1
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/6817/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

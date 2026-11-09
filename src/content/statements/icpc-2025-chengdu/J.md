@@ -73,7 +73,3 @@ Panda 希望策略性地选择最多 $b$ 篇论文进行反驳，以最大化所
 2
 1
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/14715/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

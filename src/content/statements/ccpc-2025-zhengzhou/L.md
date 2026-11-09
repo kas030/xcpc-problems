@@ -90,7 +90,3 @@ $opt$ 表示操作类型，其中 $opt = 1$ 为修改操作，$opt = 2$ 为查�
 12
 0
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/15312/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

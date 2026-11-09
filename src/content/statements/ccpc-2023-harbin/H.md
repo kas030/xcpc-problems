@@ -58,7 +58,3 @@ sourceHash: 79c5f20ea75009fb227b172e2ae3d3ff769dc90867a8a4a203247f0d92217502
 ```text
 0.571429
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/7753/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

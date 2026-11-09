@@ -47,7 +47,3 @@ sourceHash: 846f95fd28af9cc60cc7afb0e79b0c8b4911c61818c53af0743724085d6a1b03
 ```text
 10 3 2 7 2
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/15431/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

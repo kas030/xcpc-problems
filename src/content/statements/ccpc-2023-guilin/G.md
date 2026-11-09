@@ -47,7 +47,3 @@ Putata 昨晚工作得很辛苦，早上醒来时，他只记得电脑上保存�
 impossible
 )))(
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/7683/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

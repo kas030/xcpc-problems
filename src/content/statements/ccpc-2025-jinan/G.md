@@ -77,7 +77,3 @@ $$
 -   首先，将 $M_2$ 和 $M_3$ 相乘得到一个大小为 $3 \times 6$ 的矩阵，然后与 $M_1$ 相乘，对应表达式 $M_1 \times (M_2 \times M_3)$。此时的总操作次数为 $3 \times 2 \times 6 + 5 \times 3 \times 6 = 126$。
 
 这里，目标是最小化总操作次数，因此 $\text{MCOP}([5, 3, 2, 6]) = \min(90, 126) = 90$。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/15038/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

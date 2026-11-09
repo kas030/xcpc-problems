@@ -106,9 +106,3 @@ Yes
 | 1 | 0 | 1 | 1 |
 | 1 | 1 | 0 | 1 |
 | 1 | 1 | 1 | 1 |
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9980/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。
-
-排版修复：QOJ 中文页将真值表中的逻辑或符号误拆成列分隔符，并将 `<expr>` 占位符当成 HTML 标签；已对照官方英文题册第 11 页恢复表头和表达式格式。 [核对官方英文题面](https://qoj.ac/download.php?type=attachments&id=1894&r=0)。

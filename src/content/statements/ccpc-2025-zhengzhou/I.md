@@ -85,7 +85,3 @@ sourceHash: 7ac07a73b72c402c0d0b58cab5347ae52e0f0548590a0952011c557e21fdb4f3
 对于第二个样例，答案为 $\frac{31}{18}$。
 
 对于第三个样例，答案为 $\frac{1711}{648}$。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/15309/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

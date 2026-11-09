@@ -62,7 +62,3 @@ Geopelia 正在收集 Gungnir 的碎片。Gungnir 共有 $2^n$ 种碎片，编�
 21
 3
 ```
-
----
-
-译自[官方英文题面](https://qoj.ac/download.php?type=attachments&id=4593&r=0)，原题版权归原作者所有。译稿经 DeepSeek 辅助生成并对照原文核验，已调整中文表述与 Markdown 排版。

@@ -85,7 +85,3 @@ CCPC（中国大学生程序设计竞赛）将在 A 市举行。A 市可以看�
 ```text
 0.0000000000
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/14539/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

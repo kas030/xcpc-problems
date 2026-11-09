@@ -82,7 +82,3 @@ VegiCat 正在观察一个有 $n$ 行 $n$ 列的网格上的粒子。左下角�
 同一个格子中具有相同方向组合的粒子被绘制为单个符号，省略其重数。
 
 ![problem\_23593\_6aefd3f27e435f8b6b87db43b7a7aa66.png](../../../assets/qoj-statements/23593/af5763b67f23ad18.png)
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/23593/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

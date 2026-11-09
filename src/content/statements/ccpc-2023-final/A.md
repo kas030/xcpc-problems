@@ -58,7 +58,3 @@ Little Cyan Fish 还有 $n$ 个整数 $y_1, y_2, \dots, y_n$。他希望 Little 
 5000000000
 76
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/8542/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

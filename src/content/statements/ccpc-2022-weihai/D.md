@@ -87,7 +87,3 @@ sourceHash: 527ba3dc7bb876a6d96e2372a56c4c5784073c6c118cca8faf26f5ae323222a4
 对于样例中的第二个初始摆放方式，获得最高分数的移动过程如下图所示。
 
 ![第二组样例取得最高分的移动顺序](../../../assets/qoj-statements/9594/official-fix.png)
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9594/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。 QOJ 中文页中失效或错配的图片已按原有顺序补为[官方英文题面](https://qoj.ac/download.php?type=statement&id=9594&ver=default)中的对应图示。

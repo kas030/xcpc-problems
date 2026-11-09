@@ -93,7 +93,3 @@ sourceHash: 3ba900f1ca1d61f5d059db4cf84e1a4d1e52f0526e09bda8b1bfa8c7ff626e67
 ![第二组样例中以节点 1 为中心的树](../../../assets/qoj-statements/14689/official-fix.png)
 
 这棵树是一棵 holly 树。例如，对于节点对 $(2, 4)$，从 $2$ 到 $4$ 的简单路径包含节点 $2$、$1$ 和 $4$，其按位异或和为 $2 \oplus 1 \oplus 4 = 7$，满足输入中给出的约束条件 $A_{2,4} = 7$。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/14689/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。 QOJ 中文页中失效或错配的图片已按原有顺序补为[官方英文题面](https://qoj.ac/download.php?type=attachments&id=2562&r=0)中的对应图示。

@@ -89,7 +89,3 @@ sourceHash: cefe14afabc02186684a8b9ba0c82788442f259f7d8fdc1f7cba65ab7f56acc3
 0000
 1111111111111
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9048/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

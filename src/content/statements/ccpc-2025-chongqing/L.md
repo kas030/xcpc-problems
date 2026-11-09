@@ -60,7 +60,3 @@ sourceHash: e95170b11a8f6dce52fa4520158eceb4c7448cb5010a366c085fd639bfe3aee9
 以下图像显示了 $n = k = 2$ 时的 19 种构造方案（为了更好地说明铺砖效果，每张图像显示了以 $3 \times 3$ 模式排列的 9 块瓷砖，LED 有深色和浅色两种颜色）。通过交换前 12 种方案的深色和浅色，可以获得另外 12 种方案，从而总共得到 31 种方案。
 
 ![原题图示](../../../assets/qoj-statements/15430/cb5bcf1e2a113f28.png)
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/15430/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

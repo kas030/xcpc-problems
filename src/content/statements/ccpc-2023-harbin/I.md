@@ -79,7 +79,3 @@ sourceHash: 923b31234075ea774cec2ce80774cdd8163523b4928adf23b9be3d9d1befded0
 ```text
 265294941
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/7754/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

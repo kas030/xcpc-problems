@@ -83,7 +83,3 @@ Bobo 被困在一个奇特的一天无限循环中！每一天恰好有 $k$ 个�
 6 7
 34 10
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9773/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

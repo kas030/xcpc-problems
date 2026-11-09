@@ -93,7 +93,3 @@ DDDUUURDDDUUURDDD
     ![原题图示](../../../assets/qoj-statements/17353/c8f8eefbf60d3499.png)
     
 -   易证对于这些障碍物分布中的任意一种，按照样例输出中给出的移动步骤，Yuki 都会到达第 $n + 1$ 行。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/17353/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

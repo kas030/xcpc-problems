@@ -58,7 +58,3 @@ sourceHash: 5c0acac0097ee5499e190ae58e5135ceb672f276028990d982591b9b3b3ec844
 
 1.  选择子集 $\{3\}$ 并将其移除。
 2.  选择子集 $\{3\}$ 并将其移除。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/14712/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

@@ -125,7 +125,3 @@ BaoBao 买了一台望远镜来观测夜空中的星星。这颗星星被表示�
 ![原题图示](../../../assets/qoj-statements/9728/7545cbb94d2cdb2b.png)
 
 ![原题图示](../../../assets/qoj-statements/9728/020645aabda8a0ec.png)
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9728/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

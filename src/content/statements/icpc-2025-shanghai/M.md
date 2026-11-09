@@ -52,7 +52,3 @@ Mino 非常喜欢计算。他将每个任务的权值定义为从该任务到根
 有 6 种构建树并比较子节点的方法：
 
 ![原题图示](../../../assets/qoj-statements/15326/41eaea2370ad6fca.png)
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/15326/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

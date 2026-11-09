@@ -75,7 +75,3 @@ Alice 知道 Bob 很贪婪，所以她了解 Bob 选择会合城市的策略。�
 3 1 2 4
 3 8 4 2 5 9 7 1 6
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/7750/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

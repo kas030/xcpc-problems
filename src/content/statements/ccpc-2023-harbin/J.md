@@ -68,7 +68,3 @@ Plover 和 Georgia 正在森林图上玩一个游戏。给定一个包含 $n$ �
 对于第一个样例，如果 Georgia 在第一步选择节点 1 或节点 2，她就能赢得游戏。
 
 对于第二个样例，如果 Georgia 在第一步选择 3 条边中的任意一条，她就能赢得游戏。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/7755/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

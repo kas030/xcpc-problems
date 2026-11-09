@@ -95,7 +95,3 @@ sourceHash: 86203bf4ae46e6a37da34bb5e7dad069aa0daf32bc44af96c14021484bb7ea33
 ### 说明
 
 对于第一个样例，如图所示，多边形 $P$ 为 $ABCDEF$，多边形 $Q$ 为 $GHIJ$。包含 $Q$ 的三角形为 $\Delta ACE$ 和 $\Delta BDF$。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/14714/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

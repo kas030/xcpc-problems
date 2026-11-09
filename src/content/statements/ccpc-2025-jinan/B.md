@@ -72,7 +72,3 @@ sourceHash: ea0c57c94afc042c277ab6c400765e3d65bf9dbb7a4042bcf059ca8fd43c2a72
 对于第二个测试用例，对应的示意图如下：
 
 ![Figure 2](../../../assets/qoj-statements/15033/31c823fdaae8080e.png)
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/15033/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

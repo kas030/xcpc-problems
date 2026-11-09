@@ -103,7 +103,3 @@ C 市计划在这条新地铁线路上开通 $m$ 种列车服务。第 $i$ 种�
 ```text
 100
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/16332/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

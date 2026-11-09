@@ -55,7 +55,3 @@ Ayano 有三个整数数组 $a_1, \dots, a_n$，$b_1, \dots, b_n$ 和 $c_1, \dot
 ```text
 2 12 12 36 0
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/8139/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

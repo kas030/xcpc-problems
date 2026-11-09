@@ -72,7 +72,3 @@ Little Cyan Fish 有 $n$ 个数字 $a_1, a_2, \dots, a_n$ 和 $n-1$ 个运算符
 -   $9 - 1 + 4 - 1 \implies 9 - 1 + 3 \implies 9 - 4 \implies 5$
 
 因此答案为 $11 + 11 + 3 + 5 + 11 + 5 = 46$。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/6513/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

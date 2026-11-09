@@ -67,7 +67,3 @@ Python will never be faster than C++
 ![原题图示](../../../assets/qoj-statements/9595/6ba360d77d83a007.png)
 
 对于第二个样例，很容易注意到 Python 的运行时间始终为 2 毫秒，包括对未来版本的预测。因此，Python 的效率永远不会高于运行时间为 1 毫秒的 C++。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9595/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

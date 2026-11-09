@@ -72,7 +72,3 @@ Boboland 的领土是一个以原点为中心、边长为 $2R$ 的轴对齐正�
 ![原题图示](../../../assets/qoj-statements/8039/75221e2ba9741478.png)
 
 对于第二个样例，不存在满足要求的参数。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/8039/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

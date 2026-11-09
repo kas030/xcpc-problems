@@ -64,7 +64,3 @@ Middle Race 是综艺节目“The Genius”中的一款棋盘游戏。在 Middle
 ## 说明
 
 样例中的空行仅为了方便理解，你的程序中不得输出空行。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/8043/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

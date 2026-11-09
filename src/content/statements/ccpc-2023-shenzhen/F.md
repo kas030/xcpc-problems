@@ -45,7 +45,3 @@ sourceHash: 09e51285227f6eb4022effd38e0f1623ccbb3123e90e7674ee06afa37abdab7d
 ```text
 10
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/8333/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

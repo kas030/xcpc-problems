@@ -69,7 +69,3 @@ sourceHash: 23c4c4168f26379ca4febe0b5f3674b28f13c86e51d21bd15fdee9c4368186ef
 第一个测试用例可以用下图表示：
 
 ![第一组样例中三个扇形的并集](../../../assets/qoj-statements/6813/official-fig1.png)
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/6813/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。 QOJ 中文页中的失效图片已按原有顺序补为[官方英文题面](https://qoj.ac/download.php?type=attachments&id=1303&r=0)中的对应图示。

@@ -86,7 +86,3 @@ end procedure
 2 4
 3 5
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/6503/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

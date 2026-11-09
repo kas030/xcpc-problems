@@ -55,7 +55,3 @@ sourceHash: 6e106241c640b03c9022864aa690c5f7a2bf6331072f254195b0842abc96ee05
 ```text
 impossible
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/14610/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。 QOJ 中文页中失效或错配的图片已按原有顺序补为[官方英文题面](https://qoj.ac/download.php?type=attachments&id=2522&r=0)中的对应图示。

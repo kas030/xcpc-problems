@@ -47,7 +47,3 @@ NO
 ## 说明
 
 设 $s = s_1s_2s_3 \dots$ 和 $t = t_1t_2t_3 \dots$ 为无限长二进制字符串。 $s$ 的周期是满足对于所有 $i \ge 1$ 都有 $s_i = s_{i+k}$ 的最小正整数 $k$。 字符串 $s$ 和 $t$ 的异或由 $s \oplus t$ 给出，满足对于所有 $i \ge 1$ 都有 $(s \oplus t)_i = s_i \oplus t_i$。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9768/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

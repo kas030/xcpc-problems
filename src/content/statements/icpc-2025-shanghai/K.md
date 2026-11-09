@@ -126,7 +126,3 @@ White 有一个由 $n$ 个整数组成的序列 $a_1, a_2, \dots, a_n$。她将�
 对于第一次查询，答案为 $\sum_{i=1}^{5}\left(\min_{j=1}^{i} a_j\right) \times \left(\max_{j=1}^{i} a_j\right) = 2 \times 2 + 2 \times 3 + 2 \times 5 + 2 \times 5 + 1 \times 5 = 35$。
 
 对于第二次查询，答案为 $\sum_{i=2}^{4}\left(\min_{j=2}^{i} a_j\right) \times \left(\max_{j=2}^{i} a_j\right) = 3 \times 3 + 3 \times 5 + 3 \times 5 = 39$。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/15324/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

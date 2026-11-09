@@ -65,7 +65,3 @@ P
 下图展示了以字符串 SPSRRP 为初始状态的示例，即样例中的第二个测试用例。
 
 ![原题图示](../../../assets/qoj-statements/8046/49dd719ed5daf058.png)
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/8046/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

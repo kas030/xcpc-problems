@@ -69,7 +69,3 @@ Alice 收到了一串由邻居给出的序列 $A$。由于 Alice 不喜欢过长
 4
 2 1 3 3
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9729/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

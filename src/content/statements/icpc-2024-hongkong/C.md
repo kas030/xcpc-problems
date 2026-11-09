@@ -48,7 +48,3 @@ Bie 皇帝想要创建一个长度为 $n$ 的数组 $A$。他首先选择一个�
 2
 1 2 3
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9917/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。
