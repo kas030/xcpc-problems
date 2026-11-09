@@ -85,13 +85,13 @@ input[type=search]::-webkit-search-cancel-button { cursor: pointer; }
 .main-nav { display: flex; flex: 1; align-self: stretch; gap: 8px; align-items: center; margin-left: 24px; }
 .main-nav a { position: relative; display: flex; justify-content: center; align-items: center; min-height: 40px; padding: 0 14px; border-radius: 6px; white-space: nowrap; font-size: 14px; font-weight: 500; color: var(--muted); transition: color .15s, background .15s; }
 .main-nav a::after { content: ''; position: absolute; bottom: -12px; left: 50%; width: 20px; height: 2px; border-radius: 2px; background: transparent; transform: translateX(-50%); transition: background .15s; }
-.main-nav a:hover { background: var(--surface-soft); color: var(--ink); }
+.main-nav a:hover { color: var(--ink); }
 .main-nav a.active { color: var(--primary-hover); font-weight: 650; }
 .main-nav a.active::after { background: var(--primary); }
 .main-nav .nav-help { margin-left: auto; }
 .github-link { display: flex; justify-content: center; align-items: center; flex-shrink: 0; gap: 7px; height: 40px; padding: 0 10px; border-radius: 8px; color: var(--muted); font-size: 12px; transition: color .15s, background .15s; }
 .github-link svg { width: 20px; height: 20px; }
-.github-link:hover { color: var(--ink); background: var(--surface-soft); }
+.github-link:hover { color: var(--ink); }
 .page-shell { max-width: 1320px; padding: 24px 28px 32px; margin: 0 auto; min-height: calc(100vh - 116px); }
 .page-wide { max-width: 1480px; padding-top: 20px; }
 .site-footer { max-width: 1480px; margin: 0 auto; padding: 14px 28px 20px; display: flex; justify-content: flex-end; color: var(--muted); font-size: 11px; }
