@@ -5,9 +5,11 @@ import { catalog } from '../lib/catalog';
 import { base } from '../lib/urls';
 ---
 <Layout title="训练情况 · XCPC 题单" description="查看个人训练进度、各难度完成情况与各比赛训练情况。" active="training">
+  <div class="training-page">
   <header class="section-heading">
     <h1>训练情况</h1>
   </header>
   <TrainingDashboard client:load catalog={catalog} base={base} />
   <noscript><p class="notice">训练统计需要 JavaScript 才能读取本地进度，请启用后查看。</p></noscript>
+  </div>
 </Layout>

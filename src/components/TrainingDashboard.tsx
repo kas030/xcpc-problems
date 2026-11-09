@@ -1,10 +1,8 @@
 import { useEffect, useMemo, useState } from 'react';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { createPortal } from 'react-dom';
 import { readSolvedProgress, SOLVED_STORAGE_KEY } from '../lib/progress';
 import { difficultyLabels, type Catalog } from '../lib/schema';
 import { calculateTrainingStats, formatTrainingRate, type TrainingProgress } from '../lib/training';
-
-const PER_PAGE = 20;
 
 function ProgressBar({ row, label }: { row: TrainingProgress; label: string }) {
   return <div className="training-track" role="progressbar" aria-label={label} aria-valuemin={0} aria-valuemax={100} aria-valuenow={Number((row.rate * 100).toFixed(1))} aria-valuetext={`已完成 ${row.completed} / ${row.total} 道，${formatTrainingRate(row)}`}>
@@ -14,29 +12,35 @@ function ProgressBar({ row, label }: { row: TrainingProgress; label: string }) {
 
 export default function TrainingDashboard({ catalog, base }: { catalog: Catalog; base: string }) {
   const [solved, setSolved] = useState<Set<string> | null>(null);
-  const [page, setPage] = useState(1);
+  const [tooltip, setTooltip] = useState<{ id: string; x: number; y: number } | null>(null);
+  const showTooltip = (id: string, x: number, y: number) => setTooltip({
+    id, x: Math.max(8, Math.min(x + 12, window.innerWidth - 288)),
+    y: Math.max(8, Math.min(y + 16, window.innerHeight - 100)),
+  });
   useEffect(() => {
     const refresh = () => setSolved(readSolvedProgress());
     const onStorage = (event: StorageEvent) => {
       if (event.key === SOLVED_STORAGE_KEY || event.key === null) refresh();
     };
+    const hideTooltip = () => setTooltip(null);
+    window.addEventListener('scroll', hideTooltip, true);
+    window.addEventListener('resize', hideTooltip);
     refresh();
     window.addEventListener('storage', onStorage);
     window.addEventListener('focus', refresh);
     window.addEventListener('pageshow', refresh);
     return () => {
+      window.removeEventListener('scroll', hideTooltip, true);
+      window.removeEventListener('resize', hideTooltip);
       window.removeEventListener('storage', onStorage);
       window.removeEventListener('focus', refresh);
       window.removeEventListener('pageshow', refresh);
     };
   }, []);
   const stats = useMemo(() => calculateTrainingStats(catalog, solved ?? new Set()), [catalog, solved]);
-  const pages = Math.max(1, Math.ceil(stats.contests.length / PER_PAGE));
-  const currentPage = Math.min(page, pages);
-  const start = (currentPage - 1) * PER_PAGE;
-  const visible = stats.contests.slice(start, start + PER_PAGE);
-  const pageNumbers = Array.from({ length: pages }, (_, i) => i + 1)
-    .filter(i => pages <= 7 || i === 1 || i === pages || Math.abs(i - currentPage) <= 1);
+  const years = [...new Set(stats.contests.map(row => row.contest.year))].sort((a, b) => b - a);
+  const active = stats.contests.find(row => row.contest.id === tooltip?.id);
+  const heatLevel = (row: TrainingProgress) => row.completed === 0 ? 0 : row.rate < 0.25 ? 1 : row.rate < 0.5 ? 2 : row.rate < 1 ? 3 : 4;
 
   if (solved === null) return <p className="training-loading" role="status">正在读取训练进度…</p>;
 
@@ -61,26 +65,35 @@ export default function TrainingDashboard({ catalog, base }: { catalog: Catalog;
     </section>
 
     <section className="table-card training-contests" aria-labelledby="training-contests-heading">
-      <div className="table-toolbar"><h2 id="training-contests-heading" className="table-title">比赛进度<span className="result-count">{stats.contests.length}</span></h2><span className="muted">按比赛时间倒序</span></div>
-      <div className="table-scroll"><table className="problem-table training-table">
-        <caption className="sr-only">各比赛训练完成情况</caption>
-        <thead><tr><th scope="col">比赛</th><th scope="col">已完成</th><th scope="col">未完成</th><th scope="col">完成率</th></tr></thead>
-        <tbody>{visible.map(row => <tr key={row.contest.id}>
-          <th scope="row"><a href={`${base}/contests/${row.contest.id}/`} title={row.contest.name}>{row.contest.shortName}</a></th>
-          <td><span className="training-count">{row.completed}</span></td>
-          <td><span className="training-count">{row.remaining}</span></td>
-          <td><span>{formatTrainingRate(row)}</span><ProgressBar row={row} label={`${row.contest.shortName}完成率`} /></td>
-        </tr>)}</tbody>
-      </table></div>
-      {stats.contests.length === 0 && <p className="empty-state">暂无比赛</p>}
-      <nav className="pagination training-pagination" aria-label="训练比赛分页">
-        <span aria-live="polite">{stats.contests.length ? `${start + 1}–${start + visible.length}` : '0'} / {stats.contests.length} 场比赛</span>
-        {pages > 1 && <div>
-          <button className="icon-button" aria-label="上一页" disabled={currentPage === 1} onClick={() => setPage(currentPage - 1)}><ChevronLeft size={17} /></button>
-          {pageNumbers.map((number, index) => <span key={number}>{index > 0 && pageNumbers[index - 1] !== number - 1 && <span className="page-ellipsis" aria-hidden="true">…</span>}<button className={`page-number ${currentPage === number ? 'current' : ''}`} aria-label={`第 ${number} 页`} aria-current={currentPage === number ? 'page' : undefined} onClick={() => setPage(number)}>{number}</button></span>)}
-          <button className="icon-button" aria-label="下一页" disabled={currentPage === pages} onClick={() => setPage(currentPage + 1)}><ChevronRight size={17} /></button>
-        </div>}
-      </nav>
+      <div className="table-toolbar"><h2 id="training-contests-heading" className="table-title">比赛进度</h2><span className="muted">按比赛时间倒序</span></div>
+      <div className="training-heatmap">
+        {years.map(year => <div className="training-heatmap-year" key={year}>
+          <h3>{year}</h3>
+          <div className="training-heatmap-cells" role="group" aria-label={`${year} 年比赛`}>
+            {stats.contests.filter(row => row.contest.year === year).map(row => {
+              const description = `${row.contest.name}：已完成 ${row.completed} / ${row.total} 道`;
+              return <a key={row.contest.id} className="training-heatmap-cell" data-level={heatLevel(row)} href={`${base}/contests/${row.contest.id}/`} aria-label={description}
+                onMouseEnter={event => showTooltip(row.contest.id, event.clientX, event.clientY)}
+                onMouseMove={event => showTooltip(row.contest.id, event.clientX, event.clientY)}
+                onMouseLeave={() => setTooltip(null)}
+                onFocus={event => { const rect = event.currentTarget.getBoundingClientRect(); showTooltip(row.contest.id, rect.left, rect.bottom); }}
+                onBlur={() => setTooltip(null)}
+                onKeyDown={event => { if (event.key === 'Escape') setTooltip(null); }} />;
+            })}
+          </div>
+        </div>)}
+        {stats.contests.length === 0 && <p className="muted">暂无比赛</p>}
+        <div className="training-heatmap-footer">
+          <p className="training-heatmap-summary">共 {stats.contests.length} 场 · 已开始 {stats.startedContests} 场 · 已完成 {stats.completedContests} 场</p>
+          <div className="training-heatmap-legend" aria-label="完成率图例：未开始、低于 25%、25% 至不足 50%、50% 至不足 100%、全部完成">
+            <span>未开始</span>{[0, 1, 2, 3, 4].map(level => <span key={level} className="training-heatmap-cell" data-level={level} aria-hidden="true" />)}<span>全部完成</span>
+          </div>
+        </div>
+      </div>
     </section>
+    {tooltip && active && createPortal(<div className="training-heatmap-tooltip" role="tooltip" style={{ left: tooltip.x, top: tooltip.y }}>
+      <strong>{active.contest.name}</strong>
+      <span>已完成 {active.completed} / {active.total} 道</span>
+    </div>, document.body)}
   </div>;
 }
