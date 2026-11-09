@@ -1,5 +1,5 @@
-import { useEffect, useMemo, useState } from 'react';
-import { ArrowDownWideNarrow, ArrowUpNarrowWide, Check, ChevronLeft, ChevronRight, Filter, Search, Share2, X } from 'lucide-react';
+import { Fragment, useEffect, useMemo, useState } from 'react';
+import { ArrowDownWideNarrow, ArrowUpNarrowWide, Check, ChevronLeft, ChevronRight, Ellipsis, Filter, Search, Share2, X } from 'lucide-react';
 import type { Catalog, Difficulty } from '../lib/schema';
 import { difficultyLabels, difficultyNames } from '../lib/schema';
 import { emptyFilters, filterProblems, type Filters } from '../lib/filters';
@@ -38,6 +38,8 @@ export default function ProblemBrowser({ catalog }: { catalog: Catalog }) {
   const sortDirectionLabel = filters.order === 'asc' ? '当前升序，切换为降序' : '当前降序，切换为升序';
   const pages = Math.max(1, Math.ceil(filtered.length / PER_PAGE));
   const currentPage = Math.min(page, pages);
+  const pageNumbers = Array.from({ length: pages }, (_, index) => index + 1)
+    .filter(number => number === 1 || number === pages || Math.abs(number - currentPage) <= 1);
   useEffect(() => {
     if (!ready) return;
     if (page !== currentPage) setPage(currentPage);
@@ -75,7 +77,17 @@ export default function ProblemBrowser({ catalog }: { catalog: Catalog }) {
         </div></div>
           <ProblemTable problems={visible} contests={contestById} solved={solved} onToggleSolved={id => { if (!toggleSolved(id)) setToast(progressSaveError); }}/>
           {!filtered.length && <div className="empty-state"><Search size={30}/><h3>暂时没有符合条件的题目</h3></div>}
-          <div className="pagination"><span>{filtered.length ? `${(currentPage-1)*PER_PAGE+1}–${Math.min(currentPage*PER_PAGE,filtered.length)}` : '0'} / {filtered.length} 道题</span><div><button className="icon-button" aria-label="上一页" disabled={currentPage===1} onClick={()=>setPage(currentPage-1)}><ChevronLeft size={17}/></button>{Array.from({length:pages},(_,i)=>i+1).filter(i=>i===1||i===pages||Math.abs(i-currentPage)<=1).map((i,index,arr)=><span key={i}>{index>0&&arr[index-1]!==i-1&&<span className="page-ellipsis">…</span>}<button className={`page-number ${currentPage===i?'current':''}`} aria-label={`第 ${i} 页`} aria-current={currentPage===i?'page':undefined} onClick={()=>setPage(i)}>{i}</button></span>)}<button className="icon-button" aria-label="下一页" disabled={currentPage===pages} onClick={()=>setPage(currentPage+1)}><ChevronRight size={17}/></button></div></div>
+          <div className="pagination">
+            <span>{filtered.length ? `${(currentPage - 1) * PER_PAGE + 1}–${Math.min(currentPage * PER_PAGE, filtered.length)}` : '0'} / {filtered.length} 道题</span>
+            <div>
+              <button className="icon-button" aria-label="上一页" disabled={currentPage === 1} onClick={() => setPage(currentPage - 1)}><ChevronLeft size={17}/></button>
+              {pageNumbers.map((number, index) => <Fragment key={number}>
+                {index > 0 && pageNumbers[index - 1] !== number - 1 && <span className="page-ellipsis" aria-hidden="true"><Ellipsis size={16}/></span>}
+                <button className={`page-number${currentPage === number ? ' current' : ''}`} aria-label={`第 ${number} 页`} aria-current={currentPage === number ? 'page' : undefined} onClick={() => setPage(number)}>{number}</button>
+              </Fragment>)}
+              <button className="icon-button" aria-label="下一页" disabled={currentPage === pages} onClick={() => setPage(currentPage + 1)}><ChevronRight size={17}/></button>
+            </div>
+          </div>
         </div>
       </section>
     </div>
