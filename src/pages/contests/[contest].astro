@@ -50,7 +50,7 @@ const problems = catalog.problems.filter(p => p.contestId === contest.id);
           <td>
             <a class="problem-title" href={problemHref(p.id)} target="_blank" rel="noopener noreferrer"><span class="problem-letter">{p.label}</span><span>{p.title}</span>{p.interactive && <span class="contest-problem-note">交互题</span>}<span class="contest-completion" hidden><span aria-hidden="true">✓</span> 已完成</span></a>
           </td>
-          <td><span class={`difficulty-badge ${p.difficulty}`}><span class="badge-dot" />{difficultyLabels[p.difficulty]}</span></td>
+          <td><span class={`difficulty-badge ${p.difficulty}`}>{difficultyLabels[p.difficulty]}</span></td>
           <td class="rate-column"><span class="solve-count"><strong>{p.solved}</strong></span></td>
           <td class="links-column"><div class="row-links"><a href={`https://qoj.ac/problem/${p.qojId}`} target="_blank" rel="noopener noreferrer" aria-label={`在 QOJ 提交 ${p.label} 题`}>QOJ <span aria-hidden="true">↗</span></a></div></td>
         </tr>)}</tbody>
