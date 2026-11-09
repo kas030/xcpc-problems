@@ -18,7 +18,7 @@ export function ProblemTable({ problems, caption, contests, solved, onToggleSolv
     <thead><tr>
       <th scope="col" className="status-column"><span className="sr-only">完成状态</span></th>
       <th scope="col">题目</th>
-      <th scope="col">难度</th>
+      <th scope="col" className="difficulty-column"><span className="difficulty-heading">难度</span></th>
       {contests && <th scope="col" className="contest-column">所属比赛</th>}
       <th scope="col" className="rate-column">赛内通过</th>
       <th scope="col" className="links-column">链接</th>
