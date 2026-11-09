@@ -1,9 +1,9 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import ContestLogo from '../../components/ContestLogo.astro';
+import { ContestProblemTable } from '../../components/ProblemTable';
 import { catalog, CONTESTS_PER_PAGE } from '../../lib/catalog';
-import { href, problemHref } from '../../lib/urls';
-import { difficultyLabels } from '../../lib/schema';
+import { href } from '../../lib/urls';
 export function getStaticPaths() {
   return catalog.contests.map((contest, index) => ({
     params: { contest: contest.id },
@@ -41,27 +41,12 @@ const problems = catalog.problems.filter(p => p.contestId === contest.id);
       {contest.statement && <a href={contest.statement.url} target="_blank" rel="noopener noreferrer">{contest.statement.provenance === 'official' ? '官方' : ''}{contest.statement.language === 'zh' ? '中文' : '英文'}题册 <span aria-hidden="true">↗</span></a>}
     </nav>
   </header>
-  <section class="table-card contest-problems" aria-label="比赛题目">
-    <div class="table-scroll">
-      <table class="problem-table">
-        <caption class="sr-only">{contest.name}题目列表</caption>
-        <thead><tr><th scope="col">题目</th><th scope="col">难度</th><th scope="col" class="rate-column">通过队伍</th><th scope="col" class="links-column">提交</th></tr></thead>
-        <tbody>{problems.map(p => <tr data-problem-id={p.id}>
-          <td>
-            <a class="problem-title" href={problemHref(p.id)} target="_blank" rel="noopener noreferrer"><span class="problem-letter">{p.label}</span><span>{p.title}</span>{p.interactive && <span class="contest-problem-note">交互题</span>}<span class="contest-completion" hidden><span aria-hidden="true">✓</span> 已完成</span></a>
-          </td>
-          <td><span class={`difficulty-badge ${p.difficulty}`}>{difficultyLabels[p.difficulty]}</span></td>
-          <td class="rate-column"><span class="solve-count"><strong>{p.solved}</strong></span></td>
-          <td class="links-column"><div class="row-links"><a href={`https://qoj.ac/problem/${p.qojId}`} target="_blank" rel="noopener noreferrer" aria-label={`在 QOJ 提交 ${p.label} 题`}>QOJ <span aria-hidden="true">↗</span></a></div></td>
-        </tr>)}</tbody>
-      </table>
-    </div>
+  <section class="table-card" aria-label="比赛题目">
+    <ContestProblemTable client:load problems={problems} caption={`${contest.name}题目列表`} />
   </section>
 </Layout>
 
 <script>
-  import { readSolvedProgress, SOLVED_STORAGE_KEY } from '../../lib/progress';
-
   const estimate = document.querySelector<HTMLElement>('.contest-estimate');
   const popover = estimate?.querySelector<HTMLElement>('.contest-estimate-popover');
   if (estimate && popover) {
@@ -76,22 +61,4 @@ const problems = catalog.problems.filter(p => p.contestId === contest.id);
     estimate.addEventListener('focusin', positionPopover);
     window.addEventListener('resize', positionPopover);
   }
-
-  const rows = document.querySelectorAll<HTMLTableRowElement>('.contest-problems tr[data-problem-id]');
-  const refreshProgress = () => {
-    const solved = readSolvedProgress();
-    for (const row of rows) {
-      const completed = solved.has(row.dataset.problemId!);
-      row.classList.toggle('is-solved', completed);
-      const indicator = row.querySelector<HTMLElement>('.contest-completion');
-      if (indicator) indicator.hidden = !completed;
-    }
-  };
-
-  refreshProgress();
-  window.addEventListener('pageshow', refreshProgress);
-  window.addEventListener('focus', refreshProgress);
-  window.addEventListener('storage', event => {
-    if (event.key === SOLVED_STORAGE_KEY || event.key === null) refreshProgress();
-  });
 </script>

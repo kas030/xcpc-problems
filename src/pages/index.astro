@@ -5,6 +5,6 @@ import { catalog } from '../lib/catalog';
 import { base } from '../lib/urls';
 ---
 <Layout wide>
-  <ProblemBrowser client:load catalog={catalog} base={base} />
+  <ProblemBrowser client:load catalog={catalog} />
   <noscript><p class="notice">筛选功能需要 JavaScript。你仍可从<a href={`${base}/contests/`}>比赛列表</a>浏览全部题目和题面。</p></noscript>
 </Layout>
