@@ -207,10 +207,10 @@ a.contest-tag:hover { background: var(--contest-hover-bg); }
 
 /* Training overview */
 .training-page { max-width: 960px; margin: 0 auto; }
-.training-dashboard { display: grid; gap: 20px; }
+.training-dashboard { --training-card-padding: 20px; display: grid; gap: 20px; }
 .training-loading { color: var(--muted); padding: 28px 0; }
 .training-summary { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
-.training-card { padding: 20px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); min-width: 0; }
+.training-card { padding: var(--training-card-padding); border: 1px solid var(--line); border-radius: 10px; background: var(--surface); min-width: 0; }
 .training-card h2 { font-size: 12px; font-weight: 550; color: var(--muted); }
 .training-value { display: block; width: fit-content; margin: 12px 0 8px; font-size: 32px; font-weight: 650; line-height: 1.2; font-variant-numeric: tabular-nums; }
 .training-value span { font-size: 15px; font-weight: 450; color: var(--muted); }
@@ -219,7 +219,7 @@ a.contest-tag:hover { background: var(--contest-hover-bg); }
 .training-track > span { display: block; height: 100%; border-radius: inherit; background: var(--training-accent, var(--primary)); }
 .training-card .training-track { margin-top: 16px; }
 .training-empty { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; border: 1px solid var(--line); background: var(--surface-soft); border-radius: 10px; padding: 14px 18px; color: var(--muted); font-size: 12px; }
-.training-level-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); padding: 18px; gap: 24px; }
+.training-level-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); padding: var(--training-card-padding) 18px calc(var(--training-card-padding) + 7px); gap: 24px; }
 .training-level h3 { font-size: 12px; }
 .training-level.warmup { --training-accent: var(--warmup-accent); }
 .training-level.bronze { --training-accent: var(--bronze-accent); }
@@ -232,8 +232,8 @@ a.contest-tag:hover { background: var(--contest-hover-bg); }
 .training-level-count > strong { margin-left: auto; font-size: 12px; font-weight: 550; }
 .training-contests .table-toolbar > .muted { font-size: 11px; }
 
-.training-heatmap { padding: 14px 18px; --heatmap-gap: 5px; }
-.training-heatmap-year { display: grid; grid-template-columns: 32px minmax(0, 1fr); gap: var(--heatmap-gap); align-items: start; margin-bottom: var(--heatmap-gap); }
+.training-heatmap { padding: var(--training-card-padding) 18px 14px; --heatmap-gap: 5px; }
+.training-heatmap-year { display: grid; grid-template-columns: 32px minmax(0, 1fr); column-gap: 12px; align-items: start; margin-bottom: var(--heatmap-gap); }
 .training-heatmap-year h3 { font-size: 12px; line-height: 28px; font-weight: 550; color: var(--muted); }
 .training-heatmap-cells { display: flex; flex-wrap: wrap; gap: var(--heatmap-gap); }
 .training-heatmap-cell { display: block; width: 28px; height: 28px; flex-shrink: 0; border: 1px solid #17203312; border-radius: 4px; background: #edf0f5; }
@@ -242,7 +242,7 @@ a.contest-tag:hover { background: var(--contest-hover-bg); }
 .training-heatmap-cell[data-level="3"] { background: #29a862; }
 .training-heatmap-cell[data-level="4"] { background: #13783d; }
 .training-heatmap-cells a:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
-.training-heatmap-footer { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; margin-top: 12px; }
+.training-heatmap-footer { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; margin-top: var(--training-card-padding); }
 .training-heatmap-summary { font-size: 11px; color: var(--muted); font-variant-numeric: tabular-nums; }
 .training-heatmap-legend { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--muted); }
 .training-heatmap-legend .training-heatmap-cell { width: 14px; height: 14px; border-radius: 3px; }
@@ -406,10 +406,9 @@ a.contest-tag:hover { background: var(--contest-hover-bg); }
 }
 
 @media (max-width: 720px) {
-  .training-dashboard { gap: 14px; }
-  .training-card { padding: 16px; }
+  .training-dashboard { --training-card-padding: 16px; gap: 14px; }
   .training-value { font-size: 28px; }
-  .training-level-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; padding: 14px; }
+  .training-level-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; padding-inline: 14px; }
   .site-header { height: 56px; }
   .header-inner { padding: 0 14px; gap: 12px; }
   .brand { font-size: 18px; gap: 7px; }
