@@ -3,10 +3,10 @@ import { z } from 'zod';
 export const medalNames = ['bronze', 'silver', 'gold'] as const;
 export type Medal = typeof medalNames[number];
 export type MedalBasis = 'verified-counts' | 'source-counts' | 'preset';
-export const difficultyNames = [...medalNames, 'challenge'] as const;
+export const difficultyNames = ['warmup', ...medalNames, 'challenge'] as const;
 export type Difficulty = typeof difficultyNames[number];
 export const difficultyLabels: Record<Difficulty, string> = {
-  bronze: '铜牌题', silver: '银牌题', gold: '金牌题', challenge: '挑战题',
+  warmup: '签到题', bronze: '铜牌题', silver: '银牌题', gold: '金牌题', challenge: '挑战题',
 };
 
 const publicUrl = z.url({ protocol: /^https$/ });

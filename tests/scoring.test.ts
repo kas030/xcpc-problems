@@ -11,15 +11,37 @@ const run = (team: string, problem: string, time: number, status = 'ACCEPTED'): 
 const stats = (b: number, s: number, g: number, total = 10) => Object.fromEntries([['bronze', b], ['silver', s], ['gold', g]].map(([medal, solved]) => [medal, { solved, total, rate: Number(solved) / total }])) as Record<Medal, CohortStat>;
 
 test('difficulty uses disjoint medal cohorts, inclusive 50%, from bronze upwards', () => {
-  assert.equal(classify(stats(5, 9, 10)).difficulty, 'bronze');
-  assert.equal(classify(stats(1, 6, 9)).difficulty, 'silver');
-  assert.equal(classify(stats(0, 4, 5)).difficulty, 'gold');
-  assert.equal(classify(stats(0, 1, 4)).difficulty, 'challenge');
-  assert.equal(classify(stats(2, 2, 2, 3)).difficulty, 'bronze');
-  assert.equal(classify({ ...stats(0, 0, 0), gold: { solved: 1, total: 1, rate: 1 } }).difficulty, 'gold');
+  assert.equal(classify(stats(5, 9, 10), 24, 30).difficulty, 'bronze');
+  assert.equal(classify(stats(1, 6, 9), 16, 30).difficulty, 'silver');
+  assert.equal(classify(stats(0, 4, 5), 9, 30).difficulty, 'gold');
+  assert.equal(classify(stats(0, 1, 4), 5, 30).difficulty, 'challenge');
+  assert.equal(classify(stats(2, 2, 2, 3), 6, 9).difficulty, 'bronze');
+  assert.equal(classify({ ...stats(0, 0, 0), gold: { solved: 1, total: 1, rate: 1 } }, 1, 21).difficulty, 'gold');
   const empty = { solved: 0, total: 0, rate: null };
-  assert.equal(classify({ bronze: empty, silver: empty, gold: empty }).difficulty, 'challenge');
-  assert.equal(classify({ bronze: empty, silver: empty, gold: { solved: 1, total: 1, rate: 1 } }).difficulty, 'gold');
+  assert.equal(classify({ bronze: empty, silver: empty, gold: empty }, 0, 0).difficulty, 'challenge');
+  assert.equal(classify({ bronze: empty, silver: empty, gold: { solved: 1, total: 1, rate: 1 } }, 1, 1).difficulty, 'gold');
+});
+
+test('warmup requires both inclusive thresholds and a nonempty bronze cohort', () => {
+  assert.equal(classify(stats(9, 10, 10), 32, 40).difficulty, 'warmup');
+  assert.equal(classify(stats(9, 10, 10), 31, 40).difficulty, 'bronze');
+  assert.equal(classify(stats(89, 100, 100, 100), 320, 400).difficulty, 'bronze');
+  assert.equal(classify(stats(10, 10, 10), 30, 30).difficulty, 'warmup');
+  assert.equal(classify({ ...stats(0, 10, 10), bronze: { solved: 0, total: 0, rate: null } }, 20, 20).difficulty, 'silver');
+});
+
+test('warmup overall rate includes zero-solve official teams and excludes unofficial and out-of-contest solves', () => {
+  const definition = { eligibleGroup: 'official', finalVerified: true, medalPolicy: { kind: 'source-counts' } } as ContestDefinition;
+  const official = Array.from({ length: 10 }, (_, i) => ({ team_id: String(i), group: ['official'] }));
+  const excluded = [{ team_id: 'star', group: ['official', 'unofficial'] }, { team_id: 'outside', group: ['practice'] }];
+  const runs = [...official.slice(0, 8).map((t, i) => run(t.team_id, 'a', 60 + i * 60)), run('8', 'a', 18000), run('9', 'a', -1), run('star', 'a', 60), run('outside', 'a', 60)];
+  const result = analyzeBoard(config, [...official, ...excluded], runs, definition);
+  assert.equal(result.participants, 10);
+  assert.equal(result.problems[0].solved, 8);
+  assert.equal(result.problems[0].difficulty, 'warmup');
+  const below = analyzeBoard(config, [...official, ...excluded], runs.filter(r => r.team_id !== '7'), definition);
+  assert.equal(below.problems[0].cohorts.bronze.rate, 1);
+  assert.equal(below.problems[0].difficulty, 'bronze');
 });
 test('only official in-contest AC counts; CE, duplicates, post-AC and out-of-contest attempts do not add penalty', () => {
   const runs = [run('1', 'a', 10, 'COMPILATION_ERROR'), run('1', 'a', 30, 'WRONG_ANSWER'), run('1', 'a', 61), run('1', 'a', 62), run('1', 'a', 63, 'WRONG_ANSWER'), run('1', 'b', 18000), run('1', 'b', -1), run('3', 'a', 1), run('2', 'b', 100)];
@@ -95,7 +117,7 @@ test('unconfirmed boards and unresolved verdicts classify using adjudicated in-c
   for (const finalVerified of [true, false]) {
     const definition = { eligibleGroup: 'official', finalVerified, medalPolicy: { kind: 'source-counts' } } as ContestDefinition;
     const result = analyzeBoard(config, official, runs, definition);
-    assert.deepEqual(result.problems.map(p => p.difficulty), ['bronze', 'challenge']);
+    assert.deepEqual(result.problems.map(p => p.difficulty), ['warmup', 'challenge']);
     assert.equal(result.problems[1].solved, 0);
     assert.match(result.note, /当前已裁定提交/);
   }
@@ -119,7 +141,7 @@ test('Chongqing snapshot reproduces the official-view preset cohorts and all thi
   const result = analyzeBoard(snapshot.config, snapshot.teams, snapshot.runs, definition);
   assert.equal(result.medalBasis, 'preset');
   assert.deepEqual(result.counts, { gold: 28, silver: 56, bronze: 83 });
-  assert.deepEqual(Object.fromEntries(result.problems.map(p => [p.label, p.difficulty])), { A: 'gold', B: 'bronze', C: 'bronze', D: 'silver', E: 'bronze', F: 'challenge', G: 'challenge', H: 'gold', I: 'bronze', J: 'bronze', K: 'bronze', L: 'challenge', M: 'gold' });
+  assert.deepEqual(Object.fromEntries(result.problems.map(p => [p.label, p.difficulty])), { A: 'gold', B: 'warmup', C: 'bronze', D: 'silver', E: 'warmup', F: 'challenge', G: 'challenge', H: 'gold', I: 'warmup', J: 'warmup', K: 'warmup', L: 'challenge', M: 'gold' });
   assert.deepEqual(result.problems.find(p => p.label === 'M')!.cohorts.gold, { solved: 14, total: 28, rate: 0.5 });
   delete rawDefinition.medalPolicy;
   assert.deepEqual(contestDefinitionSchema.parse(rawDefinition).medalPolicy, { kind: 'source-counts' });

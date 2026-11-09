@@ -65,6 +65,7 @@ if (entry?.data.format === 'pdf' && !qojPdf) throw new Error(`QOJ 中文 PDF 缺
     <aside class="detail-sidebar">
       <section class="detail-card" id="difficulty">
         <h2>通过情况</h2>
+        <div class="cohort-row"><div class="cohort-label"><span>全部正式队伍</span><strong>{problem.participants ? `${(100 * problem.solved / problem.participants).toFixed(1)}%` : '—'}</strong></div><div class="cohort-track overall"><span style={`width:${100 * problem.solved / Math.max(problem.participants, 1)}%`}/></div><span class="cohort-count">{problem.participants ? `${problem.solved} / ${problem.participants} 队通过` : '暂无正式队伍'}</span></div>
         {(['bronze','silver','gold'] as const).map((medal,i) => {const stat = problem.cohorts[medal];return <div class="cohort-row"><div class="cohort-label"><span>{['铜牌','银牌','金牌'][i]}组</span><strong>{stat.rate === null ? '—' : `${(stat.rate*100).toFixed(1)}%`}</strong></div><div class={`cohort-track ${medal}`}><span style={`width:${(stat.rate ?? 0)*100}%`}/></div><span class="cohort-count">{stat.total ? `${stat.solved} / ${stat.total} 队通过` : '该组暂无队伍'}</span></div>})}
       </section>
       <section class="detail-card"><h2>本场记录</h2><dl class="detail-dl"><div><dt>正式队伍通过</dt><dd>{problem.solved} / {problem.participants}</dd></div><div><dt>比赛日期</dt><dd>{contest.date.slice(0,10)}</dd></div><div><dt>数据更新</dt><dd>{contest.syncedAt.slice(0,10)}</dd></div></dl></section>

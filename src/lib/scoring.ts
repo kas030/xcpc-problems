@@ -1,7 +1,9 @@
 import { medalNames, type BoardConfig, type BoardRun, type BoardTeam, type CohortStat, type ContestDefinition, type Difficulty, type Medal, type MedalBasis } from './schema';
 
-export const ALGORITHM_VERSION = 'medal-cohort-v2';
+export const ALGORITHM_VERSION = 'medal-cohort-v3';
 export const THRESHOLD = 0.5;
+export const WARMUP_BRONZE_THRESHOLD = 0.9;
+export const WARMUP_OVERALL_THRESHOLD = 0.8;
 const accepted = new Set(['ACCEPTED', 'AC', 'CORRECT']);
 const failures = new Set(['WRONG_ANSWER', 'WA', 'REJECTED', 'INCORRECT', 'NO_OUTPUT', 'TIME_LIMIT_EXCEEDED', 'TLE', 'MEMORY_LIMIT_EXCEEDED', 'MLE', 'RUNTIME_ERROR', 'RE', 'OUTPUT_LIMIT_EXCEEDED', 'OLE']);
 const ignored = new Set(['COMPILATION_ERROR', 'CE', 'PRESENTATION_ERROR', 'PE', 'IGNORED']);
@@ -58,7 +60,11 @@ export function rankTeams(config: BoardConfig, teams: BoardTeam[], runs: BoardRu
   return { teams: result, unresolved };
 }
 
-export function classify(cohorts: Record<Medal, CohortStat>): { difficulty: Difficulty; reason: string } {
+export function classify(cohorts: Record<Medal, CohortStat>, solved: number, participants: number): { difficulty: Difficulty; reason: string } {
+  if (cohorts.bronze.total > 0 && cohorts.bronze.solved / cohorts.bronze.total >= WARMUP_BRONZE_THRESHOLD
+    && participants > 0 && solved / participants >= WARMUP_OVERALL_THRESHOLD) {
+    return { difficulty: 'warmup', reason: '铜牌组赛内通过率达到 90%，且全部正式队伍赛内通过率达到 80%' };
+  }
   // Start with bronze, using disjoint medal cohorts rather than cumulative ranks.
   for (const medal of medalNames) {
     const c = cohorts[medal];
@@ -105,7 +111,9 @@ export function analyzeBoard(config: BoardConfig, teams: BoardTeam[], runs: Boar
       const solved = cohorts[m].filter(t => t.solved.has(problem.id)).length;
       return [m, { solved, total, rate: total ? solved / total : null }];
     })) as Record<Medal, CohortStat>;
-    return { label: problem.label, solved: effective.filter(t => t.solved.has(problem.id)).length, cohorts: stats, ...classify(stats) };
+    const solved = effective.filter(t => t.solved.has(problem.id)).length;
+    // Include zero-solve official teams in the overall pass-rate denominator.
+    return { label: problem.label, solved, cohorts: stats, ...classify(stats, solved, ranking.teams.length) };
   });
   return { note: notes.join('；'), medalBasis, counts, participants: ranking.teams.length, problems };
 }

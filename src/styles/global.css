@@ -13,10 +13,12 @@
   --success: #15803d;
   --success-hover: #166534;
   --success-soft: #eaf8ef;
+  --warmup: #0e7490;
   --bronze: #934b3a;
   --silver: #526477;
   --gold: #72401e;
   --challenge: #705286;
+  --warmup-accent: #67b9cc;
   --bronze-accent: #c7836e;
   --silver-accent: #91a4b8;
   --gold-accent: #ebc573;
@@ -96,6 +98,7 @@ input[type=search]::-webkit-search-cancel-button { cursor: pointer; }
 .level-option:hover { background: var(--surface-soft); }
 .level-option.selected { background: var(--primary-soft); color: var(--primary-hover); font-weight: 650; }
 .level-dot { width: 7px; height: 7px; border-radius: 50%; display: inline-block; }
+.level-dot.warmup { background: var(--warmup-accent); }
 .level-dot.bronze { background: var(--bronze-accent); }
 .level-dot.silver { background: var(--silver-accent); }
 .level-dot.gold { background: var(--gold-accent); }
@@ -139,6 +142,7 @@ input[type=search]::-webkit-search-cancel-button { cursor: pointer; }
 .filter-chip { background: #dbeafe; color: #1e40af; border: 1px solid #93b4ed; border-radius: 999px; padding: 5px 10px; display: flex; gap: 6px; align-items: center; font-weight: 500; }
 .filter-chip:hover { background: #bfdbfe; border-color: #6091f5; }
 .difficulty-badge { display: inline-flex; align-items: center; font-size: 11px; font-weight: 600; white-space: nowrap; padding: 5px 10px; border-radius: 999px; line-height: 1.3; border: 0; }
+.difficulty-badge.warmup { color: var(--warmup); background: #e0f2f7; }
 .difficulty-badge.bronze { color: var(--bronze); background: #f2dad3; }
 .difficulty-badge.silver { color: var(--silver); background: #e7edf3; }
 .difficulty-badge.gold { color: var(--gold); background: #fce5c2; }
@@ -281,6 +285,7 @@ a.contest-tag:hover { background: var(--contest-hover-bg); }
 .cohort-label strong { color: var(--ink); font-size: inherit; font-weight: 600; }
 .cohort-track { height: 5px; background: #edf0f6; border-radius: 4px; overflow: hidden; }
 .cohort-track span { display: block; height: 100%; border-radius: 4px; }
+.cohort-track.overall span { background: var(--warmup-accent); }
 .cohort-track.bronze span { background: var(--bronze-accent); }
 .cohort-track.silver span { background: var(--silver-accent); }
 .cohort-track.gold span { background: var(--gold-accent); }

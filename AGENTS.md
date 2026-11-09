@@ -5,7 +5,7 @@ XCPC 训练题单，使用 Astro + React + TypeScript，开发环境为 Node.js 
 ## 代码入口
 
 - `src/pages/`、`src/components/`、`src/styles/`：页面、交互和样式。
-- `src/lib/scoring.ts`：按互不重叠的奖牌组统计赛内通过率，以 50% 为分级阈值。
+- `src/lib/scoring.ts`：铜牌组通过率 ≥ 90% 且全部正式队伍通过率 ≥ 80% 时判为签到题，其余按互不重叠的奖牌组以 50% 为分级阈值。
 - `data/contests/`：比赛定义与 QOJ 映射；`data/snapshots/`、`data/catalog.json` 由脚本生成。
 - `src/content/statements/`：Markdown 题面；完整维护流程见 `docs/maintenance.md`。
 
@@ -19,5 +19,5 @@ XCPC 训练题单，使用 Astro + React + TypeScript，开发环境为 Node.js 
 ## 维护要点
 
 - 题目 ID 为 `比赛ID/题号`，用于浏览器本地进度；更新已有题目时保持 ID 稳定，确需变更时迁移记录。
-- 新比赛核对 QOJ 映射、最终榜和奖牌分组；缺少奖牌人数时，按有赛内通过记录的正式队伍数，以累计 10%、30%、60% 向上取整分组，难度仅分铜、银、金、挑战四档。
+- 新比赛核对 QOJ 映射、最终榜和奖牌分组；缺少奖牌人数时，按有赛内通过记录的正式队伍数，以累计 10%、30%、60% 向上取整分组，难度分签到、铜、银、金、挑战五档。签到判定的整体通过率分母包含零通过正式队伍，铜牌组为空时不判签到。
 - 沿用现有结构和界面风格，具体需求优先，避免为小改动增加复杂流程。
