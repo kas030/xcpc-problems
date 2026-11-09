@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/6512/statement/zh_cn
 sourceHash: 6366acb6b297d6414e765038c4ece09c6f353fec18042246d6cb8d43da1640c8
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：2 秒；内存限制：1024 MB。
@@ -62,7 +60,3 @@ Little Cyan Fish 热爱完全积性函数的概念，因此他想要找到一个
 -1
 1 1 1 1 1 1 1 1 1 1
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/6512/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

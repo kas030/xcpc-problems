@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/15308/statement/zh_cn
 sourceHash: c72a0635afce445064b12b98f905c57565e2d465bf1872573c2c96a1015f03ae
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：2.0 秒；内存限制：1024 MB。
@@ -89,7 +87,3 @@ Alice 还进行了 $q$ 组修改（修改数组和得分），她希望你求出
 ## 说明
 
 本题输入数据量较大，请使用高效的输入方式。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/15308/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

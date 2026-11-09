@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/9045/statement/zh_cn
 sourceHash: 5a2b681a93546c965ac1cd294f1be28f79126a93eef6e57781ee32300be2d7ff
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：1024 MB。
@@ -57,7 +55,3 @@ Justin 决心使用这个咒语来制造出尽可能强大的神器。他执行�
 100
 0
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9045/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

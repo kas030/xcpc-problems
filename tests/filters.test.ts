@@ -28,6 +28,19 @@ test('old pending difficulty and language links still show results and preserve 
   assert.deepEqual(parseFilters('?level=pending&level=gold').difficulties, ['gold']);
 });
 
+test('warmup filters round trip and sort before bronze without changing progress IDs', () => {
+  const warmup: Problem = { ...problems[0], id: 'a/C', label: 'C', difficulty: 'warmup' };
+  const all = [...problems, warmup];
+  const filters = parseFilters('?level=warmup&sort=difficulty');
+  assert.deepEqual(parseFilters(serializeFilters(filters)), filters);
+  assert.deepEqual(filterProblems(all, filters).map(p => p.id), ['a/C']);
+  assert.deepEqual(filterProblems(all, { ...filters, progress: 'todo' }, new Set(['a/C'])), []);
+  for (const order of ['asc', 'desc'] as const) {
+    const sorted = filterProblems(all, { ...emptyFilters(), sort: 'difficulty', order });
+    assert.deepEqual(sorted.map(p => p.id), order === 'asc' ? ['a/C', 'a/A', 'a/B', 'b/A'] : ['b/A', 'a/B', 'a/A', 'a/C']);
+  }
+});
+
 test('all sort fields and directions survive sharing and restoring filters', () => {
   for (const sort of ['recent', 'difficulty', 'rate'] as const) {
     for (const order of ['asc', 'desc'] as const) {

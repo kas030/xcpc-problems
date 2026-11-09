@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/8038/statement/zh_cn
 sourceHash: 09bfafca4ebfd9c8278779b3d1dec5e53cdbe389c27d246fbb50bead1c141ea5
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：3.0 秒；内存限制：1024 MB。
@@ -74,7 +72,3 @@ Bobo 希望确保在 $q$ 天后没有居民死亡，并尽可能减少花费。�
 ## 说明
 
 对于第一个样例，一种最优安排是在第二天开始时将城市 3 的唯一一名居民转移到城市 2，然后在第三天开始时将城市 2 的两名居民转移到城市 1。总花费为 $10 \cdot 1 + 1 \cdot 2 = 12$。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/8038/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

@@ -93,7 +93,3 @@ abcaabc
 | $1$ | $\{\texttt{a}\,\},\ \{\texttt{b}\,\},\ \{\texttt{aa}\,\},\ \{\texttt{ab}\,\},\ \{\texttt{aab}\,\}$ | $5$ |
 | $2$ | $\{\texttt{a}, \texttt{aa}\,\},\ \{\texttt{a}, \texttt{ab}\,\},\ \{\texttt{a}, \texttt{aab}\,\},\ \{\texttt{aa}, \texttt{aab}\,\}$ | $4$ |
 | $3$ | $\{\texttt{a}, \texttt{aa}, \texttt{ab}\,\},\ \{\texttt{a}, \texttt{aa}, \texttt{aab}\,\},\ \{\texttt{a}, \texttt{ab}, \texttt{aab}\,\}$ | $3$ |
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/23597/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

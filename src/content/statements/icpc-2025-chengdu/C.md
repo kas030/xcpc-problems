@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/14708/statement/zh_cn
 sourceHash: e4ac40fe8d0213f6a04e173823074cb6a0425438562f030bc2a1ae2daf9e5b9b
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：1024 MB。
@@ -59,7 +57,3 @@ Panda 是一名在河上开船的船夫。这艘船一次最多只能搭载一�
 21 0 4
 23 1 3
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/14708/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

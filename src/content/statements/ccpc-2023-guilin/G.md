@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/7683/statement/zh_cn
 sourceHash: 7f251887327349f7caab471fa2ca9b0e18dbd253189728a4f8301165976dd351
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：1024 MB。
@@ -47,7 +45,3 @@ Putata 昨晚工作得很辛苦，早上醒来时，他只记得电脑上保存�
 impossible
 )))(
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/7683/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

@@ -89,7 +89,3 @@ $$
 - 以概率 $\frac{1}{2}$，Ras 抽到牌 $4$ 并全下，收益为 $3$。
 
 她的期望收益为 $\frac{1}{6}\cdot 0+\frac{1}{3}\cdot(-2)+\frac{1}{2}\cdot 3=\frac{5}{6}$。
-
----
-
-译自[官方英文题面](https://qoj.ac/download.php?type=attachments&id=4593&r=0)，原题版权归原作者所有。译稿经 DeepSeek 辅助生成并对照原文核验，已调整中文表述与 Markdown 排版。

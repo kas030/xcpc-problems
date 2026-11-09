@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/8045/statement/zh_cn
 sourceHash: 6899b46cee529b90962cdbec3b947768c8498854f9ce4f1635ac80d5d2cbbc6d
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：2.0 秒；内存限制：1024 MB。
@@ -131,7 +129,3 @@ Bobo 是著名电视节目“Sunday Night Live”的导演。该节目最近推�
 ![原题图示](../../../assets/qoj-statements/8045/cb66c95e84c84b64.png)
 
 第二个样例测试，第二次更改后
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/8045/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

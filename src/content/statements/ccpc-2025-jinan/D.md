@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/15035/statement/zh_cn
 sourceHash: a3f11bbf35f4c59c01bc2cc402c60caeaadfbb0d04858e39366ff3f838979db5
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：1024 MB。
@@ -77,7 +75,3 @@ sourceHash: a3f11bbf35f4c59c01bc2cc402c60caeaadfbb0d04858e39366ff3f838979db5
 对于第二个测试用例，可以分别在节点 2 和节点 5 放置两个灯塔。
 
 对于第三个测试用例，一个可行的方案是在节点 2 放置一个灯塔。可以证明，这是满足拥有最少灯塔数量条件的唯一方案。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/15035/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

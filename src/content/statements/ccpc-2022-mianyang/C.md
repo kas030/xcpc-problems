@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/8036/statement/zh_cn
 sourceHash: 610758fe63d3357b3a425f38b738c3bc5572410bf61ed46448b3315d6e75d377
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：1024 MB。
@@ -69,7 +67,3 @@ Bobo 想要在所有蝴蝶飞到出口并消失之前抓住它们。Bobo 最初�
 最初位于节点 $3$ 和 $4$ 的两只蝴蝶都在第 $1$ 分钟到达节点 $2$。然后 Bobo 可以在节点 $2$ 执行一次操作，将它们一并抓住。总共需要三次操作。
 
 ![原题图示](../../../assets/qoj-statements/8036/f92d3ed08d0e003f.png)
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/8036/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

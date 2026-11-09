@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/9980/statement/zh_cn
 sourceHash: e0e4635346a9607262ee5dd7475647bcb249189008d5ee0c7348494d90e0e3d4
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：4.0 秒；内存限制：1024 MB。
@@ -106,9 +104,3 @@ Yes
 | 1 | 0 | 1 | 1 |
 | 1 | 1 | 0 | 1 |
 | 1 | 1 | 1 | 1 |
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9980/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。
-
-排版修复：QOJ 中文页将真值表中的逻辑或符号误拆成列分隔符，并将 `<expr>` 占位符当成 HTML 标签；已对照官方英文题册第 11 页恢复表头和表达式格式。 [核对官方英文题面](https://qoj.ac/download.php?type=attachments&id=1894&r=0)。

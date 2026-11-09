@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/8554/statement/zh_cn
 sourceHash: adea1b9c452c5490725d10d07cf7c398b66920722b1a8c6e94bbec8dceb495a1
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：1024 MB。
@@ -70,7 +68,3 @@ Little Cyan Fish 面临的挑战是确定每个 “?” 类型机器人的移动
 5
 6
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/8554/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

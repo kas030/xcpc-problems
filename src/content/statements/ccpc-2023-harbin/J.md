@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/7755/statement/zh_cn
 sourceHash: 9f5820e726e0dae3ad14b497818dbaf2356cb8d9c871fa4cd4f09f56c7093f1a
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：256 MB。
@@ -68,7 +66,3 @@ Plover 和 Georgia 正在森林图上玩一个游戏。给定一个包含 $n$ �
 对于第一个样例，如果 Georgia 在第一步选择节点 1 或节点 2，她就能赢得游戏。
 
 对于第二个样例，如果 Georgia 在第一步选择 3 条边中的任意一条，她就能赢得游戏。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/7755/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

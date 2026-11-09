@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/15313/statement/zh_cn
 sourceHash: c61dc409f3b2de8a2f5d61c78f6f969c277bea39a34fb9324a36579a38b31dd3
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：1024 MB。
@@ -52,7 +50,3 @@ $\oplus$ 表示二进制异或（XOR）运算。替换后，$\oplus$ 两侧的�
 100
 10
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/15313/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

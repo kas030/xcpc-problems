@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/8037/statement/zh_cn
 sourceHash: 6ce48aef1fcbdcdbbd44dc9575781a92c22207e70149c653f743699f9bad361e
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：5.0 秒；内存限制：1024 MB。
@@ -69,7 +67,3 @@ Bobo 需要设定 $x$ 和 $y$ 的值，以最大化最坏情况下的利润，�
 ```text
 33.3333333333
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/8037/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

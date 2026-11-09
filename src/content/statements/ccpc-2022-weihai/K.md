@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/9601/statement/zh_cn
 sourceHash: d1c8c9eeacb04407212b9a8121c22c20820a20c95d598dff5d0f5e0d332dc719
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：256 MB。
@@ -81,7 +79,3 @@ Redcrown 想知道有多少个不同的区间 $[l, r]$ 满足这些条件。
 ![题目中的 Redcrown the Bear](../../../assets/qoj-statements/9601/official-fix.png)
 
 Choose 3 blocks to make sum = 16
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9601/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。 QOJ 中文页中失效或错配的图片已按原有顺序补为[官方英文题面](https://qoj.ac/download.php?type=statement&id=9601&ver=default)中的对应图示。

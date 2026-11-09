@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/9978/statement/zh_cn
 sourceHash: 50fb5b96ca4a8f13a86990731500349961495795845b947cc25779ddab95be96
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：4.0 秒；内存限制：1024 MB。
@@ -76,7 +74,3 @@ Haru 的挑战是为梯形校正获取透镜矩形中的四个锚点，使得校
 5450.0656584647
 5.6568542495
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9978/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

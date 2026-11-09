@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/14715/statement/zh_cn
 sourceHash: b77171eb11d1457785cffcbd01ecfcaeab238818c60945e0cccc969361c69bff
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：1024 MB。
@@ -73,7 +71,3 @@ Panda 希望策略性地选择最多 $b$ 篇论文进行反驳，以最大化所
 2
 1
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/14715/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

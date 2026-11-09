@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/8331/statement/zh_cn
 sourceHash: d0bcb1ba1fcbcd3ac00a7f8aa77d80e956a06cd1fb1b28d0a4a46ec0325df564
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：512 MB。
@@ -51,7 +49,3 @@ Doodle 和 Doddle 都是极其聪明的机器人，因此他们一定会采取�
 Tie
 Doddle
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/8331/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

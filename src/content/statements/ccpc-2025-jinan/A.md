@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/15032/statement/zh_cn
 sourceHash: b4285a28b5327d76ffed2186ce69265a08c04b7dad8d9a82a511422c52c2e180
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：2.0 秒；内存限制：1024 MB。
@@ -51,7 +49,3 @@ Alice 设计了一个密码系统：它将明文编码为一个 64 位无符号�
 broken message
 broken message
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/15032/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

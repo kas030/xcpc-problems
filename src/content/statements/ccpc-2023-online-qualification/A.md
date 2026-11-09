@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/7512/statement/zh_cn
 sourceHash: 8904ea392eee67a9657b9b7c4b1860a6bb952466527079f9af7d209973ccbaa1
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：3.0 秒；内存限制：512 MB。
@@ -69,7 +67,3 @@ ccpc
 在第一个样例中（$S = \text{ababaab}, T = \text{aba}$），共有 19 种分割方式： _1 种分为 3 部分的方案，即 $\text{ab} + \text{aba} + \text{ab}$；_ 6 种分为 4 部分的方案，例如 $\text{a} + \text{b} + \text{aba} + \text{ab}$； _7 种分为 5 部分的方案，例如 $\text{a} + \text{b} + \text{ab} + \text{a} + \text{ab}$；_ 4 种分为 6 部分的方案，例如 $\text{a} + \text{b} + \text{a} + \text{b} + \text{a} + \text{ab}$； \* 1 种分为 7 部分的方案，即 $\text{a} + \text{b} + \text{a} + \text{b} + \text{a} + \text{a} + \text{b}$。
 
 因此，第一个样例的结果为 $(3^2 + 6 \times 4^2 + 7 \times 5^2 + 4 \times 6^2 + 7^2) \pmod{998244353} = 473$。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/7512/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

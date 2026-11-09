@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/15315/statement/zh_cn
 sourceHash: e78ae6c6a6d7b3c28765b1e024b324ce4cc43355a0f27fb31ac3dc0a9c9a7896
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：1024 MB。
@@ -89,7 +87,3 @@ Yes
 ## 说明
 
 对于第一个测试用例，沿着路线 $1 \to 2 \to 3 \to 4 \to 1$ 访问后，城市 $1, 2, 3, 4$ 分别被访问了 $2, 2, 2, 2$ 次，满足要求。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/15315/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

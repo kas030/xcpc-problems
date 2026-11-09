@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/6501/statement/zh_cn
 sourceHash: 7a8f35ba96f59f0a54453641dedd24040d961289e849261e5d33afafa49d683f
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：3 秒；内存限制：1024 MB。
@@ -107,7 +105,3 @@ Xiao Qing Yu 拥有的树称为 $T_2$，它具有以下性质： _$T_2(V_2, E_2)
 在第二个测试用例中，图可能是空的。在这种情况下，使 $G_1$ 和 $G_2$ 都为空是一种可能的选择。
 
 在第三个测试用例中，注意可能存在自环。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/6501/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

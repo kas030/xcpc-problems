@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/7747/statement/zh_cn
 sourceHash: f592f6a4b0b9582825a8c7c502bbd182c1616453450689cd2b963b5629d160a4
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：256 MB。
@@ -59,7 +57,3 @@ $$
 -   $Mood(4) = 2^{-3} \times 2 + 2^{-2} \times (-1) + 2^{-1} \times 4 + 2^0 \times (-7) = -5 < 0$
 -   $Mood(5) = 2^{-4} \times 2 + 2^{-3} \times (-1) + 2^{-2} \times 4 + 2^{-1} \times (-7) + 2^0 \times 4 = \frac{3}{2} > 0$
 -   $\dots$
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/7747/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

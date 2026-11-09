@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/15322/statement/zh_cn
 sourceHash: 95a81981dfc0d2cfa911c3c6a90e95ede564981a77e35cb61cd31f3bdb3aac7e
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：1024 MB。
@@ -69,7 +67,3 @@ $$
 对于第一个测试用例，达到最小值的一种方法是将序列修改为 $1, \mathbf{1}, \mathbf{1}, \mathbf{0}$；加粗的数字是经过修改的。最终序列的值为 $2$，进行了 $3$ 次操作；总值 + 代价为 $2 + 3 \times 4 = 14$。
 
 对于第二个测试用例，达到最小值的一种方法是将序列修改为 $6, 6, 6, \mathbf{6}, \mathbf{6}, 6, 6, 6$；最终序列的值为 $12 + 2 \times 6 = 24$。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/15322/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

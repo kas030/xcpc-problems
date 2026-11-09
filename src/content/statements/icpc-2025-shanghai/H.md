@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/15321/statement/zh_cn
 sourceHash: 7180b4339d61b45856027df89e4b2c2bbb8c2dc6edd226d183880fb4438855ec
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：1024 MB。
@@ -76,7 +74,3 @@ Bot
 对于第一个测试用例，无论 Menji 选择什么数字，Bot 总是可以选择一个相同的数字，因此 Menji 最终总是会选择一个 $1$ 和一个 $3$，$S = 1 \oplus 3 = 2 \neq 0$，所以 Bot 总是能赢。
 
 对于第二个测试用例，Menji 可以在第一回合选择一个 $1$；无论 Bot 选择什么，Menji 都可以选择另一个 $1$，因此 Menji 总是能得到两个 $1$，$S = 1 \oplus 1 = 0$，所以 Menji 总是能赢。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/15321/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

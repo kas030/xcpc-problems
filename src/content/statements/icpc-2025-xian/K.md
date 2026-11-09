@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/14691/statement/zh_cn
 sourceHash: c579527930f65cc788e7cc51cf10627d72c84fd1b22d3fae04f583b01984534a
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：4.0 秒；内存限制：512 MB。
@@ -71,7 +69,3 @@ No
 在第二个测试用例中，你可以选择 $p = [2, 0, 3, 1, 4]$。在此操作之后，$a$ 被转换为 $b$。
 
 在第三个测试用例中，$a = b$，因此我们不需要任何操作。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/14691/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

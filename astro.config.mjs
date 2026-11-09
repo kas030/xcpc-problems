@@ -12,5 +12,6 @@ export default defineConfig({
   integrations: [react()],
   markdown: {
     processor: unified({ remarkPlugins: [remarkMath], rehypePlugins: [rehypeKatex] }),
+    shikiConfig: { theme: 'github-light' },
   },
 });

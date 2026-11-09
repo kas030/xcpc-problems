@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/16337/statement/zh_cn
 sourceHash: 856b1182c534f4210ef07590d56dcd8d7bcb1e10913c4461cd8448021c2895d3
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：3.0 秒；内存限制：2048 MB。
@@ -78,7 +76,3 @@ Piggy（在业余时间负责管理星际互联协议委员会）正面临一个
 1 6
 4 5
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/16337/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

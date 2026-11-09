@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/14601/statement/zh_cn
 sourceHash: a306572a97217859afd08016a8ea04348ca2cce335aaafa0b255c28232fbb527
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：2 秒；内存限制：2048 MB。
@@ -88,7 +86,3 @@ impossible
 2 3 1
 3 2 1
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/14601/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。 QOJ 中文页中失效或错配的图片已按原有顺序补为[官方英文题面](https://qoj.ac/download.php?type=attachments&id=2522&r=0)中的对应图示。

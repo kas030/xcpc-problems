@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/15040/statement/zh_cn
 sourceHash: 2ee8c3a4045abd6474d79168c7bf7360510bcc21c0777b26664146c6ff572d31
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：2.0 秒；内存限制：1024 MB。
@@ -64,7 +62,3 @@ Lc Lc Rp Rc Lc Lc Rp Rp Rc
 ## 说明
 
 对于第二组测试数据，在所有操作完成后，字符串 $s$ 的内容为 `cccccpcpccppcppc`。其中的 CCPC 子串包括：$s_{1\dots4} = \text{cccc}$，$s_{1\dots5} = \text{ccccc}$，$s_{2\dots5} = \text{cccc}$，$s_{3\dots10} = \text{cccpcpcc}$，$s_{4\dots7} = \text{ccpc}$，$s_{4\dots9} = \text{ccpcpc}$，$s_{9\dots13} = \text{ccppc}$，$s_{9\dots16} = \text{ccppcppc}$，以及 $s_{11\dots14} = \text{ppcp}$。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/15040/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

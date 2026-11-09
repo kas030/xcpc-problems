@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/14684/statement/zh_cn
 sourceHash: 570560840667894bcf617c1997adfd1696620b320229bafe2ee15ffe4f57a789
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：512 MB。
@@ -72,7 +70,3 @@ sourceHash: 570560840667894bcf617c1997adfd1696620b320229bafe2ee15ffe4f57a789
 这里，顶点 4 和 5 都可以从 $S_6 = \{2, 3\}$ 中的任意元素到达，因此 $f(\{2, 3\}) = \{4, 5\}$。连同 $f(S_1) = \{1, 2, 3, 4, 5\}$，$f(S_2) = \{2, 4, 5\}$，$f(S_3) = \{3, 4, 5\}$，$f(S_4) = \{4\}$，$f(S_5) = \{5\}$，这些集合两两不同，满足约束条件。
 
 ![problem\_14684\_8c252deab68c99282d90efb13223cbbd.png](../../../assets/qoj-statements/14684/0038e0142e845aef.png)
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/14684/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

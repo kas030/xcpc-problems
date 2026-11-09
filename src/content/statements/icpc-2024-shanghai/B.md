@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/9038/statement/zh_cn
 sourceHash: 15aaa51d8061683acbe2bf6967a7e406b94fcc64699df2b73b2fd7465e57bcb5
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：2.0 秒；内存限制：1024 MB。
@@ -103,7 +101,3 @@ Aqua 注意到第 4 行和第 12 行存在一些非确定性行为。具体来�
 5 4
 4 2
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9038/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

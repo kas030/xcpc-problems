@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/7748/statement/zh_cn
 sourceHash: 79be7482a5996ca9c680d9edce2c595f89d93498263ec31b60ae1adcf21416eb
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：2.0 秒；内存限制：256 MB。
@@ -85,7 +83,3 @@ heheheheheheheh
 13
 174
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/7748/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

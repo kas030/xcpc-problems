@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/17343/statement/zh_cn
 sourceHash: 70ce759f2435172a2ed6d34af379ab5abaadc1025d832d3e789711835ae10ccf
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1 秒；内存限制：512 MB。
@@ -93,7 +91,3 @@ Yuki 希望找到一种替换方案，使得机器人能够到达 $(x, y)$，且
 对于第三个测试用例：
 
 -   可以证明，无法通过替换指令字符串中的 `2` 使得机器人到达 $(3, 3)$。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/17343/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

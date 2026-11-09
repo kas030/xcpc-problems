@@ -64,7 +64,7 @@ export async function buildCatalog(write = true): Promise<Catalog> {
         if (language.status !== 'chinese' || meta.language !== 'zh' || meta.source !== language.source) throw new Error(`QOJ 中文题面来源不一致：${meta.problemId}`);
       } else if (language.status !== 'english-only') throw new Error(`请先确认 QOJ 没有中文版本，再添加自译文：${meta.problemId}`);
     }
-    if (content.slice(frontmatter[0].length).trim().length < 20) throw new Error(`题面正文为空：${file}`);
+    if (meta.format !== 'pdf' && content.slice(frontmatter[0].length).trim().length < 20) throw new Error(`题面正文为空：${file}`);
     if (meta.language === 'zh' && problem.statement?.language === 'en' && problem.statement.format === 'html') {
       const original = await readFile(at('src/content/original-statements', `${problem.id}.md`), 'utf8');
       const originalFrontmatter = original.match(/^---\r?\n([\s\S]*?)\r?\n---/);

@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/9729/statement/zh_cn
 sourceHash: 4743d9c94afd3cc463a9aa10dd4435c66cf0ce944444fc335ade3e166878084a
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：1024 MB。
@@ -69,7 +67,3 @@ Alice 收到了一串由邻居给出的序列 $A$。由于 Alice 不喜欢过长
 4
 2 1 3 3
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9729/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

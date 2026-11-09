@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/15426/statement/zh_cn
 sourceHash: 7670c7486830cadc273e88594bea71ca9e77c056ee79b9e87a571df7a49f82de
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：256 MB。
@@ -63,7 +61,3 @@ sourceHash: 7670c7486830cadc273e88594bea71ca9e77c056ee79b9e87a571df7a49f82de
 
 -   在第一个样例中，你可以让所有既能吃辣也能吃不辣的同学都吃辣，然后点三个辣锅和一个鸳鸯锅，总花费为 $1 \times 3 + 5 \times 1 = 8$。
 -   在第二个样例中，你可以让既能吃辣也能吃不辣的同学中有两人吃辣、两人吃不辣，然后点三个鸳鸯锅，总花费为 $1 \times 3 = 3$。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/15426/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

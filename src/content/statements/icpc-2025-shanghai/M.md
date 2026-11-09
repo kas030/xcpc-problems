@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/15326/statement/zh_cn
 sourceHash: 99e5725afe8e7bfeaa081fad28656a77957b01ec08cca380d6deebdcc41b2456
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：5.0 秒；内存限制：1024 MB。
@@ -52,7 +50,3 @@ Mino 非常喜欢计算。他将每个任务的权值定义为从该任务到根
 有 6 种构建树并比较子节点的方法：
 
 ![原题图示](../../../assets/qoj-statements/15326/41eaea2370ad6fca.png)
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/15326/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

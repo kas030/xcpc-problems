@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/6509/statement/zh_cn
 sourceHash: 77a7e5441c8ae5142f9cecb0ff08be22bb27f0e25cfe69cc427b8d644661e99b
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：3 秒；内存限制：1024 MB。
@@ -95,7 +93,3 @@ Little Cyan Fish 想用它创建一个区间查询问题。因此，他给你一
 在第六次查询中，$s[1 \dots 9] = 100110001$，且 $f^0(100110001) = 100110001$。因此答案为 9。
 
 在第七次查询中，$s[1 \dots 9] = 100110001$，且 $f^8(100110001) = f^7(0100) = f^6(0) = f^5(\varepsilon) = \varepsilon$。因此答案为 0。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/6509/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

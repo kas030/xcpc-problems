@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/15429/statement/zh_cn
 sourceHash: 3cc7af5f7d5f2f1182d99713dee8e8bc43cc15335ede88e9b7a94cbd69f9024e
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：256 MB。
@@ -73,7 +71,3 @@ accaccb accaccc baabaaa baabaac bacbaca bacbacc
 bcabcaa bcabcac bccbcca bccbccc caacaaa caacaab
 cabcaba cabcabb cbacbaa cbacbab cbbcbba cbbcbbb
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/15429/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

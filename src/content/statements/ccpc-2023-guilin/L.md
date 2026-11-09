@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/7688/statement/zh_cn
 sourceHash: 7db6e5a3f8172ac4eaea97ebc230f2294a2fcc2099f70a0019a95543591db368
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：1024 MB。
@@ -67,7 +65,3 @@ SSerxhs 有两个骰子，分别有 $n$ 个面和 $m$ 个面，面上的数字�
 6 1 2 4 5 7 8
 3 1 2 3
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/7688/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

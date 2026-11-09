@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/6507/statement/zh_cn
 sourceHash: a08650c6c2e42783e118c7395450b04271e8345edc904e20bbe34bdeae7917a0
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：8 秒；内存限制：1024 MB。
@@ -91,7 +89,3 @@ aaba
 每个节点对应的字符串如下：
 
 ![第三组样例中顶点对应的字符串](../../../assets/qoj-statements/6507/official-f6.png)
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/6507/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。 QOJ 中文页中的失效图片已按原有顺序补为[官方英文题面](https://qoj.ac/download.php?type=attachments&id=1244&r=0)中的对应图示。

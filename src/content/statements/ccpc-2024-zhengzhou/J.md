@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/9777/statement/zh_cn
 sourceHash: 4f8cb1b0387ec71ff9cf16152d0b3094bb389f265a485230060d9f5f72bfb554
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：6.0 秒；内存限制：1024 MB。
@@ -79,7 +77,3 @@ Bobo 正在参加一场奇怪的锦标赛，共有 $2n$ 名选手，编号为 $1
 ```text
 729
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9777/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

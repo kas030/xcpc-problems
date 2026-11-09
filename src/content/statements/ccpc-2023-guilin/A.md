@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/7677/statement/zh_cn
 sourceHash: 9fcbbdd6cdb874f986dcb1f97997876ecad77ceddec4533097e2b530b9bf3462
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：2.5 秒；内存限制：1024 MB。
@@ -87,7 +85,3 @@ Randias 得到了一棵有 $n$ 个顶点的树。他重复执行以下操作，�
 ## 说明
 
 对于第一个样例，$[1, 2, 3], [1, 3, 2], [3, 1, 2], [3, 2, 1]$ 是可能的移除顺序。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/7677/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

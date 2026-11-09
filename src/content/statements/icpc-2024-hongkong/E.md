@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/9919/statement/zh_cn
 sourceHash: 9f8e844be7e39262bf7fef99dce62d875de273df0c91d11572ec55cd118fd2d1
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：3.0 秒；内存限制：1024 MB。
@@ -84,7 +82,3 @@ sourceHash: 9f8e844be7e39262bf7fef99dce62d875de273df0c91d11572ec55cd118fd2d1
 面积为 1.5，面积为 1.5，面积为 1
 
 因此总面积为 4，答案为 $4 \times 2 = 8$。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9919/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。 QOJ 中文页中失效或错配的图片已按原有顺序补为[官方英文题面](https://qoj.ac/download.php?type=attachments&id=1885&r=0)中的对应图示。

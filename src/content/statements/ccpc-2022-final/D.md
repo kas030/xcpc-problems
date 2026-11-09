@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/6504/statement/zh_cn
 sourceHash: e42bb0ba73d52f83f8834f4123d5d7e5c0162b819fe7f4e33129e5c016dd85a3
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：6 秒；内存限制：1024 MB。
@@ -94,7 +92,3 @@ Yes
 操作 8 是一个更新操作。我们需要更新所有 $7 \le i \le 7$ 的 $s_i$。修改后，$s$ 变为 $11211211$。
 
 操作 9 是一个询问操作。对于 $s[1 \dots 8] = 11211211$，可以移除所有字符。因此，输出 `Yes`。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/6504/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

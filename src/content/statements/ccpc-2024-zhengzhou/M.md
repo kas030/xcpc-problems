@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/9780/statement/zh_cn
 sourceHash: f8ebfef3a76d9525a9113d27b50577d47dd7fbcc332e831fcb5131693977f0ba
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：1024 MB。
@@ -79,7 +77,3 @@ Bobo 想要使用拒绝采样算法来构造一个大小为 $k$ 的随机集合 
 0.574114878920
 0.642525378583
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9780/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

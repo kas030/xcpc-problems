@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/17344/statement/zh_cn
 sourceHash: 3a7b25c7dbe16142e72ed958a1ba76f852f070723fda67ae77e2aee8d533bc3a
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：2 秒；内存限制：1024 MB。
@@ -91,7 +89,3 @@ $^*$：序列 $a$ 是序列 $b$ 的子序列当且仅当 $a$ 可以通过从 $b$
 对于第三个测试用例：
 
 -   满足条件的最长子序列为 $s_1s_2s_4s_5s_6s_8 = ()(())$，因此答案为 $6$。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/17344/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

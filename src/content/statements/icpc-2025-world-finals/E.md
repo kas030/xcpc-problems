@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/14605/statement/zh_cn
 sourceHash: a303fd807f717caa237b6abca7b1f14f21f1f09b75de0b5956a4360e6817c858
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：12 秒；内存限制：2048 MB。
@@ -61,7 +59,3 @@ sourceHash: a303fd807f717caa237b6abca7b1f14f21f1f09b75de0b5956a4360e6817c858
     -   第二天，快递员 2 于 12:00 到达城市 3，并将包裹交给同样在城市 3 的快递员 3；
     -   在 18:00，快递员 3 将包裹送达城市 4。
 4.  雇佣第四名快递员后，所有六对城市都已连通。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/14605/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

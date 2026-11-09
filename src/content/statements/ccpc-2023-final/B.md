@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/8543/statement/zh_cn
 sourceHash: 793743ef92e1c29e6409812098da877b9e9cfa50a229d881ead295d01d6fc5af
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：3.0 秒；内存限制：1024 MB。
@@ -51,7 +49,3 @@ Kevin 热爱周期性的概念，因此他向 Little Cyan Fish 提出了以下�
 ## 说明
 
 对于第一个测试用例，我们有 $f(1) = 1, f(2) = 3, f(3) = 6$。 对于 $n = 1$，其中一个可能的周期性序列是 $[\text{a}]$。 对于 $n = 2$，其中一个可能的周期性序列是 $[\text{ab, a, aa}]$。 对于 $n = 3$，其中一个可能的周期性序列是 $[\text{abc, ab, aba, a, aaa, aa}]$。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/8543/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

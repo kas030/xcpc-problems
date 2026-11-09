@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/15041/statement/zh_cn
 sourceHash: 48d23b8f523e3667747d33cea5ad3f8ebfab77308016eebb8689954df23badfb
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：5.0 秒；内存限制：1024 MB。
@@ -85,7 +83,3 @@ sourceHash: 48d23b8f523e3667747d33cea5ad3f8ebfab77308016eebb8689954df23badfb
 ## 说明
 
 对于第一组测试数据，排列 $p = [1, 2, 3, 4, 5]$ 是不可行的，因为在此排列下，节点 2 没有重要节点，从而 $d_2 = -1 \neq 1$。类似地，排列 $p = [3, 4, 1, 5, 2]$ 也是不可行的，因为在此排列下，$d_1 = 2 \neq -1$。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/15041/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

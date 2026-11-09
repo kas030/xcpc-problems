@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/15042/statement/zh_cn
 sourceHash: d7102a89d80e79a44585655afdeea20523efce48aecab31bc8904b02bb8e70fd
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：1024 MB。
@@ -79,7 +77,3 @@ Alice 是这个游戏的新手，Bob 想捉弄她。Bob 想知道：对于给定
 | 8 | Bob 放入 3，牌堆中没有两张相同数字的卡牌 | $[3]$ | 1 |
 | 9 | Alice 放入 4，牌堆中没有两张相同数字的卡牌 | $[3, 4]$ | 1 |
 | 10 | Bob 放入 5，牌堆中没有两张相同数字的卡牌 | $[3, 4, 5]$ | 1 |
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/15042/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

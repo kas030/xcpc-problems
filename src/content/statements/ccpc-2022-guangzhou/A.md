@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/8138/statement/zh_cn
 sourceHash: 06ab6c6f0c746850e6e470fb8655abb02f01d4282fe7305e36c21917a2966b25
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：256 MB。
@@ -68,7 +66,3 @@ Alice 也可以亲自搜索一些叶子节点。搜索 $i$ 个叶子节点需要
 4
 3
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/8138/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

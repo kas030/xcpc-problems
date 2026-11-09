@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/6811/statement/zh_cn
 sourceHash: a8bf9acc218d4f4a0fe4186c59c20710a540e08fb508543a04023afd4d0f6ffe
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：3.0 秒；内存限制：512 MB。
@@ -63,7 +61,3 @@ Alice Margatroid 是一位居住在魔法森林的熟练魔术师，擅长制作
 425510992
 941092730
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/6811/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/8040/statement/zh_cn
 sourceHash: 0ea683b62efe96b3636a1380e8fa9bd22283c8faca71bf8f32ebfcbf16735cb1
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：1024 MB。
@@ -75,7 +73,3 @@ sourceHash: 0ea683b62efe96b3636a1380e8fa9bd22283c8faca71bf8f32ebfcbf16735cb1
 对于第一个样例，在第一轮中，编号为 $1, 2, 3, 4$ 的人收到蛋糕并离开队伍，队伍中只剩下一个人。因此过程在第一轮结束。
 
 对于第二个样例，在第一轮中，编号为 $1, 2, 3$ 的人收到蛋糕并离开队伍；在第二轮中，编号为 $4$ 的人收到蛋糕并离开队伍。因此过程在两轮后结束。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/8040/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

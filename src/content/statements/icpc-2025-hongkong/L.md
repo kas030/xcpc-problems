@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/15443/statement/zh_cn
 sourceHash: 349fdf2f46758a585c98bb7762002a9adc01b336669d67dfa565ea7c5df3cade
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：2 秒；内存限制：1024 MB。
@@ -168,7 +166,3 @@ NO
 在第一个测试用例中，$(1, -1) \xrightarrow{\text{op 3}} (-2, 2, 1, -1) \xrightarrow{\text{op 1}} (-1, -2, 2, 1)$。
 
 在第三个测试用例中，假设 $x = 3$，$y = 3$，$S_1 = (1, 2, -1)$，$S_3 = (-4, 2)$，$S_4 = (-4)$，且 $S_2$ 为空。 那么 $A = (S_1, x, S_2, S_3, y, S_4)$，且 $A \xrightarrow{\text{op 5}} (1, 2, -1, -2, 4, 3, 4, 3)$。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/15443/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

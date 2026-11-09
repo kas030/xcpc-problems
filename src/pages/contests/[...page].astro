@@ -1,6 +1,6 @@
 ---
 import type { GetStaticPaths } from 'astro';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Ellipsis } from 'lucide-react';
 import Layout from '../../layouts/Layout.astro';
 import ContestLogo from '../../components/ContestLogo.astro';
 import { catalog, CONTESTS_PER_PAGE } from '../../lib/catalog';
@@ -46,7 +46,7 @@ const pageNumbers = Array.from({ length: totalPages }, (_, index) => index + 1)
     {totalPages > 1 && <div>
       {currentPage > 1 ? <a class="icon-button" href={pageHref(currentPage - 1)} rel="prev" aria-label="上一页"><ChevronLeft size={17} aria-hidden="true" /></a> : <span class="icon-button" aria-label="上一页" aria-disabled="true"><ChevronLeft size={17} aria-hidden="true" /></span>}
       {pageNumbers.map((page, index) => <>
-        {index > 0 && pageNumbers[index - 1] !== page - 1 && <span class="page-ellipsis" aria-hidden="true">…</span>}
+        {index > 0 && pageNumbers[index - 1] !== page - 1 && <span class="page-ellipsis" aria-hidden="true"><Ellipsis size={16} /></span>}
         <a class:list={['page-number', { current: page === currentPage }]} href={pageHref(page)} aria-label={`第 ${page} 页`} aria-current={page === currentPage ? 'page' : undefined}>{page}</a>
       </>)}
       {currentPage < totalPages ? <a class="icon-button" href={pageHref(currentPage + 1)} rel="next" aria-label="下一页"><ChevronRight size={17} aria-hidden="true" /></a> : <span class="icon-button" aria-label="下一页" aria-disabled="true"><ChevronRight size={17} aria-hidden="true" /></span>}

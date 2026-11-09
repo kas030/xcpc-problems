@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/8039/statement/zh_cn
 sourceHash: 1bdfbb6dab6aa164bdfdaeed9a683fcf738c245f1e6ac7d795771589bc125881
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：3.0 秒；内存限制：1024 MB。
@@ -72,7 +70,3 @@ Boboland 的领土是一个以原点为中心、边长为 $2R$ 的轴对齐正�
 ![原题图示](../../../assets/qoj-statements/8039/75221e2ba9741478.png)
 
 对于第二个样例，不存在满足要求的参数。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/8039/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/8144/statement/zh_cn
 sourceHash: 93eb07dc2603b1c9993aa3d5a5c401f7b58072f1301c6cbc378b7f3b609e0973
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：3.0 秒；内存限制：512 MB。
@@ -55,7 +53,3 @@ sourceHash: 93eb07dc2603b1c9993aa3d5a5c401f7b58072f1301c6cbc378b7f3b609e0973
 ## 说明
 
 在第一个样例中，$\{2\}$ 和 $\emptyset$ 是仅有的两个合法子集。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/8144/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

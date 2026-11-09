@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/8139/statement/zh_cn
 sourceHash: e49e20ae3db5dd8ef8b51b4d56e0f827c60efd4d00ac4ea89569f5334a980fae
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：4.0 秒；内存限制：512 MB。
@@ -55,7 +53,3 @@ Ayano 有三个整数数组 $a_1, \dots, a_n$，$b_1, \dots, b_n$ 和 $c_1, \dot
 ```text
 2 12 12 36 0
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/8139/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

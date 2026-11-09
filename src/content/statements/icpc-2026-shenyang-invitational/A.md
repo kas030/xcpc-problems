@@ -80,7 +80,3 @@ sourceHash: 8a4c4f9ac1fcc4800dc94ba584b5cc4b244e7bd506ccf2b2f0d0b4a75ea2ff93
 -   第 $3$ 天有 $3$ 条消息，产生焦虑 $3$。
 
 综上所述，最小总焦虑值为 $1 + 2 + 3 = 6$。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/19013)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

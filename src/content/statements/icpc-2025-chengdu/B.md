@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/14707/statement/zh_cn
 sourceHash: 0de0126f5fa64085778ead0dd425a7b118303a7346b5ea8251765aa4c1bb6b82
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：3.0 秒；内存限制：1024 MB。
@@ -62,7 +60,3 @@ Panda 想要在总共 $R$ 个回合中最大化造成的总伤害。求可能的
 939
 741
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/14707/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

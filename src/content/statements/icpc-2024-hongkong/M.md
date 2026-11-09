@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/9927/statement/zh_cn
 sourceHash: ee0cb5931bfbcad555997cd3edf9050d12241f459861b674b18469d27810d834
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：5.0 秒；内存限制：1024 MB。
@@ -78,7 +76,3 @@ sourceHash: ee0cb5931bfbcad555997cd3edf9050d12241f459861b674b18469d27810d834
 37
 36
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9927/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

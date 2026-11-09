@@ -3,7 +3,7 @@ import '../styles/global.css';
 import 'katex/dist/katex.min.css';
 import { catalog } from '../lib/catalog';
 import { base, href } from '../lib/urls';
-interface Props { title?: string; description?: string; active?: 'problems' | 'contests' | 'methodology'; wide?: boolean }
+interface Props { title?: string; description?: string; active?: 'problems' | 'contests' | 'training' | 'methodology'; wide?: boolean }
 const { title = 'XCPC 题单 · 找到下一道值得做的题', description = '基于真实 XCPC 榜单的训练题单，按金银铜牌队伍通过率筛选，直达中文题面、QOJ 与比赛榜单。', active = 'problems', wide = false } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 ---
@@ -27,15 +27,16 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <header class="site-header">
       <div class="header-inner">
         <a class="brand" href={href()} aria-label="XCPC 题单首页">
-          <img class="brand-mark" src={`${base}/logo.png`} width="40" height="40" alt="" />
+          <img class="brand-mark" src={`${base}/logo.png`} width="32" height="32" alt="" draggable="false" />
           <span>XCPC<span class="brand-zh">题单</span></span>
         </a>
         <nav class="main-nav" aria-label="主导航">
           <a href={href()} class:list={{ active: active === 'problems' }} aria-current={active === 'problems' ? 'page' : undefined}>题目</a>
           <a href={href('contests')} class:list={{ active: active === 'contests' }} aria-current={active === 'contests' ? 'page' : undefined}>比赛</a>
-          <a href={href('methodology')} class:list={{ active: active === 'methodology' }} aria-current={active === 'methodology' ? 'page' : undefined}>分级说明</a>
+          <a href={href('training')} class:list={{ active: active === 'training' }} aria-current={active === 'training' ? 'page' : undefined}>训练情况</a>
+          <a href={href('methodology')} class:list={['nav-help', { active: active === 'methodology' }]} aria-current={active === 'methodology' ? 'page' : undefined}>分级说明</a>
         </nav>
-        <a class="github-link" href="https://github.com/kas030/xcpc-problems" target="_blank" rel="noopener noreferrer" aria-label="在 GitHub 查看源码">
+        <a class="github-link" href="https://github.com/kas030/xcpc-problems" target="_blank" rel="noopener noreferrer" aria-label="在 GitHub 查看源码" title="在 GitHub 查看源码">
           <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65"><path d="M9 19c-4.3 1.3-4.3-2-6-2m12 5v-3.4a3 3 0 0 0-.8-2.3c2.7-.3 5.6-1.3 5.6-6a4.7 4.7 0 0 0-1.3-3.3 4.3 4.3 0 0 0-.1-3.3s-1.1-.3-3.4 1.3a11.4 11.4 0 0 0-6 0C6.7 2.4 5.6 2.7 5.6 2.7a4.3 4.3 0 0 0-.1 3.3A4.7 4.7 0 0 0 4.2 9.3c0 4.7 2.9 5.7 5.6 6a3 3 0 0 0-.8 2.3V22"/></svg>
           <span>GitHub</span><span aria-hidden="true">↗</span>
         </a>

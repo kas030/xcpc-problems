@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/7757/statement/zh_cn
 sourceHash: 2680ddcaca331f3a2bcbc485ba4cce9483b3cee418ad984d74d25f192dbc332b
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：256 MB。
@@ -57,7 +55,3 @@ Toph 没有耐心，因此操作次数不应超过 $n^2$。
 如果在一个测试用例中 $a_1, a_2, \dots, a_n$ 与 $b_1, b_2, \dots, b_n$ 相同，输出空字符串是可以的。但在这种情况下，你仍然需要输出一个空行。
 
 不要在行末添加多余的空格，否则将得到“Wrong Answer”判决。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/7757/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

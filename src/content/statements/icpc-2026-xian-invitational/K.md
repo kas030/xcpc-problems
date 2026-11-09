@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/17352/statement/zh_cn
 sourceHash: 1db7ad024537b664604d6d6e311b1ce7d771e25fb722fd212ea6254888dd53b3
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：3 秒；内存限制：512 MB。
@@ -101,7 +99,3 @@ $$
     -   $(1, 3)$: $1 \oplus 3 = 2$，$\text{lca}_2(1, 3) = 2$。
     -   $(2, 3)$: $2 \oplus 3 = 1$，$\text{lca}_1(2, 3) = 2$。
 -   异或和为 $1 \oplus 2 \oplus 3 \oplus 2 \oplus 2 \oplus 2 = 2$。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/17352/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

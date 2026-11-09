@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/17348/statement/zh_cn
 sourceHash: 4c1a8be216023f58fff9c6178c418a03dc1e66b2c5ece6c6fe0baa8b913070ad
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1 秒；内存限制：512 MB。
@@ -97,7 +95,3 @@ $^*$: 一个多重集的 $\text{mex}$ 是指未在其中出现的最小非负整
 
 -   Yuki 可以在第 1 次变换中直接选择 $S' = \{0, 1, 2, 2\}$，使得 $S = \{3\}$。
 -   可以证明不存在变换次数更少的操作序列，因此答案为 1。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/17348/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

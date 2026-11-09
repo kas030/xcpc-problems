@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/14683/statement/zh_cn
 sourceHash: da2ca66a50a6c9e0ee9d9cf2f095ece1b63934cb44faf1a9e8491011926edfa1
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：3.0 秒；内存限制：512 MB。
@@ -91,7 +89,3 @@ Yes
 在第二个样例中：
 
 -   在唯一的一次询问中，对于子森林 $[1, 9999]$，你可以设置 $a = [1, 2, \dots, 9999]$。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/14683/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

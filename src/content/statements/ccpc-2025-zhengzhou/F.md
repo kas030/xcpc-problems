@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/15306/statement/zh_cn
 sourceHash: 5bb3f569a0cbc8f27f6b3901d6f5c517c34cb6afb02340ea4d04664545ec60ce
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：3.0 秒；内存限制：1024 MB。
@@ -81,7 +79,3 @@ Tajian 正在解决以下问题：
 2 2 1 1 1 0
 -1 1 1 0
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/15306/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/7514/statement/zh_cn
 sourceHash: 50dcaa5bce6b86e48ff538e83c759a51a5451e2b76e609959e4477d6d95ad49c
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：512 MB。
@@ -62,7 +60,3 @@ sourceHash: 50dcaa5bce6b86e48ff538e83c759a51a5451e2b76e609959e4477d6d95ad49c
 在第一个样例中，团为 $\{1\}, \{2\}, \{3\}, \{1, 2\}$ 和 $\{2, 3\}$。
 
 在第二个样例中，团为 $\{1\}, \{2\}, \{3\}, \{1, 2\}, \{1, 3\}, \{2, 3\}$ 和 $\{1, 2, 3\}$。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/7514/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

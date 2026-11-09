@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/9731/statement/zh_cn
 sourceHash: 01e802c6d9aaa55556fe0fc5b3cae2c3be5fbe355d1efa65b7165a1a10f2f72a
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：2.0 秒；内存限制：1024 MB。
@@ -80,7 +78,3 @@ Supigar 有 $q$ 个询问，第 $i$ 个询问由三个整数 $id_i, l_i$ 和 $r_
 对于第一个样例测试数据，两个解码后的询问分别为 $2\ 1\ 3$ 和 $1\ 1\ 5$。
 
 对于第二个样例测试数据，三个解码后的询问分别为 $1\ 1\ 3$、$2\ 4\ 5$ 和 $3\ 2\ 5$。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9731/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

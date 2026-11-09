@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/9042/statement/zh_cn
 sourceHash: 8e437bb3ebc77f2f10561d6e4ce8af7f3f1378accb36e5e0eba3e878e900794a
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：3.0 秒；内存限制：1024 MB。
@@ -62,7 +60,3 @@ Bogosort 非常迷人，但它运行得太慢了，这非常令人遗憾。因�
 ```text
 453747445
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9042/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/17342/statement/zh_cn
 sourceHash: ea71b4868dd51568e348eddd33cf0b1fd4437dedf002f15acccfaec52d1f1ec7
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1 秒；内存限制：512 MB。
@@ -80,7 +78,3 @@ Yuki 定义了一种操作如下：
 对于第三个测试用例：
 
 -   很容易证明，无论进行多少次操作，都无法使所有数字相等，因此答案为 $-1$。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/17342/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

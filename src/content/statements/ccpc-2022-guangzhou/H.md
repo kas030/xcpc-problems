@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/8145/statement/zh_cn
 sourceHash: 0c2d06ea3c929c1e7a7edd1ddf35305f922442ef69c5a00d2cee7b6df42df161
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：512 MB。
@@ -59,7 +57,3 @@ Alice
 Bob
 Alice
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/8145/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

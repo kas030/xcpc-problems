@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/7689/statement/zh_cn
 sourceHash: 4bdadaad4c494bf83c59b65f1f67ac17b922f58a994716b7064f89368a6d7e3f
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：2.5 秒；内存限制：1024 MB。
@@ -63,7 +61,3 @@ Grammy 想要最大化所有朝上的数字的中位数。为了达到这个目�
 ```text
 2
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/7689/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

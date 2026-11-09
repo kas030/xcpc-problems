@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/9917/statement/zh_cn
 sourceHash: dde97e56b15b43e2484ce139f1050228313dcecf9f840994ea83f8d8997b8fd3
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：1024 MB。
@@ -48,7 +46,3 @@ Bie 皇帝想要创建一个长度为 $n$ 的数组 $A$。他首先选择一个�
 2
 1 2 3
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9917/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/7513/statement/zh_cn
 sourceHash: b492302470ec6f80852e8b6a5ed4faa1f73a280fcc3c6e4b0e4511531727f4aa
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：2.5 秒；内存限制：512 MB。
@@ -60,7 +58,3 @@ sourceHash: b492302470ec6f80852e8b6a5ed4faa1f73a280fcc3c6e4b0e4511531727f4aa
 ```text
 4
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/7513/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

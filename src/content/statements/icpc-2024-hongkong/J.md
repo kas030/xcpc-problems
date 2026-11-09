@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/9924/statement/zh_cn
 sourceHash: 34de95a03e2f8b45cff4c2022d6c57faac798f21e4e5855fc2e353892cf4c534
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：3.0 秒；内存限制：1024 MB。
@@ -71,7 +69,3 @@ Pig100ton 还有另一棵包含 $n$ 个顶点的树 $T$。对于每个 $1 \le u 
 ```text
 010110
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9924/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

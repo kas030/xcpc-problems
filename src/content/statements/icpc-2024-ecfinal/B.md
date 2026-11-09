@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/9976/statement/zh_cn
 sourceHash: 3335b0b1bb7c2eb6d33c0e600b8091445d2e917194550fadef4ac1225364a6ea
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：6.0 秒；内存限制：1024 MB。
@@ -92,7 +90,3 @@ sourceHash: 3335b0b1bb7c2eb6d33c0e600b8091445d2e917194550fadef4ac1225364a6ea
 注意，样例中显示的顶点顺序可能与实际提供的顺序不一致。
 
 样例中的空行是为了增加可读性。在你的输出中，多余的空格或空行将被忽略。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9976/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

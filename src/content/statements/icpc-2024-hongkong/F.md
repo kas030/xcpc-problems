@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/9920/statement/zh_cn
 sourceHash: 2893ff099893774e51e8242a55c5ff9d2f987d8555ff9c481329e0a012c48cea
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：4.0 秒；内存限制：1024 MB。
@@ -55,7 +53,3 @@ Putata 和 Budada 正在组织一场游戏，有 $n$ 名玩家围成一圈。玩
 1000000000
 30 37 41 39 34 27 29 26 31 27
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9920/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

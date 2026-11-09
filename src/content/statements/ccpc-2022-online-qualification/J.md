@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/14543/statement/zh_cn
 sourceHash: 31559eec8d6f2894be18f83c8d75f44ed7017289da677539f44b8e1132235276
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：512 MB。
@@ -53,7 +51,3 @@ Alice 希望 $S$ 尽可能简单，因此她想找到所有使得 $w(P)$ 最小�
 ## 说明
 
 一个 $n$ 阶排列是一个长度为 $n$ 的整数序列，且 $\{1, 2, \dots, n\}$ 中的每个元素都恰好出现一次。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/14543/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

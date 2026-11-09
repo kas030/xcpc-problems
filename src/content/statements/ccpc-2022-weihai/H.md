@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/9598/statement/zh_cn
 sourceHash: ffea024c5c89b535945f576058ad975fd6c883ecba868bf8b6d6a1bca314aec5
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：3.0 秒；内存限制：256 MB。
@@ -108,7 +106,3 @@ S
 8.  PSSRRRRPPS → PSRRRRRPPS
 9.  PSRRRRR\[P\]PS
 10.  PS\[R\]RRRRPPS
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9598/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

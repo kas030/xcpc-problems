@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/15305/statement/zh_cn
 sourceHash: 01c862ac88a5f63f0b9146510b403c963b9c52e7f0bce39fe2b1069ec46c4ab9
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：2.0 秒；内存限制：1024 MB。
@@ -53,7 +51,3 @@ Hyacinthia 想要向你询问 $m$ 次。每次她会告诉你她的起始点，�
 7.4056093871
 -1
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/15305/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

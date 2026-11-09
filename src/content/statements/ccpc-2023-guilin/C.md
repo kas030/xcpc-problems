@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/7679/statement/zh_cn
 sourceHash: a42d643fd50bd22415609455218d9e3ec9cc2f8ec60ad332501d3c919a7b356f
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：1024 MB。
@@ -50,7 +48,3 @@ Prof. Chen 是算术运算和二进制运算的大师。今天他给学生 Putat
 4
 11
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/7679/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

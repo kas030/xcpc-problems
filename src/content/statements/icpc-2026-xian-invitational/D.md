@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/17345/statement/zh_cn
 sourceHash: 3294bf032cc1540a247f3bcdafd75d59bacf4f9d3a2acbc40cb9a0915bdb1451
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1 秒；内存限制：512 MB。
@@ -81,7 +79,3 @@ Yuki 正在玩一个名为 Qenerals 的游戏。
 对于第三个测试用例：
 
 -   Yuki 可以在第 $1$ 秒结束时占领第 $1$ 座堡垒，并在第 $2$ 秒结束时占领第 $2$ 和第 $3$ 座堡垒，从而在游戏结束时拥有 $12$ 名士兵。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/17345/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

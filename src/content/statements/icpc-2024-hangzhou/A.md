@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/9726/statement/zh_cn
 sourceHash: 0c5e01fecdaf7f0e6a67c70e285819f1a4d5f3f1b75f43867025e53f162f896c
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：1024 MB。
@@ -62,7 +60,3 @@ NO
 ## 说明
 
 对于第一个和第三个样例测试用例，一个有效的密码函数可以是 $f(\text{a}) = f(\text{b}) = f(\text{c}) = f(\text{d}) = \text{a}$ 且 $f(\text{e}) = \text{b}$。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9726/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/9595/statement/zh_cn
 sourceHash: 04739e64533d7fda08e180bee2889cbc3625c48f5f8ae7b77d342ebbdb69f06a
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：256 MB。
@@ -67,7 +65,3 @@ Python will never be faster than C++
 ![原题图示](../../../assets/qoj-statements/9595/6ba360d77d83a007.png)
 
 对于第二个样例，很容易注意到 Python 的运行时间始终为 2 毫秒，包括对未来版本的预测。因此，Python 的效率永远不会高于运行时间为 1 毫秒的 C++。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9595/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/15044/statement/zh_cn
 sourceHash: f2e39ef41a682319b682dcc54e7091dd5eb83db8427347cc716346d18fd5a0a3
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：4.0 秒；内存限制：1024 MB。
@@ -72,7 +70,3 @@ sourceHash: f2e39ef41a682319b682dcc54e7091dd5eb83db8427347cc716346d18fd5a0a3
 对于 $n = 3$，可以证明共有六个 $3$-好数组，其对应的函数值分别为：
 
 $f([0, 1, 2]) = 3$, $f([0, 2, 1]) = 2$, $f([1, 0, 2]) = 3$, $f([1, 2, 0]) = 2$, $f([2, 0, 1]) = 3$, $f([2, 1, 0]) = 3$
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/15044/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

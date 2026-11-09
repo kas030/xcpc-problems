@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/7750/statement/zh_cn
 sourceHash: ec6283f5d203943f058ea23f26ed5e190c82b82e9af03690cba0ae1578872e5f
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：3.0 秒；内存限制：256 MB。
@@ -75,7 +73,3 @@ Alice 知道 Bob 很贪婪，所以她了解 Bob 选择会合城市的策略。�
 3 1 2 4
 3 8 4 2 5 9 7 1 6
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/7750/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

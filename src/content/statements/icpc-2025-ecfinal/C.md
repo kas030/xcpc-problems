@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/16330/statement/zh_cn
 sourceHash: d4ebe81fcec855ff1f54fb415679c6ddfcce4f7db6c104dd4ab326ee76c145f2
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：6.0 秒；内存限制：2048 MB。
@@ -75,7 +73,3 @@ sourceHash: d4ebe81fcec855ff1f54fb415679c6ddfcce4f7db6c104dd4ab326ee76c145f2
 其他成员的最大潜力均为 $0$。因此，第 5 天的总潜力为 $1$。
 
 在第 8 天，有 8 名成员，其实力水平为 $[1, 2, 3, 1, 2, 3, 2, 3]$。最优努力值为 $[2, 1, 0, 2, 1, 0, 1, 0]$，对应的最大潜力分别为 $[4, 2, 0, 2, 1, 0, 0, 0]$。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/16330/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/15319/statement/zh_cn
 sourceHash: 4de23d5fca0da35ccb44d6d00ac365df031e3e900818fa7c3ade17c5dded54bd
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.5 秒；内存限制：2048 MB。
@@ -62,7 +60,3 @@ NO
 YES
 NO
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/15319/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

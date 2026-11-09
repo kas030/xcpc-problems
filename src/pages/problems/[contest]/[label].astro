@@ -34,7 +34,7 @@ if (entry?.data.format === 'pdf' && !qojPdf) throw new Error(`QOJ 中文 PDF 缺
 <Layout title={`${problem.label}. ${problem.title} · ${contest.shortName}`}>
   <nav class="breadcrumb" aria-label="面包屑"><a href={href()}>题单</a><span>/</span><a href={href(`contests/${contest.id}`)}>{contest.shortName}</a><span>/</span><span>Problem {problem.label}</span></nav>
   <header class="detail-head">
-    <div class="detail-heading"><h1><span class="detail-label">{problem.label}.</span>{problem.title}</h1><div class="detail-meta"><a class="contest-tag" href={href(`contests/${contest.id}`)}>{contest.shortName}</a><span class={`difficulty-badge ${problem.difficulty}`}><span class="badge-dot"/>{difficultyLabels[problem.difficulty]}</span><a class="qoj-link" href={`https://qoj.ac/problem/${problem.qojId}`} target="_blank" rel="noopener noreferrer" title="在 QOJ 打开题目">QOJ #{problem.qojId}</a>{problem.interactive && <span>交互题</span>}</div></div>
+    <div class="detail-heading"><h1><span class="detail-label">{problem.label}.</span>{problem.title}</h1><div class="detail-meta"><a class="contest-tag" data-series={contest.series} href={href(`contests/${contest.id}`)}>{contest.shortName}</a><span class={`difficulty-badge ${problem.difficulty}`}>{difficultyLabels[problem.difficulty]}</span><a class="qoj-link" href={`https://qoj.ac/problem/${problem.qojId}`} target="_blank" rel="noopener noreferrer" title="在 QOJ 打开题目">QOJ #{problem.qojId}</a>{problem.interactive && <span>交互题</span>}</div></div>
     <div class="detail-actions">
       <button class="button button-primary progress-button" data-progress-id={problem.id} aria-pressed="false"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg><span data-progress-label>标记为已完成</span></button>
       <p class="detail-note" data-progress-note role="status" hidden></p>
@@ -43,16 +43,14 @@ if (entry?.data.format === 'pdf' && !qojPdf) throw new Error(`QOJ 中文 PDF 缺
   <div class="detail-grid">
     <section>
       {(Content || localPdf) && <div class="reading-card" data-translatable={translated || undefined}>
-        {translated && <fieldset class="statement-switch">
-          <legend class="sr-only">题面语言</legend>
-          <label><input type="radio" name="statement-language" value="zh" checked /><span>{qojChinese ? 'QOJ 中文' : '中文翻译'}</span></label>
-          <label><input type="radio" name="statement-language" value="en" /><span>官方英文</span></label>
-        </fieldset>}
-        <div class="reading-toolbar">
-          <h2><span data-translation>{Content ? entry!.data.language === 'zh' ? '中文题面' : '英文题面' : '官方题面'}{Content && <span class="source-label">{entry!.data.status === 'official' ? '官方原文' : qojChinese ? 'QOJ 中文版' : entry!.data.status === 'reviewed' ? '译文已校对' : '译文待校对'}</span>}</span>{translated && <span data-original>官方英文题面</span>}</h2>
+        {(translated || statement) && <div class="reading-toolbar">
+          {translated && <fieldset class="statement-switch">
+            <legend class="sr-only">题面语言</legend>
+            <label><input type="radio" name="statement-language" value="zh" checked /><span>{qojChinese ? 'QOJ 中文' : '中文翻译'}</span></label>
+            <label><input type="radio" name="statement-language" value="en" /><span>官方英文</span></label>
+          </fieldset>}
           {statement && <a class="booklet-link" href={bookletUrl} target="_blank" rel="noopener noreferrer" title={isBooklet ? '在新标签页打开完整题册' : '在新标签页打开原始题面'}><span>{isBooklet ? '完整题册' : '原始题面'}</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>}
-        </div>
-        {entry?.data.status === 'draft' && <div class="status-banner" data-translation>这份译文尚未校对，训练时请同时核对原文中的约束和样例。</div>}
+        </div>}
         {qojPdf && <iframe data-translation class="pdf-frame" src={`${qojPdf}#view=FitH`} title={`${problem.label}. ${problem.title} QOJ 中文题面`} referrerpolicy="no-referrer" />}
         {Content ? <article class="prose statement-prose" data-translation lang={entry!.data.language === 'zh' ? 'zh-CN' : 'en'}><Content /></article> : statement?.format === 'pdf' && localPdf ? <>
           <iframe class="pdf-frame" src={readerUrl} title={`${problem.label}. ${problem.title} ${statement.language === 'zh' ? '中文' : ''}题面`} referrerpolicy="no-referrer" />
@@ -65,6 +63,7 @@ if (entry?.data.format === 'pdf' && !qojPdf) throw new Error(`QOJ 中文 PDF 缺
     <aside class="detail-sidebar">
       <section class="detail-card" id="difficulty">
         <h2>通过情况</h2>
+        <div class="cohort-row"><div class="cohort-label"><span>全部正式队伍</span><strong>{problem.participants ? `${(100 * problem.solved / problem.participants).toFixed(1)}%` : '—'}</strong></div><div class="cohort-track overall"><span style={`width:${100 * problem.solved / Math.max(problem.participants, 1)}%`}/></div><span class="cohort-count">{problem.participants ? `${problem.solved} / ${problem.participants} 队通过` : '暂无正式队伍'}</span></div>
         {(['bronze','silver','gold'] as const).map((medal,i) => {const stat = problem.cohorts[medal];return <div class="cohort-row"><div class="cohort-label"><span>{['铜牌','银牌','金牌'][i]}组</span><strong>{stat.rate === null ? '—' : `${(stat.rate*100).toFixed(1)}%`}</strong></div><div class={`cohort-track ${medal}`}><span style={`width:${(stat.rate ?? 0)*100}%`}/></div><span class="cohort-count">{stat.total ? `${stat.solved} / ${stat.total} 队通过` : '该组暂无队伍'}</span></div>})}
       </section>
       <section class="detail-card"><h2>本场记录</h2><dl class="detail-dl"><div><dt>正式队伍通过</dt><dd>{problem.solved} / {problem.participants}</dd></div><div><dt>比赛日期</dt><dd>{contest.date.slice(0,10)}</dd></div><div><dt>数据更新</dt><dd>{contest.syncedAt.slice(0,10)}</dd></div></dl></section>
@@ -73,6 +72,61 @@ if (entry?.data.format === 'pdf' && !qojPdf) throw new Error(`QOJ 中文 PDF 缺
   </div>
 </Layout>
 <script>
+  document.querySelectorAll<HTMLImageElement>('.statement-prose img').forEach(img => {
+    if (img.closest('a')) return;
+    const link = document.createElement('a');
+    link.className = 'statement-image-link';
+    link.href = img.currentSrc || img.src;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    link.title = '在新标签页查看原图';
+    link.setAttribute('aria-label', `${img.alt || '题面图片'}：在新标签页查看原图`);
+    img.before(link);
+    link.append(img);
+  });
+
+  document.querySelectorAll<HTMLPreElement>('.statement-prose pre').forEach(pre => {
+    const code = pre.querySelector('code') ?? pre;
+    const block = document.createElement('div');
+    block.className = 'statement-code-block';
+    const copyButton = document.createElement('button');
+    copyButton.type = 'button';
+    copyButton.className = 'statement-copy-button';
+    const status = document.createElement('span');
+    status.className = 'sr-only';
+    status.setAttribute('role', 'status');
+    const icons = {
+      copy: '<rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>',
+      success: '<path d="m5 12 4 4L19 6"/>',
+      error: '<path d="m6 6 12 12M6 18 18 6"/>',
+    };
+    function showCopyState(state: keyof typeof icons, message: string) {
+      copyButton.innerHTML = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${icons[state]}</svg>`;
+      copyButton.title = message;
+      copyButton.setAttribute('aria-label', message);
+      status.textContent = state === 'copy' ? '' : message;
+    }
+    showCopyState('copy', '复制代码块');
+    let resetTimer: ReturnType<typeof setTimeout>;
+    copyButton.addEventListener('click', async () => {
+      clearTimeout(resetTimer);
+      copyButton.disabled = true;
+      let feedbackDuration = 800;
+      try {
+        await navigator.clipboard.writeText(code.textContent ?? '');
+        showCopyState('success', '已复制');
+      } catch {
+        showCopyState('error', '复制失败，请手动选择');
+        feedbackDuration = 2500;
+      } finally {
+        copyButton.disabled = false;
+        resetTimer = setTimeout(() => { showCopyState('copy', '复制代码块'); }, feedbackDuration);
+      }
+    });
+    pre.before(block);
+    block.append(pre, copyButton, status);
+  });
+
   const button = document.querySelector<HTMLButtonElement>('[data-progress-id]');
   const label = button?.querySelector<HTMLElement>('[data-progress-label]');
   const note = document.querySelector<HTMLElement>('[data-progress-note]');

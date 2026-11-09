@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/14536/statement/zh_cn
 sourceHash: 49ead189ff7442ff42e7b9c50cb8c5a4dfebf8aaa1a41ba71658ddcd03bbaa0f
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：512 MB。
@@ -60,7 +58,3 @@ Alice 和 Bob 只能看到对方额头上的数，但他们都知道这两个数
 对于第一个样例，Alice 可以看到 Bob 额头上的数，这是一个奇数 $3$。然后她可以发现自己额头上的数必须是 $6$，因为不存在整数 $x$ 满足 $3 = 2x$。
 
 请注意：$a, b$ 的范围仅对你（作为解题者）可见，而游戏中的两位玩家并不知道这个范围。也就是说，当 $a = 5 \times 10^{17}, b = 10^{18}$ 时，即使 $a = 2 \times 10^{18}$ 超出了输入范围，Alice 也不能立即说出她的数。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/14536/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

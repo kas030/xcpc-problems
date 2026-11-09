@@ -52,7 +52,6 @@ test('Boolean expression syntax and the truth table survive Markdown conversion'
   assert(syntax.includes('(<expr>&<expr>)'));
   assert(syntax.includes('(<expr>|<expr>)'));
   assert.equal(dom('.katex-error').length, 0);
-  assert.match(body, /排版修复：/);
 });
 
 test('single-problem PDFs preserve the selected pages in order, including the final page', async () => {
@@ -120,7 +119,6 @@ test('Chinese statements retain their source and distinguish QOJ copies from rev
       assert.equal(meta.source, record.source, file);
       assert.equal(meta.sourceHash, record.sourceHash, `QOJ 正文版本不一致：${file}`);
       assert.equal(meta.language, 'zh', file);
-      if (record.aiTranslated) assert.match(content, /QOJ 将此版本标注为 AI 翻译/, `未保留 QOJ 的 AI 翻译声明：${file}`);
       assert.doesNotMatch(content, /QOJMATH\d+TOKEN|QOJSAMPLE\d+TOKEN|<!--\s*FIGURE:/, file);
       if (meta.format === 'pdf') {
         const bytes = await readFile(`src/assets/qoj-statements/${record.qojId}/statement-zh.pdf`);

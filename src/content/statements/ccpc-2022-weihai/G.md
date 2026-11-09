@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/9597/statement/zh_cn
 sourceHash: 564c29c2d4770c589f188b60fbf07901cd815b356d130f7cce10f20556e9ee45
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：3.0 秒；内存限制：256 MB。
@@ -68,7 +66,3 @@ Kotsuki the Cat，与 FuuFuu 和 Pico 一起住在 KFP 公寓。作为一名老�
 -   $k = 4, \gcd(kx \oplus x, x) = \gcd(60 \oplus 15, 15) = \gcd(51, 15) = 3$
 
 因此区间 $[1, 4]$ 的答案为 2。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9597/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。 QOJ 中文页中失效或错配的图片已按原有顺序补为[官方英文题面](https://qoj.ac/download.php?type=statement&id=9597&ver=default)中的对应图示。

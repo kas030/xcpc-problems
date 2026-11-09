@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/9599/statement/zh_cn
 sourceHash: d11284bdd9e2d7a3fb6018b4cec6acd463c1c781853a327007e8c54bef1ec06c
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：3.0 秒；内存限制：256 MB。
@@ -83,7 +81,3 @@ Adonis 龙是龙族伟大的领袖。传承龙族血脉是龙族的重要使命�
 4.  分配 3 条 3 级工龙收集第四种精华，日产量为 $3 \times 4 = 12$。
 
 可生产的龙蛋数量为 $\min(\lfloor\frac{3}{1}\rfloor, \lfloor\frac{4}{2}\rfloor, \lfloor\frac{9}{3}\rfloor, \lfloor\frac{12}{4}\rfloor) = \min(3, 2, 3, 3) = 2$。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9599/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

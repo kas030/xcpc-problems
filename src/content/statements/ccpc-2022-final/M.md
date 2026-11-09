@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/6513/statement/zh_cn
 sourceHash: c3826be2a55f1f5970a35c18c1c4295286a5a1d03e1b3f1164c56adae52b384b
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：5 秒；内存限制：1024 MB。
@@ -72,7 +70,3 @@ Little Cyan Fish 有 $n$ 个数字 $a_1, a_2, \dots, a_n$ 和 $n-1$ 个运算符
 -   $9 - 1 + 4 - 1 \implies 9 - 1 + 3 \implies 9 - 4 \implies 5$
 
 因此答案为 $11 + 11 + 3 + 5 + 11 + 5 = 46$。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/6513/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

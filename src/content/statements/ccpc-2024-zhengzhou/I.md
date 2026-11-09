@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/9776/statement/zh_cn
 sourceHash: 19355455aa259039f6f47d274ffc250c8fcd6dc92cac4d2fdb967ce41b8abd3b
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：32 MB。
@@ -143,7 +141,3 @@ $$
 4
 4
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9776/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

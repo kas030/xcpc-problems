@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/8329/statement/zh_cn
 sourceHash: 6df23887f6158fdd817e9777387b0f4dcba4ee09d56612770bdeca8f8b07d292
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：2.0 秒；内存限制：512 MB。
@@ -69,7 +67,3 @@ sourceHash: 6df23887f6158fdd817e9777387b0f4dcba4ee09d56612770bdeca8f8b07d292
 -   否则，$\text{mex}(a_1) = 0$。
 
 因此，答案为 $1 \times \frac{1}{2} + 0 \times (1 - \frac{1}{2}) = \frac{1}{2} \equiv 499122177 \pmod{998\,244\,353}$。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/8329/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

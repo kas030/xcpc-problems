@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/6503/statement/zh_cn
 sourceHash: 27e4b744592fab3e022b432e7980821191ebaebc62ab5c14e21542c63baf7caa
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：2 秒；内存限制：1024 MB。
@@ -86,7 +84,3 @@ end procedure
 2 4
 3 5
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/6503/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

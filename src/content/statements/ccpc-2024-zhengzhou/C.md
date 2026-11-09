@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/9770/statement/zh_cn
 sourceHash: ea6ae60a9fda774daf9e57a849d2d9050ff89cab46f5c1209c7d8319c68c2edd
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：1024 MB。
@@ -103,7 +101,3 @@ Bobo 正在探索二维平面上的一组格点。初始时，点集定义为 $S
 4 0 8 0
 6 0 8 6
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9770/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

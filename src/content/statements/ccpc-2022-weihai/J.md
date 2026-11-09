@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/9600/statement/zh_cn
 sourceHash: 7dd5eb69ea5f565b6ddd36a27a609f1d06836120da7689cb6f992cf32f2d1a3b
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：256 MB。
@@ -81,7 +79,3 @@ Pico
 对于样例中的第一个测试用例，由于没有约束，游戏仅在所有整数都被减为 0 时结束。因此，FuuFuu 将在三回合后输掉游戏。
 
 对于样例中的第二个测试用例，0 出现的最大次数为 1。显然，在 Pico 第三回合的操作后，必然会出现两个 0，因此 FuuFuu 将赢得游戏。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9600/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

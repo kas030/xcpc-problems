@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/14682/statement/zh_cn
 sourceHash: 05b881555b20e8f18decdc20a2b32164ed6ec9ea050ab5b6acfcc0d9e785e2fe
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：1.0 秒；内存限制：512 MB。
@@ -97,7 +95,3 @@ CWPWCPWC
 很容易证明，该解法选择的区间长度是尽可能短的。
 
 在第三组测试数据中，小青鱼无法通过任何重新排列使其变得美丽。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/14682/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

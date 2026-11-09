@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/17349/statement/zh_cn
 sourceHash: 6f9e1c0d3d3c8493994bb84850107c9639be8a37855defb31a55a3854cba723d
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：2 秒；内存限制：1024 MB。
@@ -73,7 +71,3 @@ Yuki 梦想着到达那片无法企及的土地。经过多年的努力，现在
 对于第四个测试用例：
 
 -   可以证明不存在有效的操作方案。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/17349/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。

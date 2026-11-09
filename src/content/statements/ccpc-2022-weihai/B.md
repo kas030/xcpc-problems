@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/9592/statement/zh_cn
 sourceHash: cd80d6666832bb8c480e548b8aae029099d3542841888ba8c981923a76f0f439
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：3.0 秒；内存限制：256 MB。
@@ -89,7 +87,3 @@ Cody 已经生成了这道题的标准输入和输出文件。但他不小心删
 ```text
 -1
 ```
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/9592/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。 QOJ 中文页中失效或错配的图片已按原有顺序补为[官方英文题面](https://qoj.ac/download.php?type=statement&id=9592&ver=default)中的对应图示。

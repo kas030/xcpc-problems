@@ -6,8 +6,6 @@ source: https://qoj.ac/problem/14611/statement/zh_cn
 sourceHash: a2306845fd7d013fbc11ca30fb47d86c9e0322a17a2a1b67d14bee0f02f5eb5f
 ---
 
-> QOJ 将此版本标注为 AI 翻译，可能存在不准确之处；有疑问时请核对原文。
-
 ## 题目描述
 
 时间限制：4 秒；内存限制：2048 MB。
@@ -120,7 +118,3 @@ impossible
 ### 说明
 
 **样例 5 说明**：尽管输入中给出了 $(2, 2)$ 的深度，但提供的数据点无法扩展为一张有效的地图，因此正确答案为 `impossible`。
-
----
-
-来源：[QOJ 中文题面](https://qoj.ac/problem/14611/statement/zh_cn)。保留 QOJ 提供的中文内容，仅转换为 Markdown 排版；原题及图示版权归原作者所有。 QOJ 中文页中失效或错配的图片已按原有顺序补为[官方英文题面](https://qoj.ac/download.php?type=attachments&id=2522&r=0)中的对应图示。
