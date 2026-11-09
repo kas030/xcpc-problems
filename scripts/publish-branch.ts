@@ -56,10 +56,15 @@ export async function publishBranch(options: {
     return { changed: true, commit };
   } finally {
     // Only remove the unique staging directory created by this invocation.
-    const resolved = await realpath(staging);
-    const child = relative(cache, resolved);
-    if (child && !child.startsWith(`..${sep}`) && child !== '..' && !isAbsolute(child) && child.startsWith('pages-')) {
-      await rm(resolved, { recursive: true, force: true });
+    try {
+      const resolved = await realpath(staging);
+      const child = relative(cache, resolved);
+      if (child && !child.startsWith(`..${sep}`) && child !== '..' && !isAbsolute(child) && child.startsWith('pages-')) {
+        await rm(resolved, { recursive: true, force: true, maxRetries: 5, retryDelay: 500 });
+      }
+    } catch (error) {
+      // A Windows file lock must not hide a push error or interrupt live verification.
+      console.warn(`临时目录清理失败，可稍后删除 ${staging}：${(error as Error).message}`);
     }
   }
 }
