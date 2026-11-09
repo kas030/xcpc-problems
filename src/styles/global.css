@@ -77,19 +77,22 @@ input[type=search]::-webkit-search-cancel-button { cursor: pointer; }
 .select-option.is-active[aria-selected=true] { background: #e1eaff; }
 
 /* Shared navigation and page frame */
-.site-header { height: 60px; background: var(--surface); border-bottom: 1px solid var(--line); }
-.header-inner { max-width: 1480px; height: 100%; padding: 0 28px; margin: auto; display: flex; align-items: center; gap: 40px; }
-.brand { display: flex; align-items: center; gap: 9px; font-weight: 700; font-size: 21px; letter-spacing: -.6px; }
-.brand-mark { width: 40px; height: 40px; display: block; flex-shrink: 0; object-fit: contain; }
-.brand-zh { margin-left: 7px; font-size: 16px; letter-spacing: 0; font-weight: 650; }
-.main-nav { display: flex; gap: 5px; align-items: center; }
-.main-nav a { display: flex; align-items: center; min-height: 34px; padding: 0 14px; border-radius: 6px; font-size: 13px; font-weight: 550; color: var(--muted); }
+.site-header { height: 64px; background: var(--surface); border-bottom: 1px solid var(--line); }
+.header-inner { max-width: 1480px; height: 100%; padding: 0 28px; margin: auto; display: flex; align-items: center; gap: 16px; }
+.brand { display: flex; align-items: center; gap: 9px; flex-shrink: 0; white-space: nowrap; font-weight: 700; font-size: 19px; letter-spacing: -.4px; }
+.brand-mark { width: 32px; height: 32px; display: block; flex-shrink: 0; object-fit: contain; transform: translateY(-2px); }
+.brand-zh { margin-left: 7px; font-size: 15px; letter-spacing: 0; font-weight: 600; }
+.main-nav { display: flex; flex: 1; align-self: stretch; gap: 8px; align-items: center; margin-left: 24px; }
+.main-nav a { position: relative; display: flex; justify-content: center; align-items: center; min-height: 40px; padding: 0 14px; border-radius: 6px; white-space: nowrap; font-size: 14px; font-weight: 500; color: var(--muted); transition: color .15s, background .15s; }
+.main-nav a::after { content: ''; position: absolute; bottom: -12px; left: 50%; width: 20px; height: 2px; border-radius: 2px; background: transparent; transform: translateX(-50%); transition: background .15s; }
 .main-nav a:hover { background: var(--surface-soft); color: var(--ink); }
-.main-nav a.active { background: var(--primary-soft); color: var(--primary-hover); font-weight: 650; }
-.github-link { margin-left: auto; display: flex; align-items: center; gap: 7px; color: #475569; font-size: 12px; }
-.github-link svg { width: 18px; height: 18px; }
-.github-link:hover { color: var(--primary); }
-.page-shell { max-width: 1320px; padding: 24px 28px 32px; margin: 0 auto; min-height: calc(100vh - 112px); }
+.main-nav a.active { color: var(--primary-hover); font-weight: 650; }
+.main-nav a.active::after { background: var(--primary); }
+.main-nav .nav-help { margin-left: auto; }
+.github-link { display: flex; justify-content: center; align-items: center; flex-shrink: 0; gap: 7px; height: 40px; padding: 0 10px; border-radius: 8px; color: var(--muted); font-size: 12px; transition: color .15s, background .15s; }
+.github-link svg { width: 20px; height: 20px; }
+.github-link:hover { color: var(--ink); background: var(--surface-soft); }
+.page-shell { max-width: 1320px; padding: 24px 28px 32px; margin: 0 auto; min-height: calc(100vh - 116px); }
 .page-wide { max-width: 1480px; padding-top: 20px; }
 .site-footer { max-width: 1480px; margin: 0 auto; padding: 14px 28px 20px; display: flex; justify-content: flex-end; color: var(--muted); font-size: 11px; }
 .site-footer > div { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
@@ -375,7 +378,7 @@ a.contest-tag:hover { background: var(--contest-hover-bg); }
 .status-banner { font-size: 12px; color: #806023; background: #fff7df; padding: 10px 16px; border-bottom: 1px solid #ead6a0; }
 
 @media (max-width: 1180px) {
-  .header-inner { gap: 30px; padding: 0 22px; }
+  .header-inner { padding: 0 22px; }
   .page-shell { padding: 20px 22px 28px; }
   .browser-grid { grid-template-columns: 220px minmax(0,1fr); gap: 14px; }
   .filters-panel { padding: 14px; }
@@ -409,14 +412,14 @@ a.contest-tag:hover { background: var(--contest-hover-bg); }
   .training-dashboard { --training-card-padding: 16px; gap: 14px; }
   .training-value { font-size: 28px; }
   .training-level-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; padding-inline: 14px; }
-  .site-header { height: 56px; }
-  .header-inner { padding: 0 14px; gap: 12px; }
-  .brand { font-size: 18px; gap: 7px; }
-  .brand-mark { width: 36px; height: 36px; }
-  .brand-zh { font-size: 14px; margin-left: 5px; }
-  .main-nav { margin-left: auto; gap: 1px; }
-  .main-nav a { font-size: 12px; padding: 0 9px; min-height: 32px; }
-  .github-link { display: none; }
+  .site-header { height: auto; }
+  .header-inner { display: grid; grid-template-columns: 1fr auto; grid-template-areas: "brand github" "nav nav"; padding: 8px 14px 0; gap: 4px 12px; }
+  .brand { grid-area: brand; width: fit-content; min-height: 44px; }
+  .github-link { grid-area: github; height: 44px; }
+  .main-nav { grid-area: nav; margin-left: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 4px; padding-bottom: 4px; }
+  .main-nav a { min-height: 44px; padding: 0 4px; font-size: 14px; }
+  .main-nav a::after { bottom: -4px; }
+  .main-nav .nav-help { margin-left: 0; }
   .page-shell { padding: 14px 12px 24px; }
   .browser-grid { display: flex; flex-direction: column; gap: 0; }
   .filters-panel { display: none; }
@@ -481,18 +484,8 @@ a.contest-tag:hover { background: var(--contest-hover-bg); }
   .breadcrumb { font-size: 11px; gap: 7px; margin-bottom: 14px; }
 }
 
-@media (max-width: 480px) {
-  .site-header { height: auto; }
-  .header-inner { flex-wrap: wrap; gap: 6px; padding-top: 9px; padding-bottom: 8px; }
-  .main-nav { flex-basis: 100%; margin-left: 0; justify-content: space-between; }
-  .main-nav a { white-space: nowrap; }
-}
-
 @media (max-width: 380px) {
-  .header-inner { padding: 0 10px; gap: 8px; }
-  .brand-mark { width: 32px; height: 32px; }
-  .brand { font-size: 17px; gap: 5px; }
-  .main-nav a { padding: 0 7px; font-size: 11px; }
+  .header-inner { padding-inline: 10px; }
   .toolbar-divider { display: none; }
   .table-title { font-size: 12px; }
 }
