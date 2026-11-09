@@ -364,10 +364,14 @@ a.contest-tag:hover { background: var(--contest-hover-bg); }
 .statement-copy-button { display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; margin-top: 10px; padding: 0; color: var(--muted); }
 .statement-copy-button:hover { color: var(--primary-hover); }
 .statement-prose .statement-code-block pre { min-width: 0; margin: 0; border: 0; }
-.statement-switch { display: flex; flex-wrap: wrap; gap: 8px; }
-.statement-switch label { display: inline-flex; align-items: center; gap: 7px; padding: 7px 11px; border-radius: 7px; background: var(--surface-soft); cursor: pointer; font-size: 13px; }
-.statement-switch input { margin: 0; accent-color: var(--primary); }
-.statement-switch label:has(:checked) { background: var(--primary-soft); color: var(--primary-hover); }
+.statement-switch { display: inline-flex; flex: 0 0 auto; gap: 2px; min-width: 0; margin: 0; padding: 3px; border: 1px solid var(--line); border-radius: 9px; background: var(--surface-soft); }
+.statement-switch label { position: relative; display: flex; cursor: pointer; }
+.statement-switch input { position: absolute; width: 1px; height: 1px; margin: 0; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.statement-switch label > span { display: flex; align-items: center; justify-content: center; min-height: 32px; padding: 5px 13px; border-radius: 6px; color: var(--muted); font-size: 13px; font-weight: 500; line-height: 1.4; white-space: nowrap; transition: color 150ms ease, background-color 150ms ease, box-shadow 150ms ease; }
+.statement-switch label:hover > span { color: var(--ink); background: var(--primary-soft); }
+.statement-switch input:checked + span { color: var(--primary-hover); background: var(--surface); box-shadow: 0 1px 3px rgb(25 42 70 / 12%); }
+.statement-switch input:focus-visible + span { outline: 2px solid var(--primary); outline-offset: 1px; }
+@media (prefers-reduced-motion: reduce) { .statement-switch label > span { transition: none; } }
 [data-translatable]:has(input[value="zh"]:checked) [data-original],
 [data-translatable]:has(input[value="en"]:checked) [data-translation] { display: none; }
 .guide-page { max-width: 840px; margin: auto; }
@@ -468,7 +472,8 @@ a.contest-tag:hover { background: var(--contest-hover-bg); }
   .detail-sidebar { grid-template-columns: 1fr; }
   .detail-card:last-child { grid-column: auto; }
   .pdf-frame { height: 760px; }
-  .reading-toolbar { padding: 10px 12px; }
+  .reading-toolbar { padding: 10px 12px; flex-wrap: wrap; }
+  .statement-switch label > span { padding-inline: 10px; }
   .guide-paper { padding: 22px 18px; }
   .prose { font-size: 13px; }
   .prose h1 { font-size: 23px; }
