@@ -167,7 +167,18 @@ a.contest-tag:hover { background: var(--contest-hover-bg); }
 .toolbar-divider { display: block; height: 14px; width: 1px; background: var(--line); margin: 0 3px; }
 .table-scroll { overflow-x: auto; }
 .problem-table { width: 100%; border-collapse: collapse; table-layout: fixed; text-align: left; font-size: 13px; line-height: 1.5; }
-.problem-table th { height: 34px; font-size: 12px; font-weight: 600; color: #59667c; background: var(--surface-soft); white-space: nowrap; padding: 0 12px; border-bottom: 1px solid var(--line); }
+.problem-table th {
+  height: 38px;
+  padding: 0 12px;
+  background: #fafbfe;
+  border-bottom: 1px solid var(--line);
+  color: #59667c;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: left;
+  vertical-align: middle;
+  white-space: nowrap;
+}
 .problem-table td { padding: 10px 12px; border-bottom: 1px solid #edf0f5; }
 .problem-table .difficulty-badge, .problem-table .contest-tag { font-size: 12px; line-height: 1.5; }
 .problem-table tr:last-child td { border-bottom: 0; }
@@ -457,7 +468,7 @@ a.contest-tag:hover { background: var(--contest-hover-bg); }
   .select-option { min-height: 40px; }
   .toolbar-divider { margin: 0 1px; }
   .problem-table th, .problem-table td { padding: 10px 8px; }
-  .problem-table th { padding-top: 0; padding-bottom: 0; }
+  .problem-table th { height: 38px; padding-top: 0; padding-bottom: 0; }
   .problem-table .status-column { padding-left: 5px; padding-right: 0; width: 32px; }
   .problem-table .difficulty-column { width: 76px; }
   .difficulty-heading { width: calc(3em + 16px); }
