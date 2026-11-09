@@ -1,5 +1,7 @@
 # 维护与新增比赛
 
+中文题面收录与翻译的当前进度、暂停断点及待处理清单见 [translation-progress.md](translation-progress.md)。
+
 ## 常规更新
 
 在 Node.js 24 环境执行 `npm ci`、`npm run sync`。查看 `git diff -- data`，重点检查奖牌人数、题目难度变化、快照上游版本和新增发现项，再提交到 `main` 或通过 PR 合并。修改比赛定义或 Markdown 后运行 `npm run catalog`。
