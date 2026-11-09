@@ -53,7 +53,16 @@
     {
       "label": "H",
       "title": "Spin the Wheel",
-      "qojId": 6748
+      "qojId": 6748,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=statement&id=6748&ver=default",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "scope": "problem",
+        "page": 1,
+        "endPage": 3
+      }
     },
     {
       "label": "I",

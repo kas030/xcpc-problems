@@ -3385,6 +3385,11 @@
           "total": 211,
           "rate": 0.9383886255924171
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/20717/statement/zh_cn"
       }
     },
     {
@@ -3417,6 +3422,11 @@
           "total": 211,
           "rate": 0.004739336492890996
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/20718/statement/zh_cn"
       }
     },
     {
@@ -3449,6 +3459,11 @@
           "total": 211,
           "rate": 1
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/20719/statement/zh-cn"
       }
     },
     {
@@ -3481,6 +3496,11 @@
           "total": 211,
           "rate": 0.0947867298578199
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/20720/statement/zh-cn"
       }
     },
     {
@@ -3513,6 +3533,11 @@
           "total": 211,
           "rate": 0
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/20721/statement/zh-cn"
       }
     },
     {
@@ -3545,6 +3570,15 @@
           "total": 211,
           "rate": 1
         }
+      },
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=statement&id=20722",
+        "language": "en",
+        "format": "pdf",
+        "scope": "problem",
+        "page": 1,
+        "endPage": 2,
+        "provenance": "official"
       }
     },
     {
@@ -3577,6 +3611,11 @@
           "total": 211,
           "rate": 1
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/20723/statement/zh-cn"
       }
     },
     {
@@ -3609,6 +3648,11 @@
           "total": 211,
           "rate": 0.957345971563981
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/20724/statement/zh-cn"
       }
     },
     {
@@ -3641,6 +3685,15 @@
           "total": 211,
           "rate": 0.995260663507109
         }
+      },
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=statement&id=20725",
+        "language": "en",
+        "format": "pdf",
+        "scope": "problem",
+        "page": 1,
+        "endPage": 2,
+        "provenance": "official"
       }
     },
     {
@@ -3673,6 +3726,11 @@
           "total": 211,
           "rate": 0.36492890995260663
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/20726/statement/zh-cn"
       }
     },
     {
@@ -3705,6 +3763,11 @@
           "total": 211,
           "rate": 0.995260663507109
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/20727/statement/zh-cn"
       }
     },
     {
@@ -3928,6 +3991,11 @@
           "total": 28,
           "rate": 1
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/19017"
       }
     },
     {
@@ -4108,6 +4176,11 @@
           "total": 28,
           "rate": 1
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/19022/statement/zh_cn"
       }
     },
     {
@@ -4140,6 +4213,11 @@
           "total": 28,
           "rate": 1
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/19023/statement/zh_cn"
       }
     },
     {
@@ -4172,6 +4250,11 @@
           "total": 28,
           "rate": 1
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/19024/statement/zh_cn"
       }
     },
     {
@@ -4204,6 +4287,11 @@
           "total": 28,
           "rate": 0
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/19025/statement/zh_cn"
       }
     },
     {
@@ -4236,6 +4324,11 @@
           "total": 31,
           "rate": 0.9354838709677419
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/18945/statement/zh_cn"
       }
     },
     {
@@ -4268,6 +4361,11 @@
           "total": 31,
           "rate": 0.03225806451612903
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/18946"
       }
     },
     {
@@ -4300,6 +4398,11 @@
           "total": 31,
           "rate": 0.3548387096774194
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/18947"
       }
     },
     {
@@ -4332,6 +4435,11 @@
           "total": 31,
           "rate": 1
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/18948/statement/zh_cn"
       }
     },
     {
@@ -4343,7 +4451,7 @@
       "label": "E",
       "title": "猜 01 序列",
       "qojId": 18949,
-      "interactive": false,
+      "interactive": true,
       "difficulty": "challenge",
       "reason": "各奖牌组赛内通过率均未达到 50%",
       "solved": 11,
@@ -4364,6 +4472,11 @@
           "total": 31,
           "rate": 0.3548387096774194
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/18949/statement/zh_cn"
       }
     },
     {
@@ -4396,6 +4509,11 @@
           "total": 31,
           "rate": 0
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/18950/statement/zh_cn"
       }
     },
     {
@@ -4428,6 +4546,11 @@
           "total": 31,
           "rate": 1
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/18951/statement/zh_cn"
       }
     },
     {
@@ -4460,6 +4583,11 @@
           "total": 31,
           "rate": 1
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/18952/statement/zh_cn"
       }
     },
     {
@@ -4492,6 +4620,11 @@
           "total": 31,
           "rate": 0.967741935483871
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/18953"
       }
     },
     {
@@ -4524,6 +4657,11 @@
           "total": 31,
           "rate": 0.1935483870967742
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/18954/statement/zh_cn"
       }
     },
     {
@@ -4556,6 +4694,11 @@
           "total": 31,
           "rate": 0.2903225806451613
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/18955/statement/zh_cn"
       }
     },
     {
@@ -4588,6 +4731,11 @@
           "total": 31,
           "rate": 1
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/18956/statement/zh_cn"
       }
     },
     {
@@ -4620,6 +4768,11 @@
           "total": 31,
           "rate": 1
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/18957/statement/zh_cn"
       }
     },
     {
@@ -4652,6 +4805,11 @@
           "total": 18,
           "rate": 0.8888888888888888
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/18945/statement/zh_cn"
       }
     },
     {
@@ -4684,6 +4842,11 @@
           "total": 18,
           "rate": 1
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/18942/statement/zh_cn"
       }
     },
     {
@@ -4716,6 +4879,11 @@
           "total": 18,
           "rate": 0.16666666666666666
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/18946"
       }
     },
     {
@@ -4748,6 +4916,11 @@
           "total": 18,
           "rate": 0.3333333333333333
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/18947"
       }
     },
     {
@@ -4780,6 +4953,11 @@
           "total": 18,
           "rate": 1
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/18948/statement/zh_cn"
       }
     },
     {
@@ -4791,7 +4969,7 @@
       "label": "F",
       "title": "猜 01 序列",
       "qojId": 18949,
-      "interactive": false,
+      "interactive": true,
       "difficulty": "gold",
       "reason": "该奖牌组至少 50% 的队伍在赛内通过",
       "solved": 21,
@@ -4812,6 +4990,11 @@
           "total": 18,
           "rate": 0.7222222222222222
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/18949/statement/zh_cn"
       }
     },
     {
@@ -4844,6 +5027,11 @@
           "total": 18,
           "rate": 0.16666666666666666
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/18950/statement/zh_cn"
       }
     },
     {
@@ -4876,6 +5064,11 @@
           "total": 18,
           "rate": 1
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/18951/statement/zh_cn"
       }
     },
     {
@@ -4908,6 +5101,11 @@
           "total": 18,
           "rate": 1
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/18943/statement/zh_cn"
       }
     },
     {
@@ -4940,6 +5138,11 @@
           "total": 18,
           "rate": 1
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/18944/statement/zh_cn"
       }
     },
     {
@@ -4972,6 +5175,11 @@
           "total": 18,
           "rate": 1
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/18953"
       }
     },
     {
@@ -5004,6 +5212,11 @@
           "total": 18,
           "rate": 0.5
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/18954/statement/zh_cn"
       }
     },
     {
@@ -5036,6 +5249,11 @@
           "total": 18,
           "rate": 0.2777777777777778
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/18955/statement/zh_cn"
       }
     },
     {
@@ -5588,6 +5806,15 @@
           "total": 37,
           "rate": 1
         }
+      },
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=statement&id=18272",
+        "language": "en",
+        "format": "pdf",
+        "scope": "problem",
+        "page": 1,
+        "endPage": 2,
+        "provenance": "official"
       }
     },
     {
@@ -5620,6 +5847,15 @@
           "total": 37,
           "rate": 1
         }
+      },
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=statement&id=18273",
+        "language": "en",
+        "format": "pdf",
+        "scope": "problem",
+        "page": 1,
+        "endPage": 2,
+        "provenance": "official"
       }
     },
     {
@@ -5652,6 +5888,15 @@
           "total": 37,
           "rate": 0.4864864864864865
         }
+      },
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=statement&id=18274",
+        "language": "en",
+        "format": "pdf",
+        "scope": "problem",
+        "page": 1,
+        "endPage": 2,
+        "provenance": "official"
       }
     },
     {
@@ -5684,6 +5929,15 @@
           "total": 37,
           "rate": 0.2702702702702703
         }
+      },
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=statement&id=18275",
+        "language": "en",
+        "format": "pdf",
+        "scope": "problem",
+        "page": 1,
+        "endPage": 2,
+        "provenance": "official"
       }
     },
     {
@@ -5716,6 +5970,15 @@
           "total": 37,
           "rate": 0
         }
+      },
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=statement&id=18276",
+        "language": "en",
+        "format": "pdf",
+        "scope": "problem",
+        "page": 1,
+        "endPage": 2,
+        "provenance": "official"
       }
     },
     {
@@ -5748,6 +6011,15 @@
           "total": 37,
           "rate": 0
         }
+      },
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=statement&id=18277",
+        "language": "en",
+        "format": "pdf",
+        "scope": "problem",
+        "page": 1,
+        "endPage": 4,
+        "provenance": "official"
       }
     },
     {
@@ -5780,6 +6052,15 @@
           "total": 37,
           "rate": 0
         }
+      },
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=statement&id=18278",
+        "language": "en",
+        "format": "pdf",
+        "scope": "problem",
+        "page": 1,
+        "endPage": 2,
+        "provenance": "official"
       }
     },
     {
@@ -5812,6 +6093,15 @@
           "total": 37,
           "rate": 1
         }
+      },
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=statement&id=18279",
+        "language": "en",
+        "format": "pdf",
+        "scope": "problem",
+        "page": 1,
+        "endPage": 1,
+        "provenance": "official"
       }
     },
     {
@@ -5844,6 +6134,15 @@
           "total": 37,
           "rate": 1
         }
+      },
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=statement&id=18280",
+        "language": "en",
+        "format": "pdf",
+        "scope": "problem",
+        "page": 1,
+        "endPage": 2,
+        "provenance": "official"
       }
     },
     {
@@ -5876,6 +6175,15 @@
           "total": 37,
           "rate": 1
         }
+      },
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=statement&id=18281",
+        "language": "en",
+        "format": "pdf",
+        "scope": "problem",
+        "page": 1,
+        "endPage": 1,
+        "provenance": "official"
       }
     },
     {
@@ -5908,6 +6216,15 @@
           "total": 37,
           "rate": 0.08108108108108109
         }
+      },
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=statement&id=18282",
+        "language": "en",
+        "format": "pdf",
+        "scope": "problem",
+        "page": 1,
+        "endPage": 2,
+        "provenance": "official"
       }
     },
     {
@@ -5940,6 +6257,15 @@
           "total": 37,
           "rate": 0.02702702702702703
         }
+      },
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=statement&id=18283",
+        "language": "en",
+        "format": "pdf",
+        "scope": "problem",
+        "page": 1,
+        "endPage": 1,
+        "provenance": "official"
       }
     },
     {
@@ -5972,6 +6298,15 @@
           "total": 37,
           "rate": 0
         }
+      },
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=statement&id=18284",
+        "language": "en",
+        "format": "pdf",
+        "scope": "problem",
+        "page": 1,
+        "endPage": 2,
+        "provenance": "official"
       }
     },
     {
@@ -32729,6 +33064,11 @@
           "total": 36,
           "rate": 1
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/6736/statement/zh_cn"
       }
     },
     {
@@ -32761,6 +33101,11 @@
           "total": 36,
           "rate": 0.027777777777777776
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/6734/statement/zh_cn"
       }
     },
     {
@@ -32793,6 +33138,11 @@
           "total": 36,
           "rate": 0
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/6745/statement/zh_cn"
       }
     },
     {
@@ -32825,6 +33175,11 @@
           "total": 36,
           "rate": 0.027777777777777776
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/6742/statement/zh_cn"
       }
     },
     {
@@ -32857,6 +33212,11 @@
           "total": 36,
           "rate": 0.8611111111111112
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/6746/statement/zh_cn"
       }
     },
     {
@@ -32889,6 +33249,11 @@
           "total": 36,
           "rate": 0
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/6733/statement/zh_cn"
       }
     },
     {
@@ -32921,6 +33286,11 @@
           "total": 36,
           "rate": 1
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/6747/statement/zh_cn"
       }
     },
     {
@@ -32953,6 +33323,20 @@
           "total": 36,
           "rate": 1
         }
+      },
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=statement&id=6748&ver=default",
+        "language": "en",
+        "format": "pdf",
+        "scope": "problem",
+        "page": 1,
+        "endPage": 3,
+        "provenance": "official"
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/6748/statement/zh_cn"
       }
     },
     {
@@ -32985,6 +33369,11 @@
           "total": 36,
           "rate": 0.6388888888888888
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/6744/statement/zh_cn"
       }
     },
     {
@@ -33017,6 +33406,11 @@
           "total": 36,
           "rate": 1
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/6749/statement/zh_cn"
       }
     },
     {
@@ -33049,6 +33443,11 @@
           "total": 36,
           "rate": 0
         }
+      },
+      "markdown": {
+        "status": "qoj",
+        "language": "zh",
+        "source": "https://qoj.ac/problem/6735/statement/zh_cn"
       }
     },
     {

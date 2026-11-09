@@ -68,7 +68,16 @@
     {
       "label": "H",
       "title": "Hidden Permutation",
-      "qojId": 20722
+      "qojId": 20722,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=statement&id=20722",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "scope": "problem",
+        "page": 1,
+        "endPage": 2
+      }
     },
     {
       "label": "I",
@@ -83,7 +92,16 @@
     {
       "label": "K",
       "title": "Keep on the Right Track",
-      "qojId": 20725
+      "qojId": 20725,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=statement&id=20725",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "scope": "problem",
+        "page": 1,
+        "endPage": 2
+      }
     },
     {
       "label": "L",

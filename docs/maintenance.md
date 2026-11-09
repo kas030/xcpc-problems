@@ -82,7 +82,7 @@ sourceHash: 可选，原始题面内容的 SHA-256
 
 原来已有官方中文题面的题目保持原样。对于其余题目，先逐题核对 QOJ：如果 QOJ 提供简体／繁体中文，直接保留该版本的正文，转换为 Markdown 并设 `status: qoj`，不要重新译写，也不要将它标为本站已校对译文；只有 QOJ 也没有中文时才自行翻译。核对结果记录在 `data/statement-languages.json`，保留题目 ID、QOJ ID、核对日期和来源链接；不能仅凭归档 PDF 为英文就判定需要翻译。索引生成会拒绝为 QOJ 已有中文版本的题目添加自译文，也会拒绝未核对或 QOJ 映射已变化的记录。
 
-英文原文与中文 Markdown 同时存在时，详情页默认显示中文，可用“QOJ 中文 / 官方英文”或“中文翻译 / 官方英文”单选控件切换；支持键盘方向键，不依赖 JavaScript。官方英文继续使用现有的单题 PDF，完整题册入口始终保留。QOJ 中文版保留来源链接，`sourceHash` 记录来源正文 HTML 的 SHA-256；转换时核对全部样例代码块，保护公式中的反斜线、上下标和数学分隔符，图片保存到 `src/assets/qoj-statements/<qoj-id>/`。
+英文原文与中文 Markdown 同时存在时，详情页默认显示中文，可用“QOJ 中文 / 官方英文”或“中文翻译 / 官方英文”单选控件切换；支持键盘方向键，不依赖 JavaScript。官方英文继续使用现有的单题 PDF，完整题册入口始终保留。QOJ 中文版在 frontmatter 和语言核对记录中保留来源链接；题面正文末尾不添加来源、转换、版权或修复声明。`sourceHash` 记录来源正文 HTML 的 SHA-256；转换时核对全部样例代码块，保护公式中的反斜线、上下标和数学分隔符，图片保存到 `src/assets/qoj-statements/<qoj-id>/`。
 
 QOJ 若将中文版标注为 AI 翻译，须在 Markdown 开头保留相应提示，并在语言核对记录中设置 `aiTranslated: true`。这类内容仍标为 `qoj`，不标为官方中文或本站已校对译文。从登录浏览器读取时，只保存公开题面、语言菜单和来源声明，不保存会话凭据。对渲染后的 MathJax，使用页面保留的 LaTeX 源码还原公式，移除重复的渲染节点，再核对文字、公式和全部样例；此时记录 `captureMethod: browser-dom` 和抓取时间，`sourceHash` 对应还原后的正文 HTML。
 
@@ -90,9 +90,9 @@ QOJ 若将中文版标注为 AI 翻译，须在 Markdown 开头保留相应提�
 
 转换后还须比对渲染后的全文，包括英文变量、运算符、标点和样例。中文标点两侧的 Markdown 强调符号可能被直接显示，必要时使用内联 `<strong>`／`<em>` 保留源页强调，并检查其中的数学公式仍能正常渲染。伪代码中的编号和换行也须保留。
 
-若 QOJ 源页已有影响题意的排版错误（如逻辑或符号误拆表格、`<expr>` 被解析成标签），先对照官方原文确认，再恢复正确的表达形式。保留原始来源哈希，在语言记录的 `sourceCorrections` 中说明修复依据，并在正文末尾标注；不得静默修改题意或把整份 QOJ 版本改标为已校对译文。
+若 QOJ 源页已有影响题意的排版错误（如逻辑或符号误拆表格、`<expr>` 被解析成标签），先对照官方原文确认，再恢复正确的表达形式。保留原始来源哈希，在语言记录的 `sourceCorrections` 中说明修复依据，不在正文末尾添加维护说明；不得静默修改题意或把整份 QOJ 版本改标为已校对译文。
 
-若 QOJ 中文版以 PDF 提供，保留该文件为 `src/assets/qoj-statements/<qoj-id>/statement-zh.pdf`，对应 Markdown 的 frontmatter 增加 `format: pdf`，正文仅说明来源，页面直接预览该中文 PDF；此时 `sourceHash` 取 PDF 文件字节的 SHA-256，语言核对记录同时保存 `format: pdf` 与下载 `url`。中文页失效的插图可从已核对的官方原题补齐，须在来源说明中注明，不能省略题意所需的图示。
+若 QOJ 中文版以 PDF 提供，保留该文件为 `src/assets/qoj-statements/<qoj-id>/statement-zh.pdf`，对应 Markdown 的 frontmatter 增加 `format: pdf`，正文可留空，来源保存在 frontmatter 和语言核对记录中，页面直接预览该中文 PDF；此时 `sourceHash` 取 PDF 文件字节的 SHA-256，语言核对记录同时保存 `format: pdf` 与下载 `url`。中文页失效的插图可从已核对的官方原题补齐，须在语言核对记录的 `imageCorrections` 中注明依据，不能省略题意所需的图示。
 
 英文原文为 HTML 时，将原文完整转换到 `src/content/original-statements/<contest-id>/<label>.md`，保留英文措辞、公式和样例，元信息使用 `language: en`、`status: official` 及原始页面 `source`。详情页可直接在中文译文与这份英文原文之间切换。此类译文的 `sourceHash` 与原文一致，取源页面题面正文 HTML 的 SHA-256；原文插图保存在 `src/assets/original-statements/<qoj-id>/`，中英文可引用同一文件。索引生成会核对原文关联，测试同时比对中英文的全部样例代码块。
 

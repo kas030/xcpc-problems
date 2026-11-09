@@ -2,6 +2,22 @@ import type { Statement } from './schema';
 
 // Source URLs must match exactly, including per-problem overrides.
 export const statementSources: Record<string, string> = {
+  'https://qoj.ac/download.php?type=statement&id=6748&ver=default': 'icpc-2023-xian-invitational-H.pdf',
+  'https://qoj.ac/download.php?type=statement&id=20725': 'ccpc-2026-online-qualification-K.pdf',
+  'https://qoj.ac/download.php?type=statement&id=20722': 'ccpc-2026-online-qualification-H.pdf',
+  'https://qoj.ac/download.php?type=statement&id=18284': 'icpc-2026-jiangxi-invitational-M.pdf',
+  'https://qoj.ac/download.php?type=statement&id=18283': 'icpc-2026-jiangxi-invitational-L.pdf',
+  'https://qoj.ac/download.php?type=statement&id=18282': 'icpc-2026-jiangxi-invitational-K.pdf',
+  'https://qoj.ac/download.php?type=statement&id=18281': 'icpc-2026-jiangxi-invitational-J.pdf',
+  'https://qoj.ac/download.php?type=statement&id=18280': 'icpc-2026-jiangxi-invitational-I.pdf',
+  'https://qoj.ac/download.php?type=statement&id=18279': 'icpc-2026-jiangxi-invitational-H.pdf',
+  'https://qoj.ac/download.php?type=statement&id=18278': 'icpc-2026-jiangxi-invitational-G.pdf',
+  'https://qoj.ac/download.php?type=statement&id=18277': 'icpc-2026-jiangxi-invitational-F.pdf',
+  'https://qoj.ac/download.php?type=statement&id=18276': 'icpc-2026-jiangxi-invitational-E.pdf',
+  'https://qoj.ac/download.php?type=statement&id=18275': 'icpc-2026-jiangxi-invitational-D.pdf',
+  'https://qoj.ac/download.php?type=statement&id=18274': 'icpc-2026-jiangxi-invitational-C.pdf',
+  'https://qoj.ac/download.php?type=statement&id=18273': 'icpc-2026-jiangxi-invitational-B.pdf',
+  'https://qoj.ac/download.php?type=statement&id=18272': 'icpc-2026-jiangxi-invitational-A.pdf',
   'https://qoj.ac/download.php?type=statement&id=9603&ver=default': 'ccpc-2022-weihai-M.pdf',
   'https://qoj.ac/download.php?type=statement&id=9602&ver=default': 'ccpc-2022-weihai-L.pdf',
   'https://qoj.ac/download.php?type=statement&id=9601&ver=default': 'ccpc-2022-weihai-K.pdf',

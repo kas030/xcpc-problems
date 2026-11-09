@@ -38,7 +38,8 @@
     {
       "label": "E",
       "title": "猜 01 序列",
-      "qojId": 18949
+      "qojId": 18949,
+      "interactive": true
     },
     {
       "label": "F",
