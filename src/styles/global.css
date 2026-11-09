@@ -294,14 +294,14 @@ a.contest-tag:hover { background: var(--contest-hover-bg); }
 .contest-header h1 { min-width: 0; font-size: 26px; font-weight: 650; line-height: 1.45; letter-spacing: -.5px; overflow-wrap: anywhere; }
 .contest-header-meta { grid-column: 2; grid-row: 1 / span 2; align-self: end; display: flex; flex-direction: column; align-items: flex-end; gap: 8px; padding-bottom: 6px; color: var(--muted); font-size: 12px; line-height: 1.5; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .contest-estimate { position: relative; flex-shrink: 0; display: flex; align-items: center; }
-.contest-estimate-icon { display: inline-flex; align-items: center; justify-content: center; width: 24px; height: 24px; padding: 0; border-radius: 5px; color: var(--muted); cursor: default; }
-.contest-estimate-icon:hover, .contest-estimate-icon:focus-visible { color: #46536a; background: var(--surface-soft); }
+.contest-estimate-icon { display: inline-flex; align-items: center; justify-content: center; width: 24px; height: 24px; padding: 0; border-radius: 50%; color: #a3adbd; cursor: default; transition: color .15s, background .15s; }
+.contest-estimate-icon:hover, .contest-estimate-icon:focus-visible { color: #4d6eab; background: #e9eef6; }
 .contest-estimate-popover { position: absolute; top: 100%; left: 0; z-index: 20; width: max-content; max-width: calc(100vw - 32px); padding-top: 8px; visibility: hidden; opacity: 0; transition: opacity .15s, visibility .15s; }
 .contest-estimate-card { padding: 10px 12px; border: 1px solid var(--line); border-radius: 9px; background: var(--surface); color: #46536a; font-size: 12px; box-shadow: 0 8px 24px #17203314, 0 2px 6px #17203308; }
 .contest-estimate-card p { line-height: 1.7; }
 .contest-estimate-popover a { color: var(--primary-hover); text-underline-offset: 3px; white-space: nowrap; }
 .contest-estimate-popover a:hover { text-decoration: underline; }
-.contest-estimate:hover .contest-estimate-popover, .contest-estimate:focus-within .contest-estimate-popover { visibility: visible; opacity: 1; }
+.contest-estimate:hover .contest-estimate-popover, .contest-estimate:has(:focus-visible) .contest-estimate-popover { visibility: visible; opacity: 1; }
 .contest-resources { grid-column: 1; display: flex; flex-wrap: wrap; gap: 4px 22px; }
 .contest-resources a { display: inline-flex; align-items: center; gap: 4px; padding: 6px 0; color: #4d6eab; font-size: 12px; line-height: 1.5; }
 .contest-resources a:hover { color: var(--primary); text-decoration: underline; text-underline-offset: 3px; }

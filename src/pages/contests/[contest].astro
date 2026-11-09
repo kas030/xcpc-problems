@@ -21,7 +21,7 @@ const problems = catalog.problems.filter(p => p.contestId === contest.id);
       <h1>{contest.name}</h1>
       {contest.medalBasis === 'preset' && <div class="contest-estimate">
         <button type="button" class="contest-estimate-icon" aria-label="查看奖牌分组估算说明" aria-describedby="contest-estimate-note">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7h.01"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 4a1.25 1.25 0 1 0 0 2.5A1.25 1.25 0 0 0 12 6Zm-1 5a1 1 0 0 1 2 0v6a1 1 0 0 1-2 0v-6Z" clip-rule="evenodd"/></svg>
         </button>
         <div class="contest-estimate-popover" id="contest-estimate-note">
           <div class="contest-estimate-card">
