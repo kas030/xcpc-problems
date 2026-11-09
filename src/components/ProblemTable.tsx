@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { ArrowUpRight, CheckCircle2, Circle, FileText, MessagesSquare, Trophy } from 'lucide-react';
-import { hasChinese } from '../lib/filters';
 import { difficultyLabels, type Contest, type Problem } from '../lib/schema';
 import { progressSaveError, useSolvedProgress } from '../lib/use-solved-progress';
 import { problemHref } from '../lib/urls';
@@ -28,7 +27,15 @@ export function ProblemTable({ problems, caption, contests, solved, onToggleSolv
       const completed = solved.has(p.id);
       const action = completed ? '取消完成' : '标记完成';
       const contest = contests?.get(p.contestId);
-      const chinese = hasChinese(p);
+      const statementType = p.statement?.language === 'zh' && p.statement.provenance === 'official'
+        ? '官方中文'
+        : p.markdown?.language === 'zh'
+          ? p.markdown.status === 'official' ? '官方中文' : p.markdown.status === 'qoj' ? 'QOJ 中文' : '中文翻译'
+          : p.statement?.language === 'zh'
+            ? '中文翻译'
+            : (p.statement?.language === 'en' && p.statement.provenance === 'official') || (p.markdown?.language === 'en' && p.markdown.status === 'official')
+              ? '官方英文'
+              : undefined;
       return <tr key={p.id} className={completed ? 'is-solved' : undefined}>
         <td className="status-column">
           <button type="button" className={`solve-button${completed ? ' solved' : ''}`} onClick={() => onToggleSolved(p.id)} aria-label={`${action} ${p.label}. ${p.title}`} aria-pressed={completed} title={action}>
@@ -37,9 +44,9 @@ export function ProblemTable({ problems, caption, contests, solved, onToggleSolv
         </td>
         <td><div className="problem-heading">
           <a className="problem-title" href={problemHref(p.id)} target="_blank" rel="noopener noreferrer"><span className="problem-letter">{p.label}</span><span>{p.title}</span></a>
-          {(contests || chinese || p.interactive) && <div className="problem-meta">
+          {(contests || statementType || p.interactive) && <div className="problem-meta">
             {contests && <span className="compact-contest" data-series={p.series}>{p.contestShortName}</span>}
-            {chinese && <span className="statement-indicator"><FileText size={11} aria-hidden="true"/>中文</span>}
+            {statementType && <span className="statement-indicator"><FileText size={11} aria-hidden="true"/>{statementType}</span>}
             {p.interactive && <span className="statement-indicator"><MessagesSquare size={11} aria-hidden="true"/>交互题</span>}
           </div>}
         </div></td>
