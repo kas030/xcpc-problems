@@ -1,0 +1,3107 @@
+{
+  "checkedAt": "2026-11-08",
+  "problems": {
+    "ccpc-2022-final/G": {
+      "qojId": 6507,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/6507/statement/zh_cn",
+      "sourceHash": "a08650c6c2e42783e118c7395450b04271e8345edc904e20bbe34bdeae7917a0",
+      "aiTranslated": true
+    },
+    "ccpc-2022-final/H": {
+      "qojId": 6508,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/6508/statement/zh_cn",
+      "sourceHash": "7e73ca83cdbddf5e2920110d433f205c95e1bddcb44802501c40243d363a7d8a",
+      "aiTranslated": true
+    },
+    "ccpc-2022-guilin/F": {
+      "qojId": 6813,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/6813/statement/zh_cn",
+      "sourceHash": "23c4c4168f26379ca4febe0b5f3674b28f13c86e51d21bd15fdee9c4368186ef",
+      "aiTranslated": true
+    },
+    "icpc-2026-chengdu/A": {
+      "qojId": 23592,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/23592/statement/zh_cn",
+      "sourceHash": "ba13a7a0c917a961e0263758569c01bda4baa00dbf494836aa589c6c8d970c62",
+      "aiTranslated": false
+    },
+    "icpc-2026-chengdu/B": {
+      "qojId": 23593,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/23593/statement/zh_cn",
+      "sourceHash": "39abdb9cea8638488b32b0c0d558ec06311040d990848d0aee7ecba51d3a308b",
+      "aiTranslated": false
+    },
+    "icpc-2026-chengdu/C": {
+      "qojId": 23594,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/23594/statement/zh_cn",
+      "sourceHash": "3c43d79732679f722c6c4424a855d0560c653b7ff647dd1ce9ebee57c6016047",
+      "aiTranslated": false
+    },
+    "icpc-2026-chengdu/D": {
+      "qojId": 23595,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/23595/statement/zh_cn",
+      "sourceHash": "f49440748338715a5bc50c3b73f0179cab0cd2865521abbb6f417922fbac0cce",
+      "aiTranslated": false
+    },
+    "icpc-2026-chengdu/E": {
+      "qojId": 23596,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/23596/statement/zh_cn",
+      "sourceHash": "553456bdf849d3e698141892314c141bb41a0df056e65b0a1bdc69d864ba6dc0",
+      "aiTranslated": false
+    },
+    "icpc-2026-chengdu/F": {
+      "qojId": 23597,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/23597/statement/zh_cn",
+      "sourceHash": "52ccd4aac120a3ce2fed399420a6a431effe524fae8569840715754d1f8db787",
+      "aiTranslated": false
+    },
+    "icpc-2026-chengdu/G": {
+      "qojId": 23598,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/23598/statement/zh_cn",
+      "sourceHash": "a97364d097a181ef679ab0837fbb188b9b70378441daea193bcf9fc7ff36cf1a",
+      "aiTranslated": false
+    },
+    "icpc-2026-chengdu/H": {
+      "qojId": 23599,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/23599/statement/zh_cn",
+      "sourceHash": "0fbc2d34c9bf576c28d1c5d7a9bfc4e30e715e04bdc1270e76d6216119ce54f9",
+      "aiTranslated": false
+    },
+    "icpc-2026-chengdu/I": {
+      "qojId": 23600,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/23600/statement/zh_cn",
+      "sourceHash": "980e1e71f531965d3136b38625b1e8b1477edb950cc1b0308ea3bbbcd2e20ea1",
+      "aiTranslated": false
+    },
+    "icpc-2026-chengdu/J": {
+      "qojId": 23601,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/23601/statement/zh_cn",
+      "sourceHash": "7813314fe4e9fe46aa0a34a95a6233f1e548f8951ea4089d9b0aaff4b9bca1e1",
+      "aiTranslated": false
+    },
+    "icpc-2026-chengdu/K": {
+      "qojId": 23602,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/23602/statement/zh_cn",
+      "sourceHash": "0427166be762f2c9f59fa6af422480193819ac381a22187a0d40d96032c15e98",
+      "aiTranslated": false
+    },
+    "icpc-2026-chengdu/L": {
+      "qojId": 23603,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/23603/statement/zh_cn",
+      "sourceHash": "73fec76aeedfb300cc082216941f02d231f61eb9d7a384642d3d0e060f4989f2",
+      "aiTranslated": false
+    },
+    "icpc-2026-chengdu/M": {
+      "qojId": 23604,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/23604/statement/zh_cn",
+      "sourceHash": "edc4a4ea82cbbf86dfa04165e44a102396630f4f8a4983b06273813412a83b3e",
+      "aiTranslated": false
+    },
+    "icpc-2026-xian/A": {
+      "qojId": 20051,
+      "status": "english-only",
+      "source": "https://qoj.ac/problem/20051",
+      "browserCheckedAt": "2026-11-08T07:06:45.237212+00:00",
+      "availableLanguageLinks": []
+    },
+    "icpc-2026-xian/B": {
+      "qojId": 20052,
+      "status": "english-only",
+      "source": "https://qoj.ac/problem/20052",
+      "browserCheckedAt": "2026-11-08T07:06:46.195749+00:00",
+      "availableLanguageLinks": []
+    },
+    "icpc-2026-xian/C": {
+      "qojId": 20053,
+      "status": "english-only",
+      "source": "https://qoj.ac/problem/20053",
+      "browserCheckedAt": "2026-11-08T07:06:49.779590+00:00",
+      "availableLanguageLinks": []
+    },
+    "icpc-2026-xian/D": {
+      "qojId": 20054,
+      "status": "english-only",
+      "source": "https://qoj.ac/problem/20054",
+      "browserCheckedAt": "2026-11-08T07:07:02.579535+00:00",
+      "availableLanguageLinks": []
+    },
+    "icpc-2026-xian/E": {
+      "qojId": 20055,
+      "status": "english-only",
+      "source": "https://qoj.ac/problem/20055",
+      "browserCheckedAt": "2026-11-08T07:07:04.478961+00:00",
+      "availableLanguageLinks": []
+    },
+    "icpc-2026-xian/F": {
+      "qojId": 20056,
+      "status": "english-only",
+      "source": "https://qoj.ac/problem/20056",
+      "browserCheckedAt": "2026-11-08T07:07:06.228855+00:00",
+      "availableLanguageLinks": []
+    },
+    "icpc-2026-xian/G": {
+      "qojId": 20057,
+      "status": "english-only",
+      "source": "https://qoj.ac/problem/20057",
+      "browserCheckedAt": "2026-11-08T07:07:08.078878+00:00",
+      "availableLanguageLinks": []
+    },
+    "icpc-2026-xian/H": {
+      "qojId": 20058,
+      "status": "english-only",
+      "source": "https://qoj.ac/problem/20058",
+      "browserCheckedAt": "2026-11-08T07:07:09.950769+00:00",
+      "availableLanguageLinks": []
+    },
+    "icpc-2026-xian/I": {
+      "qojId": 20059,
+      "status": "english-only",
+      "source": "https://qoj.ac/problem/20059",
+      "browserCheckedAt": "2026-11-08T07:07:24.587154+00:00",
+      "availableLanguageLinks": []
+    },
+    "icpc-2026-xian/J": {
+      "qojId": 20060,
+      "status": "english-only",
+      "source": "https://qoj.ac/problem/20060",
+      "browserCheckedAt": "2026-11-08T07:07:26.986875+00:00",
+      "availableLanguageLinks": []
+    },
+    "icpc-2026-xian/K": {
+      "qojId": 20061,
+      "status": "english-only",
+      "source": "https://qoj.ac/problem/20061",
+      "browserCheckedAt": "2026-11-08T07:07:27.995987+00:00",
+      "availableLanguageLinks": []
+    },
+    "icpc-2026-xian/L": {
+      "qojId": 20062,
+      "status": "english-only",
+      "source": "https://qoj.ac/problem/20062",
+      "browserCheckedAt": "2026-11-08T07:07:29.120895+00:00",
+      "availableLanguageLinks": []
+    },
+    "icpc-2026-xian/M": {
+      "qojId": 20063,
+      "status": "english-only",
+      "source": "https://qoj.ac/problem/20063",
+      "browserCheckedAt": "2026-11-08T07:07:30.087148+00:00",
+      "availableLanguageLinks": []
+    },
+    "ccpc-2022-final/A": {
+      "qojId": 6501,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/6501/statement/zh_cn",
+      "sourceHash": "7a8f35ba96f59f0a54453641dedd24040d961289e849261e5d33afafa49d683f",
+      "aiTranslated": true
+    },
+    "ccpc-2022-final/B": {
+      "qojId": 6502,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/6502/statement/zh_cn",
+      "sourceHash": "e695cd3513227aedac372a114632e39764314ced536a44f9d0fa31e745a747d5",
+      "aiTranslated": true
+    },
+    "ccpc-2022-final/C": {
+      "qojId": 6503,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/6503/statement/zh_cn",
+      "sourceHash": "27e4b744592fab3e022b432e7980821191ebaebc62ab5c14e21542c63baf7caa",
+      "aiTranslated": true
+    },
+    "ccpc-2022-final/D": {
+      "qojId": 6504,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/6504/statement/zh_cn",
+      "sourceHash": "e42bb0ba73d52f83f8834f4123d5d7e5c0162b819fe7f4e33129e5c016dd85a3",
+      "aiTranslated": true
+    },
+    "ccpc-2022-final/E": {
+      "qojId": 6505,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/6505/statement/zh_cn",
+      "sourceHash": "a12e5ce852425ecc533071a8030f1ea829f7a51011113a4a2c6545a965d70d85",
+      "aiTranslated": true
+    },
+    "ccpc-2022-final/F": {
+      "qojId": 6506,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/6506/statement/zh_cn",
+      "sourceHash": "2e437aeef88607fe41a54c99ba75d136c6d193716bc9539940e52d5229ae04fd",
+      "aiTranslated": true
+    },
+    "ccpc-2022-final/I": {
+      "qojId": 6509,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/6509/statement/zh_cn",
+      "sourceHash": "77a7e5441c8ae5142f9cecb0ff08be22bb27f0e25cfe69cc427b8d644661e99b",
+      "aiTranslated": true
+    },
+    "ccpc-2022-final/K": {
+      "qojId": 6511,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/6511/statement/zh_cn",
+      "sourceHash": "d22b29bfcbd4879d898976777237ca8413c7a53ad6dc63dfa96f8a4957f0a5bc",
+      "aiTranslated": true
+    },
+    "ccpc-2022-final/J": {
+      "qojId": 6510,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/6510/statement/zh_cn",
+      "format": "pdf",
+      "url": "https://qoj.ac/download.php?type=statement&id=6510&ver=zh_cn",
+      "sourceHash": "e23709c2a72d72a5a747956fa63dabafbb08ab6cde1543bd22f17a7f986c41d8"
+    },
+    "ccpc-2022-final/L": {
+      "qojId": 6512,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/6512/statement/zh_cn",
+      "sourceHash": "6366acb6b297d6414e765038c4ece09c6f353fec18042246d6cb8d43da1640c8",
+      "aiTranslated": true
+    },
+    "ccpc-2022-final/M": {
+      "qojId": 6513,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/6513/statement/zh_cn",
+      "sourceHash": "c3826be2a55f1f5970a35c18c1c4295286a5a1d03e1b3f1164c56adae52b384b",
+      "aiTranslated": true
+    },
+    "ccpc-2022-guangzhou/A": {
+      "qojId": 8138,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8138/statement/zh_cn",
+      "sourceHash": "06ab6c6f0c746850e6e470fb8655abb02f01d4282fe7305e36c21917a2966b25",
+      "aiTranslated": true
+    },
+    "ccpc-2022-guangzhou/B": {
+      "qojId": 8139,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8139/statement/zh_cn",
+      "sourceHash": "e49e20ae3db5dd8ef8b51b4d56e0f827c60efd4d00ac4ea89569f5334a980fae",
+      "aiTranslated": true
+    },
+    "ccpc-2022-guangzhou/C": {
+      "qojId": 8140,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8140/statement/zh_cn",
+      "sourceHash": "9369ea9c12755705412a42b07f843aec731e83d8d41042e044857562b618b518",
+      "aiTranslated": true
+    },
+    "ccpc-2022-guangzhou/D": {
+      "qojId": 8141,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8141/statement/zh_cn",
+      "sourceHash": "e95e24fc08ffe6d916a40d612602a00d14d22db96292b476d61d528c6d8988db",
+      "aiTranslated": true
+    },
+    "ccpc-2022-guangzhou/E": {
+      "qojId": 8142,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8142/statement/zh_cn",
+      "sourceHash": "a4cf9555c0b0493b2c7872c0644b5dc69b3ddf45df5066cd102f03a284ec2f05",
+      "aiTranslated": true
+    },
+    "ccpc-2022-guangzhou/F": {
+      "qojId": 8143,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8143/statement/zh_cn",
+      "sourceHash": "6478e11e01d80d421cfd79a0b32111a4cf48c065883332046f82cd1def87c499",
+      "aiTranslated": true
+    },
+    "ccpc-2022-guangzhou/G": {
+      "qojId": 8144,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8144/statement/zh_cn",
+      "sourceHash": "93eb07dc2603b1c9993aa3d5a5c401f7b58072f1301c6cbc378b7f3b609e0973",
+      "aiTranslated": true
+    },
+    "ccpc-2022-guangzhou/H": {
+      "qojId": 8145,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8145/statement/zh_cn",
+      "sourceHash": "0c2d06ea3c929c1e7a7edd1ddf35305f922442ef69c5a00d2cee7b6df42df161",
+      "aiTranslated": true
+    },
+    "ccpc-2022-guangzhou/I": {
+      "qojId": 8146,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8146/statement/zh_cn",
+      "sourceHash": "87a63ef1dafd934fe4c8e0d5f62f9aac9759050ac61278efe5a116301f63aa9b",
+      "aiTranslated": true
+    },
+    "ccpc-2022-guangzhou/J": {
+      "qojId": 8147,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8147/statement/zh_cn",
+      "sourceHash": "b53a0085001996ad792a61a7eb42a6ab2e0b5a9bd42ccde706583041a6ed4d96",
+      "aiTranslated": true
+    },
+    "ccpc-2022-guangzhou/K": {
+      "qojId": 8148,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8148/statement/zh_cn",
+      "sourceHash": "5da0f9997fa86ad5d7111120275aea9caefe071904add458f956582cc55d0164",
+      "aiTranslated": true
+    },
+    "ccpc-2022-guangzhou/L": {
+      "qojId": 8149,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8149/statement/zh_cn",
+      "sourceHash": "39f56b95c8c9b187602012ee322fb69c574ea6893b3f76fdda4b3b7cde0561ba",
+      "aiTranslated": true
+    },
+    "ccpc-2022-guangzhou/M": {
+      "qojId": 8150,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8150/statement/zh_cn",
+      "sourceHash": "7a5c3657e26b2c0155471843534ac867b810e77dd4cc726c0a39518f7b352d0c",
+      "aiTranslated": true
+    },
+    "ccpc-2022-guilin/A": {
+      "qojId": 6808,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/6808/statement/zh_cn",
+      "sourceHash": "0e064cec29d06c030da95622aa93a489ad753163b6f1eb05a5dafac8aa506bde",
+      "aiTranslated": true
+    },
+    "ccpc-2022-guilin/B": {
+      "qojId": 6809,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/6809/statement/zh_cn",
+      "sourceHash": "075dd1825abd0e47e222de697b4c0ccc0424e375efe066a1fc91d0b3987ddac2",
+      "aiTranslated": true
+    },
+    "ccpc-2022-guilin/C": {
+      "qojId": 6810,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/6810/statement/zh_cn",
+      "sourceHash": "b2a1ec433e942d1bd8cc9fbe702f4a176144e9678dfcff1b0bcfdf485f42370c",
+      "aiTranslated": true
+    },
+    "ccpc-2022-guilin/D": {
+      "qojId": 6811,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/6811/statement/zh_cn",
+      "sourceHash": "a8bf9acc218d4f4a0fe4186c59c20710a540e08fb508543a04023afd4d0f6ffe",
+      "aiTranslated": true
+    },
+    "ccpc-2022-guilin/E": {
+      "qojId": 6812,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/6812/statement/zh_cn",
+      "sourceHash": "828cd6a0b4b5230b1cbd405fa0bec1950c8ab7fd76dac50a8eee0f9c97f43a68",
+      "aiTranslated": true
+    },
+    "ccpc-2022-guilin/G": {
+      "qojId": 6814,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/6814/statement/zh_cn",
+      "sourceHash": "7117547206fc675aca3fa91380b76984a504b86bc4abd1933d10b53856944cda",
+      "aiTranslated": true
+    },
+    "ccpc-2022-guilin/H": {
+      "qojId": 6815,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/6815/statement/zh_cn",
+      "sourceHash": "f7375de51f00256a41bcab37caabbb853762644a25fedb0ccd91d1865bd1a3a7",
+      "aiTranslated": true
+    },
+    "ccpc-2022-guilin/I": {
+      "qojId": 6816,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/6816/statement/zh_cn",
+      "sourceHash": "134db7679449f4b91e5297369d6da969730c5f72e79b5988e738e2e4fc9b6ec6",
+      "aiTranslated": true
+    },
+    "ccpc-2022-guilin/J": {
+      "qojId": 6817,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/6817/statement/zh_cn",
+      "sourceHash": "87c071ce7d00784c86af1e46d1dcf462f860d8a10e3173e8183338b3f8845f80",
+      "aiTranslated": true
+    },
+    "ccpc-2022-guilin/K": {
+      "qojId": 6818,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/6818/statement/zh_cn",
+      "sourceHash": "304f52b204706bd2de76fb05916856ad55825b297ecc919f03d8c3ee9aa0b6b2",
+      "aiTranslated": true
+    },
+    "ccpc-2026-online-qualification/B": {
+      "qojId": 20716,
+      "status": "english-only",
+      "source": "https://qoj.ac/problem/20716",
+      "browserCheckedAt": "2026-11-08T07:06:51.972816+00:00",
+      "availableLanguageLinks": []
+    },
+    "ccpc-2026-online-qualification/N": {
+      "qojId": 20728,
+      "status": "english-only",
+      "source": "https://qoj.ac/problem/20728",
+      "browserCheckedAt": "2026-11-08T07:06:53.765782+00:00",
+      "availableLanguageLinks": []
+    },
+    "ccpc-2022-guilin/L": {
+      "qojId": 6819,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/6819/statement/zh_cn",
+      "sourceHash": "1c4b18f24dd056326d1df568d15d84650896cb6d79f7c90c6d3065d993d19042",
+      "aiTranslated": true
+    },
+    "ccpc-2022-guilin/M": {
+      "qojId": 6820,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/6820/statement/zh_cn",
+      "sourceHash": "5138bf99d2ef5f6f9e049646d758c956c6e4a032d2607dba9e30b5db6b17b711",
+      "aiTranslated": true
+    },
+    "ccpc-2022-mianyang/A": {
+      "qojId": 8034,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8034/statement/zh_cn",
+      "sourceHash": "397c3144e2a7814afaa303da2fc170fab9c57549ab6d96114ea6c0e9112948ca",
+      "aiTranslated": true
+    },
+    "ccpc-2022-mianyang/B": {
+      "qojId": 8035,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8035/statement/zh_cn",
+      "sourceHash": "7e0d6da7d974a597ac423102e36fda1858a4f4a529910c8c7ab831db9c39cc24",
+      "aiTranslated": true
+    },
+    "ccpc-2022-mianyang/C": {
+      "qojId": 8036,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8036/statement/zh_cn",
+      "sourceHash": "610758fe63d3357b3a425f38b738c3bc5572410bf61ed46448b3315d6e75d377",
+      "aiTranslated": true
+    },
+    "ccpc-2022-mianyang/D": {
+      "qojId": 8037,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8037/statement/zh_cn",
+      "sourceHash": "6ce48aef1fcbdcdbbd44dc9575781a92c22207e70149c653f743699f9bad361e",
+      "aiTranslated": true
+    },
+    "ccpc-2022-mianyang/E": {
+      "qojId": 8038,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8038/statement/zh_cn",
+      "sourceHash": "09bfafca4ebfd9c8278779b3d1dec5e53cdbe389c27d246fbb50bead1c141ea5",
+      "aiTranslated": true
+    },
+    "ccpc-2022-mianyang/F": {
+      "qojId": 8039,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8039/statement/zh_cn",
+      "sourceHash": "1bdfbb6dab6aa164bdfdaeed9a683fcf738c245f1e6ac7d795771589bc125881",
+      "aiTranslated": true
+    },
+    "ccpc-2022-mianyang/G": {
+      "qojId": 8040,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8040/statement/zh_cn",
+      "sourceHash": "0ea683b62efe96b3636a1380e8fa9bd22283c8faca71bf8f32ebfcbf16735cb1",
+      "aiTranslated": true
+    },
+    "ccpc-2022-mianyang/H": {
+      "qojId": 8041,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8041/statement/zh_cn",
+      "sourceHash": "98266a4992b81d6e9aeb6773b3680a745c908ba203549daadedd0257127f61b9",
+      "aiTranslated": true
+    },
+    "ccpc-2022-mianyang/I": {
+      "qojId": 8042,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8042/statement/zh_cn",
+      "sourceHash": "a15ecc995ae38f386edc3f61bc317a81f58af81ca27e0b91cfaefeac23391a7a",
+      "aiTranslated": true
+    },
+    "ccpc-2022-mianyang/J": {
+      "qojId": 8043,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8043/statement/zh_cn",
+      "sourceHash": "fd3324e9f6e277cb5773a137b002796cb2bf1a303f762b645e3768fda3e497e1",
+      "aiTranslated": true
+    },
+    "ccpc-2022-mianyang/K": {
+      "qojId": 8044,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8044/statement/zh_cn",
+      "sourceHash": "4766aa8bb15d1b6dba1a07ef26936efb1e785533f46695f9ef5c18856a968d47",
+      "aiTranslated": true
+    },
+    "ccpc-2022-mianyang/L": {
+      "qojId": 8045,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8045/statement/zh_cn",
+      "sourceHash": "6899b46cee529b90962cdbec3b947768c8498854f9ce4f1635ac80d5d2cbbc6d",
+      "aiTranslated": true
+    },
+    "ccpc-2022-mianyang/M": {
+      "qojId": 8046,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8046/statement/zh_cn",
+      "sourceHash": "232e179857a1d0951ae07718b637347b50f0f20f0a49019648be322cae5e9875",
+      "aiTranslated": true
+    },
+    "icpc-2026-shenyang-invitational/A": {
+      "qojId": 19013,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/19013",
+      "sourceHash": "8a4c4f9ac1fcc4800dc94ba584b5cc4b244e7bd506ccf2b2f0d0b4a75ea2ff93",
+      "aiTranslated": false
+    },
+    "icpc-2026-shenyang-invitational/B": {
+      "qojId": 19014,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/19014",
+      "sourceHash": "4a09c696e8a1f1c8ec34f392e08ab526104dea8eb083a00b46f91b0495e591a4",
+      "aiTranslated": false
+    },
+    "icpc-2026-shenyang-invitational/C": {
+      "qojId": 19015,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/19015",
+      "sourceHash": "c3d4b49c67d9492eb5bc45de8af260d42c68b0bb8f0d55de42d19b88b18fa5da",
+      "aiTranslated": false
+    },
+    "icpc-2026-shenyang-invitational/D": {
+      "qojId": 19016,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/19016",
+      "sourceHash": "47b4282dfdc81daaf93c4fc5145b269e4c2924a215275cb512f07ed6a0d7baa2",
+      "aiTranslated": false
+    },
+    "icpc-2026-shenyang-invitational/F": {
+      "qojId": 19018,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/19018",
+      "sourceHash": "2ec1122dbcac9cb4781b08492f82d49bc5e7be50a8ae0e95438ae3cd42720541",
+      "aiTranslated": false
+    },
+    "icpc-2026-shenyang-invitational/G": {
+      "qojId": 19019,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/19019",
+      "sourceHash": "5ffd1c08469126ab5d8ee3069a356d01facb285887be49d5042498a0d6b9a31f",
+      "aiTranslated": false
+    },
+    "icpc-2026-shenyang-invitational/H": {
+      "qojId": 19020,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/19020",
+      "sourceHash": "43c89c8c583c43ff9de9fef9405c8b4a3687accf5fc29f3948fcdfba4d0c0806",
+      "aiTranslated": false
+    },
+    "icpc-2026-shenyang-invitational/I": {
+      "qojId": 19021,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/19021",
+      "sourceHash": "d198d721bc4bfdc1e1a1ac947568021b0640afa6d8aa345beaca3beca9ae04a8",
+      "aiTranslated": false
+    },
+    "ccpc-2026-online-qualification/A": {
+      "qojId": 20715,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/20715/statement/zh_cn",
+      "sourceHash": "f9776d0b8ce5626fcb6339a9d099776d1706ad5e605ad9ec605bbdcc24ed3b81",
+      "aiTranslated": false
+    },
+    "ccpc-2022-online-qualification/A": {
+      "qojId": 14534,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14534/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:55:49.374230+00:00",
+      "aiTranslated": true,
+      "sourceHash": "312a42f081ec2443cc93c8abc3e4252d7917b230c23a7f173ce87c1f9419eeb9"
+    },
+    "ccpc-2022-online-qualification/B": {
+      "qojId": 14535,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14535/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:55:50.509290+00:00",
+      "aiTranslated": true,
+      "sourceHash": "04bec6bc0b178db9451899229149806392b0c868a1da7ac1afb84577172f16dc"
+    },
+    "ccpc-2022-online-qualification/C": {
+      "qojId": 14536,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14536/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:55:52.694055+00:00",
+      "aiTranslated": true,
+      "sourceHash": "49ead189ff7442ff42e7b9c50cb8c5a4dfebf8aaa1a41ba71658ddcd03bbaa0f"
+    },
+    "ccpc-2022-online-qualification/D": {
+      "qojId": 14537,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14537/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:55:54.961007+00:00",
+      "aiTranslated": true,
+      "sourceHash": "8b21ace300b7442b7dcefaabca4f145a0044c155b74afacafa75f3f9d5a1af1d"
+    },
+    "ccpc-2022-online-qualification/E": {
+      "qojId": 14538,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14538/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:56:12.836730+00:00",
+      "aiTranslated": true,
+      "sourceHash": "8b5e0dd86bf031a4d73211b14d5dde2c5889d8f29b889990f1e7c3ebfe321206"
+    },
+    "ccpc-2022-online-qualification/F": {
+      "qojId": 14539,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14539/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:56:15.542966+00:00",
+      "aiTranslated": true,
+      "sourceHash": "6ef61f0d9cb708f7dc7c4142db22a5b091b811b2f07b571ae580b4fd1360f4f0"
+    },
+    "ccpc-2022-online-qualification/G": {
+      "qojId": 14540,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14540/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:56:17.809930+00:00",
+      "aiTranslated": true,
+      "sourceHash": "ccd9c528f30636e550dc5dc9a367ae45cbdb3720effdf5107285aedd9cf6445f"
+    },
+    "ccpc-2022-online-qualification/H": {
+      "qojId": 14541,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14541/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:56:19.917709+00:00",
+      "aiTranslated": true,
+      "sourceHash": "8cf9a402bf49d49f880374aeb2aee073307cbea0ad56cd5c70ec5a03670938f1"
+    },
+    "ccpc-2022-online-qualification/I": {
+      "qojId": 14542,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14542/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:57:12.760828+00:00",
+      "aiTranslated": true,
+      "sourceHash": "ef0d5d451da1311ee6d4dfe76a3497fa04d773b96ade3ec51f0e83b67aeadbd6"
+    },
+    "ccpc-2022-online-qualification/J": {
+      "qojId": 14543,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14543/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:57:13.844371+00:00",
+      "aiTranslated": true,
+      "sourceHash": "31559eec8d6f2894be18f83c8d75f44ed7017289da677539f44b8e1132235276"
+    },
+    "ccpc-2022-online-qualification/K": {
+      "qojId": 14544,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14544/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:57:16.080830+00:00",
+      "aiTranslated": true,
+      "sourceHash": "bf727187344d1635ee88927bc6d0f302a5ddc71481e08c30d20352f794d97fb7"
+    },
+    "ccpc-2022-online-qualification/L": {
+      "qojId": 14545,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14545/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:57:18.383401+00:00",
+      "aiTranslated": true,
+      "sourceHash": "a1fae328b813d8f2cbaa4cdfc41dc3ef0ae66d8b88b3a919134a4d2f1ff149bc"
+    },
+    "ccpc-2022-online-qualification/M": {
+      "qojId": 14546,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14546/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:57:20.935062+00:00",
+      "aiTranslated": true,
+      "sourceHash": "2bab480a3fb0e10752d382ee68a935f2bc9b20a19fade7a2e88d31851dc7f0bc"
+    },
+    "ccpc-2023-final/A": {
+      "qojId": 8542,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8542/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:55:24.018696+00:00",
+      "aiTranslated": true,
+      "sourceHash": "080e44fab187d72d68efd17c9930d69f49f617c59e9b59a2ebe88f2dacc023b6"
+    },
+    "ccpc-2023-final/B": {
+      "qojId": 8543,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8543/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:55:26.250281+00:00",
+      "aiTranslated": true,
+      "sourceHash": "793743ef92e1c29e6409812098da877b9e9cfa50a229d881ead295d01d6fc5af"
+    },
+    "ccpc-2023-final/C": {
+      "qojId": 8544,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8544/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:53:50.648625+00:00",
+      "aiTranslated": true,
+      "sourceHash": "7963c1ae9966bdbb98a4c1d7b6fd5217bfecbe954beb0a19a80a1d93eb526b0e"
+    },
+    "ccpc-2023-final/D": {
+      "qojId": 8545,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8545/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:53:53.362771+00:00",
+      "aiTranslated": true,
+      "sourceHash": "595feb1baf9f532321211980230f55b56e576426e683df21d907b4707ac0e3a5"
+    },
+    "ccpc-2023-final/E": {
+      "qojId": 8546,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8546/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:53:56.222840+00:00",
+      "aiTranslated": true,
+      "sourceHash": "ef4ad9525a05b99ba5f2ab87d5ca2784ac63a12ade6a80bde8783c970e4b4852"
+    },
+    "ccpc-2023-final/F": {
+      "qojId": 8547,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8547/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:54:12.603459+00:00",
+      "aiTranslated": true,
+      "sourceHash": "28a587480348afd5c0d6c16a0f320cdddac1868631a0a9179ed0015a7e176922"
+    },
+    "ccpc-2023-final/G": {
+      "qojId": 8548,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8548/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:54:15.337237+00:00",
+      "aiTranslated": true,
+      "sourceHash": "1fafaa88fab98702726a7e9caf6410374e61ff986f991244c56bac23436ff94b"
+    },
+    "ccpc-2023-final/H": {
+      "qojId": 8549,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8549/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:54:18.117474+00:00",
+      "aiTranslated": true,
+      "sourceHash": "706e333f88d6e54aab1a55ff6affdfa8c3162cbd90b336c5bf73ea5ca1190c30"
+    },
+    "ccpc-2023-final/I": {
+      "qojId": 8550,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8550/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:54:53.491248+00:00",
+      "aiTranslated": true,
+      "sourceHash": "704860ac7a03500d340370d37c79cff148b0d6e1ed1870c7b1f0246a7ecbc2f8"
+    },
+    "ccpc-2023-final/J": {
+      "qojId": 8551,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8551/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:54:56.374040+00:00",
+      "aiTranslated": true,
+      "sourceHash": "3a62edee018cc8edd63ce08aff7f163093b5fbf6435c3b7dc7cd79b899d9cd99"
+    },
+    "ccpc-2023-final/K": {
+      "qojId": 8552,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8552/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:54:59.009988+00:00",
+      "aiTranslated": true,
+      "sourceHash": "cd6b32ea54bbeb529b85c9ec17e88e67858c9019dd359d57da979dd676213be3"
+    },
+    "ccpc-2023-final/L": {
+      "qojId": 8553,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8553/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:55:18.264725+00:00",
+      "aiTranslated": true,
+      "sourceHash": "2f2f17411cf69103414664f6db221d8d041b5204214115e3443eeb94b845a308"
+    },
+    "ccpc-2023-final/M": {
+      "qojId": 8554,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8554/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:55:21.805326+00:00",
+      "aiTranslated": true,
+      "sourceHash": "adea1b9c452c5490725d10d07cf7c398b66920722b1a8c6e94bbec8dceb495a1"
+    },
+    "ccpc-2023-guilin/A": {
+      "qojId": 7677,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7677/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:57:44.315865+00:00",
+      "aiTranslated": true,
+      "sourceHash": "9fcbbdd6cdb874f986dcb1f97997876ecad77ceddec4533097e2b530b9bf3462"
+    },
+    "ccpc-2023-guilin/B": {
+      "qojId": 7678,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7678/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:57:47.372781+00:00",
+      "aiTranslated": true,
+      "sourceHash": "aff4c491c895516eb9c65ce84022f6072366e9b4568d1df27485ef2fe47335d2"
+    },
+    "ccpc-2023-guilin/C": {
+      "qojId": 7679,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7679/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:57:49.983298+00:00",
+      "aiTranslated": true,
+      "sourceHash": "a42d643fd50bd22415609455218d9e3ec9cc2f8ec60ad332501d3c919a7b356f"
+    },
+    "ccpc-2023-guilin/D": {
+      "qojId": 7680,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7680/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:58:06.519213+00:00",
+      "aiTranslated": true,
+      "sourceHash": "8710322b2e70aa67f830272bf128b54ac0657ca3e713f500a80a29bcdaa383af"
+    },
+    "ccpc-2023-guilin/E": {
+      "qojId": 7681,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7681/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:58:09.605543+00:00",
+      "aiTranslated": true,
+      "sourceHash": "e10755c7930c43d5e3f2c33a1cc528f70c9be9a61ff650fd6d32c81b6386159f"
+    },
+    "ccpc-2023-guilin/F": {
+      "qojId": 7682,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7682/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:58:12.091289+00:00",
+      "aiTranslated": true,
+      "sourceHash": "949e20067bb8eaa2b297902ea6daf7f50c15f7d17b344673008eb61c5a515835"
+    },
+    "ccpc-2023-guilin/G": {
+      "qojId": 7683,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7683/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:58:15.214066+00:00",
+      "aiTranslated": true,
+      "sourceHash": "7f251887327349f7caab471fa2ca9b0e18dbd253189728a4f8301165976dd351"
+    },
+    "ccpc-2023-guilin/H": {
+      "qojId": 7684,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7684/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:58:17.718829+00:00",
+      "aiTranslated": true,
+      "sourceHash": "3445aa99401fe69a9e0b6229e7db5ac7cfff1236ba2555dd656a757fd0317c9f"
+    },
+    "ccpc-2023-guilin/I": {
+      "qojId": 7685,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7685/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:59:10.767498+00:00",
+      "aiTranslated": true,
+      "sourceHash": "a7f03e65be7e735b9e3abfda852fde3da70ef0397dc780da47f78fedf8333bff"
+    },
+    "ccpc-2023-guilin/J": {
+      "qojId": 7686,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7686/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:59:13.438027+00:00",
+      "aiTranslated": true,
+      "sourceHash": "fc559072f9cb3375f7a8cfe274d528ac02a9be246b9d536717a4ef99d737245c"
+    },
+    "ccpc-2023-guilin/K": {
+      "qojId": 7687,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7687/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:59:16.063354+00:00",
+      "aiTranslated": true,
+      "sourceHash": "3ea6ab8d0055b6406d8647ae2905a9fce178f16166c6c760ca294fe84f22e16f"
+    },
+    "ccpc-2023-guilin/L": {
+      "qojId": 7688,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7688/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:59:18.659897+00:00",
+      "aiTranslated": true,
+      "sourceHash": "7db6e5a3f8172ac4eaea97ebc230f2294a2fcc2099f70a0019a95543591db368"
+    },
+    "ccpc-2023-guilin/M": {
+      "qojId": 7689,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7689/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T06:59:21.045830+00:00",
+      "aiTranslated": true,
+      "sourceHash": "4bdadaad4c494bf83c59b65f1f67ac17b922f58a994716b7064f89368a6d7e3f"
+    },
+    "ccpc-2023-harbin/A": {
+      "qojId": 7746,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7746/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:00:11.368574+00:00",
+      "aiTranslated": true,
+      "sourceHash": "cb950668c2a17b50353ae9233272f59a74de792ee97d5f87dc3f6986f1aae6c3"
+    },
+    "ccpc-2023-harbin/B": {
+      "qojId": 7747,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7747/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:00:14.045456+00:00",
+      "aiTranslated": true,
+      "sourceHash": "f592f6a4b0b9582825a8c7c502bbd182c1616453450689cd2b963b5629d160a4"
+    },
+    "ccpc-2023-harbin/C": {
+      "qojId": 7748,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7748/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:00:16.731316+00:00",
+      "aiTranslated": true,
+      "sourceHash": "79be7482a5996ca9c680d9edce2c595f89d93498263ec31b60ae1adcf21416eb"
+    },
+    "ccpc-2023-harbin/D": {
+      "qojId": 7749,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7749/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:00:19.764766+00:00",
+      "aiTranslated": true,
+      "sourceHash": "f5de54903929790103a699fccdd61f7cccd571527e0aefc7ba1482fa799ace22"
+    },
+    "ccpc-2023-harbin/E": {
+      "qojId": 7750,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7750/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:00:22.847816+00:00",
+      "aiTranslated": true,
+      "sourceHash": "ec6283f5d203943f058ea23f26ed5e190c82b82e9af03690cba0ae1578872e5f"
+    },
+    "ccpc-2023-harbin/F": {
+      "qojId": 7751,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7751/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:00:35.694581+00:00",
+      "aiTranslated": true,
+      "sourceHash": "9123b231ad0a032b70f0a08a38f8c51376df72e509f83cca529a061060878d01"
+    },
+    "ccpc-2023-harbin/G": {
+      "qojId": 7752,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7752/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:00:38.470937+00:00",
+      "aiTranslated": true,
+      "sourceHash": "7907ef4a8522ccbd01fc2502eaaf6f7a52ab1ec09f5d78888e3bfc066ae81cd1"
+    },
+    "ccpc-2023-harbin/H": {
+      "qojId": 7753,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7753/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:00:41.359672+00:00",
+      "aiTranslated": true,
+      "sourceHash": "79c5f20ea75009fb227b172e2ae3d3ff769dc90867a8a4a203247f0d92217502"
+    },
+    "ccpc-2023-harbin/I": {
+      "qojId": 7754,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7754/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:00:44.569047+00:00",
+      "aiTranslated": true,
+      "sourceHash": "923b31234075ea774cec2ce80774cdd8163523b4928adf23b9be3d9d1befded0"
+    },
+    "ccpc-2023-harbin/J": {
+      "qojId": 7755,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7755/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:02:52.509436+00:00",
+      "aiTranslated": true,
+      "sourceHash": "9f5820e726e0dae3ad14b497818dbaf2356cb8d9c871fa4cd4f09f56c7093f1a"
+    },
+    "ccpc-2023-harbin/K": {
+      "qojId": 7756,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7756/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:02:54.877088+00:00",
+      "aiTranslated": true,
+      "sourceHash": "2d186e3defc661cf358573db82052b0dd5c219383c519036a8d7e1d29a7032b9"
+    },
+    "ccpc-2023-harbin/L": {
+      "qojId": 7757,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7757/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:02:56.128587+00:00",
+      "aiTranslated": true,
+      "sourceHash": "2680ddcaca331f3a2bcbc485ba4cce9483b3cee418ad984d74d25f192dbc332b"
+    },
+    "ccpc-2023-harbin/M": {
+      "qojId": 7758,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7758/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:02:58.600432+00:00",
+      "aiTranslated": true,
+      "sourceHash": "80d5f6d0cf0768919f750c460bd7f1d48eb2a42d5dfa82046573f5144ea9f130"
+    },
+    "ccpc-2023-online-qualification/A": {
+      "qojId": 7512,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7512/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:04:05.324199+00:00",
+      "aiTranslated": true,
+      "sourceHash": "8904ea392eee67a9657b9b7c4b1860a6bb952466527079f9af7d209973ccbaa1"
+    },
+    "ccpc-2023-online-qualification/B": {
+      "qojId": 7513,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7513/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:04:09.708810+00:00",
+      "aiTranslated": true,
+      "sourceHash": "b492302470ec6f80852e8b6a5ed4faa1f73a280fcc3c6e4b0e4511531727f4aa"
+    },
+    "ccpc-2023-online-qualification/C": {
+      "qojId": 7514,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7514/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:04:12.625005+00:00",
+      "aiTranslated": true,
+      "sourceHash": "50dcaa5bce6b86e48ff538e83c759a51a5451e2b76e609959e4477d6d95ad49c"
+    },
+    "ccpc-2023-online-qualification/D": {
+      "qojId": 7515,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7515/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:04:15.355883+00:00",
+      "aiTranslated": true,
+      "sourceHash": "cd219c31c948b295bc11c9b81889b19d3df1894875bfc24cabb970c6bedb1668"
+    },
+    "ccpc-2023-online-qualification/E": {
+      "qojId": 7516,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7516/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:04:46.876803+00:00",
+      "aiTranslated": true,
+      "sourceHash": "860528d182ca24691bb365a72840e7997e7775b93e3b620f70ceb85d63fa0716"
+    },
+    "ccpc-2023-online-qualification/F": {
+      "qojId": 7517,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7517/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:04:50.465916+00:00",
+      "aiTranslated": true,
+      "sourceHash": "5da05dd2b602f0ad8193f7a10e03d5ae2a261bd948f3d8973b6277927963ccdd"
+    },
+    "ccpc-2023-online-qualification/G": {
+      "qojId": 7518,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7518/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:04:52.958080+00:00",
+      "aiTranslated": true,
+      "sourceHash": "c2d6f584be35f80fe036a768e3b5af84fedf2f9e02425bcea157a9981355a8f0"
+    },
+    "ccpc-2023-online-qualification/H": {
+      "qojId": 7519,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7519/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:04:55.407308+00:00",
+      "aiTranslated": true,
+      "sourceHash": "883770ff9d31d0a100472c15c7a43d16ac35891c514134e45426807270c5ac97"
+    },
+    "ccpc-2023-online-qualification/I": {
+      "qojId": 7520,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7520/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:05:40.524527+00:00",
+      "aiTranslated": true,
+      "sourceHash": "4c7013f6ebcd99cf9c193e13733b0c78e1fed0d42806c68cfaa6dd287b8011a9"
+    },
+    "ccpc-2023-online-qualification/J": {
+      "qojId": 7521,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7521/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:05:42.899847+00:00",
+      "aiTranslated": true,
+      "sourceHash": "1ad1f3166455fa3085eede244846c27937b6693fadc3126ae40aeaee0b25a72a"
+    },
+    "ccpc-2023-online-qualification/K": {
+      "qojId": 7522,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7522/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:05:44.382781+00:00",
+      "aiTranslated": true,
+      "sourceHash": "062047438ab775ae20d536c17a9830cb0ca4e0e9d97b5e6aa763eac057686e49"
+    },
+    "ccpc-2023-online-qualification/L": {
+      "qojId": 7523,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/7523/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:05:46.784004+00:00",
+      "aiTranslated": true,
+      "sourceHash": "259a809ce5b3d812eedaf41720d2dc5d2bf23212631fa516aaafc195d5289427"
+    },
+    "ccpc-2023-shenzhen/A": {
+      "qojId": 8328,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8328/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:11:20.313916+00:00",
+      "aiTranslated": true,
+      "sourceHash": "c6dea2ea5aab7cddda8b4ee059ea557e58a59691e8d4f2300472f2c1ae5c846c"
+    },
+    "ccpc-2023-shenzhen/B": {
+      "qojId": 8329,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8329/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:11:22.980760+00:00",
+      "aiTranslated": true,
+      "sourceHash": "6df23887f6158fdd817e9777387b0f4dcba4ee09d56612770bdeca8f8b07d292"
+    },
+    "ccpc-2023-shenzhen/C": {
+      "qojId": 8330,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8330/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:11:25.737048+00:00",
+      "aiTranslated": true,
+      "sourceHash": "b0bcf778fd3e2f4090d3aa8d1643e64d017702247e878d452d1231d8b15e3484"
+    },
+    "ccpc-2023-shenzhen/D": {
+      "qojId": 8331,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8331/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:11:28.343924+00:00",
+      "aiTranslated": true,
+      "sourceHash": "d0bcb1ba1fcbcd3ac00a7f8aa77d80e956a06cd1fb1b28d0a4a46ec0325df564"
+    },
+    "ccpc-2023-shenzhen/E": {
+      "qojId": 8332,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8332/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:11:30.999525+00:00",
+      "aiTranslated": true,
+      "sourceHash": "b0c85a019dd7707c1cc3a8aab3b23a9b3db417d5980cafbae2ea00b880460871"
+    },
+    "ccpc-2023-shenzhen/F": {
+      "qojId": 8333,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8333/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:11:40.564269+00:00",
+      "aiTranslated": true,
+      "sourceHash": "09e51285227f6eb4022effd38e0f1623ccbb3123e90e7674ee06afa37abdab7d"
+    },
+    "ccpc-2023-shenzhen/G": {
+      "qojId": 8334,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8334/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:11:43.465622+00:00",
+      "aiTranslated": true,
+      "sourceHash": "f73e97307354c334394e28de9e23dd42617b6869e15aca960b9e06ee78ee464f"
+    },
+    "ccpc-2023-shenzhen/H": {
+      "qojId": 8335,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8335/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:11:46.671470+00:00",
+      "aiTranslated": true,
+      "sourceHash": "1a3abb44d72b9853f2f3f3aebf6538ddd29da83d85d397eb46ae37642b5672c4"
+    },
+    "ccpc-2023-shenzhen/I": {
+      "qojId": 8336,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8336/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:11:49.170457+00:00",
+      "aiTranslated": true,
+      "sourceHash": "70baf273e90618eed4e0a06be0694c8f728a7d33219c94360c2d8dc780ec229b"
+    },
+    "ccpc-2023-shenzhen/J": {
+      "qojId": 8337,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8337/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:11:52.388256+00:00",
+      "aiTranslated": true,
+      "sourceHash": "fdef1804c30f2bcd8dfce299e19ba7bc370564ac838681db0141e23a8b8a435b"
+    },
+    "ccpc-2023-shenzhen/K": {
+      "qojId": 8338,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8338/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:12:00.574900+00:00",
+      "aiTranslated": true,
+      "sourceHash": "4e4c459072d907a161293dbb6d415bf50bc42772808c9981237e611371a0ca8e"
+    },
+    "ccpc-2023-shenzhen/L": {
+      "qojId": 8339,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8339/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:12:02.257166+00:00",
+      "aiTranslated": true,
+      "sourceHash": "147d0be7b756cc9a1a4d7702117ff76cdaefdd7bae12b08c96513f3db330be9e"
+    },
+    "ccpc-2023-shenzhen/M": {
+      "qojId": 8340,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/8340/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:12:05.498550+00:00",
+      "aiTranslated": true,
+      "sourceHash": "0a7222295c3f59ade1267f3faf20f3c0a744b426646e78d8463c36c5278d9dbe"
+    },
+    "ccpc-2022-weihai/A": {
+      "qojId": 9591,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9591/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:12:51.765772+00:00",
+      "aiTranslated": true,
+      "sourceHash": "2f569211d79313dc5462d8ef8cf4bed37339015dadbcfee397ec49bb0d3592a8"
+    },
+    "ccpc-2022-weihai/B": {
+      "qojId": 9592,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9592/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:13:45.215807+00:00",
+      "aiTranslated": true,
+      "sourceHash": "cd80d6666832bb8c480e548b8aae029099d3542841888ba8c981923a76f0f439"
+    },
+    "ccpc-2022-weihai/C": {
+      "qojId": 9593,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9593/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:13:48.075394+00:00",
+      "aiTranslated": true,
+      "sourceHash": "3a8f6dd3d125b2a1024946527b3a67c29b705e8abfdc1a2a062c91dbfecc6527"
+    },
+    "ccpc-2022-weihai/D": {
+      "qojId": 9594,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9594/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:15:04.918858+00:00",
+      "aiTranslated": true,
+      "sourceHash": "527ba3dc7bb876a6d96e2372a56c4c5784073c6c118cca8faf26f5ae323222a4"
+    },
+    "ccpc-2022-weihai/E": {
+      "qojId": 9595,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9595/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:15:08.488665+00:00",
+      "aiTranslated": true,
+      "sourceHash": "04739e64533d7fda08e180bee2889cbc3625c48f5f8ae7b77d342ebbdb69f06a"
+    },
+    "ccpc-2022-weihai/F": {
+      "qojId": 9596,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9596/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:15:10.808350+00:00",
+      "aiTranslated": true,
+      "sourceHash": "2c8bacc575662e2d453c2b8aeff0bf8d8a2d06583c860285979658cbfdb4d72b"
+    },
+    "ccpc-2022-weihai/G": {
+      "qojId": 9597,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9597/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:15:16.340428+00:00",
+      "aiTranslated": true,
+      "sourceHash": "564c29c2d4770c589f188b60fbf07901cd815b356d130f7cce10f20556e9ee45"
+    },
+    "ccpc-2022-weihai/H": {
+      "qojId": 9598,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9598/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:17:55.863709+00:00",
+      "aiTranslated": true,
+      "sourceHash": "ffea024c5c89b535945f576058ad975fd6c883ecba868bf8b6d6a1bca314aec5"
+    },
+    "ccpc-2022-weihai/I": {
+      "qojId": 9599,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9599/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:17:57.549615+00:00",
+      "aiTranslated": true,
+      "sourceHash": "d11284bdd9e2d7a3fb6018b4cec6acd463c1c781853a327007e8c54bef1ec06c"
+    },
+    "ccpc-2022-weihai/J": {
+      "qojId": 9600,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9600/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:18:00.538678+00:00",
+      "aiTranslated": true,
+      "sourceHash": "7dd5eb69ea5f565b6ddd36a27a609f1d06836120da7689cb6f992cf32f2d1a3b"
+    },
+    "ccpc-2022-weihai/K": {
+      "qojId": 9601,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9601/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:18:17.010389+00:00",
+      "aiTranslated": true,
+      "sourceHash": "d1c8c9eeacb04407212b9a8121c22c20820a20c95d598dff5d0f5e0d332dc719"
+    },
+    "ccpc-2022-weihai/L": {
+      "qojId": 9602,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9602/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:18:20.037008+00:00",
+      "aiTranslated": true,
+      "sourceHash": "8e4c3c66ec5a858f10bc6d646913f3efa23ec2f1dc19d5f1f524aa16ecba9d41"
+    },
+    "ccpc-2022-weihai/M": {
+      "qojId": 9603,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9603/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:18:22.565910+00:00",
+      "aiTranslated": true,
+      "sourceHash": "67be4e816fb0f19a083501960af7628e7e322a544433ad245181bc2c0b789113"
+    },
+    "ccpc-2024-zhengzhou/A": {
+      "qojId": 9768,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9768/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:24:31.258254+00:00",
+      "aiTranslated": true,
+      "sourceHash": "02f1384e5dc8761216dd50c5a9b7ed29304feb2ab5ff0e84fcda91539ae7d757"
+    },
+    "ccpc-2024-zhengzhou/B": {
+      "qojId": 9769,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9769/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:24:36.028153+00:00",
+      "aiTranslated": true,
+      "sourceHash": "5fd8a57dcce1121f9a01f739ddebdc867b300edd64922ac9f7e2b97637bbc5fc"
+    },
+    "ccpc-2024-zhengzhou/C": {
+      "qojId": 9770,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9770/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:24:38.310163+00:00",
+      "aiTranslated": true,
+      "sourceHash": "ea6ae60a9fda774daf9e57a849d2d9050ff89cab46f5c1209c7d8319c68c2edd"
+    },
+    "ccpc-2024-zhengzhou/D": {
+      "qojId": 9771,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9771/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:24:40.742343+00:00",
+      "aiTranslated": true,
+      "sourceHash": "df127ab9c5105de6cdb7ac29d242b29519e067597cbb0376a4e4d65602025309"
+    },
+    "ccpc-2024-zhengzhou/E": {
+      "qojId": 9772,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9772/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:24:43.058968+00:00",
+      "aiTranslated": true,
+      "sourceHash": "a3fe59d29ef6d573e87687a75ef1134008a52f226c2a100c61f6d08c1620d5a8"
+    },
+    "ccpc-2024-zhengzhou/F": {
+      "qojId": 9773,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9773/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:24:50.789130+00:00",
+      "aiTranslated": true,
+      "sourceHash": "b1102afae1185cfe7fa7666df1ad4ad2ab13b35ad1bb892cb6cbfe557fef4054"
+    },
+    "ccpc-2024-zhengzhou/G": {
+      "qojId": 9774,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9774/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:24:53.025075+00:00",
+      "aiTranslated": true,
+      "sourceHash": "daf6008fbffd259ec6eff6ea3f2cd6aa37ecd02b03edcdfa344ee187de06771a"
+    },
+    "ccpc-2024-zhengzhou/H": {
+      "qojId": 9775,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9775/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:24:56.595076+00:00",
+      "aiTranslated": true,
+      "sourceHash": "3c61d9d3be1bc0aee6fbcce902337e0434049d13c39fe3f9bb0e9b25060fc566"
+    },
+    "ccpc-2024-zhengzhou/I": {
+      "qojId": 9776,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9776/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:24:58.682165+00:00",
+      "aiTranslated": true,
+      "sourceHash": "19355455aa259039f6f47d274ffc250c8fcd6dc92cac4d2fdb967ce41b8abd3b"
+    },
+    "ccpc-2024-zhengzhou/J": {
+      "qojId": 9777,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9777/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:25:00.924730+00:00",
+      "aiTranslated": true,
+      "sourceHash": "4f8cb1b0387ec71ff9cf16152d0b3094bb389f265a485230060d9f5f72bfb554"
+    },
+    "ccpc-2024-zhengzhou/K": {
+      "qojId": 9778,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9778/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:26:08.961170+00:00",
+      "aiTranslated": true,
+      "sourceHash": "8b6f5af54d60829cc2194dd593a84f2c84c0a8f1858d6048ea496daaca97013f"
+    },
+    "ccpc-2024-zhengzhou/L": {
+      "qojId": 9779,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9779/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:26:13.035115+00:00",
+      "aiTranslated": true,
+      "sourceHash": "90b2b6eb61142cb94781ac22e28f95ebdf80e94ca190571f237555530277f946"
+    },
+    "ccpc-2024-zhengzhou/M": {
+      "qojId": 9780,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9780/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:26:14.684443+00:00",
+      "aiTranslated": true,
+      "sourceHash": "f8ebfef3a76d9525a9113d27b50577d47dd7fbcc332e831fcb5131693977f0ba"
+    },
+    "ccpc-2025-chongqing/A": {
+      "qojId": 15419,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15419/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:28:52.989874+00:00",
+      "aiTranslated": true,
+      "sourceHash": "d76d195a7a5f8757d6ceebed5b713a48e39f8c8a9ea1b1833801bdff35063a3a"
+    },
+    "ccpc-2025-chongqing/B": {
+      "qojId": 15420,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15420/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:28:55.424569+00:00",
+      "aiTranslated": true,
+      "sourceHash": "a6264ed91e44a4ce371677144ef7f5c1303cc34291ddc8eda3afb14321313a5f"
+    },
+    "ccpc-2025-chongqing/C": {
+      "qojId": 15421,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15421/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:28:57.741839+00:00",
+      "aiTranslated": true,
+      "sourceHash": "ffa0aeceb7e3b3c49b5be6e8bdbac426e51cf7aeecc060d9eb1e9b2aac006234"
+    },
+    "ccpc-2025-chongqing/D": {
+      "qojId": 15422,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15422/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:29:00.187000+00:00",
+      "aiTranslated": true,
+      "sourceHash": "999660aabc6b34f9572e760a87127203323b9ed35f39866fe9bdbc92dc67c3fd"
+    },
+    "ccpc-2025-chongqing/E": {
+      "qojId": 15423,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15423/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:29:01.367282+00:00",
+      "aiTranslated": true,
+      "sourceHash": "d9bb8c685c5604212ac8319ae8e1ff7bbd29651271da9b325413af59798c44af"
+    },
+    "ccpc-2025-chongqing/F": {
+      "qojId": 15424,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15424/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:29:35.124694+00:00",
+      "aiTranslated": true,
+      "sourceHash": "f3371cf85785181fcff88710ab92beab73853d1f94b6406c69d14cc5a223dfed"
+    },
+    "ccpc-2025-chongqing/G": {
+      "qojId": 15425,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15425/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:29:37.401664+00:00",
+      "aiTranslated": true,
+      "sourceHash": "97e623bd5f8c592a90b7f6239af01fbb34bdf5afc41ed87736e6ec4d6b5b38b6"
+    },
+    "ccpc-2025-chongqing/H": {
+      "qojId": 15426,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15426/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:29:39.617646+00:00",
+      "aiTranslated": true,
+      "sourceHash": "7670c7486830cadc273e88594bea71ca9e77c056ee79b9e87a571df7a49f82de"
+    },
+    "ccpc-2025-chongqing/I": {
+      "qojId": 15427,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15427/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:29:43.813105+00:00",
+      "aiTranslated": true,
+      "sourceHash": "3101de4aac0af836433c9e7781d7cba0be82412fd52988f91ffcd2d91b7f7094"
+    },
+    "ccpc-2025-chongqing/J": {
+      "qojId": 15428,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15428/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:29:47.577634+00:00",
+      "aiTranslated": true,
+      "sourceHash": "dc7f58c59769a163e664a664a58cc943e3af75e972b6abe4f43b381040e72915"
+    },
+    "ccpc-2025-chongqing/K": {
+      "qojId": 15429,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15429/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:29:57.513949+00:00",
+      "aiTranslated": true,
+      "sourceHash": "3cc7af5f7d5f2f1182d99713dee8e8bc43cc15335ede88e9b7a94cbd69f9024e"
+    },
+    "ccpc-2025-chongqing/L": {
+      "qojId": 15430,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15430/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:30:02.084149+00:00",
+      "aiTranslated": true,
+      "sourceHash": "e95170b11a8f6dce52fa4520158eceb4c7448cb5010a366c085fd639bfe3aee9"
+    },
+    "ccpc-2025-chongqing/M": {
+      "qojId": 15431,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15431/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:30:04.416894+00:00",
+      "aiTranslated": true,
+      "sourceHash": "846f95fd28af9cc60cc7afb0e79b0c8b4911c61818c53af0743724085d6a1b03"
+    },
+    "ccpc-2025-jinan/A": {
+      "qojId": 15032,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15032/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:33:05.970664+00:00",
+      "aiTranslated": true,
+      "sourceHash": "b4285a28b5327d76ffed2186ce69265a08c04b7dad8d9a82a511422c52c2e180"
+    },
+    "ccpc-2025-jinan/B": {
+      "qojId": 15033,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15033/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:33:10.346411+00:00",
+      "aiTranslated": true,
+      "sourceHash": "ea0c57c94afc042c277ab6c400765e3d65bf9dbb7a4042bcf059ca8fd43c2a72"
+    },
+    "ccpc-2025-jinan/C": {
+      "qojId": 15034,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15034/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:33:12.523353+00:00",
+      "aiTranslated": true,
+      "sourceHash": "95e331ceeb2f6561b29de9d890bc0b1f9b74d87a9e156b01b6ca0ee1e6cdd4c1"
+    },
+    "ccpc-2025-jinan/D": {
+      "qojId": 15035,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15035/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:33:20.375770+00:00",
+      "aiTranslated": true,
+      "sourceHash": "a3f11bbf35f4c59c01bc2cc402c60caeaadfbb0d04858e39366ff3f838979db5"
+    },
+    "ccpc-2025-jinan/E": {
+      "qojId": 15036,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15036/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:33:22.731456+00:00",
+      "aiTranslated": true,
+      "sourceHash": "716e2927cf226ed1b44a3d9c74e41dee4ab05a67e4cc31c1b177eb61e99e31f5"
+    },
+    "ccpc-2025-jinan/F": {
+      "qojId": 15037,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15037/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:33:23.901974+00:00",
+      "aiTranslated": true,
+      "sourceHash": "5243ef14340d955cffd15b2e276353cf684b781ffa14e7664ccbfa49688eedf2"
+    },
+    "ccpc-2025-jinan/G": {
+      "qojId": 15038,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15038/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:33:26.051912+00:00",
+      "aiTranslated": true,
+      "sourceHash": "9dd73afb18b72a3ce1cc5dfab0932742fcbaed2ddfcf54ffe1112a82d5a6faed"
+    },
+    "ccpc-2025-jinan/H": {
+      "qojId": 15039,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15039/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:33:32.126196+00:00",
+      "aiTranslated": true,
+      "sourceHash": "b4b1fc0dea58ed85b81551cad10adb4e4e30843aa0b7fccb36d578ef930033fd"
+    },
+    "ccpc-2025-jinan/I": {
+      "qojId": 15040,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15040/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:33:34.232944+00:00",
+      "aiTranslated": true,
+      "sourceHash": "2ee8c3a4045abd6474d79168c7bf7360510bcc21c0777b26664146c6ff572d31"
+    },
+    "ccpc-2025-jinan/J": {
+      "qojId": 15041,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15041/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:33:36.484845+00:00",
+      "aiTranslated": true,
+      "sourceHash": "48d23b8f523e3667747d33cea5ad3f8ebfab77308016eebb8689954df23badfb"
+    },
+    "ccpc-2025-jinan/K": {
+      "qojId": 15042,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15042/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:33:38.692318+00:00",
+      "aiTranslated": true,
+      "sourceHash": "d7102a89d80e79a44585655afdeea20523efce48aecab31bc8904b02bb8e70fd"
+    },
+    "ccpc-2025-jinan/L": {
+      "qojId": 15043,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15043/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:33:40.834846+00:00",
+      "aiTranslated": true,
+      "sourceHash": "00a96380d4b055c124f66ea31b5fd3dac6efb4adea93090af26b8b715ed05bd4"
+    },
+    "ccpc-2025-jinan/M": {
+      "qojId": 15044,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15044/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:33:43.134015+00:00",
+      "aiTranslated": true,
+      "sourceHash": "f2e39ef41a682319b682dcc54e7091dd5eb83db8427347cc716346d18fd5a0a3"
+    },
+    "ccpc-2025-zhengzhou/A": {
+      "qojId": 15301,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15301/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:34:07.268165+00:00",
+      "aiTranslated": true,
+      "sourceHash": "4c969bbbcdacd6436e9b0b4504a74d81ef0d2a583b02993fd8e7b521f2d3b2d1"
+    },
+    "ccpc-2025-zhengzhou/B": {
+      "qojId": 15302,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15302/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:34:09.392519+00:00",
+      "aiTranslated": true,
+      "sourceHash": "e0365fa7fd946323db4b6358ff0ffd04fa20a0a6b1466fabccee14fb95fb7092"
+    },
+    "ccpc-2025-zhengzhou/C": {
+      "qojId": 15303,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15303/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:34:12.572505+00:00",
+      "aiTranslated": true,
+      "sourceHash": "df8698bfe304695a1aa5dcb2c4989eb5cec347352abf660afbf172c060673f4e"
+    },
+    "ccpc-2025-zhengzhou/D": {
+      "qojId": 15304,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15304/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:34:14.769570+00:00",
+      "aiTranslated": true,
+      "sourceHash": "51b199b7e1df572e26bb94a2dea3bc05f71b0e649da0b5cab53c9419b21e977a"
+    },
+    "ccpc-2025-zhengzhou/E": {
+      "qojId": 15305,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15305/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:34:22.917353+00:00",
+      "aiTranslated": true,
+      "sourceHash": "01c862ac88a5f63f0b9146510b403c963b9c52e7f0bce39fe2b1069ec46c4ab9"
+    },
+    "ccpc-2025-zhengzhou/F": {
+      "qojId": 15306,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15306/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:34:25.081531+00:00",
+      "aiTranslated": true,
+      "sourceHash": "5bb3f569a0cbc8f27f6b3901d6f5c517c34cb6afb02340ea4d04664545ec60ce"
+    },
+    "ccpc-2025-zhengzhou/G": {
+      "qojId": 15307,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15307/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:34:27.226092+00:00",
+      "aiTranslated": true,
+      "sourceHash": "1079014955e53474d2110aa76c361db2713ce5e696cd86cb10ebd036067347d1"
+    },
+    "ccpc-2025-zhengzhou/H": {
+      "qojId": 15308,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15308/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:34:29.405555+00:00",
+      "aiTranslated": true,
+      "sourceHash": "c72a0635afce445064b12b98f905c57565e2d465bf1872573c2c96a1015f03ae"
+    },
+    "ccpc-2025-zhengzhou/I": {
+      "qojId": 15309,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15309/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:34:31.494351+00:00",
+      "aiTranslated": true,
+      "sourceHash": "7ac07a73b72c402c0d0b58cab5347ae52e0f0548590a0952011c557e21fdb4f3"
+    },
+    "ccpc-2025-zhengzhou/J": {
+      "qojId": 15310,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15310/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:34:40.101296+00:00",
+      "aiTranslated": true,
+      "sourceHash": "220fd8834e42f3cbb53912d38bf343954042eeedeb97e3f0c99f562a5006e031"
+    },
+    "ccpc-2025-zhengzhou/K": {
+      "qojId": 15311,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15311/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:34:42.346942+00:00",
+      "aiTranslated": true,
+      "sourceHash": "a7b584d6ca70d9e9607b163d5574df28a8f990c054b1dca6916d4c6ccef8e2ac"
+    },
+    "ccpc-2025-zhengzhou/L": {
+      "qojId": 15312,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15312/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:34:46.033955+00:00",
+      "aiTranslated": true,
+      "sourceHash": "db19f0689e7f965c65e7868c82bb747a9ed4b4c4d00e027889233057ea2bf039"
+    },
+    "ccpc-2025-zhengzhou/M": {
+      "qojId": 15313,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15313/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:34:48.137851+00:00",
+      "aiTranslated": true,
+      "sourceHash": "c61dc409f3b2de8a2f5d61c78f6f969c277bea39a34fb9324a36579a38b31dd3"
+    },
+    "icpc-2026-xian-invitational/A": {
+      "qojId": 17342,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/17342/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:35:48.565364+00:00",
+      "aiTranslated": true,
+      "sourceHash": "ea71b4868dd51568e348eddd33cf0b1fd4437dedf002f15acccfaec52d1f1ec7"
+    },
+    "icpc-2026-xian-invitational/B": {
+      "qojId": 17343,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/17343/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:35:49.740789+00:00",
+      "aiTranslated": true,
+      "sourceHash": "70ce759f2435172a2ed6d34af379ab5abaadc1025d832d3e789711835ae10ccf"
+    },
+    "icpc-2026-xian-invitational/C": {
+      "qojId": 17344,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/17344/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:35:52.348260+00:00",
+      "aiTranslated": true,
+      "sourceHash": "3a7b25c7dbe16142e72ed958a1ba76f852f070723fda67ae77e2aee8d533bc3a"
+    },
+    "icpc-2026-xian-invitational/D": {
+      "qojId": 17345,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/17345/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:35:54.549600+00:00",
+      "aiTranslated": true,
+      "sourceHash": "3294bf032cc1540a247f3bcdafd75d59bacf4f9d3a2acbc40cb9a0915bdb1451"
+    },
+    "icpc-2026-xian-invitational/E": {
+      "qojId": 17346,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/17346/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:35:56.768420+00:00",
+      "aiTranslated": true,
+      "sourceHash": "de51a3eb22f0579b8bdb75c53701250908ea31ea398a4875454538b1830887d7"
+    },
+    "icpc-2026-xian-invitational/F": {
+      "qojId": 17347,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/17347/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:36:03.123892+00:00",
+      "aiTranslated": true,
+      "sourceHash": "0484555d76a0f84f997fe77c4959a73e8c27bd3ac85f9301d357bda4f1e942e1"
+    },
+    "icpc-2026-xian-invitational/G": {
+      "qojId": 17348,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/17348/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:36:05.311306+00:00",
+      "aiTranslated": true,
+      "sourceHash": "4c1a8be216023f58fff9c6178c418a03dc1e66b2c5ece6c6fe0baa8b913070ad"
+    },
+    "icpc-2026-xian-invitational/H": {
+      "qojId": 17349,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/17349/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:36:07.415928+00:00",
+      "aiTranslated": true,
+      "sourceHash": "6f9e1c0d3d3c8493994bb84850107c9639be8a37855defb31a55a3854cba723d"
+    },
+    "icpc-2026-xian-invitational/I": {
+      "qojId": 17350,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/17350/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:36:08.542596+00:00",
+      "aiTranslated": true,
+      "sourceHash": "fe3430ebb26ca29899cf141117c58e50a1a8b92eaf80f93522e4faca3f08164c"
+    },
+    "icpc-2026-xian-invitational/J": {
+      "qojId": 17351,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/17351/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:36:10.620893+00:00",
+      "aiTranslated": true,
+      "sourceHash": "82ba8863be2bc6523692ca77290ddd980664246bf6b8eb6643485e0a39a028ab"
+    },
+    "icpc-2026-xian-invitational/K": {
+      "qojId": 17352,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/17352/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:36:19.632370+00:00",
+      "aiTranslated": true,
+      "sourceHash": "1db7ad024537b664604d6d6e311b1ce7d771e25fb722fd212ea6254888dd53b3"
+    },
+    "icpc-2026-xian-invitational/L": {
+      "qojId": 17353,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/17353/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:36:23.092986+00:00",
+      "aiTranslated": true,
+      "sourceHash": "d42fc032fb9438aa9626a71a0d5a9f541de55d4d5cfa5fdef283fac15bede57c"
+    },
+    "icpc-2026-xian-invitational/M": {
+      "qojId": 17354,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/17354/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:36:26.501536+00:00",
+      "aiTranslated": true,
+      "sourceHash": "e5155ae33f68417e29eba74dfbbcf690aa847020a2b5156c41b187f3dec58968"
+    },
+    "icpc-2026-xian-invitational/N": {
+      "qojId": 17355,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/17355/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:36:28.717908+00:00",
+      "aiTranslated": true,
+      "sourceHash": "71574d2f6a7bba13eb3342b1890cd3cb7e4dbfc86da5e271d61ed12fc252c8fa"
+    },
+    "icpc-2025-ecfinal/A": {
+      "qojId": 16328,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/16328/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:36:57.127177+00:00",
+      "aiTranslated": true,
+      "sourceHash": "bfe8ba96fce4fef4d6a8b2b44b0cc25ef004d8eeda1115492af31a38d498bd47"
+    },
+    "icpc-2025-ecfinal/B": {
+      "qojId": 16329,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/16329/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:37:00.139382+00:00",
+      "aiTranslated": true,
+      "sourceHash": "c62942eac787e525accc782ec435242e49ca8f08941c193a8466f99c551fb289"
+    },
+    "icpc-2025-ecfinal/C": {
+      "qojId": 16330,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/16330/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:37:02.569097+00:00",
+      "aiTranslated": true,
+      "sourceHash": "d4ebe81fcec855ff1f54fb415679c6ddfcce4f7db6c104dd4ab326ee76c145f2"
+    },
+    "icpc-2025-ecfinal/D": {
+      "qojId": 16331,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/16331/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:37:04.663704+00:00",
+      "aiTranslated": true,
+      "sourceHash": "e5e76b3dae89fae6bb220b0e7f166605dbf3af4a67a68be305401d7da49d4999"
+    },
+    "icpc-2025-ecfinal/E": {
+      "qojId": 16332,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/16332/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:37:08.453735+00:00",
+      "aiTranslated": true,
+      "sourceHash": "c21bb5d2b4dca7c56e28427b402200406bf8dd0e62afb06c8771bc12f224e69d"
+    },
+    "icpc-2025-ecfinal/F": {
+      "qojId": 16333,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/16333/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:37:10.606656+00:00",
+      "aiTranslated": true,
+      "sourceHash": "6edbcf0ef90802a86a8700984a678ec3e2e51524ad18dedcedeee65582f9fb93"
+    },
+    "icpc-2025-ecfinal/G": {
+      "qojId": 16334,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/16334/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:37:19.074541+00:00",
+      "aiTranslated": false,
+      "sourceHash": "9ef33767b9b343b3bdfb8b519eba180434be4954b89835ff83679f3f74ed781f"
+    },
+    "icpc-2025-ecfinal/H": {
+      "qojId": 16335,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/16335/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:37:22.646454+00:00",
+      "aiTranslated": true,
+      "sourceHash": "6e63944e5b60e60e734c11986c36c951e35c5350cc1893c29ff229d24f22cb47"
+    },
+    "icpc-2025-ecfinal/I": {
+      "qojId": 16336,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/16336/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:37:24.796941+00:00",
+      "aiTranslated": true,
+      "sourceHash": "bc9b9d7bdab16232708a34ec4f5959a25e1e0ee84c60de6e21a503c6a629c318"
+    },
+    "icpc-2025-ecfinal/J": {
+      "qojId": 16337,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/16337/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:37:28.293459+00:00",
+      "aiTranslated": true,
+      "sourceHash": "856b1182c534f4210ef07590d56dcd8d7bcb1e10913c4461cd8448021c2895d3"
+    },
+    "icpc-2025-ecfinal/K": {
+      "qojId": 16338,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/16338/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:37:31.829459+00:00",
+      "aiTranslated": true,
+      "sourceHash": "4f531f39819432d00dbe0eeeb4749e77fa5931d8d787b93c921516e0558ca55c"
+    },
+    "icpc-2025-ecfinal/L": {
+      "qojId": 16339,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/16339/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:37:36.030463+00:00",
+      "aiTranslated": true,
+      "sourceHash": "0fd2b60360ab10c32a95e55501cc39ac3d3c811b744ddd53d5f976efaae5912a"
+    },
+    "icpc-2025-hongkong/A": {
+      "qojId": 15432,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15432/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:38:31.682012+00:00",
+      "aiTranslated": false,
+      "sourceHash": "56910f0c6a54a96b735fe7e674f3a1da951e0be3a8b2ea35c9e62078c6f385d0"
+    },
+    "icpc-2025-hongkong/B": {
+      "qojId": 15433,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15433/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:38:33.918227+00:00",
+      "aiTranslated": false,
+      "sourceHash": "8ef61d4e34bbd416d05f33560059fffc4349fd53d67e278599da6db171acfa10"
+    },
+    "icpc-2025-hongkong/C": {
+      "qojId": 15434,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15434/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:38:36.057635+00:00",
+      "aiTranslated": false,
+      "sourceHash": "41bc352865b70304902bffc956cbeee4e5f7e9f28e3945a96737bc42f5b39969"
+    },
+    "icpc-2025-hongkong/D": {
+      "qojId": 15435,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15435/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:38:38.245305+00:00",
+      "aiTranslated": false,
+      "sourceHash": "5a2b62d608f469ba49c0ed991f3b083d2ef3d9244335b4416f10223e2fe5544a"
+    },
+    "icpc-2025-hongkong/E": {
+      "qojId": 15436,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15436/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:38:40.389785+00:00",
+      "aiTranslated": false,
+      "sourceHash": "ffcd33b4526d9e895f191400713bbb240c4d590913882a98e0f43b65e043b529"
+    },
+    "icpc-2025-hongkong/F": {
+      "qojId": 15437,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15437/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:38:42.558644+00:00",
+      "aiTranslated": false,
+      "sourceHash": "1039a06f8c8949ea15dec4bbf1ad2255e338158b991c6ab7440da58ecd115c99"
+    },
+    "icpc-2025-hongkong/G": {
+      "qojId": 15438,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15438/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:38:49.569053+00:00",
+      "aiTranslated": false,
+      "sourceHash": "319da4ee5bedea8f7a09d8d0f3033a509e293443bdbe1787efd4b932d79c8683"
+    },
+    "icpc-2025-hongkong/H": {
+      "qojId": 15439,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15439/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:38:51.749311+00:00",
+      "aiTranslated": false,
+      "sourceHash": "60dea37338b97ddd65628e46b26db2de606277d7c68c1c9d9d938a31dd597407"
+    },
+    "icpc-2025-hongkong/I": {
+      "qojId": 15440,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15440/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:38:52.904566+00:00",
+      "aiTranslated": false,
+      "sourceHash": "f670d79cd17e59a2d2404f4d3765f0117cbce47ec0363f40a7bc79edfbca0d6c"
+    },
+    "icpc-2025-hongkong/J": {
+      "qojId": 15441,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15441/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:38:55.028286+00:00",
+      "aiTranslated": false,
+      "sourceHash": "fac6bc6b8b9657498620ab27fe4c9ff9316d189e3229ab792cb71211dd3a5435"
+    },
+    "icpc-2025-hongkong/K": {
+      "qojId": 15442,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15442/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:38:56.080584+00:00",
+      "aiTranslated": false,
+      "sourceHash": "e413ce896c8e6e43459a8b6dbaf6f1be4d2f5bc54fcf872599e53897f71fe55f"
+    },
+    "icpc-2025-hongkong/L": {
+      "qojId": 15443,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15443/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:38:58.594822+00:00",
+      "aiTranslated": true,
+      "sourceHash": "349fdf2f46758a585c98bb7762002a9adc01b336669d67dfa565ea7c5df3cade"
+    },
+    "icpc-2025-shanghai/A": {
+      "qojId": 15314,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15314/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:39:20.416367+00:00",
+      "aiTranslated": true,
+      "sourceHash": "083414f0898fd88462b8bb56d5b4b794ce9625fa50d88e5b3536a24832daa6b2"
+    },
+    "icpc-2025-shanghai/B": {
+      "qojId": 15315,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15315/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:39:22.554346+00:00",
+      "aiTranslated": true,
+      "sourceHash": "e78ae6c6a6d7b3c28765b1e024b324ce4cc43355a0f27fb31ac3dc0a9c9a7896"
+    },
+    "icpc-2025-shanghai/C": {
+      "qojId": 15316,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15316/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:39:24.829555+00:00",
+      "aiTranslated": true,
+      "sourceHash": "93648b96494a645c8f1a210f34f1687afc2ca0bc299ef34991674bb3b505d40e"
+    },
+    "icpc-2025-shanghai/D": {
+      "qojId": 15317,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15317/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:39:27.049936+00:00",
+      "aiTranslated": true,
+      "sourceHash": "7760f54dcdac76843e6794184c27fb530ccd1c631940afddf6a0bcf9c88e27d0"
+    },
+    "icpc-2025-shanghai/E": {
+      "qojId": 15318,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15318/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:39:29.167798+00:00",
+      "aiTranslated": true,
+      "sourceHash": "cfc5664767eeb9369d3055d85346f496f15d243e298b269355fec64e7ae59359"
+    },
+    "icpc-2025-shanghai/F": {
+      "qojId": 15319,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15319/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:39:31.293575+00:00",
+      "aiTranslated": true,
+      "sourceHash": "4de23d5fca0da35ccb44d6d00ac365df031e3e900818fa7c3ade17c5dded54bd"
+    },
+    "icpc-2025-shanghai/G": {
+      "qojId": 15320,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15320/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:39:42.705424+00:00",
+      "aiTranslated": true,
+      "sourceHash": "317c792173e62faa47be8ffd6917c556881b030f176aaa3ef941b1671a1f5748"
+    },
+    "icpc-2025-shanghai/H": {
+      "qojId": 15321,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15321/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:39:44.873438+00:00",
+      "aiTranslated": true,
+      "sourceHash": "7180b4339d61b45856027df89e4b2c2bbb8c2dc6edd226d183880fb4438855ec"
+    },
+    "icpc-2025-shanghai/I": {
+      "qojId": 15322,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15322/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:39:47.023502+00:00",
+      "aiTranslated": true,
+      "sourceHash": "95a81981dfc0d2cfa911c3c6a90e95ede564981a77e35cb61cd31f3bdb3aac7e"
+    },
+    "icpc-2025-shanghai/J": {
+      "qojId": 15323,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15323/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:39:49.193000+00:00",
+      "aiTranslated": true,
+      "sourceHash": "d500e8739a0f0ee3406b5adbb7b63306cfc91e4050d5eb9c0d2b8513f7919ac0"
+    },
+    "icpc-2025-shanghai/K": {
+      "qojId": 15324,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15324/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:39:51.333569+00:00",
+      "aiTranslated": true,
+      "sourceHash": "197c62fa3491ad1c00830c8e4c4e2ca0690c1763a3d7ac27b16f698b22e44b24"
+    },
+    "icpc-2025-shanghai/L": {
+      "qojId": 15325,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15325/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:39:52.536408+00:00",
+      "aiTranslated": true,
+      "sourceHash": "df8671dcc18bde8ffc542602ba085667f097645f8ad034ec026151840b140a1f"
+    },
+    "icpc-2025-shanghai/M": {
+      "qojId": 15326,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/15326/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:39:55.938851+00:00",
+      "aiTranslated": true,
+      "sourceHash": "99e5725afe8e7bfeaa081fad28656a77957b01ec08cca380d6deebdcc41b2456"
+    },
+    "icpc-2025-chengdu/A": {
+      "qojId": 14706,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14706/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:41:31.339974+00:00",
+      "aiTranslated": true,
+      "sourceHash": "2d68db7fda0d0c66bd96c6b171c13a125bbfd1700430d05fb7cedacd9c3c168f"
+    },
+    "icpc-2025-chengdu/B": {
+      "qojId": 14707,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14707/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:41:33.560078+00:00",
+      "aiTranslated": true,
+      "sourceHash": "0de0126f5fa64085778ead0dd425a7b118303a7346b5ea8251765aa4c1bb6b82"
+    },
+    "icpc-2025-chengdu/C": {
+      "qojId": 14708,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14708/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:41:35.664625+00:00",
+      "aiTranslated": true,
+      "sourceHash": "e4ac40fe8d0213f6a04e173823074cb6a0425438562f030bc2a1ae2daf9e5b9b"
+    },
+    "icpc-2025-chengdu/D": {
+      "qojId": 14709,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14709/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:42:18.393595+00:00",
+      "aiTranslated": false,
+      "sourceHash": "8c280acf7a8ec5458e93a996d9f32ad7ec20d191f058e0c01e952b79c8ae2d0b"
+    },
+    "icpc-2025-chengdu/E": {
+      "qojId": 14710,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14710/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:42:20.589021+00:00",
+      "aiTranslated": true,
+      "sourceHash": "e2a7a499e2b6d4e3657f14c802cc3cbfeccaf9fb236fe69777fcf8cf65a1db65"
+    },
+    "icpc-2025-chengdu/F": {
+      "qojId": 14711,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14711/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:42:22.844843+00:00",
+      "aiTranslated": true,
+      "sourceHash": "5d5dc5c6a6cef43f1cd7abc6b7225b43a34f171600169095457a255cca9a813d"
+    },
+    "icpc-2025-chengdu/G": {
+      "qojId": 14712,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14712/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:42:24.961119+00:00",
+      "aiTranslated": true,
+      "sourceHash": "5c0acac0097ee5499e190ae58e5135ceb672f276028990d982591b9b3b3ec844"
+    },
+    "icpc-2025-chengdu/H": {
+      "qojId": 14713,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14713/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:42:27.618129+00:00",
+      "aiTranslated": true,
+      "sourceHash": "0e1c6988177a7c9dd667e79fa95dd2db866b417b127b1ee4bc4a4ad14153ad12"
+    },
+    "icpc-2025-chengdu/I": {
+      "qojId": 14714,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14714/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:43:01.799567+00:00",
+      "aiTranslated": true,
+      "sourceHash": "86203bf4ae46e6a37da34bb5e7dad069aa0daf32bc44af96c14021484bb7ea33"
+    },
+    "icpc-2025-chengdu/J": {
+      "qojId": 14715,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14715/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:45:23.442482+00:00",
+      "aiTranslated": true,
+      "sourceHash": "b77171eb11d1457785cffcbd01ecfcaeab238818c60945e0cccc969361c69bff"
+    },
+    "icpc-2025-chengdu/K": {
+      "qojId": 14716,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14716/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:45:48.237253+00:00",
+      "aiTranslated": true,
+      "sourceHash": "8382241e1d77433ba256afeca176f976cd6037457ae117c13f5eb113c47ff573"
+    },
+    "icpc-2025-chengdu/L": {
+      "qojId": 14717,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14717/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:45:50.523417+00:00",
+      "aiTranslated": true,
+      "sourceHash": "a84e53f039e945b3ddf9a498b608a712fc9ca254f79f4166f8d45ff64d080fd1"
+    },
+    "icpc-2025-xian/A": {
+      "qojId": 14681,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14681/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:47:03.168230+00:00",
+      "aiTranslated": true,
+      "sourceHash": "78e6cd6785e1177cfca8d5e1a5cac91b48a1086216b71193ff69fd440e2a934f"
+    },
+    "icpc-2025-xian/B": {
+      "qojId": 14682,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14682/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:47:06.108812+00:00",
+      "aiTranslated": true,
+      "sourceHash": "05b881555b20e8f18decdc20a2b32164ed6ec9ea050ab5b6acfcc0d9e785e2fe"
+    },
+    "icpc-2025-xian/C": {
+      "qojId": 14683,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14683/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:47:08.394327+00:00",
+      "aiTranslated": true,
+      "sourceHash": "da2ca66a50a6c9e0ee9d9cf2f095ece1b63934cb44faf1a9e8491011926edfa1"
+    },
+    "icpc-2025-xian/D": {
+      "qojId": 14684,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14684/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:47:16.883282+00:00",
+      "aiTranslated": true,
+      "sourceHash": "570560840667894bcf617c1997adfd1696620b320229bafe2ee15ffe4f57a789"
+    },
+    "icpc-2025-xian/E": {
+      "qojId": 14685,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14685/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:47:19.501389+00:00",
+      "aiTranslated": true,
+      "sourceHash": "d04641560a4201584435ed7e4bc4d3d8a6742466b250cb1bed81a0381555ce54"
+    },
+    "icpc-2025-xian/F": {
+      "qojId": 14686,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14686/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:47:23.720463+00:00",
+      "aiTranslated": true,
+      "sourceHash": "06de59538fd7b723882a9e8e654b66315337c5eddfa2d5886d7803cb753f94e2"
+    },
+    "icpc-2025-xian/G": {
+      "qojId": 14687,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14687/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:47:26.090386+00:00",
+      "aiTranslated": true,
+      "sourceHash": "90469916e619c64981a420b98c6abb7cc91207421f393cfd9fb2f39c08e62e10"
+    },
+    "icpc-2025-chengdu/M": {
+      "qojId": 14718,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14718/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:46:52.716112+00:00",
+      "aiTranslated": true,
+      "sourceHash": "79e5abc22911846f175f790de50189d0579b1552c58cf4b0624465dba381a605"
+    },
+    "icpc-2025-xian/H": {
+      "qojId": 14688,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14688/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:47:59.521500+00:00",
+      "aiTranslated": true,
+      "sourceHash": "256eff6f067faf70e9b2f65c966747522b57f143a86ab57cbe5cb2acafdb34cc"
+    },
+    "icpc-2025-xian/I": {
+      "qojId": 14689,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14689/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:48:04.542679+00:00",
+      "aiTranslated": true,
+      "sourceHash": "3ba900f1ca1d61f5d059db4cf84e1a4d1e52f0526e09bda8b1bfa8c7ff626e67"
+    },
+    "icpc-2025-xian/J": {
+      "qojId": 14690,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14690/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:50:47.984408+00:00",
+      "aiTranslated": true,
+      "sourceHash": "36fde51fdcbf1692c832534436aebed785585499d765c0059ec149bd6be7d09d"
+    },
+    "icpc-2025-world-finals/A": {
+      "qojId": 14601,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14601/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:51:42.126691+00:00",
+      "aiTranslated": true,
+      "sourceHash": "a306572a97217859afd08016a8ea04348ca2cce335aaafa0b255c28232fbb527"
+    },
+    "icpc-2025-world-finals/B": {
+      "qojId": 14602,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14602/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:52:11.674764+00:00",
+      "aiTranslated": true,
+      "sourceHash": "34a9158606b3dc03800ccf225a1855af09314430a36e66ea7c86e363774e2c1f"
+    },
+    "icpc-2025-world-finals/C": {
+      "qojId": 14603,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14603/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:52:17.199871+00:00",
+      "aiTranslated": true,
+      "sourceHash": "8a3b51d4792db993f7e0dac13d9bc8bad617dca234eb04046d8f30e8e206f1db"
+    },
+    "icpc-2025-xian/K": {
+      "qojId": 14691,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14691/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:51:04.865195+00:00",
+      "aiTranslated": true,
+      "sourceHash": "c579527930f65cc788e7cc51cf10627d72c84fd1b22d3fae04f583b01984534a"
+    },
+    "icpc-2025-xian/L": {
+      "qojId": 14692,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14692/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:51:07.720205+00:00",
+      "aiTranslated": true,
+      "sourceHash": "3d8e5ca68a4386ce4dec17a125d88b6a401626a616525c9f50d879a20a7974bc"
+    },
+    "icpc-2025-xian/M": {
+      "qojId": 14693,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14693/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:51:37.022379+00:00",
+      "aiTranslated": true,
+      "sourceHash": "0d17b2b4d5ddc8dae854eda6e4546d1b00135e5f2434cc8f3fa81c34a26f8651"
+    },
+    "icpc-2025-world-finals/D": {
+      "qojId": 14604,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14604/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:53:01.440263+00:00",
+      "aiTranslated": true,
+      "sourceHash": "c7e8e8462daf5845ef9577ae78f4f1d3bb7471b8218d904958889bee9f7e2619"
+    },
+    "icpc-2025-world-finals/E": {
+      "qojId": 14605,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14605/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:53:03.759492+00:00",
+      "aiTranslated": true,
+      "sourceHash": "a303fd807f717caa237b6abca7b1f14f21f1f09b75de0b5956a4360e6817c858"
+    },
+    "icpc-2025-world-finals/F": {
+      "qojId": 14606,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14606/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:53:48.577159+00:00",
+      "aiTranslated": true,
+      "sourceHash": "64197e0fbcd1e997e61778336af381f65369a4fd5abd136737ab664261e70861"
+    },
+    "icpc-2025-world-finals/G": {
+      "qojId": 14607,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14607/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:53:51.178314+00:00",
+      "aiTranslated": true,
+      "sourceHash": "92dcb0ef988355c871409c30eb496623519c3e081776d179cb6c945087bc6e47"
+    },
+    "icpc-2025-world-finals/H": {
+      "qojId": 14608,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14608/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:54:47.247919+00:00",
+      "aiTranslated": true,
+      "sourceHash": "641e60b35f367aed15623e22eb8c2347f9325a0ee38410d0ffa3e4f223856ba9"
+    },
+    "icpc-2025-world-finals/I": {
+      "qojId": 14609,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14609/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:54:51.758060+00:00",
+      "aiTranslated": true,
+      "sourceHash": "3a94145205841f81bb1e7efdeea953fb84aaf7aa01f400d5ba8ec656c3af4c21"
+    },
+    "icpc-2025-world-finals/J": {
+      "qojId": 14610,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14610/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:55:54.093523+00:00",
+      "aiTranslated": true,
+      "sourceHash": "6e106241c640b03c9022864aa690c5f7a2bf6331072f254195b0842abc96ee05"
+    },
+    "icpc-2025-world-finals/K": {
+      "qojId": 14611,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14611/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:55:58.037458+00:00",
+      "aiTranslated": true,
+      "sourceHash": "a2306845fd7d013fbc11ca30fb47d86c9e0322a17a2a1b67d14bee0f02f5eb5f"
+    },
+    "icpc-2025-world-finals/L": {
+      "qojId": 14612,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/14612/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:57:10.030944+00:00",
+      "aiTranslated": true,
+      "sourceHash": "3e35025f323e8b62904116b98c83d0af6785372d5225714b4a1f1907c5b76ca9"
+    },
+    "icpc-2024-ecfinal/A": {
+      "qojId": 9975,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9975/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:57:12.712988+00:00",
+      "aiTranslated": true,
+      "sourceHash": "6b4e299a25920cbc3791e423effddb417754e4c61c5c4fcdcdb430037e574ad2"
+    },
+    "icpc-2024-ecfinal/B": {
+      "qojId": 9976,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9976/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:57:56.111148+00:00",
+      "aiTranslated": true,
+      "sourceHash": "3335b0b1bb7c2eb6d33c0e600b8091445d2e917194550fadef4ac1225364a6ea"
+    },
+    "icpc-2024-ecfinal/C": {
+      "qojId": 9977,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9977/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:58:00.829319+00:00",
+      "aiTranslated": true,
+      "sourceHash": "d4300e7380fd5febda5f150506687bfef0ced48276739fae6410c2a1799e375d"
+    },
+    "icpc-2024-ecfinal/D": {
+      "qojId": 9978,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9978/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:59:08.652404+00:00",
+      "aiTranslated": true,
+      "sourceHash": "50fb5b96ca4a8f13a86990731500349961495795845b947cc25779ddab95be96"
+    },
+    "icpc-2024-ecfinal/E": {
+      "qojId": 9979,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9979/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T07:59:11.600905+00:00",
+      "aiTranslated": true,
+      "sourceHash": "2215f2465b85c2c6fc5708bf3f055033244e8616809d36283441f267907330cf"
+    },
+    "icpc-2024-ecfinal/F": {
+      "qojId": 9980,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9980/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T08:00:01.760344+00:00",
+      "aiTranslated": true,
+      "sourceHash": "e0e4635346a9607262ee5dd7475647bcb249189008d5ee0c7348494d90e0e3d4",
+      "sourceCorrections": [
+        "QOJ 中文页将真值表中的逻辑或符号误拆成列分隔符，并将 <expr> 占位符当成 HTML 标签；已对照官方英文题册第 11 页恢复表头和表达式格式。"
+      ]
+    },
+    "icpc-2024-ecfinal/G": {
+      "qojId": 9981,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9981/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T08:00:04.125436+00:00",
+      "aiTranslated": true,
+      "sourceHash": "4654895426e81fcc53af2e54f56fe29ea2ee0cdea4337be24a71d25ca9b48266"
+    },
+    "icpc-2024-ecfinal/H": {
+      "qojId": 9982,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9982/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T08:00:55.009323+00:00",
+      "aiTranslated": true,
+      "sourceHash": "3c038414208fa46855eced0093e684917e1a83b36e5f4ad53e3f3331d31c80a7"
+    },
+    "icpc-2024-ecfinal/I": {
+      "qojId": 9983,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9983/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T08:00:57.567947+00:00",
+      "aiTranslated": true,
+      "sourceHash": "ef726fa1c0a0fc5351d82dea659490b57e18cc3ad3d465464d8ccb763908b391"
+    },
+    "icpc-2024-ecfinal/J": {
+      "qojId": 9984,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9984/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T08:01:40.618208+00:00",
+      "aiTranslated": true,
+      "sourceHash": "3a56ff4b9af151e662b1c3345abf05f8e8493eb9c591f1554600957f3c26230a"
+    },
+    "icpc-2024-ecfinal/K": {
+      "qojId": 9985,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9985/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T08:01:44.027090+00:00",
+      "aiTranslated": true,
+      "sourceHash": "7df84ec4c5b4c246c52220900503a5cef25bea25963288a95d172ec8672b4fd5"
+    },
+    "icpc-2024-ecfinal/L": {
+      "qojId": 9986,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9986/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T08:03:14.808931+00:00",
+      "aiTranslated": true,
+      "sourceHash": "e844a10a530574a849d82982d0693f3819e83a9959e0ecc4ed4baeca0c94a2ae"
+    },
+    "icpc-2024-hongkong/A": {
+      "qojId": 9915,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9915/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T08:05:52.405012+00:00",
+      "aiTranslated": true,
+      "sourceHash": "45f6721dffba16152b77e5183f38fad1ff8d83ea19ae724c506852669e5badfd"
+    },
+    "icpc-2024-hongkong/B": {
+      "qojId": 9916,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9916/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T08:05:54.907418+00:00",
+      "aiTranslated": true,
+      "sourceHash": "f7952e31844d978f68775a003613b8079fc3d8f7e6c879cba05eacff34004cd0"
+    },
+    "icpc-2024-hongkong/C": {
+      "qojId": 9917,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9917/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T08:06:28.820617+00:00",
+      "aiTranslated": true,
+      "sourceHash": "dde97e56b15b43e2484ce139f1050228313dcecf9f840994ea83f8d8997b8fd3"
+    },
+    "icpc-2024-hongkong/D": {
+      "qojId": 9918,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9918/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T08:06:31.139148+00:00",
+      "aiTranslated": true,
+      "sourceHash": "54bf2a72d8b5b547235df291323519e633fb8c8b6cb7da78e5880b031877a0c3"
+    },
+    "icpc-2024-hongkong/E": {
+      "qojId": 9919,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9919/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T08:07:25.973681+00:00",
+      "aiTranslated": true,
+      "sourceHash": "9f8e844be7e39262bf7fef99dce62d875de273df0c91d11572ec55cd118fd2d1"
+    },
+    "icpc-2024-hongkong/F": {
+      "qojId": 9920,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9920/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T08:07:28.163099+00:00",
+      "aiTranslated": true,
+      "sourceHash": "2893ff099893774e51e8242a55c5ff9d2f987d8555ff9c481329e0a012c48cea"
+    },
+    "icpc-2024-hongkong/G": {
+      "qojId": 9921,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9921/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T08:08:00.411637+00:00",
+      "aiTranslated": true,
+      "sourceHash": "ff88ae54ff5ef6b77e8e0f25050d072bae19fa03fe6c267ebac6f78d49c25916"
+    },
+    "icpc-2024-hongkong/H": {
+      "qojId": 9922,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9922/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T08:08:03.050384+00:00",
+      "aiTranslated": true,
+      "sourceHash": "a414ee0ac955ca71b79ae920a50be38a83c242f4dd951622d7316319143d8005"
+    },
+    "icpc-2024-hongkong/I": {
+      "qojId": 9923,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9923/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T08:08:44.064753+00:00",
+      "aiTranslated": true,
+      "sourceHash": "5d354a468ee8969c8663d1cf601e6d136deed1ef99d7ebfd0d5228f9311360d0"
+    },
+    "icpc-2024-hongkong/J": {
+      "qojId": 9924,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9924/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T08:08:46.359512+00:00",
+      "aiTranslated": true,
+      "sourceHash": "34de95a03e2f8b45cff4c2022d6c57faac798f21e4e5855fc2e353892cf4c534"
+    },
+    "icpc-2024-hongkong/K": {
+      "qojId": 9925,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9925/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T08:09:30.600699+00:00",
+      "aiTranslated": true,
+      "sourceHash": "9971ebb9531042995153228877a03d8b868c0c1820fec41cbbb19c032047cf50"
+    },
+    "icpc-2024-hongkong/L": {
+      "qojId": 9926,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9926/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T08:09:31.858352+00:00",
+      "aiTranslated": true,
+      "sourceHash": "4b16e7dedc950f7f9aee0edd6d79afb3549991f1540864b61419c18f4275965f"
+    },
+    "icpc-2024-hongkong/M": {
+      "qojId": 9927,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9927/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T08:09:34.006139+00:00",
+      "aiTranslated": true,
+      "sourceHash": "ee0cb5931bfbcad555997cd3edf9050d12241f459861b674b18469d27810d834"
+    },
+    "icpc-2024-shanghai/A": {
+      "qojId": 9037,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9037/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T08:10:15.599746+00:00",
+      "aiTranslated": true,
+      "sourceHash": "7128d87aebece3433f2548b09d7369398b84545b785e3a2ed6f5807ae6061765"
+    },
+    "icpc-2024-shanghai/B": {
+      "qojId": 9038,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9038/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T08:10:18.432892+00:00",
+      "aiTranslated": true,
+      "sourceHash": "15aaa51d8061683acbe2bf6967a7e406b94fcc64699df2b73b2fd7465e57bcb5"
+    },
+    "icpc-2024-shanghai/C": {
+      "qojId": 9039,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9039/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T08:11:00.520642+00:00",
+      "aiTranslated": true,
+      "sourceHash": "ac85e7e4b150d4af4812dd176f13a9069f5b4a783cfb1068a5d053e2b7105a13"
+    },
+    "icpc-2024-shanghai/D": {
+      "qojId": 9040,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9040/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T08:11:02.718355+00:00",
+      "aiTranslated": true,
+      "sourceHash": "c7c80c726d2f17fde7d76184c3435523369bb0f12dc995e44a156e1aa2990959"
+    },
+    "icpc-2024-shanghai/E": {
+      "qojId": 9041,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9041/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T08:11:41.264612+00:00",
+      "aiTranslated": true,
+      "sourceHash": "d9bdcc9fe6dfd40b5a9666639258c1777503376009a94decb863ce1d025664e5"
+    },
+    "icpc-2024-shanghai/F": {
+      "qojId": 9042,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9042/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T08:11:44.643923+00:00",
+      "aiTranslated": true,
+      "sourceHash": "8e437bb3ebc77f2f10561d6e4ce8af7f3f1378accb36e5e0eba3e878e900794a"
+    },
+    "icpc-2024-shanghai/G": {
+      "qojId": 9043,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9043/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T08:12:26.962430+00:00",
+      "aiTranslated": true,
+      "sourceHash": "70e94ff22e38940e8edc4febfefce7852b6b8d5096ce418f5f6b6e438fbb1534"
+    },
+    "icpc-2024-shanghai/H": {
+      "qojId": 9044,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9044/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T08:12:47.019579+00:00",
+      "aiTranslated": true,
+      "sourceHash": "df8fb38c875eff9a92916a83411a0f5c1316d9bcefaf6f3470ac017712154aec"
+    },
+    "icpc-2024-shanghai/I": {
+      "qojId": 9045,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9045/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T08:13:32.692818+00:00",
+      "aiTranslated": true,
+      "sourceHash": "5a2b681a93546c965ac1cd294f1be28f79126a93eef6e57781ee32300be2d7ff"
+    },
+    "icpc-2024-shanghai/J": {
+      "qojId": 9046,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9046/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T08:13:35.018320+00:00",
+      "aiTranslated": true,
+      "sourceHash": "25d9117f529814ec887a830e9796166356a9553e0c727f67bc158e89143503cc"
+    },
+    "icpc-2024-shanghai/K": {
+      "qojId": 9047,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9047/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T08:14:18.662162+00:00",
+      "aiTranslated": true,
+      "sourceHash": "3023de5e4197a3dc4a00869d95b9a1c30ac236272ecd4fc4cc90cad7974ff9b5"
+    },
+    "icpc-2024-shanghai/L": {
+      "qojId": 9048,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9048/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T08:14:21.286270+00:00",
+      "aiTranslated": true,
+      "sourceHash": "cefe14afabc02186684a8b9ba0c82788442f259f7d8fdc1f7cba65ab7f56acc3"
+    },
+    "icpc-2024-shanghai/M": {
+      "qojId": 9049,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9049/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T08:14:44.139049+00:00",
+      "aiTranslated": true,
+      "sourceHash": "37b1ad99e6126bff53b092de5fd647dac7353fe6171ed0a86f8b40eefc2e9e7b"
+    },
+    "icpc-2024-hangzhou/A": {
+      "qojId": 9726,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9726/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-08T08:54:27.793039+00:00",
+      "aiTranslated": true,
+      "sourceHash": "0c5e01fecdaf7f0e6a67c70e285819f1a4d5f3f1b75f43867025e53f162f896c"
+    },
+    "icpc-2024-hangzhou/B": {
+      "qojId": 9727,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9727/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-09T02:06:33.570640+00:00",
+      "aiTranslated": true,
+      "sourceHash": "49b656bf1bb22ecbad391d4d839a7b4076130217e6ce3b0174afbf6d4afb4bb4"
+    },
+    "icpc-2024-hangzhou/C": {
+      "qojId": 9728,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9728/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-09T02:07:30.424280+00:00",
+      "aiTranslated": true,
+      "sourceHash": "379cd154193be934c14f4e5fe6b5d3e8def6e05bbc1ad81093724c38b1c728bb"
+    },
+    "icpc-2024-hangzhou/D": {
+      "qojId": 9729,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9729/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-09T02:08:12.098417+00:00",
+      "aiTranslated": true,
+      "sourceHash": "4743d9c94afd3cc463a9aa10dd4435c66cf0ce944444fc335ade3e166878084a"
+    },
+    "icpc-2024-hangzhou/E": {
+      "qojId": 9730,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9730/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-09T02:08:52.005465+00:00",
+      "aiTranslated": true,
+      "sourceHash": "09fbda4bc3fc10fda23de7d0c5deadb585ebefcd471b3c077069fb991448bbe7"
+    },
+    "icpc-2024-hangzhou/F": {
+      "qojId": 9731,
+      "status": "chinese",
+      "source": "https://qoj.ac/problem/9731/statement/zh_cn",
+      "captureMethod": "browser-dom",
+      "capturedAt": "2026-11-09T02:09:31.789816+00:00",
+      "aiTranslated": true,
+      "sourceHash": "01e802c6d9aaa55556fe0fc5b3cae2c3be5fbe355d1efa65b7165a1a10f2f72a"
+    }
+  }
+}

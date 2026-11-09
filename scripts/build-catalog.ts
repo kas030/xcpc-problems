@@ -8,6 +8,7 @@ import type { Catalog, Contest, Problem } from '../src/lib/schema';
 export async function buildCatalog(write = true): Promise<Catalog> {
   const contests: Contest[] = [];
   const problems: Problem[] = [];
+  const languageAudit = await readJson<{ problems: Record<string, { qojId: number; status: string; source: string }> }>(at('data/statement-languages.json'));
   const configs = await definitions();
   for (const definition of configs) {
     const snapshot = snapshotSchema.parse(await readJson(at('data/snapshots', `${definition.id}.json`)));
@@ -53,8 +54,24 @@ export async function buildCatalog(write = true): Promise<Catalog> {
     const problem = problems.find(p => p.id === meta.problemId);
     if (!problem) throw new Error(`题面关联的题目不存在：${file}`);
     if (problem.markdown) throw new Error(`题面重复：${meta.problemId}`);
-    if (!['official', 'draft', 'reviewed'].includes(meta.status) || !['zh', 'en'].includes(meta.language) || !/^https:\/\//.test(meta.source)) throw new Error(`题面元信息无效：${file}`);
+    if (!['official', 'qoj', 'draft', 'reviewed'].includes(meta.status) || !['zh', 'en'].includes(meta.language) || !/^https:\/\//.test(meta.source)) throw new Error(`题面元信息无效：${file}`);
+    if (meta.format !== undefined && meta.format !== 'markdown' && !(meta.format === 'pdf' && meta.status === 'qoj')) throw new Error(`题面格式无效：${file}`);
+    if (meta.status !== 'official' && problem.statement?.language === 'zh' && problem.statement.provenance === 'official') throw new Error(`已有官方中文题面，无需添加译文：${meta.problemId}`);
+    if (meta.status !== 'official') {
+      const language = languageAudit.problems[meta.problemId];
+      if (!language || language.qojId !== problem.qojId) throw new Error(`请先核对 QOJ 中文题面是否可用：${meta.problemId}`);
+      if (meta.status === 'qoj') {
+        if (language.status !== 'chinese' || meta.language !== 'zh' || meta.source !== language.source) throw new Error(`QOJ 中文题面来源不一致：${meta.problemId}`);
+      } else if (language.status !== 'english-only') throw new Error(`请先确认 QOJ 没有中文版本，再添加自译文：${meta.problemId}`);
+    }
     if (content.slice(frontmatter[0].length).trim().length < 20) throw new Error(`题面正文为空：${file}`);
+    if (meta.language === 'zh' && problem.statement?.language === 'en' && problem.statement.format === 'html') {
+      const original = await readFile(at('src/content/original-statements', `${problem.id}.md`), 'utf8');
+      const originalFrontmatter = original.match(/^---\r?\n([\s\S]*?)\r?\n---/);
+      const originalMeta = originalFrontmatter && parseYaml(originalFrontmatter[1]);
+      if (!originalMeta || originalMeta.problemId !== problem.id || originalMeta.language !== 'en' || originalMeta.status !== 'official' || originalMeta.source !== problem.statement.url) throw new Error(`缺少对应的英文原文：${problem.id}`);
+      if (meta.status === 'reviewed' && meta.sourceHash !== originalMeta.sourceHash) throw new Error(`英文原文已变化，请重新核对译文：${problem.id}`);
+    }
     problem.markdown = { status: meta.status, language: meta.language, source: meta.source };
   }
   contests.sort((a, b) => b.date.localeCompare(a.date) || a.id.localeCompare(b.id));

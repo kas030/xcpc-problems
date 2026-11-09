@@ -313,6 +313,13 @@ a.contest-tag:hover { background: #bfdbfe; color: #1e3a8a; }
 .prose img { max-width: 100%; height: auto; }
 .prose .katex-display { overflow-x: auto; overflow-y: hidden; padding: 5px; }
 .statement-prose { padding: 22px 26px; }
+.statement-switch { display: flex; flex-wrap: wrap; gap: 8px; padding: 12px 16px; border-bottom: 1px solid var(--line); }
+.statement-switch label { display: inline-flex; align-items: center; gap: 7px; padding: 7px 11px; border-radius: 7px; background: var(--surface-soft); cursor: pointer; font-size: 13px; }
+.statement-switch input { margin: 0; accent-color: var(--primary); }
+.statement-switch label:has(:checked) { background: var(--primary-soft); color: var(--primary-hover); }
+.reading-toolbar h2 > [data-translation] { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+[data-translatable]:has(input[value="zh"]:checked) [data-original],
+[data-translatable]:has(input[value="en"]:checked) [data-translation] { display: none; }
 .guide-page { max-width: 840px; margin: auto; }
 .guide-paper { padding: 28px 34px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; }
 .back-link { display: inline-flex; font-size: 12px; color: var(--primary-hover); gap: 8px; align-items: center; margin-bottom: 16px; }

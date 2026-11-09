@@ -18,67 +18,184 @@
     {
       "label": "A",
       "title": "Dunai",
-      "qojId": 9591
+      "qojId": 9591,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=statement&id=9591&ver=default",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "scope": "problem",
+        "page": 1,
+        "endPage": 2
+      }
     },
     {
       "label": "B",
       "title": "Recruitment",
-      "qojId": 9592
+      "qojId": 9592,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=statement&id=9592&ver=default",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "scope": "problem",
+        "page": 1,
+        "endPage": 2
+      }
     },
     {
       "label": "C",
       "title": "Grass",
-      "qojId": 9593
+      "qojId": 9593,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=statement&id=9593&ver=default",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "scope": "problem",
+        "page": 1,
+        "endPage": 2
+      }
     },
     {
       "label": "D",
       "title": "Sternhalma",
-      "qojId": 9594
+      "qojId": 9594,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=statement&id=9594&ver=default",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "scope": "problem",
+        "page": 1,
+        "endPage": 4
+      }
     },
     {
       "label": "E",
       "title": "Python Will be Faster than C++",
-      "qojId": 9595
+      "qojId": 9595,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=statement&id=9595&ver=default",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "scope": "problem",
+        "page": 1,
+        "endPage": 2
+      }
     },
     {
       "label": "F",
       "title": "Mooncake Delivery",
-      "qojId": 9596
+      "qojId": 9596,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=statement&id=9596&ver=default",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "scope": "problem",
+        "page": 1,
+        "endPage": 2
+      }
     },
     {
       "label": "G",
       "title": "Grade 2",
-      "qojId": 9597
+      "qojId": 9597,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=statement&id=9597&ver=default",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "scope": "problem",
+        "page": 1,
+        "endPage": 2
+      }
     },
     {
       "label": "H",
       "title": "Party Animals",
-      "qojId": 9598
+      "qojId": 9598,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=statement&id=9598&ver=default",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "scope": "problem",
+        "page": 1,
+        "endPage": 2
+      }
     },
     {
       "label": "I",
       "title": "Dragon Bloodline",
-      "qojId": 9599
+      "qojId": 9599,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=statement&id=9599&ver=default",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "scope": "problem",
+        "page": 1,
+        "endPage": 2
+      }
     },
     {
       "label": "J",
       "title": "Eat, Sleep, Repeat",
-      "qojId": 9600
+      "qojId": 9600,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=statement&id=9600&ver=default",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "scope": "problem",
+        "page": 1,
+        "endPage": 2
+      }
     },
     {
       "label": "K",
       "title": "I Wanna Maker",
-      "qojId": 9601
+      "qojId": 9601,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=statement&id=9601&ver=default",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "scope": "problem",
+        "page": 1,
+        "endPage": 2
+      }
     },
     {
       "label": "L",
       "title": "Novice Magician",
-      "qojId": 9602
+      "qojId": 9602,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=statement&id=9602&ver=default",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "scope": "problem",
+        "page": 1,
+        "endPage": 2
+      }
     },
     {
       "label": "M",
       "title": "String Master",
-      "qojId": 9603
+      "qojId": 9603,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=statement&id=9603&ver=default",
+        "language": "en",
+        "format": "pdf",
+        "provenance": "official",
+        "scope": "problem",
+        "page": 1,
+        "endPage": 2
+      }
     }
   ]
 }

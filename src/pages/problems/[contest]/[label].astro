@@ -4,22 +4,32 @@ import Layout from '../../../layouts/Layout.astro';
 import { catalog } from '../../../lib/catalog';
 import { base, href } from '../../../lib/urls';
 import { difficultyLabels } from '../../../lib/schema';
-import { statementPdfs } from '../../../lib/statement-pdfs';
+import { statementPdfs, qojStatementPdfs } from '../../../lib/statement-pdfs';
 import { problemPdfPath } from '../../../lib/statement-sources';
 export function getStaticPaths() {
   return catalog.problems.map(problem => ({ params: { contest: problem.contestId, label: problem.label }, props: { problem, contest: catalog.contests.find(c => c.id === problem.contestId)! } }));
 }
 const { problem, contest } = Astro.props;
-const entry = problem.markdown ? (await getCollection('statements')).find(e => e.data.problemId === problem.id) : undefined;
+// Official Chinese statements always retain their original presentation.
+const officialChinese = problem.statement?.language === 'zh' && problem.statement.provenance === 'official';
+const entry = problem.markdown ? (await getCollection('statements')).find(e => e.data.problemId === problem.id && (!officialChinese || e.data.status === 'official')) : undefined;
 const rendered = entry ? await render(entry) : undefined;
 const Content = rendered?.Content;
 const statement = problem.statement;
+const isBooklet = statement?.format === 'pdf' && statement.scope !== 'problem';
 const pdfFragment = `#page=${statement?.page ?? 1}&view=FitH`;
 const sourceUrl = statement?.format === 'pdf' ? `${statement.url}${pdfFragment}` : statement?.url;
 const localPdf = statement?.format === 'pdf' ? statementPdfs.get(statement.url) : undefined;
 const bookletUrl = localPdf ? `${localPdf}${pdfFragment}` : sourceUrl;
 const singlePdf = problemPdfPath(problem.id, statement);
 const readerUrl = singlePdf ? `${base}/${singlePdf}#view=FitH` : bookletUrl;
+const translated = !!Content && entry?.data.language === 'zh' && entry.data.status !== 'official' && statement?.language === 'en' && statement.provenance === 'official';
+const originalEntry = translated && statement?.format === 'html' ? (await getCollection('originals')).find(e => e.data.problemId === problem.id && e.data.source === statement.url) : undefined;
+const originalRendered = originalEntry ? await render(originalEntry) : undefined;
+const OriginalContent = originalRendered?.Content;
+const qojChinese = entry?.data.status === 'qoj';
+const qojPdf = qojChinese && entry.data.format === 'pdf' ? qojStatementPdfs.get(problem.qojId) : undefined;
+if (entry?.data.format === 'pdf' && !qojPdf) throw new Error(`QOJ 中文 PDF 缺失：${problem.id}`);
 ---
 <Layout title={`${problem.label}. ${problem.title} · ${contest.shortName}`}>
   <nav class="breadcrumb" aria-label="面包屑"><a href={href()}>题单</a><span>/</span><a href={href(`contests/${contest.id}`)}>{contest.shortName}</a><span>/</span><span>Problem {problem.label}</span></nav>
@@ -32,15 +42,24 @@ const readerUrl = singlePdf ? `${base}/${singlePdf}#view=FitH` : bookletUrl;
   </header>
   <div class="detail-grid">
     <section>
-      {(Content || localPdf) && <div class="reading-card">
+      {(Content || localPdf) && <div class="reading-card" data-translatable={translated || undefined}>
+        {translated && <fieldset class="statement-switch">
+          <legend class="sr-only">题面语言</legend>
+          <label><input type="radio" name="statement-language" value="zh" checked /><span>{qojChinese ? 'QOJ 中文' : '中文翻译'}</span></label>
+          <label><input type="radio" name="statement-language" value="en" /><span>官方英文</span></label>
+        </fieldset>}
         <div class="reading-toolbar">
-          <h2>{Content ? entry!.data.language === 'zh' ? '中文题面' : '英文题面' : '官方题面'}{Content && <span class="source-label">{entry!.data.status === 'official' ? '官方原文' : entry!.data.status === 'reviewed' ? '译文已校对' : '译文待校对'}</span>}</h2>
-          {statement && <a class="booklet-link" href={bookletUrl} target="_blank" rel="noopener noreferrer" title={statement.format === 'pdf' ? '在新标签页打开完整题册' : '在新标签页打开原始题面'}><span>{statement.format === 'pdf' ? '完整题册' : '原始题面'}</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>}
+          <h2><span data-translation>{Content ? entry!.data.language === 'zh' ? '中文题面' : '英文题面' : '官方题面'}{Content && <span class="source-label">{entry!.data.status === 'official' ? '官方原文' : qojChinese ? 'QOJ 中文版' : entry!.data.status === 'reviewed' ? '译文已校对' : '译文待校对'}</span>}</span>{translated && <span data-original>官方英文题面</span>}</h2>
+          {statement && <a class="booklet-link" href={bookletUrl} target="_blank" rel="noopener noreferrer" title={isBooklet ? '在新标签页打开完整题册' : '在新标签页打开原始题面'}><span>{isBooklet ? '完整题册' : '原始题面'}</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>}
         </div>
-        {entry?.data.status === 'draft' && <div class="status-banner">这份译文尚未校对，训练时请同时核对原文中的约束和样例。</div>}
-        {Content ? <article class="prose statement-prose"><Content /></article> : statement?.format === 'pdf' && localPdf ? <>
+        {entry?.data.status === 'draft' && <div class="status-banner" data-translation>这份译文尚未校对，训练时请同时核对原文中的约束和样例。</div>}
+        {qojPdf && <iframe data-translation class="pdf-frame" src={`${qojPdf}#view=FitH`} title={`${problem.label}. ${problem.title} QOJ 中文题面`} referrerpolicy="no-referrer" />}
+        {Content ? <article class="prose statement-prose" data-translation lang={entry!.data.language === 'zh' ? 'zh-CN' : 'en'}><Content /></article> : statement?.format === 'pdf' && localPdf ? <>
           <iframe class="pdf-frame" src={readerUrl} title={`${problem.label}. ${problem.title} ${statement.language === 'zh' ? '中文' : ''}题面`} referrerpolicy="no-referrer" />
         </> : null}
+        {translated && <div data-original lang="en">
+          {OriginalContent ? <article class="prose statement-prose"><OriginalContent /></article> : statement?.format === 'pdf' && localPdf ? <iframe class="pdf-frame" src={readerUrl} title={`${problem.label}. ${problem.title} 官方英文题面`} referrerpolicy="no-referrer" loading="lazy" /> : <p class="statement-prose"><a class="button" href={sourceUrl} target="_blank" rel="noopener noreferrer">打开官方英文题面 ↗</a></p>}
+        </div>}
       </div>}
     </section>
     <aside class="detail-sidebar">

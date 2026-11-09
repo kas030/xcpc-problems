@@ -15,6 +15,7 @@ export const statementSchema = z.object({
   url: publicUrl,
   language: z.enum(['zh', 'en']),
   format: z.enum(['pdf', 'html']),
+  scope: z.enum(['booklet', 'problem']).optional(),
   page: z.number().int().positive().optional(),
   endPage: z.number().int().positive().optional(),
   provenance: z.enum(['official', 'translation']).default('official'),
@@ -94,7 +95,7 @@ export interface Problem {
   participants: number;
   cohorts: Record<Medal, CohortStat>;
   statement?: Statement;
-  markdown?: { status: 'official' | 'draft' | 'reviewed'; language: 'zh' | 'en'; source: string };
+  markdown?: { status: 'official' | 'qoj' | 'draft' | 'reviewed'; language: 'zh' | 'en'; source: string };
 }
 export interface Contest {
   id: string;

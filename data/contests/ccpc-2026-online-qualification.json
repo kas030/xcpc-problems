@@ -18,12 +18,27 @@
     {
       "label": "A",
       "title": "All the Trades Are the Best",
-      "qojId": 20715
+      "qojId": 20715,
+      "statement": {
+        "url": "https://qoj.ac/download.php?type=statement&id=20715",
+        "language": "en",
+        "format": "pdf",
+        "scope": "problem",
+        "page": 1,
+        "endPage": 2,
+        "provenance": "official"
+      }
     },
     {
       "label": "B",
       "title": "Better Dice",
-      "qojId": 20716
+      "qojId": 20716,
+      "statement": {
+        "url": "https://qoj.ac/problem/20716",
+        "language": "en",
+        "format": "html",
+        "provenance": "official"
+      }
     },
     {
       "label": "C",
@@ -83,7 +98,13 @@
     {
       "label": "N",
       "title": "New CCPC Rules",
-      "qojId": 20728
+      "qojId": 20728,
+      "statement": {
+        "url": "https://qoj.ac/problem/20728",
+        "language": "en",
+        "format": "html",
+        "provenance": "official"
+      }
     }
   ]
 }

@@ -7,10 +7,21 @@ const statements = defineCollection({
   schema: z.object({
     problemId: z.string(),
     language: z.enum(['zh', 'en']),
-    status: z.enum(['official', 'draft', 'reviewed']),
+    status: z.enum(['official', 'qoj', 'draft', 'reviewed']),
+    format: z.enum(['markdown', 'pdf']).default('markdown'),
     source: z.url({ protocol: /^https$/ }),
     sourceHash: z.string().optional(),
     reviewedAt: z.string().optional(),
   }),
 });
-export const collections = { statements };
+const originals = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/original-statements' }),
+  schema: z.object({
+    problemId: z.string(),
+    language: z.literal('en'),
+    status: z.literal('official'),
+    source: z.url({ protocol: /^https$/ }),
+    sourceHash: z.string().regex(/^[a-f0-9]{64}$/),
+  }),
+});
+export const collections = { statements, originals };
