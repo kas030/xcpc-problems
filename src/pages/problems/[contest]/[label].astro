@@ -43,15 +43,14 @@ if (entry?.data.format === 'pdf' && !qojPdf) throw new Error(`QOJ 中文 PDF 缺
   <div class="detail-grid">
     <section>
       {(Content || localPdf) && <div class="reading-card" data-translatable={translated || undefined}>
-        {translated && <fieldset class="statement-switch">
-          <legend class="sr-only">题面语言</legend>
-          <label><input type="radio" name="statement-language" value="zh" checked /><span>{qojChinese ? 'QOJ 中文' : '中文翻译'}</span></label>
-          <label><input type="radio" name="statement-language" value="en" /><span>官方英文</span></label>
-        </fieldset>}
-        <div class="reading-toolbar">
-          <h2><span data-translation>{Content ? entry!.data.language === 'zh' ? '中文题面' : '英文题面' : '官方题面'}{Content && <span class="source-label">{entry!.data.status === 'official' ? '官方原文' : qojChinese ? 'QOJ 中文版' : entry!.data.status === 'reviewed' ? '译文已校对' : '译文待校对'}</span>}</span>{translated && <span data-original>官方英文题面</span>}</h2>
+        {(translated || statement) && <div class="reading-toolbar">
+          {translated && <fieldset class="statement-switch">
+            <legend class="sr-only">题面语言</legend>
+            <label><input type="radio" name="statement-language" value="zh" checked /><span>{qojChinese ? 'QOJ 中文' : '中文翻译'}</span></label>
+            <label><input type="radio" name="statement-language" value="en" /><span>官方英文</span></label>
+          </fieldset>}
           {statement && <a class="booklet-link" href={bookletUrl} target="_blank" rel="noopener noreferrer" title={isBooklet ? '在新标签页打开完整题册' : '在新标签页打开原始题面'}><span>{isBooklet ? '完整题册' : '原始题面'}</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>}
-        </div>
+        </div>}
         {entry?.data.status === 'draft' && <div class="status-banner" data-translation>这份译文尚未校对，训练时请同时核对原文中的约束和样例。</div>}
         {qojPdf && <iframe data-translation class="pdf-frame" src={`${qojPdf}#view=FitH`} title={`${problem.label}. ${problem.title} QOJ 中文题面`} referrerpolicy="no-referrer" />}
         {Content ? <article class="prose statement-prose" data-translation lang={entry!.data.language === 'zh' ? 'zh-CN' : 'en'}><Content /></article> : statement?.format === 'pdf' && localPdf ? <>
