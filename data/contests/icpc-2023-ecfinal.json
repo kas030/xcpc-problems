@@ -142,6 +142,7 @@
       "label": "J",
       "title": "Travel 2",
       "qojId": 8056,
+      "interactive": true,
       "statement": {
         "url": "https://qoj.ac/download.php?type=attachments&id=1522&r=0",
         "language": "en",

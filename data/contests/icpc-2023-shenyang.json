@@ -175,7 +175,8 @@
         "provenance": "official",
         "page": 21,
         "endPage": 23
-      }
+      },
+      "interactive": true
     },
     {
       "label": "M",

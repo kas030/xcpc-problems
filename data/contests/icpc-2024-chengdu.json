@@ -51,6 +51,7 @@
       "label": "C",
       "title": "Chinese Chess",
       "qojId": 9537,
+      "interactive": true,
       "statement": {
         "url": "https://qoj.ac/download.php?type=attachments&id=1821&r=0",
         "language": "en",

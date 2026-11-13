@@ -129,6 +129,7 @@
       "label": "I",
       "title": "Identify Chord",
       "qojId": 9734,
+      "interactive": true,
       "statement": {
         "url": "https://qoj.ac/download.php?type=attachments&id=1893&r=0",
         "language": "en",

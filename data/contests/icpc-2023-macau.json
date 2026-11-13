@@ -110,7 +110,8 @@
         "provenance": "official",
         "page": 13,
         "endPage": 15
-      }
+      },
+      "interactive": true
     },
     {
       "label": "H",
@@ -162,7 +163,8 @@
         "provenance": "official",
         "page": 22,
         "endPage": 23
-      }
+      },
+      "interactive": true
     }
   ]
 }

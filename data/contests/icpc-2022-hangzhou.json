@@ -136,7 +136,8 @@
         "provenance": "official",
         "page": 11,
         "endPage": 11
-      }
+      },
+      "interactive": true
     },
     {
       "label": "J",

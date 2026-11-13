@@ -97,7 +97,8 @@
         "provenance": "official",
         "page": 8,
         "endPage": 8
-      }
+      },
+      "interactive": true
     },
     {
       "label": "G",
