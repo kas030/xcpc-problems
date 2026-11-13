@@ -2,13 +2,15 @@ import { spawnSync } from 'node:child_process';
 import { cp, lstat, mkdir, mkdtemp, readdir, realpath, rm } from 'node:fs/promises';
 import { isAbsolute, join, relative, resolve, sep } from 'node:path';
 
-export function git(cwd: string, args: string[], input?: string) {
+export function git(cwd: string, args: string[], input?: string, progress = false) {
   const result = spawnSync('git', args, {
     cwd, input, encoding: 'utf8', timeout: 120_000,
+    // Git writes transfer progress to stderr; inherit it so updates appear live.
+    stdio: ['pipe', 'pipe', progress ? 'inherit' : 'pipe'],
     env: { ...process.env, GIT_TERMINAL_PROMPT: '0' },
   });
   if (result.error) throw result.error;
-  if (result.status !== 0) throw new Error(`git ${args[0]} 失败：${result.stderr.trim()}`);
+  if (result.status !== 0) throw new Error(`git ${args[0]} 失败：${result.stderr?.trim() || '请查看上方 Git 输出'}`);
   return result.stdout.trim();
 }
 
@@ -40,7 +42,8 @@ export async function publishBranch(options: {
     const existing = git(staging, ['ls-remote', '--heads', 'origin', 'refs/heads/gh-pages']);
     let parent: string | undefined;
     if (existing) {
-      git(staging, ['fetch', '--depth=1', 'origin', 'refs/heads/gh-pages:refs/remotes/origin/gh-pages']);
+      console.log('正在获取远端 gh-pages…');
+      git(staging, ['fetch', '--progress', '--depth=1', 'origin', 'refs/heads/gh-pages:refs/remotes/origin/gh-pages'], undefined, true);
       parent = git(staging, ['rev-parse', 'refs/remotes/origin/gh-pages']);
     }
     for (const name of await readdir(directory)) {
@@ -52,7 +55,8 @@ export async function publishBranch(options: {
     const commit = git(staging, ['commit-tree', tree, ...(parent ? ['-p', parent] : []), '-m', `Deploy ${options.sourceCommit}`]);
     git(staging, ['update-ref', 'refs/heads/gh-pages', commit]);
     // Concurrent publishers fail safely with a non-fast-forward error.
-    git(staging, ['push', 'origin', 'refs/heads/gh-pages:refs/heads/gh-pages']);
+    console.log('正在推送 gh-pages…');
+    git(staging, ['push', '--progress', 'origin', 'refs/heads/gh-pages:refs/heads/gh-pages'], undefined, true);
     return { changed: true, commit };
   } finally {
     // Only remove the unique staging directory created by this invocation.
