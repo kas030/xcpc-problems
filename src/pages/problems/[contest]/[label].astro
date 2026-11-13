@@ -6,8 +6,18 @@ import { base, href } from '../../../lib/urls';
 import { difficultyLabels } from '../../../lib/schema';
 import { statementPdfs, qojStatementPdfs } from '../../../lib/statement-pdfs';
 import { problemPdfPath } from '../../../lib/statement-sources';
-export function getStaticPaths() {
-  return catalog.problems.map(problem => ({ params: { contest: problem.contestId, label: problem.label }, props: { problem, contest: catalog.contests.find(c => c.id === problem.contestId)! } }));
+import { buildCacheKey } from '../../../lib/build-cache';
+export async function getStaticPaths() {
+  const statements = new Map((await getCollection('statements')).map(entry => [entry.data.problemId, entry]));
+  const originals = new Map((await getCollection('originals')).map(entry => [entry.data.problemId, entry]));
+  return catalog.problems.map(problem => {
+    const contest = catalog.contests.find(c => c.id === problem.contestId)!;
+    return {
+      params: { contest: problem.contestId, label: problem.label },
+      props: { problem, contest },
+      cacheKey: buildCacheKey([problem, contest, statements.get(problem.id), originals.get(problem.id)]),
+    };
+  });
 }
 const { problem, contest } = Astro.props;
 // Official Chinese statements always retain their original presentation.

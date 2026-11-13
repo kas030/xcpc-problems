@@ -114,6 +114,16 @@ QOJ 若将中文版标注为 AI 翻译，在语言核对记录中设置 `aiTrans
 - 同一提交重判：以同一 submission ID 的最后一次记录为准。
 - 上游更新后分级变化：PR 中说明上游版本与原因；不要手改 `data/catalog.json`。
 
+## 增量构建
+
+`npm run build` 和 `npm run deploy` 默认使用 Astro 的实验性增量静态构建（当前锁定版本支持）。第一次构建建立 `.cache/astro/` 缓存，后续构建复用输入未变化的题目页、比赛页和单题 PDF。保留该目录即可跨构建复用，`npm ci` 不会删除它；缓存缺失时自动全量构建。
+
+题目页缓存键包含题目、比赛以及中英文题面内容；PDF 缓存键包含题册内容 SHA-256 和页码等题面信息。布局、组件、样式、配置或依赖变化由 Astro 的依赖追踪使缓存失效。HTML 页面仍依赖完整索引和页脚更新时间，所以修改索引可能使所有 HTML 页面重建；PDF 单独读取索引，未变的题册与页码仍可复用。首页等非动态路由每次生成，校验、打包、复制静态资源以及 deploy 的测试、类型检查和线上验证仍会执行。
+
+需要排查缓存或修改影响输出的外部环境、middleware 时，运行 `npm run build -- --force`；发布时可用 `npm run deploy -- --force`。这会强制重新生成页面并更新缓存。无需清空 `dist/`，Astro 每次重建输出目录，并从缓存恢复未变页面、清除已删除路由；不要手动编辑缓存内容。
+
+增量构建只能缩短本地生成阶段，Git 推送和 GitHub Pages 同步所需的时间不受它控制。实现依据见 [Astro 增量静态构建文档](https://docs.astro.build/en/reference/experimental-flags/incremental-build/)。
+
 ## 发布与 GitHub 配置
 
 本地需安装 Git、Node.js 24 和已登录的 GitHub CLI（`gh auth login`），并具备仓库推送权限。日常更新示例：

@@ -32,7 +32,8 @@ const npm = process.env.npm_execpath;
 if (!npm) throw new Error('请通过 npm run deploy 执行，以使用当前 Node.js 环境');
 
 for (const command of ['test', 'check', 'build']) {
-  const result = spawnSync(process.execPath, [npm, 'run', command], {
+  const result = spawnSync(process.execPath, [npm, 'run', command,
+    ...(command === 'build' && process.argv.includes('--force') ? ['--', '--force'] : [])], {
     cwd: root, stdio: 'inherit',
     env: { ...process.env, SITE_URL: site, BASE_PATH: base, ASTRO_TELEMETRY_DISABLED: '1' },
   });

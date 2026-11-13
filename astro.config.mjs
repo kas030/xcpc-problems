@@ -8,6 +8,8 @@ export default defineConfig({
   site: process.env.SITE_URL || 'https://kas030.github.io',
   base: process.env.BASE_PATH || '/xcpc-problems',
   output: 'static',
+  cacheDir: './.cache/astro/',
+  experimental: { incrementalBuild: true },
   trailingSlash: 'always',
   integrations: [react()],
   markdown: {

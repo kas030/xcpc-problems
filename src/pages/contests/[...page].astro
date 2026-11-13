@@ -6,12 +6,15 @@ import ContestLogo from '../../components/ContestLogo.astro';
 import { catalog, CONTESTS_PER_PAGE } from '../../lib/catalog';
 import { href } from '../../lib/urls';
 
+import { buildCacheKey } from '../../lib/build-cache';
+
 export const getStaticPaths = (() => {
   const pageSize = CONTESTS_PER_PAGE;
   const total = catalog.contests.length;
   const totalPages = Math.max(1, Math.ceil(total / pageSize));
   return Array.from({ length: totalPages }, (_, index) => ({
     params: { page: index === 0 ? undefined : `page/${index + 1}` },
+    cacheKey: buildCacheKey([catalog.contests.slice(index * pageSize, (index + 1) * pageSize), index, total, pageSize]),
     props: {
       contests: catalog.contests.slice(index * pageSize, (index + 1) * pageSize),
       currentPage: index + 1,

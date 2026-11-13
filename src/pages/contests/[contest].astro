@@ -4,10 +4,12 @@ import ContestLogo from '../../components/ContestLogo.astro';
 import { ContestProblemTable } from '../../components/ProblemTable';
 import { catalog, CONTESTS_PER_PAGE } from '../../lib/catalog';
 import { href } from '../../lib/urls';
+import { buildCacheKey } from '../../lib/build-cache';
 export function getStaticPaths() {
   return catalog.contests.map((contest, index) => ({
     params: { contest: contest.id },
     props: { contest, listPage: Math.floor(index / CONTESTS_PER_PAGE) + 1 },
+    cacheKey: buildCacheKey([contest, index, catalog.problems.filter(p => p.contestId === contest.id)]),
   }));
 }
 const { contest, listPage } = Astro.props;
